@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO.Swagger", "NGIS\IO.Swagger\IO.Swagger.csproj", "{6BA83BEF-F0FC-4444-ACF2-1E38BD9C97D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO.Swagger.Test", "NGIS\IO.Swagger.Test\IO.Swagger.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{F3BD0E9D-DDA0-4CFA-BDCF-E3094ECF64BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA83BEF-F0FC-4444-ACF2-1E38BD9C97D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA83BEF-F0FC-4444-ACF2-1E38BD9C97D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA83BEF-F0FC-4444-ACF2-1E38BD9C97D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA83BEF-F0FC-4444-ACF2-1E38BD9C97D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BD0E9D-DDA0-4CFA-BDCF-E3094ECF64BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BD0E9D-DDA0-4CFA-BDCF-E3094ECF64BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BD0E9D-DDA0-4CFA-BDCF-E3094ECF64BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BD0E9D-DDA0-4CFA-BDCF-E3094ECF64BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
