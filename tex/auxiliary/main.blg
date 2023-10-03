@@ -1,0 +1,30 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'aux/main.blg'
+[185] biber-MSWIN64:340> INFO - === 
+[242] Biber.pm:419> INFO - Reading 'aux/main.bcf'
+[481] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
+[519] Biber.pm:4419> INFO - Processing section 0
+[542] Biber.pm:4610> INFO - Looking for bibtex file 'bib/bibliography.bib' for section 0
+[614] bibtex.pm:1713> INFO - LaTeX decoding ...
+[639] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/bibliography.bib'
+[719] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[719] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[719] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+[719] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[735] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[735] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[735] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+[735] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[738] bbl.pm:660> INFO - Writing 'aux/main.bbl' with encoding 'UTF-8'
+[744] bbl.pm:763> INFO - Output to aux/main.bbl
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'Authorson;Bobsen:10' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'BenyonEA:13' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'Das;Gamback:13a' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'AlshawiEA:91b' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'Diderichsen:57' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'FountaEA:18' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'Berg;Gopinathan:17' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'Kitchenham;Charters:07' (section 0)
+[746] Biber.pm:131> WARN - I didn't find a database entry for 'Kofod-Petersen:14' (section 0)
+[747] Biber.pm:131> WARN - I didn't find a database entry for 'Isaksen;Gamback:20' (section 0)
+[747] Biber.pm:133> INFO - WARNINGS: 10

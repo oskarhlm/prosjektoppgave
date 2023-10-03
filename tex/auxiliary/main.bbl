@@ -1,0 +1,113 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{liAutonomousGISNextgeneration2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhenlong},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7228c6369bcf7adf5f0ee63a9a1a0fd0}{%
+           family={Ning},
+           familyi={N\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{fullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{bibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorbibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authornamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorfullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval. By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization. We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, selforganizing, self-verifying, self-executing, and self-growing. We developed a prototype system called LLMGeo using the GPT-4 API in a Python environment, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies. For all case studies, LLM-Geo was able to return accurate results, including aggregated numbers, graphs, and maps, significantly reducing manual operation time. Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the nextgeneration AI-powered GIS. We advocate for the GIScience community to dedicate more effort to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Autonomous {{GIS}}: The next-Generation {{AI-powered GIS}}}
+      \field{year}{2023}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\FVBR8CAD\Li and Ning - Autonomous GIS the next-generation AI-powered GIS.pdf
+      \endverb
+      \keyw{GIS,LLM}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{liAutonomousGISNextgeneration2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhenlong},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7228c6369bcf7adf5f0ee63a9a1a0fd0}{%
+           family={Ning},
+           familyi={N\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{fullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{bibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorbibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authornamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorfullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval. By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization. We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, selforganizing, self-verifying, self-executing, and self-growing. We developed a prototype system called LLMGeo using the GPT-4 API in a Python environment, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies. For all case studies, LLM-Geo was able to return accurate results, including aggregated numbers, graphs, and maps, significantly reducing manual operation time. Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the nextgeneration AI-powered GIS. We advocate for the GIScience community to dedicate more effort to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Autonomous {{GIS}}: The next-Generation {{AI-powered GIS}}}
+      \field{year}{2023}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\FVBR8CAD\Li and Ning - Autonomous GIS the next-generation AI-powered GIS.pdf
+      \endverb
+      \keyw{GIS,LLM}
+    \endentry
+  \enddatalist
+  \missing{AlshawiEA:91b}
+  \missing{Authorson;Bobsen:10}
+  \missing{BenyonEA:13}
+  \missing{Berg;Gopinathan:17}
+  \missing{Das;Gamback:13a}
+  \missing{Diderichsen:57}
+  \missing{FountaEA:18}
+  \missing{Isaksen;Gamback:20}
+  \missing{Kitchenham;Charters:07}
+  \missing{Kofod-Petersen:14}
+\endrefsection
+\endinput
+
