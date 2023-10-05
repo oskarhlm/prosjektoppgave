@@ -49,29 +49,6 @@ However, you will often need to introduce some terminology and key citations alr
 You can cite a paper in the following manner (and several other versions,
 see the \verb!natbib! package documentation):
 
-\begin{enumerate}[(i)]
-    \item When referring to authors, using their names in the text:\\
-          \citet{Authorson;Bobsen:10} stated something rather nice.
-          (using \verb!\citet!)
-    \item To cite indirectly: \\
-          Papers should be written nicely \citep{Authorson;Bobsen:10}
-          (using \verb!\citep!)
-          {\em or\/}\\
-          In \citet{Authorson;Bobsen:10}, a less detailed template was presented.
-    \item To just cite the authors: \\
-          \citeauthor{Authorson;Bobsen:10} wrote a nice paper
-          (using \verb!\citeauthor!).
-    \item Or just the year: \\ \citeyear{Authorson;Bobsen:10}
-          (using \verb!\citeyear!).
-    \item You can even cite specific pages or chapters: \citet[p. 3]{Authorson;Bobsen:10}
-          (using \verb!\citet[...]{...}!).
-\end{enumerate}
-
-You should obviously always cite your supervisor's work \citep{liAutonomousGISNextgeneration2023},
-even if it is completely irrelevant \citep{Das;Gamback:13a} or very old \citep{AlshawiEA:91b}.
-Digging up an even older book can also appear impressive \citep{Diderichsen:57}.
-(Or? ;-)
-
 \section{The Reference List}
 \label{sec:reference_list}
 
@@ -103,31 +80,17 @@ Some other good sites to find state-of-the-art work:
 
 \textit{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
 
-\begin{figure}[t!]
-    \centering
-    \includegraphics[width=0.5\columnwidth]{figs/figure1.pdf}
-    \caption[Boxes and arrows are nice]{Boxes and arrows are nice (adapted from \citealp{Authorson;Bobsen:10}, reprinted with permission)}
-    \label{fig:BoxesAndArrowsAreNice}
-\end{figure}
 
 \section{Introducing Figures}
 
 \LaTeX is a bit tricky when it comes to the placement of ``flooting bodies'' such as figures and tables. It is often a good idea to let their code appear right before the header of the (sub)section in which they appear.
 Note that you should anyhow always use an option for the placement (e.g., \verb|[t!]| to place it at the top of a page).
 
-Remember that if you reproduce someone else's figures you must credit the original author --- such as
-Figure~\ref{fig:BoxesAndArrowsAreNice} (adapted from \citealp{Authorson;Bobsen:10}),
-as well as state that you have permission to reprint it (e.g., if it is published under a Creative Commons License,
-or if you have gained explicit permission from the author).
-
 Do not just put the figure in and leave it to the reader to try to understand what the figure is.
 The figure should be included to convey a message and you need to help the reader to understand the message
 intended by explaining the figure in the text.
 Hence \textbf{all} figures and tables should always be referenced in the text, using the \verb!\ref! command.
 It is good practice to always combine it with a non-breakable space (\verb!~!) so that there will be no newline between the term referring to it and the reference, that is, using \verb!Figure~\ref{fig:BoxesAndArrowsAreNice}!.
-
-If a figure appears far from the text explaining it,
-it is a good idea to add its page number (using the \verb!\pageref! command), so that you can refer to Figure~\ref{fig:BoxesAndArrowsAreNice} (on Page~\pageref{fig:BoxesAndArrowsAreNice}).
 
 Also, note that you can have a longer version of the figure (and table) caption attached to the actual figure,
 while using the optional first argument to \verb!\caption! to include a shorter version in the list of figures (lof) or list of tables:
@@ -136,9 +99,6 @@ while using the optional first argument to \verb!\caption! to include a shorter 
 \caption[Shorter lof text]{Longer text appearing under the figure}
 \end{verbatim}
 \end{quote}
-
-It is good practice to add a note about a missing figure in the text,
-such as the completely amazing stuff that will appear in Figure~\ref{fig:AmazingFigure}.
 
 \begin{figure}[t!]
     \centering

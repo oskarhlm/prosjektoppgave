@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.10.3)  3 OCT 2023 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.10.3)  5 OCT 2023 15:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1324,40 +1324,40 @@ Package glossaries Info: Writing glossary file main.glo on input line 134.
 
 Package glossaries Info: Writing glossary file main.acn on input line 134.
  (frontmatter/glossary.tex)
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 153.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 154.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:\Users\oskar\master\tex\auxiliary\main.aux (c:\Users\oskar\master\tex\auxiliary\frontmatter/abstract.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/sammendrag.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/preface.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/introduction.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/background.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/related_work.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/data.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/architecture.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/experiments.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/discussion.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/conclusion.aux) (c:\Users\oskar\master\tex\auxiliary\appendices/appendices.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-Package scrbase Info: activating british \partname on input line 153.
-Package scrbase Info: activating british \chaptername on input line 153.
-Package scrbase Info: activating british \appendixname on input line 153.
-Package scrbase Info: activating british \figurename on input line 153.
-Package scrbase Info: activating british \tablename on input line 153.
-Package scrbase Info: activating british \contentsname on input line 153.
-Package scrbase Info: activating british \listfigurename on input line 153.
-Package scrbase Info: activating british \listtablename on input line 153.
-Package scrbase Info: activating british \bibname on input line 153.
-Package scrbase Info: activating british \indexname on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+Package scrbase Info: activating british \partname on input line 154.
+Package scrbase Info: activating british \chaptername on input line 154.
+Package scrbase Info: activating british \appendixname on input line 154.
+Package scrbase Info: activating british \figurename on input line 154.
+Package scrbase Info: activating british \tablename on input line 154.
+Package scrbase Info: activating british \contentsname on input line 154.
+Package scrbase Info: activating british \listfigurename on input line 154.
+Package scrbase Info: activating british \listtablename on input line 154.
+Package scrbase Info: activating british \bibname on input line 154.
+Package scrbase Info: activating british \indexname on input line 154.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1393,19 +1393,19 @@ Package scrbase Info: activating british \indexname on input line 153.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 153.
-Package microtype Info: Applying patch `item' on input line 153.
-Package microtype Info: Applying patch `toc' on input line 153.
-Package microtype Info: Applying patch `eqnum' on input line 153.
-Package microtype Info: Applying patch `footnote' on input line 153.
-Package microtype Info: Applying patch `verbatim' on input line 153.
+LaTeX Info: Redefining \microtypecontext on input line 154.
+Package microtype Info: Applying patch `item' on input line 154.
+Package microtype Info: Applying patch `toc' on input line 154.
+Package microtype Info: Applying patch `eqnum' on input line 154.
+Package microtype Info: Applying patch `footnote' on input line 154.
+Package microtype Info: Applying patch `verbatim' on input line 154.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 153.
+LaTeX Info: Redefining \showhyphens on input line 154.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1440,7 +1440,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
-Package hyperref Info: Link coloring ON on input line 153.
+Package hyperref Info: Link coloring ON on input line 154.
 (c:\Users\oskar\master\tex\auxiliary\main.out) (c:\Users\oskar\master\tex\auxiliary\main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
@@ -1452,7 +1452,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 153.
+(scrbook)           before \begin{document} on input line 154.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -1510,89 +1510,18 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\oskar\master\tex\auxiliary\main.bbl
+ (c:\Users\oskar\master\tex\auxiliary\main.bbl)
+Package biblatex Info: Reference section=0 on input line 154.
+Package biblatex Info: Reference segment=0 on input line 154.
 
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                AlshawiEA:91b
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Authorson;Bobsen:10
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                BenyonEA:13
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Berg;Gopinathan:17
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Das;Gamback:13a
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Diderichsen:57
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                FountaEA:18
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Isaksen;Gamback:20
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Kitchenham;Charters:07
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Kofod-Petersen:14
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 153.
-Package biblatex Info: Reference segment=0 on input line 153.
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--177
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 
  []
 
 <figs/NTNUlogo.pdf, id=6, 146.5475pt x 155.58125pt>
 File: figs/NTNUlogo.pdf Graphic file (type pdf)
 <use figs/NTNUlogo.pdf>
-Package pdftex.def Info: figs/NTNUlogo.pdf  used on input line 180.
+Package pdftex.def Info: figs/NTNUlogo.pdf  used on input line 181.
 (pdftex.def)             Requested size: 85.35826pt x 90.61938pt.
 [1
 
@@ -1634,37 +1563,37 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 202.
+Package tocbasic Info: character protrusion at toc deactivated on input line 203.
  (c:\Users\oskar\master\tex\auxiliary\main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 12.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 11.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 12.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 11.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 12.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 11.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 12.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 11.
+(Font)              <10.95> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 11.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+(Font)              <6> on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -1677,7 +1606,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout9 = `main.toc'.
 
  [6]
-Package tocbasic Info: character protrusion at lof deactivated on input line 204.
+Package tocbasic Info: character protrusion at lof deactivated on input line 205.
  (c:\Users\oskar\master\tex\auxiliary\main.lof)
 \tf@lof=\write10
 \openout10 = `main.lof'.
@@ -1689,14 +1618,27 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 204
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 207.
+Package tocbasic Info: character protrusion at lot deactivated on input line 208.
  (c:\Users\oskar\master\tex\auxiliary\main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
+ (c:\Users\oskar\master\tex\auxiliary\main.acr [9] [10
 
-No file main.acr.
-[9] [10
+
+]
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5.
+ (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) [11
+
+
+] [12
 
 
 ]
@@ -1709,15 +1651,6 @@ chapter 1.
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 47.
- (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
 Underfull \hbox (badness 2726) in paragraph at lines 82--85
 \T1/lmr/m/n/10.95 (+20) What meth-od-o-logy will you ap-ply to ad-dress the goals: the-or-etic/analytic,
  []
@@ -1747,121 +1680,45 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 6 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 6 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 6 undefined on input line 60.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 6 undefined on input line 62.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 6 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 6 undefined on input line 66.
-
-
-LaTeX Warning: Citation 'Das;Gamback:13a' on page 6 undefined on input line 71.
-
-
-LaTeX Warning: Citation 'AlshawiEA:91b' on page 6 undefined on input line 71.
-
-
-LaTeX Warning: Citation 'Diderichsen:57' on page 6 undefined on input line 72.
-
-[6]
-<figs/figure1.pdf, id=202, 357.335pt x 239.89626pt>
-File: figs/figure1.pdf Graphic file (type pdf)
-<use figs/figure1.pdf>
-Package pdftex.def Info: figs/figure1.pdf  used on input line 108.
-(pdftex.def)             Requested size: 209.12683pt x 140.39914pt.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 7 undefined on input line 109.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 7 undefined on input line 109.
-
-
-LaTeX Warning: Citation 'Authorson;Bobsen:10' on page 7 undefined on input line 119.
-
-[7 <./figs/figure1.pdf>] [8{C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]) [9]
+ [6] [7{C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]) [8]
 \openout2 = `chapters/related_work.aux'.
 
- (chapters/related_work.tex [10
+ (chapters/related_work.tex
+chapter 3.
+) [9
 
 
 
 
 
 ]
-chapter 3.
-
-LaTeX Warning: Citation 'Berg;Gopinathan:17' on page 11 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'Kitchenham;Charters:07' on page 11 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Kofod-Petersen:14' on page 11 undefined on input line 30.
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 28--31
-[]\T1/lmr/m/n/10.95 (+20) Carry out a Sys-tem-atic Lit-er-at-ure Re-view (or Struc-tured Lit-er-at-ure Re-
- []
-
-[11]) [12]
 \openout2 = `chapters/data.aux'.
 
- (chapters/data.tex
+ (chapters/data.tex [10
+
+
+
+
+
+]
 chapter 4.
+[11]) [12]
+\openout2 = `chapters/architecture.aux'.
 
-LaTeX Warning: Citation 'FountaEA:18' on page 13 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Isaksen;Gamback:20' on page 13 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'FountaEA:18' on page 13 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'Isaksen;Gamback:20' on page 13 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'FountaEA:18' on page 13 undefined on input line 41.
-
-
-LaTeX Warning: Citation 'Isaksen;Gamback:20' on page 13 undefined on input line 42.
-
+ (chapters/architecture.tex
+chapter 5.
 [13
 
 
 
 
 
-]) [14{C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
-\openout2 = `chapters/architecture.aux'.
-
- (chapters/architecture.tex
-chapter 5.
-[15
-
-
-
-
-
-]) [16]
+]) [14]
 \openout2 = `chapters/experiments.aux'.
 
  (chapters/experiments.tex
 chapter 6.
-) [17
+) [15
 
 
 
@@ -1870,7 +1727,7 @@ chapter 6.
 ]
 \openout2 = `chapters/discussion.aux'.
 
- (chapters/discussion.tex [18
+ (chapters/discussion.tex [16
 
 
 
@@ -1884,80 +1741,65 @@ chapter 7.
 \0 g 0 G14.4tikzsymbols@savebox@Smiley1opacity=0=\box137
 \0 g 0 G14.4tikzsymbols@savebox@Neutrey1opacity=0=\box138
 \0 g 0 G14.4tikzsymbols@savebox@Sadey1opacity=0=\box139
-[19]) [20]
+[17]) [18{C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 \openout2 = `chapters/conclusion.aux'.
 
  (chapters/conclusion.tex
 chapter 8.
-) [21
+) [19
 
 
 
 
 
-] [22
+] [20
 
 
 
 
-] [23
+] [21
 
 
 ]
 \openout2 = `appendices/appendices.aux'.
 
- (appendices/appendices.tex [24
+ (appendices/appendices.tex [22
 
 
 
-] [25] [26
+] [23] [24
 
 
 ]
 chapter A.
-[27] [28
+[25] [26
 
 
 ]
 chapter B.
-) [29] (c:\Users\oskar\master\tex\auxiliary\main.aux (c:\Users\oskar\master\tex\auxiliary\frontmatter/abstract.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/sammendrag.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/preface.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/introduction.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/background.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/related_work.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/data.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/architecture.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/experiments.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/discussion.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/conclusion.aux) (c:\Users\oskar\master\tex\auxiliary\appendices/appendices.aux))
+) [27] (c:\Users\oskar\master\tex\auxiliary\main.aux (c:\Users\oskar\master\tex\auxiliary\frontmatter/abstract.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/sammendrag.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/preface.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/introduction.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/background.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/related_work.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/data.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/architecture.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/experiments.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/discussion.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/conclusion.aux) (c:\Users\oskar\master\tex\auxiliary\appendices/appendices.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59618 strings out of 475248
- 1331782 string characters out of 5757813
- 2579418 words of memory out of 5000000
- 79813 multiletter control sequences out of 15000+600000
- 642674 words of font info for 193 fonts, out of 8000000 for 9000
+ 59727 strings out of 475248
+ 1334811 string characters out of 5757813
+ 2580487 words of memory out of 5000000
+ 79909 multiletter control sequences out of 15000+600000
+ 642757 words of font info for 194 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  108i,14n,165p,10989b,8866s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:api} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:acr:doi} has been referenced but does not exist, replaced by a fixed one
-
 <C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on c:\Users\oskar\master\tex\auxiliary\main.pdf (41 pages, 493135 bytes).
+Output written on c:\Users\oskar\master\tex\auxiliary\main.pdf (41 pages, 492130 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 47915 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 47918 words of extra memory for PDF output out of 51595 (max. 10000000)
 

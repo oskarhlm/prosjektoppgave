@@ -5,7 +5,7 @@
 You will (probably) need to describe and discuss the dataset(s) that you use in your work.
 Depending on how much detail is needed and whether you have done any work on the data yourself
 (including analysing it, collecting or annotating some of it, or cleaning/preprocessing it),
-the data description can possibly be part of the Background chapter, the Related Work chapter, 
+the data description can possibly be part of the Background chapter, the Related Work chapter,
 the Architecture chapter or the Experimental Setup.
 The dataset(s) can also be described in a separate chapter, either before or after the chapter on related work.
 Note that if you have put some effort of your own into the data, you will need to make sure that the text about it
@@ -21,25 +21,16 @@ background chapter(s) and the related work.
 \textit{Aliquam eget vulputate tellus. Suspendisse viverra eros sem, eu dapibus diam finibus a. Aenean at lectus eget mi convallis rutrum ut sit amet elit. Curabitur nec nisl mauris. Nullam finibus, elit et vehicula posuere, ante ipsum tristique massa, vitae dictum lorem quam eu est.}
 
 \begin{table}[t!]
-\centering
-\begin{tabular}{l|cccc|c}
-\tabletop
-Dataset      & Normal     & Offensive   & Hateful  & Spam   & Total     \\
-\tablemid
-Original & 53,790  & 27,037 & 4,948  & 14,024   & \textbf{99,799} \\
-Available & 41,784 & 14,202  & 2,941 & ~~9,372  & \textbf{68,299} \\
-\tablebot
-\end{tabular}
-\caption[The \citeauthor{FountaEA:18} dataset]{The original \citet{FountaEA:18} dataset vs its availability in 2020, given by \citeauthor{Isaksen;Gamback:20}}
-\label{tab:data}
+    \centering
+    \begin{tabular}{l|cccc|c}
+        \tabletop
+        Dataset   & Normal & Offensive & Hateful & Spam    & Total           \\
+        \tablemid
+        Original  & 53,790 & 27,037    & 4,948   & 14,024  & \textbf{99,799} \\
+        Available & 41,784 & 14,202    & 2,941   & ~~9,372 & \textbf{68,299} \\
+        \tablebot
+    \end{tabular}
 \end{table}
-
-You probably  want a table giving some statistics regarding the data.
-As an example, Table~\ref{tab:data} shows a common problem when working with Twitter (X) data:
-the authors of a dataset may only provide tweet IDs that other researches can use to retrieve tweets through the Twitter \gls{api};
-however, some tweets may for several reasons not be retrievable later on, e.g., since a tweet or the user account behind a tweet may have been deleted.
-Here, of $99,799$ tweet IDs provided by \citet{FountaEA:18}, only $68,299$ tweets could actually be retrieved two years later,
-as described by \citet{Isaksen;Gamback:20}.
 
 \textit{Morbi viverra ante et tortor faucibus finibus nec sit amet sem. In ultrices, augue sed vestibulum congue, tortor turpis sodales odio, at interdum leo justo non massa. Nunc aliquet, nisl non vestibulum rhoncus, libero tortor laoreet nibh, vel ultricies nunc erat nec nisl. Praesent sed lorem arcu. Sed ultricies, tellus at euismod posuere, felis nibh cursus justo, vitae placerat nisl lorem ut est. Suspendisse sollicitudin sagittis nibh, ac interdum erat hendrerit id. Fusce est mi, semper eget mauris sed, posuere ultrices orci. Aenean nec est eu augue blandit maximus. Morbi ut nisl at metus condimentum tincidunt nec consectetur nibh. Phasellus eleifend dapibus elit ut cursus. Donec lacinia turpis a justo dignissim, sit amet venenatis libero pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.}
 

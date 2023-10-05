@@ -19,95 +19,973 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
-    \entry{liAutonomousGISNextgeneration2023}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
+    \entry{maiOpportunitiesChallengesFoundation2023}{misc}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=3670e7a39d1c8a8d1c797f624772df56}{%
+           family={Mai},
+           familyi={M\bibinitperiod},
+           given={Gengchen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd38ce9a35519b0e7aa0294573a32e74}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Weiming},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fd7d49bf86823d5100ee335f17c3505}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0921a70240b6b1ebb461ce4421d47963}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a30e65ae436a6d2d75a9086dad4226c}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Deepak},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6462862c5b74b039231d999d3ccb3347}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ninghao},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80edc4011fde2f4defe68ef7e0b3c0cf}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7faa75cd0a9341fee33d1761b2b44234}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tianming},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a261f3167350d9aac38a1ec2c2624662}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Gao},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4132c8a47fb7504e4f36340d98c3d109}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yingjie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f210a7146898d09978e1d7f8aab044a2}{%
+           family={Cundy},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f82e9a8ed926ab9d768ff175f8e7e634}{%
            family={Li},
            familyi={L\bibinitperiod},
-           given={Zhenlong},
+           given={Ziyuan},
            giveni={Z\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=7228c6369bcf7adf5f0ee63a9a1a0fd0}{%
-           family={Ning},
-           familyi={N\bibinitperiod},
-           given={Huan},
-           giveni={H\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a409fcd3e2f9ae4fd6790ca28b9be27a}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9e5985236f468da29059654cd8447c4}{%
+           family={Lao},
+           familyi={L\bibinitperiod},
+           given={Ni},
+           giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{fullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{bibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{authorbibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{authornamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{authorfullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{70e95c3a27438e1bd7f88014b531787a}
+      \strng{fullhash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{bibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{authorbibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{authornamehash}{70e95c3a27438e1bd7f88014b531787a}
+      \strng{authorfullhash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval. By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization. We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, selforganizing, self-verifying, self-executing, and self-growing. We developed a prototype system called LLMGeo using the GPT-4 API in a Python environment, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies. For all case studies, LLM-Geo was able to return accurate results, including aggregated numbers, graphs, and maps, significantly reducing manual operation time. Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the nextgeneration AI-powered GIS. We advocate for the GIScience community to dedicate more effort to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.}
-      \field{langid}{english}
-      \field{month}{5}
-      \field{title}{Autonomous {{GIS}}: The next-Generation {{AI-powered GIS}}}
+      \field{abstract}{Large pre-trained models, also known as foundation models (FMs), are trained in a task-agnostic manner on large-scale data and can be adapted to a wide range of downstream tasks by fine-tuning, few-shot, or even zero-shot learning. Despite their successes in language and vision tasks, we have yet seen an attempt to develop foundation models for geospatial artificial intelligence (GeoAI). In this work, we explore the promises and challenges of developing multimodal foundation models for GeoAI. We first investigate the potential of many existing FMs by testing their performances on seven tasks across multiple geospatial subdomains including Geospatial Semantics, Health Geography, Urban Geography, and Remote Sensing. Our results indicate that on several geospatial tasks that only involve text modality such as toponym recognition, location description recognition, and US state-level/county-level dementia time series forecasting, these task-agnostic LLMs can outperform task-specific fully-supervised models in a zero-shot or few-shot learning setting. However, on other geospatial tasks, especially tasks that involve multiple data modalities (e.g., POI-based urban function classification, street view image-based urban noise intensity classification, and remote sensing image scene classification), existing foundation models still underperform task-specific models. Based on these observations, we propose that one of the major challenges of developing a FM for GeoAI is to address the multimodality nature of geospatial tasks. After discussing the distinct challenges of each geospatial data modality, we suggest the possibility of a multimodal foundation model which can reason over various types of geospatial data through geospatial alignments. We conclude this paper by discussing the unique risks and challenges to develop such a model for GeoAI.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{4}
+      \field{number}{arXiv:2304.06798}
+      \field{title}{On the {{Opportunities}} and {{Challenges}} of {{Foundation Models}} for {{Geospatial Artificial Intelligence}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
       \field{year}{2023}
-      \verb{file}
-      \verb C:\Users\oskar\Zotero\storage\FVBR8CAD\Li and Ning - Autonomous GIS the next-generation AI-powered GIS.pdf
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2304.06798
       \endverb
-      \keyw{GIS,LLM}
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\KR8QU4W7\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\LIMFU3ZQ\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\F5ULIY86\\2304.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,I.2.0,I.2.10,I.2.4,I.2.7,I.5.1}
+    \endentry
+    \entry{richardAutoGPTHeartOpensource2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a32215fed0bf14e97fe8b3a8fd29a13}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Toran\bibnamedelima Bruce},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{fullhash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{bibnamehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{authorbibnamehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{authornamehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{authorfullhash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An experimental open-source attempt to make GPT-4 fully autonomous.}
+      \field{howpublished}{AutoGPT}
+      \field{month}{10}
+      \field{shorttitle}{{{AutoGPT}}}
+      \field{title}{{{AutoGPT}}: The Heart of the Open-Source Agent Ecosystem}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \keyw{ai,artificial-intelligence,autonomous-agents,gpt-4,openai,python}
+    \endentry
+    \entry{robertsGPT4GEOHowLanguage2023}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=65b931b85958ad179656a050cf28cf72}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2151d735dd59d4623eb15a59bb49cd2}{%
+           family={Lüddecke},
+           familyi={L\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e7812df1b1d4d75b6a3620ace5a8511}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sowmen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=735173e7254986d180bcb08fbac4266c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16b5c328bb82309153fe2dcf34adf4f0}{%
+           family={Albanie},
+           familyi={A\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2dd2a97673eef748af93ff359ad08b6c}
+      \strng{fullhash}{0383cc78399fac912eccca995e006335}
+      \strng{bibnamehash}{0383cc78399fac912eccca995e006335}
+      \strng{authorbibnamehash}{0383cc78399fac912eccca995e006335}
+      \strng{authornamehash}{2dd2a97673eef748af93ff359ad08b6c}
+      \strng{authorfullhash}{0383cc78399fac912eccca995e006335}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large language models (LLMs) have shown remarkable capabilities across a broad range of tasks involving question answering and the generation of coherent text and code. Comprehensively understanding the strengths and weaknesses of LLMs is beneficial for safety, downstream applications and improving performance. In this work, we investigate the degree to which GPT-4 has acquired factual geographic knowledge and is capable of using this knowledge for interpretative reasoning, which is especially important for applications that involve geographic data, such as geospatial analysis, supply chain management, and disaster response. To this end, we design and conduct a series of diverse experiments, starting from factual tasks such as location, distance and elevation estimation to more complex questions such as generating country outlines and travel networks, route finding under constraints and supply chain analysis. We provide a broad characterisation of what GPT-4 (without plugins or Internet access) knows about the world, highlighting both potentially surprising capabilities but also limitations.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:2306.00020}
+      \field{shorttitle}{{{GPT4GEO}}}
+      \field{title}{{{GPT4GEO}}: {{How}} a {{Language Model Sees}} the {{World}}'s {{Geography}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2306.00020
+      \endverb
+      \verb{eprint}
+      \verb 2306.00020
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\7DRKDHXI\\Roberts et al. - 2023 - GPT4GEO How a Language Model Sees the World's Geo.pdf;C\:\\Users\\oskar\\Zotero\\storage\\BHCR5VUS\\2306.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
+    \entry{xuRetrievalMeetsLong2023}{misc}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=a9f1e89449a8f9e0a4b65ee24d8f421d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe56a97aca48de3bbb0b53f223fd5015}{%
+           family={Ping},
+           familyi={P\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d3500b4dee991ee4ac34bbfdc16f1f0}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xianchao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0510cfc21925d6b7f6db8eb7666983f9}{%
+           family={McAfee},
+           familyi={M\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78c6e8f414f28c863790e381ab51a773}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb8220a39f4d4931c18b6d585fc2845e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zihan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a74063219474ad33f9d0580979ea5ab6}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cff974ed33dc997a0167bed16fc484b}{%
+           family={Bakhturina},
+           familyi={B\bibinitperiod},
+           given={Evelina},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4af7939b0e0aac6c1e9dec565975b46c}{%
+           family={Shoeybi},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c8bbc381484f2cfbbd08866be36590e}{%
+           family={Catanzaro},
+           familyi={C\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8d7000bd3049040035288af08ec39c4f}
+      \strng{fullhash}{8124e052283029cb47bc1fed6c9684e2}
+      \strng{bibnamehash}{8124e052283029cb47bc1fed6c9684e2}
+      \strng{authorbibnamehash}{8124e052283029cb47bc1fed6c9684e2}
+      \strng{authornamehash}{8d7000bd3049040035288af08ec39c4f}
+      \strng{authorfullhash}{8124e052283029cb47bc1fed6c9684e2}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Extending the context window of large language models (LLMs) is getting popular recently, while the solution of augmenting LLMs with retrieval has existed for years. The natural questions are: i) Retrieval-augmentation versus long context window, which one is better for downstream tasks? ii) Can both methods be combined to get the best of both worlds? In this work, we answer these questions by studying both solutions using two state-of-the-art pretrained LLMs, i.e., a proprietary 43B GPT and LLaMA2-70B. Perhaps surprisingly, we find that LLM with 4K context window using simple retrieval-augmentation at generation can achieve comparable performance to finetuned LLM with 16K context window via positional interpolation on long context tasks, while taking much less computation. More importantly, we demonstrate that retrieval can significantly improve the performance of LLMs regardless of their extended context window sizes. Our best model, retrieval-augmented LLaMA2-70B with 32K context window, outperforms GPT-3.5-turbo-16k and Davinci003 in terms of average score on seven long context tasks including question answering and query-based summarization. It also outperforms its non-retrieval LLaMA2-70B-32k baseline by a margin, while being much faster at generation. Our study provides general insights on the choice of retrieval-augmentation versus long context extension of LLM for practitioners.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2310.03025}
+      \field{title}{Retrieval Meets {{Long Context Large Language Models}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2310.03025
+      \endverb
+      \verb{eprint}
+      \verb 2310.03025
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\JRUJKG3V\\Xu et al. - 2023 - Retrieval meets Long Context Large Language Models.pdf;C\:\\Users\\oskar\\Zotero\\storage\\D6E8ZDVE\\2310.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Information Retrieval,Computer Science - Machine Learning}
+    \endentry
+    \entry{yaoReActSynergizingReasoning2023}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5c1b62cbd4e181d818b927549813cf73}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Shunyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fc64f0dbaf7cb8f21c7c85d580cdb15}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cb7d2d6e42d109fa2c5086d6c8f6a63}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Dian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a926c34a0eebdaaa30da36b46bd2192c}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20b3779bbd037bbfdd1ffd3967624997}{%
+           family={Shafran},
+           familyi={S\bibinitperiod},
+           given={Izhak},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997c3143c2e5d593e816d2ff704fbf98}{%
+           family={Narasimhan},
+           familyi={N\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2923de2da7f9b32b957552e414b6bc16}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4ae4be538df04cfc1571685175562cad}
+      \strng{fullhash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \strng{bibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \strng{authorbibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \strng{authornamehash}{4ae4be538df04cfc1571685175562cad}
+      \strng{authorfullhash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34\% and 10\% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{3}
+      \field{number}{arXiv:2210.03629}
+      \field{shorttitle}{{{ReAct}}}
+      \field{title}{{{ReAct}}: {{Synergizing Reasoning}} and {{Acting}} in {{Language Models}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2210.03629
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\GYD7CH87\\Yao et al. - 2023 - ReAct Synergizing Reasoning and Acting in Languag.pdf;C\:\\Users\\oskar\\Zotero\\storage\\DNDVTT3Y\\2210.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
+    \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=614fdf51ce9628d993d9e0dc779c15a2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=850f68e5f7ccf438179b3191c2249b1a}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4054ebcc5b4d6a04dff097093876e9ef}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Shangyou},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5187efaa04f4ecdd7f84f0cad92621d}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Zhengting},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4106141d002345c5f77e0e562f203b64}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Wenhao},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{fa65d318c268d108da8573873dc9b440}
+      \strng{fullhash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \strng{bibnamehash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \strng{authorbibnamehash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \strng{authornamehash}{fa65d318c268d108da8573873dc9b440}
+      \strng{authorfullhash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Decision-makers in GIS need to combine a series of spatial algorithms and operations to solve geospatial tasks. For example, in the task of facility siting, the Buffer tool is usually first used to locate areas close or away from some specific entities; then, the Intersect or Erase tool is used to select candidate areas satisfied multiple requirements. Though professionals can easily understand and solve these geospatial tasks by sequentially utilizing relevant tools, it is difficult for non-professionals to handle these problems. Recently, Generative Pre-trained Transformer (e.g., ChatGPT) presents strong performance in semantic understanding and reasoning. Especially, AutoGPT can further extend the capabilities of large language models (LLMs) by automatically reasoning and calling externally defined tools. Inspired by these studies, we attempt to lower the threshold of non-professional users to solve geospatial tasks by integrating the semantic understanding ability inherent in LLMs with mature tools within the GIS community. Specifically, we develop a new framework called GeoGPT that can conduct geospatial data collection, processing, and analysis in an autonomous manner with the instruction of only natural language. In other words, GeoGPT is used to understand the demands of non-professional users merely based on input natural language descriptions, and then think, plan, and execute defined GIS tools to output final effective results. Several cases including geospatial data crawling, spatial query, facility siting, and mapping validate the effectiveness of our framework. Though limited cases are presented in this paper, GeoGPT can be further extended to various tasks by equipping with more GIS tools, and we think the paradigm of "foundational plus professional" implied in GeoGPT provides an effective way to develop next-generation GIS in this era of large foundation models.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{7}
+      \field{number}{arXiv:2307.07930}
+      \field{shorttitle}{{{GeoGPT}}}
+      \field{title}{{{GeoGPT}}: {{Understanding}} and {{Processing Geospatial Tasks}} through {{An Autonomous GPT}}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2307.07930
+      \endverb
+      \verb{eprint}
+      \verb 2307.07930
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\F6ZE4DD9\\Zhang et al. - 2023 - GeoGPT Understanding and Processing Geospatial Ta.pdf;C\:\\Users\\oskar\\Zotero\\storage\\GYMENGQZ\\2307.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
-    \entry{liAutonomousGISNextgeneration2023}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
+    \entry{maiOpportunitiesChallengesFoundation2023}{misc}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=3670e7a39d1c8a8d1c797f624772df56}{%
+           family={Mai},
+           familyi={M\bibinitperiod},
+           given={Gengchen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd38ce9a35519b0e7aa0294573a32e74}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Weiming},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fd7d49bf86823d5100ee335f17c3505}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0921a70240b6b1ebb461ce4421d47963}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a30e65ae436a6d2d75a9086dad4226c}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Deepak},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6462862c5b74b039231d999d3ccb3347}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ninghao},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80edc4011fde2f4defe68ef7e0b3c0cf}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7faa75cd0a9341fee33d1761b2b44234}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tianming},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a261f3167350d9aac38a1ec2c2624662}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Gao},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4132c8a47fb7504e4f36340d98c3d109}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yingjie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f210a7146898d09978e1d7f8aab044a2}{%
+           family={Cundy},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f82e9a8ed926ab9d768ff175f8e7e634}{%
            family={Li},
            familyi={L\bibinitperiod},
-           given={Zhenlong},
+           given={Ziyuan},
            giveni={Z\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=7228c6369bcf7adf5f0ee63a9a1a0fd0}{%
-           family={Ning},
-           familyi={N\bibinitperiod},
-           given={Huan},
-           giveni={H\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a409fcd3e2f9ae4fd6790ca28b9be27a}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9e5985236f468da29059654cd8447c4}{%
+           family={Lao},
+           familyi={L\bibinitperiod},
+           given={Ni},
+           giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{fullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{bibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{authorbibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{authornamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \strng{authorfullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{70e95c3a27438e1bd7f88014b531787a}
+      \strng{fullhash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{bibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{authorbibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{authornamehash}{70e95c3a27438e1bd7f88014b531787a}
+      \strng{authorfullhash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval. By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization. We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, selforganizing, self-verifying, self-executing, and self-growing. We developed a prototype system called LLMGeo using the GPT-4 API in a Python environment, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies. For all case studies, LLM-Geo was able to return accurate results, including aggregated numbers, graphs, and maps, significantly reducing manual operation time. Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the nextgeneration AI-powered GIS. We advocate for the GIScience community to dedicate more effort to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.}
-      \field{langid}{english}
-      \field{month}{5}
-      \field{title}{Autonomous {{GIS}}: The next-Generation {{AI-powered GIS}}}
+      \field{abstract}{Large pre-trained models, also known as foundation models (FMs), are trained in a task-agnostic manner on large-scale data and can be adapted to a wide range of downstream tasks by fine-tuning, few-shot, or even zero-shot learning. Despite their successes in language and vision tasks, we have yet seen an attempt to develop foundation models for geospatial artificial intelligence (GeoAI). In this work, we explore the promises and challenges of developing multimodal foundation models for GeoAI. We first investigate the potential of many existing FMs by testing their performances on seven tasks across multiple geospatial subdomains including Geospatial Semantics, Health Geography, Urban Geography, and Remote Sensing. Our results indicate that on several geospatial tasks that only involve text modality such as toponym recognition, location description recognition, and US state-level/county-level dementia time series forecasting, these task-agnostic LLMs can outperform task-specific fully-supervised models in a zero-shot or few-shot learning setting. However, on other geospatial tasks, especially tasks that involve multiple data modalities (e.g., POI-based urban function classification, street view image-based urban noise intensity classification, and remote sensing image scene classification), existing foundation models still underperform task-specific models. Based on these observations, we propose that one of the major challenges of developing a FM for GeoAI is to address the multimodality nature of geospatial tasks. After discussing the distinct challenges of each geospatial data modality, we suggest the possibility of a multimodal foundation model which can reason over various types of geospatial data through geospatial alignments. We conclude this paper by discussing the unique risks and challenges to develop such a model for GeoAI.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{4}
+      \field{number}{arXiv:2304.06798}
+      \field{title}{On the {{Opportunities}} and {{Challenges}} of {{Foundation Models}} for {{Geospatial Artificial Intelligence}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
       \field{year}{2023}
-      \verb{file}
-      \verb C:\Users\oskar\Zotero\storage\FVBR8CAD\Li and Ning - Autonomous GIS the next-generation AI-powered GIS.pdf
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2304.06798
       \endverb
-      \keyw{GIS,LLM}
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\KR8QU4W7\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\LIMFU3ZQ\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\F5ULIY86\\2304.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,I.2.0,I.2.10,I.2.4,I.2.7,I.5.1}
+    \endentry
+    \entry{richardAutoGPTHeartOpensource2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a32215fed0bf14e97fe8b3a8fd29a13}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Toran\bibnamedelima Bruce},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{fullhash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{bibnamehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{authorbibnamehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{authornamehash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \strng{authorfullhash}{2a32215fed0bf14e97fe8b3a8fd29a13}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An experimental open-source attempt to make GPT-4 fully autonomous.}
+      \field{howpublished}{AutoGPT}
+      \field{month}{10}
+      \field{shorttitle}{{{AutoGPT}}}
+      \field{title}{{{AutoGPT}}: The Heart of the Open-Source Agent Ecosystem}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \keyw{ai,artificial-intelligence,autonomous-agents,gpt-4,openai,python}
+    \endentry
+    \entry{robertsGPT4GEOHowLanguage2023}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=65b931b85958ad179656a050cf28cf72}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2151d735dd59d4623eb15a59bb49cd2}{%
+           family={Lüddecke},
+           familyi={L\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e7812df1b1d4d75b6a3620ace5a8511}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sowmen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=735173e7254986d180bcb08fbac4266c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16b5c328bb82309153fe2dcf34adf4f0}{%
+           family={Albanie},
+           familyi={A\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2dd2a97673eef748af93ff359ad08b6c}
+      \strng{fullhash}{0383cc78399fac912eccca995e006335}
+      \strng{bibnamehash}{0383cc78399fac912eccca995e006335}
+      \strng{authorbibnamehash}{0383cc78399fac912eccca995e006335}
+      \strng{authornamehash}{2dd2a97673eef748af93ff359ad08b6c}
+      \strng{authorfullhash}{0383cc78399fac912eccca995e006335}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large language models (LLMs) have shown remarkable capabilities across a broad range of tasks involving question answering and the generation of coherent text and code. Comprehensively understanding the strengths and weaknesses of LLMs is beneficial for safety, downstream applications and improving performance. In this work, we investigate the degree to which GPT-4 has acquired factual geographic knowledge and is capable of using this knowledge for interpretative reasoning, which is especially important for applications that involve geographic data, such as geospatial analysis, supply chain management, and disaster response. To this end, we design and conduct a series of diverse experiments, starting from factual tasks such as location, distance and elevation estimation to more complex questions such as generating country outlines and travel networks, route finding under constraints and supply chain analysis. We provide a broad characterisation of what GPT-4 (without plugins or Internet access) knows about the world, highlighting both potentially surprising capabilities but also limitations.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:2306.00020}
+      \field{shorttitle}{{{GPT4GEO}}}
+      \field{title}{{{GPT4GEO}}: {{How}} a {{Language Model Sees}} the {{World}}'s {{Geography}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2306.00020
+      \endverb
+      \verb{eprint}
+      \verb 2306.00020
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\7DRKDHXI\\Roberts et al. - 2023 - GPT4GEO How a Language Model Sees the World's Geo.pdf;C\:\\Users\\oskar\\Zotero\\storage\\BHCR5VUS\\2306.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
+    \entry{xuRetrievalMeetsLong2023}{misc}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=a9f1e89449a8f9e0a4b65ee24d8f421d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe56a97aca48de3bbb0b53f223fd5015}{%
+           family={Ping},
+           familyi={P\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d3500b4dee991ee4ac34bbfdc16f1f0}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xianchao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0510cfc21925d6b7f6db8eb7666983f9}{%
+           family={McAfee},
+           familyi={M\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78c6e8f414f28c863790e381ab51a773}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb8220a39f4d4931c18b6d585fc2845e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zihan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a74063219474ad33f9d0580979ea5ab6}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cff974ed33dc997a0167bed16fc484b}{%
+           family={Bakhturina},
+           familyi={B\bibinitperiod},
+           given={Evelina},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4af7939b0e0aac6c1e9dec565975b46c}{%
+           family={Shoeybi},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c8bbc381484f2cfbbd08866be36590e}{%
+           family={Catanzaro},
+           familyi={C\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8d7000bd3049040035288af08ec39c4f}
+      \strng{fullhash}{8124e052283029cb47bc1fed6c9684e2}
+      \strng{bibnamehash}{8124e052283029cb47bc1fed6c9684e2}
+      \strng{authorbibnamehash}{8124e052283029cb47bc1fed6c9684e2}
+      \strng{authornamehash}{8d7000bd3049040035288af08ec39c4f}
+      \strng{authorfullhash}{8124e052283029cb47bc1fed6c9684e2}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Extending the context window of large language models (LLMs) is getting popular recently, while the solution of augmenting LLMs with retrieval has existed for years. The natural questions are: i) Retrieval-augmentation versus long context window, which one is better for downstream tasks? ii) Can both methods be combined to get the best of both worlds? In this work, we answer these questions by studying both solutions using two state-of-the-art pretrained LLMs, i.e., a proprietary 43B GPT and LLaMA2-70B. Perhaps surprisingly, we find that LLM with 4K context window using simple retrieval-augmentation at generation can achieve comparable performance to finetuned LLM with 16K context window via positional interpolation on long context tasks, while taking much less computation. More importantly, we demonstrate that retrieval can significantly improve the performance of LLMs regardless of their extended context window sizes. Our best model, retrieval-augmented LLaMA2-70B with 32K context window, outperforms GPT-3.5-turbo-16k and Davinci003 in terms of average score on seven long context tasks including question answering and query-based summarization. It also outperforms its non-retrieval LLaMA2-70B-32k baseline by a margin, while being much faster at generation. Our study provides general insights on the choice of retrieval-augmentation versus long context extension of LLM for practitioners.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2310.03025}
+      \field{title}{Retrieval Meets {{Long Context Large Language Models}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2310.03025
+      \endverb
+      \verb{eprint}
+      \verb 2310.03025
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\JRUJKG3V\\Xu et al. - 2023 - Retrieval meets Long Context Large Language Models.pdf;C\:\\Users\\oskar\\Zotero\\storage\\D6E8ZDVE\\2310.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Information Retrieval,Computer Science - Machine Learning}
+    \endentry
+    \entry{yaoReActSynergizingReasoning2023}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5c1b62cbd4e181d818b927549813cf73}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Shunyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fc64f0dbaf7cb8f21c7c85d580cdb15}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cb7d2d6e42d109fa2c5086d6c8f6a63}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Dian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a926c34a0eebdaaa30da36b46bd2192c}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20b3779bbd037bbfdd1ffd3967624997}{%
+           family={Shafran},
+           familyi={S\bibinitperiod},
+           given={Izhak},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997c3143c2e5d593e816d2ff704fbf98}{%
+           family={Narasimhan},
+           familyi={N\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2923de2da7f9b32b957552e414b6bc16}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4ae4be538df04cfc1571685175562cad}
+      \strng{fullhash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \strng{bibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \strng{authorbibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \strng{authornamehash}{4ae4be538df04cfc1571685175562cad}
+      \strng{authorfullhash}{6f22c9f891fbcfb7465b1c3157b57023}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34\% and 10\% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{3}
+      \field{number}{arXiv:2210.03629}
+      \field{shorttitle}{{{ReAct}}}
+      \field{title}{{{ReAct}}: {{Synergizing Reasoning}} and {{Acting}} in {{Language Models}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2210.03629
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\GYD7CH87\\Yao et al. - 2023 - ReAct Synergizing Reasoning and Acting in Languag.pdf;C\:\\Users\\oskar\\Zotero\\storage\\DNDVTT3Y\\2210.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
+    \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=614fdf51ce9628d993d9e0dc779c15a2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=850f68e5f7ccf438179b3191c2249b1a}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4054ebcc5b4d6a04dff097093876e9ef}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Shangyou},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5187efaa04f4ecdd7f84f0cad92621d}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Zhengting},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4106141d002345c5f77e0e562f203b64}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Wenhao},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{fa65d318c268d108da8573873dc9b440}
+      \strng{fullhash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \strng{bibnamehash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \strng{authorbibnamehash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \strng{authornamehash}{fa65d318c268d108da8573873dc9b440}
+      \strng{authorfullhash}{9e80b5ea76a37da9004d7cb5992a46db}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Decision-makers in GIS need to combine a series of spatial algorithms and operations to solve geospatial tasks. For example, in the task of facility siting, the Buffer tool is usually first used to locate areas close or away from some specific entities; then, the Intersect or Erase tool is used to select candidate areas satisfied multiple requirements. Though professionals can easily understand and solve these geospatial tasks by sequentially utilizing relevant tools, it is difficult for non-professionals to handle these problems. Recently, Generative Pre-trained Transformer (e.g., ChatGPT) presents strong performance in semantic understanding and reasoning. Especially, AutoGPT can further extend the capabilities of large language models (LLMs) by automatically reasoning and calling externally defined tools. Inspired by these studies, we attempt to lower the threshold of non-professional users to solve geospatial tasks by integrating the semantic understanding ability inherent in LLMs with mature tools within the GIS community. Specifically, we develop a new framework called GeoGPT that can conduct geospatial data collection, processing, and analysis in an autonomous manner with the instruction of only natural language. In other words, GeoGPT is used to understand the demands of non-professional users merely based on input natural language descriptions, and then think, plan, and execute defined GIS tools to output final effective results. Several cases including geospatial data crawling, spatial query, facility siting, and mapping validate the effectiveness of our framework. Though limited cases are presented in this paper, GeoGPT can be further extended to various tasks by equipping with more GIS tools, and we think the paradigm of "foundational plus professional" implied in GeoGPT provides an effective way to develop next-generation GIS in this era of large foundation models.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{7}
+      \field{number}{arXiv:2307.07930}
+      \field{shorttitle}{{{GeoGPT}}}
+      \field{title}{{{GeoGPT}}: {{Understanding}} and {{Processing Geospatial Tasks}} through {{An Autonomous GPT}}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2307.07930
+      \endverb
+      \verb{eprint}
+      \verb 2307.07930
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\F6ZE4DD9\\Zhang et al. - 2023 - GeoGPT Understanding and Processing Geospatial Ta.pdf;C\:\\Users\\oskar\\Zotero\\storage\\GYMENGQZ\\2307.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
   \enddatalist
-  \missing{AlshawiEA:91b}
-  \missing{Authorson;Bobsen:10}
-  \missing{BenyonEA:13}
-  \missing{Berg;Gopinathan:17}
-  \missing{Das;Gamback:13a}
-  \missing{Diderichsen:57}
-  \missing{FountaEA:18}
-  \missing{Isaksen;Gamback:20}
-  \missing{Kitchenham;Charters:07}
-  \missing{Kofod-Petersen:14}
 \endrefsection
 \endinput
 

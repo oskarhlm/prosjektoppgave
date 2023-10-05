@@ -7,6 +7,7 @@
 \contentsline {chapter}{Preface}{iii}{section*.2}%
 \contentsline {chapter}{List of Figures}{vii}{chapter*.5}%
 \contentsline {chapter}{List of Tables}{ix}{chapter*.6}%
+\contentsline {chapter}{Acronyms}{xi}{section*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background and Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Goals and Research Questions}{2}{section.1.2}%
@@ -16,23 +17,23 @@
 \contentsline {chapter}{\numberline {2}Background Theory}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Writing References in the Text}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}The Reference List}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Introducing Figures}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Introducing Tables in the Report}{8}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Related Work}{11}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Datasets}{13}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Architecture}{15}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Experiments and Results}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Experimental Plan}{17}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Experimental Setup}{17}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Experimental Results}{17}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Evaluation and Discussion}{19}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Evaluation}{19}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Discussion}{20}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{21}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Contributions}{21}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Future Work}{21}{section.8.2}%
-\contentsline {chapter}{Bibliography}{23}{section.8.2}%
-\contentsline {chapter}{Appendices}{25}{chapter*.17}%
-\contentsline {chapter}{\numberline {A}Proof of the First Zonklar Equation}{27}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Structured Literature Review (SLR) Protocol}{29}{appendix.B}%
+\contentsline {section}{\numberline {2.3}Introducing Figures}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Introducing Tables in the Report}{7}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Related Work}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Datasets}{11}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Architecture}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Experiments and Results}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Experimental Plan}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Experimental Setup}{15}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Experimental Results}{15}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Evaluation and Discussion}{17}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Evaluation}{17}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Discussion}{18}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{19}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Contributions}{19}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Future Work}{19}{section.8.2}%
+\contentsline {chapter}{Bibliography}{21}{section.8.2}%
+\contentsline {chapter}{Appendices}{23}{chapter*.18}%
+\contentsline {chapter}{\numberline {A}Proof of the First Zonklar Equation}{25}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Structured Literature Review (SLR) Protocol}{27}{appendix.B}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

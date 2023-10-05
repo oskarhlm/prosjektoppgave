@@ -71,7 +71,7 @@
 
 % \usepackage[round]{natbib}
 
-% \def\BibTeX{\textrm{B\kern-.05em\textsc{i\kern-.025em b}\kern-.08em T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\def\BibTeX{\textrm{B\kern-.05em\textsc{i\kern-.025em b}\kern-.08em T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
 % uncomment if instead using biber as backend
 % \begin{comment}
@@ -89,7 +89,7 @@
             ]{biblatex}         				% Correct citations
 
 % Bibliography (+ hacks)
-\addbibresource{bib/references.bib}
+% \addbibresource{bib/references.bib}
 \addbibresource{bib/bibliography.bib}
 \DeclareLanguageMapping{british}{british-apa}
 \setlength\bibitemsep{2\itemsep}
@@ -147,7 +147,8 @@ acronym] 				% create a list of abbreviations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % In case you don't want to compile all the LaTeX files every time, 
 % you can list the ones you're currently working on here and compile those only.
-%\includeonly{chapters/introduction} 
+
+% \includeonly{chapters/architecture} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -227,9 +228,6 @@ acronym] 				% create a list of abbreviations
 \cleardoublepage
 
 \addcontentsline{toc}{chapter}{Bibliography}
-% \bibliographystyle{plainnat}
-% \bibliography{bib/bibliography}
-% alternative, if using biber as backend
 \printbibliography
 
 \include{appendices/appendices}
