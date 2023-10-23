@@ -1,4 +1,4 @@
-\documentclass[a4paper,twoside=true]{scrbook}
+\documentclass[a4paper,twoside=false]{scrbook}
 \usepackage{etex}					% Avoid errors caused by too many packages
 \usepackage[norsk,british]{babel}		% Correct Norwegian and English hyphenation
 \selectlanguage{british}
@@ -65,6 +65,7 @@
 %\usepackage[disable]{todonotes}
 
 \usepackage{verbatim}				% allow for longer comments
+%TC:group comment 0 0
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BIBLIOGRAPHY STUFF
@@ -79,7 +80,7 @@
             bibstyle=apa,
             citestyle=authoryear,
             natbib=true,
-            url=false,
+            url=true,
             doi=false,
             hyperref=true,
             apamaxprtauth=99,
@@ -123,6 +124,10 @@
 \hyphenation{hash-tag Sem-Eval}
 \hyphenation{cyber-bully cyber-bullying}
 
+% Utility commands
+\newcommand{\Autochapterref}[1]{\hyperref[#1]{Chapter~\ref*{#1}}}
+\newcommand{\rqref}[1]{\hyperref[#1]{RQ~\ref*{#1}}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Acronym stuff
 \usepackage[
@@ -139,10 +144,13 @@ acronym] 				% create a list of abbreviations
 % Fill in here, and use these commands in the text.
 \newcommand{\thesisAuthor}{Karl Oskar Magnus Holm}
 \newcommand{\thesisTitle}{LLMS - The Death of GIS Analysis?}
-\newcommand{\thesisSubtitle}{An Investigation into using Large Language Models to Simplify GIS Analysis}
+\newcommand{\thesisSubtitle}{An Investigation into Using Large Language Models to Make GIS Analysis Simpler, Faster, and More Accessible}
 \newcommand{\thesisType}{Master's Thesis in Computer Science and Geomatics}
-\newcommand{\supervisor}{Supervisor: Hongfao Chao}
+\newcommand{\supervisor}{Supervisor: Hongchao Fan}
+\newcommand{\externalSupervisors}{External supervisors from Norkart: Alexander Salveson Nossum, Arild Nomeland and Rune Aasgaard}
 \newcommand{\thesisDate}{June 2024}
+
+\graphicspath{ {./figs/} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % In case you don't want to compile all the LaTeX files every time, 
@@ -168,7 +176,8 @@ acronym] 				% create a list of abbreviations
     \vspace{2cm}
 
     \noindent \thesisType, \thesisDate \newline
-    \noindent \supervisor
+    \noindent \supervisor \newline
+    \noindent \externalSupervisors
     \vspace{2cm}
 
     \noindent Data and Artificial Intelligence Group\\
@@ -178,12 +187,12 @@ acronym] 				% create a list of abbreviations
 
     \vfill
     \begin{center}
-        \includegraphics[width=3cm]{figs/NTNUlogo.pdf}
+        \includegraphics[width=3cm]{NTNUlogo.pdf}
     \end{center}
     \thispagestyle{empty}
 \end{titlepage}
 
-\cleardoublepage
+\clearpage
 %\end{comment}   %Needed if commenting out the titlepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -198,7 +207,7 @@ acronym] 				% create a list of abbreviations
 \addcontentsline{toc}{chapter}{Preface}     % can be left out
 \include{frontmatter/preface}
 
-\cleardoublepage
+\clearpage
 
 \tableofcontents
 
@@ -209,27 +218,26 @@ acronym] 				% create a list of abbreviations
 \addcontentsline{toc}{chapter}{List of Tables} % can be left out
 
 \glsaddall              % to include all glossary entries
-\printglossary[type=\acronymtype]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter
 
 \include{chapters/introduction}
-\include{chapters/background}
-\include{chapters/related_work}
-\include{chapters/data}
-\include{chapters/architecture}
+\include{chapters/theory}
+% \include{chapters/related_work}
+% \include{chapters/data}
+% \include{chapters/architecture}
 \include{chapters/experiments}
 \include{chapters/discussion}
 \include{chapters/conclusion}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\backmatter
-\cleardoublepage
+\clearpage
 
 \addcontentsline{toc}{chapter}{Bibliography}
+\printglossary[type=\acronymtype]
 \printbibliography
-
 \include{appendices/appendices}
 
 \end{document}

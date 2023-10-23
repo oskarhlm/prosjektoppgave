@@ -1,25 +1,20 @@
 \chapter{Evaluation and Discussion}
 \label{cha:discussion}
 
-\textit{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat pulvinar hendrerit. Praesent sit amet elementum ipsum. Praesent id suscipit est. Maecenas gravida pretium magna non interdum. Donec augue felis, rhoncus quis laoreet sed, gravida nec nisi. Fusce iaculis fermentum elit in suscipit.}
-
-\textit{Quisque iaculis et arcu non eleifend. Vestibulum imperdiet libero ut augue commodo laoreet. In ac ornare nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce aliquam, eros a laoreet ultrices, turpis leo elementum erat, id cursus ipsum tortor vitae quam. Aenean eu posuere lorem. Cras vel tortor ornare, scelerisque risus vitae, porta purus. Sed sit amet ultricies eros. Phasellus consequat tortor dolor, sodales blandit nulla varius non. Morbi imperdiet feugiat molestie. Mauris a blandit odio, in auctor eros. Quisque gravida porta nisi quis cursus.}
-
-\textit{In eget sagittis felis, nec feugiat ante. Ut congue pretium metus vel mattis. Curabitur sit amet tellus in tellus dictum rhoncus. Ut et nibh ac leo lobortis suscipit. Etiam a porttitor est, at blandit ligula. Sed aliquet ante in ligula tincidunt sollicitudin. Sed eleifend non nisi sit amet ullamcorper. Pellentesque ut eros vel purus lacinia posuere. Duis in purus id risus maximus pellentesque. Aenean tempus est tellus, at rutrum quam porttitor sit amet. Proin ultricies semper nisi, eget sodales nisl ultricies ac. Suspendisse erat eros, aliquet auctor nunc quis, rhoncus venenatis odio. Fusce sagittis accumsan diam, a suscipit quam semper vitae.}
-
 \section{Evaluation}
 \label{sec:evaluation}
 
-When evaluating your results, avoid drawing grand conclusions, beyond those that your results can in fact support. 
-Further, although you may have designed your experiments to answer certain questions, 
-the results may raise other questions in the eyes of the reader. 
+\begin{comment}
+When evaluating your results, avoid drawing grand conclusions, beyond those that your results can in fact support.
+Further, although you may have designed your experiments to answer certain questions,
+the results may raise other questions in the eyes of the reader.
 It is important that you study the graphs/tables to look for unusual features/entries, and discuss these as well as the main findings.
-In particular, carry out an error analysis: What went wrong and why? 
+In particular, carry out an error analysis: What went wrong and why?
 
 A confusion matrix can, for example, be a good way to display misclassifications.
-Figure~\ref{fig:conf_sentiment} (on Page~\pageref{fig:conf_sentiment}) shows two confusion matrices. 
-If there were perfect correlation between true and predicted labels, the long diagonals (from the upper left to the lower right corner) would be completely red. 
-However,  the confusion matrices indicate 
+Figure~\ref{fig:conf_sentiment} (on Page~\pageref{fig:conf_sentiment}) shows two confusion matrices.
+If there were perfect correlation between true and predicted labels, the long diagonals (from the upper left to the lower right corner) would be completely red.
+However,  the confusion matrices indicate
 that this classifier was quite biased towards the neutral label (illustrated with \Neutrey),
 as can be seen from the warm colours in the positive (\Smiley) and negative (\Sadey) true label cells of the \Neutrey predicted label column.
 
@@ -27,93 +22,95 @@ as can be seen from the warm colours in the positive (\Smiley) and negative (\Sa
 \pgfplotsset{
     colormap={whitehot}{color(0cm)=(white); color(1cm)=(yellow); color(2cm)=(orange); color(3cm)=(red)},
     confusionaxis/.style={
-        colorbar,
-        colorbar style={
-            width=2mm,
-            at={(1.05,1)},
-        },
-        colormap name=whitehot,
-        faceted color=none, % remove lines between fields
-        view={0}{90},
-        y dir=reverse,
-        xlabel=Predicted label,
-        ylabel=True label,
-        tick style={draw=none},
-        yticklabels={,,},
-        xticklabels={,,},
-        every node=[font=\small],
-        extra x ticks={0.4,1.5,2.6},
-        extra x tick labels={\Smiley, \Neutrey, \Sadey},
-        extra y ticks={0.3,1.5,2.7},
-        extra y tick labels={\Smiley, \Neutrey, \Sadey},
-        extra x tick style={
-            x tick label style={
-                font=\Large
-            }
-        },
-        extra y tick style={
-            y tick label style={
-                font=\Large
-            }
-        },
-        width=.4\linewidth,
-    }
+            colorbar,
+            colorbar style={
+                    width=2mm,
+                    at={(1.05,1)},
+                },
+            colormap name=whitehot,
+            faceted color=none, % remove lines between fields
+            view={0}{90},
+            y dir=reverse,
+            xlabel=Predicted label,
+            ylabel=True label,
+            tick style={draw=none},
+            yticklabels={,,},
+            xticklabels={,,},
+            every node=[font=\small],
+            extra x ticks={0.4,1.5,2.6},
+            extra x tick labels={\Smiley, \Neutrey, \Sadey},
+            extra y ticks={0.3,1.5,2.7},
+            extra y tick labels={\Smiley, \Neutrey, \Sadey},
+            extra x tick style={
+                    x tick label style={
+                            font=\Large
+                        }
+                },
+            extra y tick style={
+                    y tick label style={
+                            font=\Large
+                        }
+                },
+            width=.4\linewidth,
+        }
 }
 
 \begin{figure}[t!]
     \centering
     \begin{subfigure}{\linewidth}
         \begin{tikzpicture}
-        \begin{axis}[
-        confusionaxis,
-        title={\em Without normalization},
-        ]
-        \addplot3
-        [surf,mesh/cols=4,shader=flat corner
-        ] coordinates {
-            (0,0,740) (1,0,490 ) (2,0,43 ) (3,0,1)
-            (0,1,102) (1,1,1229) (2,1,38 ) (3,1,1)
-            (0,2,28 ) (1,2,240 ) (2,2,199) (3,2,1)
-            (0,3,1  ) (1,3,1   ) (2,3,1  ) (3,3,1)
-        };
-        \end{axis}
+            \begin{axis}[
+                    confusionaxis,
+                    title={\em Without normalization},
+                ]
+                \addplot3
+                [surf,mesh/cols=4,shader=flat corner
+                ] coordinates {
+                        (0,0,740) (1,0,490 ) (2,0,43 ) (3,0,1)
+                        (0,1,102) (1,1,1229) (2,1,38 ) (3,1,1)
+                        (0,2,28 ) (1,2,240 ) (2,2,199) (3,2,1)
+                        (0,3,1  ) (1,3,1   ) (2,3,1  ) (3,3,1)
+                    };
+            \end{axis}
         \end{tikzpicture}
         %\hfill
         \begin{tikzpicture}
-        \begin{axis}[
-        confusionaxis,
-        title={\em With normalization},
-        ylabel={},
-        colorbar style={
-            ylabel={},
-            yticklabel style={
-                align=right,
-            }
-        },
-        ]
-        \addplot3
-        [surf,mesh/cols=4,shader=flat corner
-        ] coordinates {
-            (0,0,0.58130401) (1,0,0.38491752) (2,0,0.03377848) (3,0,1)
-            (0,1,0.07450694) (1,1,0.89773557) (2,1,0.02775749) (3,1,1)
-            (0,2,0.05995717) (1,2,0.51391863) (2,2,0.4261242 ) (3,2,1)
-            (0,3,1         ) (1,3,1         ) (2,3,1         ) (3,3,1)
-        };
-        \end{axis}
+            \begin{axis}[
+                    confusionaxis,
+                    title={\em With normalization},
+                    ylabel={},
+                    colorbar style={
+                            ylabel={},
+                            yticklabel style={
+                                    align=right,
+                                }
+                        },
+                ]
+                \addplot3
+                [surf,mesh/cols=4,shader=flat corner
+                ] coordinates {
+                        (0,0,0.58130401) (1,0,0.38491752) (2,0,0.03377848) (3,0,1)
+                        (0,1,0.07450694) (1,1,0.89773557) (2,1,0.02775749) (3,1,1)
+                        (0,2,0.05995717) (1,2,0.51391863) (2,2,0.4261242 ) (3,2,1)
+                        (0,3,1         ) (1,3,1         ) (2,3,1         ) (3,3,1)
+                    };
+            \end{axis}
         \end{tikzpicture}
         \label{fig:conf_sentiment_2013}
     \end{subfigure}
     \caption{Sentiment classifier confusion matrices}
-        \label{fig:conf_sentiment}
+    \label{fig:conf_sentiment}
 \end{figure}
+\end{comment}
 
 \section{Discussion}
 \label{sec:discussion}
 
-In this section it is important to include a discussion of not just the merits of the work conducted, but also the limitations. 
+\begin{comment}
+In this section it is important to include a discussion of not just the merits of the work conducted, but also the limitations.
 Which choices did you make? Why? What alternatives were there?
 {\color{red}\textbf{Note that a key part of the Master's Thesis grading is based on the student's ability to discuss the results in light of the work by others as well as the restrictions and potential of the work itself.}}
-While the Results section will report the outcome of each specific experiments, the Discussion should put those results into perspective and look at overall lessons that can be learned from the entire series of experiments. 
+While the Results section will report the outcome of each specific experiments, the Discussion should put those results into perspective and look at overall lessons that can be learned from the entire series of experiments.
 
 You should be able to discuss your work in relation to its overall goal and your research questions (i.e., those introduced in Chapter~\ref{cha:introduction}),
 but also address issues such as any ethical considerations that the work may entail,
@@ -123,3 +120,4 @@ Discussion and evaluation can either be two different chapters, a joint chapter 
 --- or the discussion can be part of that chapter while the evaluation is part of the experimental chapter.
 
 As for most parts of the thesis, it is possible to select various outlines and setups for the discussion; the important thing is that all the relevant parts appear \textit{somewhere\/} in the text.
+\end{comment}

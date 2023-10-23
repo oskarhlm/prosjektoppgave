@@ -1,7 +1,6 @@
-\chapter{Background Theory}
-%OR: \chapter{Tools and Methods}
-\label{cha:background_theory}
+\chapter{Theory}\label{cha:theory}
 
+\begin{comment}
 The background theory depth and breadth depend on the depth needed to understand your project
 in the different disciplines that your project crosses.
 It is not a place to just write about everything you know that is vaguely connected to your project.
@@ -151,7 +150,96 @@ e.g., that 94.99 is an amazing F$_1$-score (and that probably something fishy ha
 Use boldface, boxes, colours, arrows, etc. to mark the important parts of the table.
 
 As can be seen in the example, elements in a table can sometimes benefit from being rotated (such as EMNLP in the `Source' column) or cover more than one row (EMNLP, as well as EN-HI and EN-BN in the `Langs' column) --- or more than one column, for that matter.
+\end{comment}
 
-\textit{Donec non turpis nec neque egestas faucibus nec id neque. Etiam consectetur, odio vitae gravida tempus, diam velit sagittis turpis, a molestie ligula tellus at nunc. Proin dolor neque, dapibus a pellentesque a, commodo a nibh.}
+\Autochapterref{cha:theory} of this specialization project will talk about the leading technologies in the field of \gls{acr:llm}, which in itself is a subfield of \gls{acr:nlp}. \autoref{sec:llms} will go over the leading \gls{acr:llm} models, their strengths and weaknesses, and briefly mention differences in model architecture. \Autochapterref{sec:llm-providers} will name the most prominent providers of \gls{acr:llm} services.
+
+\autoref{fig:actor-map} shows an actor map which includes stakeholders, providers, and other groups and organizations that could have some relevance to an autonomous LLM-based GIS-agent. Following subsections will go over the different groups and explain why they are included in the actor map.
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{actor_map}
+    \caption{Actor map for stakeholders, providers, and other groups and organizations that could have some relevance to an autonomous LLM-based GIS-agent.}
+    \label{fig:actor-map}
+\end{figure}
+
+\section[Large Language Models]{\acrshortpl{acr:llm}}\label{sec:llms}
+
+\subsection[The GPT Family]{The \acrshort{acr:gpt} Family}
+
+\glspl{acr:gpt} are good.
+
+\subsection[The BERT Family]{The \acrshort{acr:bert} Family}
+
+\gls{acr:bert} is a family of language models developed at Google \citep{devlinBERTPretrainingDeep2019}, first presented in 2018.
+
+\subsection{Google Products}
+
+\subsubsection{PaLM 2}
+
+\subsubsection{Codey}
+
+
+\section[LLM providers]{\gls{acr:llm} Providers}\label{sec:llm-providers}
+
+\subsection{OpenAI}\label{subsec:openai}
+
+Being the most widely famous actor within the field of \glspl{acr:llm}, OpenAI has gained great influence through their vast portfolio.
+
+\subsection{Microsoft Azure}\label{subsec:microsoft-azure}
+
+\subsection{Google Cloud}\label{subsec:google-cloud}
+
+\subsection[Amazon Web Services (AWS)]{\gls{acr:aws}}\label{subsec:aws}
+
+\subsection{Anthropic}\label{subsec:anthropic}
+
+\section[Geographic information system (GIS)]{\gls{acr:gis}}\label{sec:gis}
+
+\subsection{International Standardization Work}\label{subsec:standardization-international}
+
+\subsubsection[OGC Standards]{\acrshort{acr:ogc} Api Standard}\label{subsubsec:ogc}
+
+The \gls{acr:ogc} \acrshort{acr:api} Standards serve as the glue in the field of \gls{acr:gis}, paving the way for interoperability and data exchange between diverse systems. Leveraging common web protocols like \acrshort{acr:html} and supporting multiple data formats including \acrshort{acr:json}, \acrshort{acr:gml}, and \acrshort{acr:html}. The \gls{acr:ogc} \acrshort{acr:api} standard provides a modular architecture consisting of a core specification and various extensions. This modularity allows for flexibility, enabling users to customize their services according to specific needs. According to their webpages, they provide 80 different standards, each for a specific geospatial purpose. Notable examples are 3D Tiles, CityGML, GeoTiff, and \acrshort{acr:ogc} \acrshort{acr:api} - Features \citep{ogcOGCStandards2023}.
+
+\acrshort{acr:ogc} \acrshort{acr:api} Standards function as modern replacements to older standards like \acrshort{acr:wms} and \acrshort{acr:wfs}, and presents an evolved and more adaptable framework for spatial data operations, setting the stage for future innovations in the \acrshort{acr:gis} domain.
+
+\subsubsection[STAC Api Standard]{\acrshort{acr:stac} Api Standard}\label{subsubsec:stac}
+
+The \gls{acr:stac} \acrshort{acr:api} is a standardized way to expose collections of spatial temporal data for online search and discovery. Built upon a \acrshort{acr:json} core, it aims to be a uniform and flexible environment from which developers can customize the API infrastructure to their domain. \gls{acr:stac} \acrshort{acr:api} provides a powerful query language that allows users to search by various parameters like time, location, and keywords, making widely applicable. The \acrshort{acr:stac} community has also defined specification in order remove the complexity associated with having to create unique pipelines when consuming different spatial-temporary collection. The significance of the \gls{acr:stac} \acrshort{acr:api} lies in its ability to democratize access to large volumes of geospatial data. By offering a common standard for data cataloguing and discovery, it reduces the barriers that often exist due to incompatible data formats. Developers or \acrshort{acr:gis} professionals can take advantage of this through built-in tooling in QGIS, a desktop \gls{acr:gis} for viewing, editing, and analysing spatial data, or through third-party packages in the Python and R programming languages. The API is also accessible through the command line interface when using \acrshort{acr:gdal} \citep{STACTutorials}.
+
+As \acrshort{acr:ogc} board member Chris Holmes puts it: "The \acrshort{acr:stac} \acrshort{acr:api} implements and extends the \gls{acr:ogc} \acrshort{acr:api} — Features standard, and our shared goal is for \gls{acr:stac} \acrshort{acr:api} to become a full \gls{acr:ogc} standard." \citep{holmesSpatioTemporalAssetCatalogs2021}.
+
+\subsection{Norwegian Standardization Work}\label{subsubsec:standardization-norway}
+
+\subsubsection[SOSI]{\acrshort{acr:sosi}}
+
+\gls{acr:sosi} is a Norwegian file format for storing and exchanging geospatial data. It was first introduced in 1987 and has since approached international standards, the most important arenas currently being \acrshort{acr:iso}/\acrshort{acr:tc} 211 and \gls{acr:ogc} \citep{mardalNasjonalStrategiVidereutvikling2015}. \gls{acr:sosi} is the adopted Norwegian standard for creating and delivering digital geographic data, administered by the Norwegian Mapping Authority (Statens kartverk) \citep{maehlumSOSI2023}.
+
+In a \gls{acr:sosi} dataset, terrain points, lines, and polygons are represented by their coordinates and classified into various object types according to the \gls{acr:sosi} object catalog standard. However, there are few GIS systems that can read \gls{acr:sosi} data directly, so data in \gls{acr:sosi} format usually needs to be converted to another \gls{acr:gis}-readable data format \citep{maehlumSOSI2023}.
+
+\subsubsection{Geovekst}
+
+Geovekst is a collaborative initiative in Norway aimed at collecting, managing, and distributing geospatial information. Established in 1992, it is a partnership between national, regional, and local government bodies, as well as several private companies. Geovekst's primary focus is on creating a comprehensive, standardized geographical database for Norway that is easily accessible and updated regularly. It has played a vital role in various planning and development projects across the country, from urban planning to environmental conservation.
+
+Unlike other geospatial initiatives, Geovekst emphasizes shared responsibilities and costs among its partners. This cooperative model ensures consistent data quality and efficient use of resources. It utilizes a variety of data sources, including aerial photographs, laser scans, and mapping, making it a rich resource for both public and private sectors. Moreover, its open-access policy allows for wider dissemination of geospatial information, thus encouraging innovation and informed decision-making across multiple disciplines.
+
+\subsubsection{Norge digitalt}
+
+Established in 2005, Norge Digitalt is a more recent framework compared to Geovekst and is the name of Norway's national spatial data infrastructure. Norge Digitalt primarily involves governmental bodies (national, regional, and municipal), but also educational and research institutions and companies with responsibilities on a nation-wide scale; examples include Telenor and local and regional energy companies \citep[6]{norgedigitaltGenerelleVilkarNorge2023}. Norge Digitalt aims to coordinate and streamline all geospatial activities in Norway, making it easier for users to discover, access, and use spatial data.
+
+One key feature of Norge Digitalt is its focus on international standards and interoperability. While Geovekst is primarily a national initiative, Norge Digitalt aims to integrate Norway's geospatial data with that of other European countries. It supports a wide range of data formats and follows international standards, including those set by the Open Geospatial Consortium (OGC). The framework also provides various tools and services, like metadata catalogues and web services, making it a comprehensive solution for geospatial data management and distribution in Norway.
+
+\section{User Groups}
+
+\section{Regulatory Bodies}
+
+\section{Related Work}
+
+\subsection[Autonomous GIS]{Autonomous \acrshort{acr:gis}}
+
+\cite{liAutonomousGISNextgeneration2023} states that “autonomous \acrshort{acr:gis} will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight need of a memory system in a mature \gls{acr:llm}-based \gls{acr:gis} system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called \acrshort{acr:llm}-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
+
+\cite{zhangGeoGPTUnderstandingProcessing2023} uses the Langchain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of \glspl{acr:llm} like (e.g., ChatGPT) to call externally defined tools, employing the \gls{acr:llm} as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
+
 
 \glsresetall

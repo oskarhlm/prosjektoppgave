@@ -1,6 +1,7 @@
 \chapter{Related Work}
-\label{cha:related_work}
+\label{cha:related-work}
 
+\begin{comment}
 What other research has been conducted in this area and how is it related to your work?
 This section is thus where your literature review will be presented. It is important when presenting the review
 that you give an overview of the motivating elements of the work going on in your field and how these relate to your work,
@@ -28,5 +29,10 @@ There are (at least) three basic methods for finding references:
 
 Note that a reference needs to be complete: you should always give the full name of a conference or journal,
 always include page numbers, always say where a book or thesis was published, and where a conference took place, as further described in Section~\ref{sec:reference_list}.
+\end{comment}
+
+\cite{liAutonomousGISNextgeneration2023} states that “autonomous GIS will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight the inherit need of a memory system in a mature LLM-based GIS system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called LLM-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
+
+\cite{zhangGeoGPTUnderstandingProcessing2023} uses the Langchain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of LLMs like (e.g., ChatGPT) to call externally defined tools, employing the LLM as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
 
 \glsresetall

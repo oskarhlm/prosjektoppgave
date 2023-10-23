@@ -19,102 +19,328 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
-    \entry{maiOpportunitiesChallengesFoundation2023}{misc}{}
-      \name{author}{14}{}{%
-        {{un=0,uniquepart=base,hash=3670e7a39d1c8a8d1c797f624772df56}{%
-           family={Mai},
-           familyi={M\bibinitperiod},
-           given={Gengchen},
-           giveni={G\bibinitperiod},
+    \entry{chaseLangChain2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6b41fd745709d65ec7ab70864b8b466}{%
+           family={Chase},
+           familyi={C\bibinitperiod},
+           given={Harrison},
+           giveni={H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd38ce9a35519b0e7aa0294573a32e74}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Weiming},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8fd7d49bf86823d5100ee335f17c3505}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Jin},
+      }
+      \strng{namehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{fullhash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{bibnamehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{authorbibnamehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{authornamehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{authorfullhash}{c6b41fd745709d65ec7ab70864b8b466}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{⚡ Building applications with LLMs through composability ⚡}
+      \field{month}{10}
+      \field{title}{{{LangChain}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/langchain-ai/langchain
+      \endverb
+      \verb{url}
+      \verb https://github.com/langchain-ai/langchain
+      \endverb
+    \endentry
+    \entry{devlinBERTPretrainingDeep2019}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921a70240b6b1ebb461ce4421d47963}{%
-           family={Song},
-           familyi={S\bibinitperiod},
-           given={Suhang},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0a30e65ae436a6d2d75a9086dad4226c}{%
-           family={Mishra},
-           familyi={M\bibinitperiod},
-           given={Deepak},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6462862c5b74b039231d999d3ccb3347}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Ninghao},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=80edc4011fde2f4defe68ef7e0b3c0cf}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Song},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7faa75cd0a9341fee33d1761b2b44234}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Tianming},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a261f3167350d9aac38a1ec2c2624662}{%
-           family={Cong},
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
            familyi={C\bibinitperiod},
-           given={Gao},
-           giveni={G\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4132c8a47fb7504e4f36340d98c3d109}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Yingjie},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f210a7146898d09978e1d7f8aab044a2}{%
-           family={Cundy},
-           familyi={C\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f82e9a8ed926ab9d768ff175f8e7e634}{%
-           family={Li},
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
            familyi={L\bibinitperiod},
-           given={Ziyuan},
-           giveni={Z\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=a409fcd3e2f9ae4fd6790ca28b9be27a}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Rui},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d9e5985236f468da29059654cd8447c4}{%
-           family={Lao},
-           familyi={L\bibinitperiod},
-           given={Ni},
-           giveni={N\bibinitperiod},
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {arXiv}%
       }
-      \strng{namehash}{70e95c3a27438e1bd7f88014b531787a}
-      \strng{fullhash}{59bb336f4d7106f859628d9c95c0a8fa}
-      \strng{bibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
-      \strng{authorbibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
-      \strng{authornamehash}{70e95c3a27438e1bd7f88014b531787a}
-      \strng{authorfullhash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:1810.04805}
+      \field{shorttitle}{{{BERT}}}
+      \field{title}{{{BERT}}: {{Pre-training}} of {{Deep Bidirectional Transformers}} for {{Language Understanding}}}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1810.04805
+      \endverb
+      \verb{eprint}
+      \verb 1810.04805
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\G4I8TCLX\\Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf;C\:\\Users\\oskar\\Zotero\\storage\\AFC5RD5Z\\1810.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{fanLargeLanguageModels2023}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=277117db6b938bd36379979ac719cc02}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0392cbdf1b1bff405191e646a751b3d}{%
+           family={Gokkaya},
+           familyi={G\bibinitperiod},
+           given={Beliz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a97225992fa23f818d9b1269df83035}{%
+           family={Harman},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80dd509f97c118c0412a2cccea97001f}{%
+           family={Lyubarskiy},
+           familyi={L\bibinitperiod},
+           given={Mitya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0c47e078d4625980ee5ad6f1f735fbd}{%
+           family={Sengupta},
+           familyi={S\bibinitperiod},
+           given={Shubho},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6e3219567063628b0aa746e69b26412}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={Shin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f951ea0b08899e03de984bbf9739763f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{767b98621bcdbbf4ab796a25a3c32748}
+      \strng{fullhash}{c2bcb188270caefb48136d6372611c64}
+      \strng{bibnamehash}{c2bcb188270caefb48136d6372611c64}
+      \strng{authorbibnamehash}{c2bcb188270caefb48136d6372611c64}
+      \strng{authornamehash}{767b98621bcdbbf4ab796a25a3c32748}
+      \strng{authorfullhash}{c2bcb188270caefb48136d6372611c64}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper provides a survey of the emerging area of Large Language Models (LLMs) for Software Engineering (SE). It also sets out open research challenges for the application of LLMs to technical problems faced by software engineers. LLMs' emergent properties bring novelty and creativity with applications right across the spectrum of Software Engineering activities including coding, design, requirements, repair, refactoring, performance improvement, documentation and analytics. However, these very same emergent properties also pose significant technical challenges; we need techniques that can reliably weed out incorrect solutions, such as hallucinations. Our survey reveals the pivotal role that hybrid techniques (traditional SE plus LLMs) have to play in the development and deployment of reliable, efficient and effective LLM-based SE.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2310.03533}
+      \field{shorttitle}{Large {{Language Models}} for {{Software Engineering}}}
+      \field{title}{Large {{Language Models}} for {{Software Engineering}}: {{Survey}} and {{Open Problems}}}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2310.03533
+      \endverb
+      \verb{eprint}
+      \verb 2310.03533
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\6TMJQ6P2\\Fan et al. - 2023 - Large Language Models for Software Engineering Su.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ZBKRCYEV\\2310.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2310.03533
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2310.03533
+      \endverb
+      \keyw{Computer Science - Software Engineering}
+    \endentry
+    \entry{holmesSpatioTemporalAssetCatalogs2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6fa02041fbcd9115cc22a1d8b35a35cb}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{fullhash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{bibnamehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{authorbibnamehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{authornamehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{authorfullhash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As SpatioTemporal Asset Catalog (STAC) specification matures one of the more frequent questions we get asked is the relationship between\ldots}
+      \field{journaltitle}{Radiant Earth Insights}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{{{SpatioTemporal Asset Catalogs}} and the {{Open Geospatial Consortium}}}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\SU8TIBLC\spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7.html
+      \endverb
+      \verb{urlraw}
+      \verb https://medium.com/radiant-earth-insights/spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7
+      \endverb
+      \verb{url}
+      \verb https://medium.com/radiant-earth-insights/spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7
+      \endverb
+    \endentry
+    \entry{liAutonomousGISNextgeneration2023}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhenlong},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7228c6369bcf7adf5f0ee63a9a1a0fd0}{%
+           family={Ning},
+           familyi={N\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{fullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{bibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorbibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authornamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorfullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval. By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization. We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing. We developed a prototype system called LLM-Geo using the GPT-4 API in a Python environment, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies. For all case studies, LLM-Geo was able to return accurate results, including aggregated numbers, graphs, and maps, significantly reducing manual operation time. Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the next-generation AI-powered GIS. We advocate for the GIScience community to dedicate more effort to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:2305.06453}
+      \field{shorttitle}{Autonomous {{GIS}}}
+      \field{title}{Autonomous {{GIS}}: The next-Generation {{AI-powered GIS}}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2305.06453
+      \endverb
+      \verb{eprint}
+      \verb 2305.06453
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\F2SMY58Q\\Li and Ning - 2023 - Autonomous GIS the next-generation AI-powered GIS.pdf;C\:\\Users\\oskar\\Zotero\\storage\\JRUTEB6E\\2305.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2305.06453
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2305.06453
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Human-Computer Interaction}
+    \endentry
+    \entry{maehlumSOSI2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a76c9a203dad18389bfa5e21025ca2cb}{%
+           family={M{æ}hlum},
+           familyi={M\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7efdb39a8d7266dd06648a3b642c9313}{%
+           family={R{ø}d},
+           familyi={R\bibinitperiod},
+           given={Jan\bibnamedelima Ketil},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{fullhash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{bibnamehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{authorbibnamehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{authornamehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{authorfullhash}{5bee00446e62908b7b023ffa160d15e4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -122,24 +348,159 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Large pre-trained models, also known as foundation models (FMs), are trained in a task-agnostic manner on large-scale data and can be adapted to a wide range of downstream tasks by fine-tuning, few-shot, or even zero-shot learning. Despite their successes in language and vision tasks, we have yet seen an attempt to develop foundation models for geospatial artificial intelligence (GeoAI). In this work, we explore the promises and challenges of developing multimodal foundation models for GeoAI. We first investigate the potential of many existing FMs by testing their performances on seven tasks across multiple geospatial subdomains including Geospatial Semantics, Health Geography, Urban Geography, and Remote Sensing. Our results indicate that on several geospatial tasks that only involve text modality such as toponym recognition, location description recognition, and US state-level/county-level dementia time series forecasting, these task-agnostic LLMs can outperform task-specific fully-supervised models in a zero-shot or few-shot learning setting. However, on other geospatial tasks, especially tasks that involve multiple data modalities (e.g., POI-based urban function classification, street view image-based urban noise intensity classification, and remote sensing image scene classification), existing foundation models still underperform task-specific models. Based on these observations, we propose that one of the major challenges of developing a FM for GeoAI is to address the multimodality nature of geospatial tasks. After discussing the distinct challenges of each geospatial data modality, we suggest the possibility of a multimodal foundation model which can reason over various types of geospatial data through geospatial alignments. We conclude this paper by discussing the unique risks and challenges to develop such a model for GeoAI.}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{4}
-      \field{number}{arXiv:2304.06798}
-      \field{title}{On the {{Opportunities}} and {{Challenges}} of {{Foundation Models}} for {{Geospatial Artificial Intelligence}}}
-      \field{urlday}{5}
+      \field{abstract}{SOSI er et norsk filformat for lagring og utveksling av geodata. Første versjon av SOSI kom i 1987 og har siden nærmet seg internasjonale standarder. SOSI er vedtatt norsk standard for etablering og leveranse av digitale geografiske data, og administreres av Statens kartverk. I et SOSI-datasett er terrengets punkter, linjer og flater representert ved sine koordinater og klassifisert i ulike objekttyper i henhold til standardens objektkatalog.}
+      \field{journaltitle}{Store norske leksikon}
+      \field{langid}{norsk}
+      \field{month}{6}
+      \field{title}{{SOSI}}
+      \field{urlday}{23}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \verb{eprint}
-      \verb 2304.06798
-      \endverb
       \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\KR8QU4W7\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\LIMFU3ZQ\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\F5ULIY86\\2304.html
+      \verb C:\Users\oskar\Zotero\storage\2AIFZDZQ\SOSI.html
       \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,I.2.0,I.2.10,I.2.4,I.2.7,I.5.1}
+      \verb{urlraw}
+      \verb https://snl.no/SOSI
+      \endverb
+      \verb{url}
+      \verb https://snl.no/SOSI
+      \endverb
+      \keyw{Geomatikk}
+    \endentry
+    \entry{mardalNasjonalStrategiVidereutvikling2015}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=4e58689058ac3e0c40be7908ed4a5837}{%
+           family={Mardal},
+           familyi={M\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbbc4d7040d6c10e5f88655df14b2818}{%
+           family={Borreb},
+           familyi={B\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e16274b75e8d10b9e054ae0a3a8561b}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b5685bafae075261aebedc60f1ad287}{%
+           family={Jetlund},
+           familyi={J\bibinitperiod},
+           given={Knut},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=917bfac32691bf73bccddec309620c48}{%
+           family={Ryghaug},
+           familyi={R\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dc34478a41f205075f246bdd8c1afef}{%
+           family={Hokstad},
+           familyi={H\bibinitperiod},
+           given={Inger},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58d99f46ca7692290759d3788b242e51}
+      \strng{fullhash}{7af459bb38611c813da4ab77fa4ba883}
+      \strng{bibnamehash}{7af459bb38611c813da4ab77fa4ba883}
+      \strng{authorbibnamehash}{7af459bb38611c813da4ab77fa4ba883}
+      \strng{authornamehash}{58d99f46ca7692290759d3788b242e51}
+      \strng{authorfullhash}{7af459bb38611c813da4ab77fa4ba883}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{norsk}
+      \field{month}{10}
+      \field{title}{{Nasjonal strategi for videreutvikling av SOSI}}
+      \field{year}{2015}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\SQ4W6NP2\Mardal et al. - Nasjonal strategi for videreutvikling av SOSI.pdf
+      \endverb
+    \endentry
+    \entry{norgedigitaltGenerelleVilkarNorge2023}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d40b788102c76c6aed7ad0c07a7236e}{%
+           family={{Norge Digitalt}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{fullhash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{bibnamehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{authorbibnamehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{authornamehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{authorfullhash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Generelle Vilkår for {{Norge Digitalt-samarbeidet}}}
+      \field{type}{techreport}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\VPT7EGAL\generelle-vilkar.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.geonorge.no/globalassets/geonorge2/avtaler-og-bilag-norge-digitalt/generelle-vilkar.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.geonorge.no/globalassets/geonorge2/avtaler-og-bilag-norge-digitalt/generelle-vilkar.pdf
+      \endverb
+    \endentry
+    \entry{ogcOGCStandards2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=696dd49d88c8e0fe338c2d411cd7cfa9}{%
+           family={{OGC}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{fullhash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{bibnamehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{authorbibnamehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{authornamehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{authorfullhash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Geospatial Consortium}
+      \field{month}{10}
+      \field{title}{{{OGC Standards}}}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\QWK5I79E\\ogc.png;C\:\\Users\\oskar\\Zotero\\storage\\37QGTLZ7\\standards.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ogc.org/standards/
+      \endverb
+      \verb{url}
+      \verb https://www.ogc.org/standards/
+      \endverb
     \endentry
     \entry{richardAutoGPTHeartOpensource2023}{misc}{}
       \name{author}{1}{}{%
@@ -173,261 +534,32 @@
       \field{urlyear}{2023}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/Significant-Gravitas/AutoGPT
+      \endverb
+      \verb{url}
+      \verb https://github.com/Significant-Gravitas/AutoGPT
+      \endverb
       \keyw{ai,artificial-intelligence,autonomous-agents,gpt-4,openai,python}
     \endentry
-    \entry{robertsGPT4GEOHowLanguage2023}{misc}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=65b931b85958ad179656a050cf28cf72}{%
-           family={Roberts},
-           familyi={R\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d2151d735dd59d4623eb15a59bb49cd2}{%
-           family={Lüddecke},
-           familyi={L\bibinitperiod},
-           given={Timo},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0e7812df1b1d4d75b6a3620ace5a8511}{%
-           family={Das},
-           familyi={D\bibinitperiod},
-           given={Sowmen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=735173e7254986d180bcb08fbac4266c}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={Kai},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=16b5c328bb82309153fe2dcf34adf4f0}{%
-           family={Albanie},
-           familyi={A\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{2dd2a97673eef748af93ff359ad08b6c}
-      \strng{fullhash}{0383cc78399fac912eccca995e006335}
-      \strng{bibnamehash}{0383cc78399fac912eccca995e006335}
-      \strng{authorbibnamehash}{0383cc78399fac912eccca995e006335}
-      \strng{authornamehash}{2dd2a97673eef748af93ff359ad08b6c}
-      \strng{authorfullhash}{0383cc78399fac912eccca995e006335}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Large language models (LLMs) have shown remarkable capabilities across a broad range of tasks involving question answering and the generation of coherent text and code. Comprehensively understanding the strengths and weaknesses of LLMs is beneficial for safety, downstream applications and improving performance. In this work, we investigate the degree to which GPT-4 has acquired factual geographic knowledge and is capable of using this knowledge for interpretative reasoning, which is especially important for applications that involve geographic data, such as geospatial analysis, supply chain management, and disaster response. To this end, we design and conduct a series of diverse experiments, starting from factual tasks such as location, distance and elevation estimation to more complex questions such as generating country outlines and travel networks, route finding under constraints and supply chain analysis. We provide a broad characterisation of what GPT-4 (without plugins or Internet access) knows about the world, highlighting both potentially surprising capabilities but also limitations.}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{5}
-      \field{number}{arXiv:2306.00020}
-      \field{shorttitle}{{{GPT4GEO}}}
-      \field{title}{{{GPT4GEO}}: {{How}} a {{Language Model Sees}} the {{World}}'s {{Geography}}}
-      \field{urlday}{5}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.2306.00020
-      \endverb
-      \verb{eprint}
-      \verb 2306.00020
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\7DRKDHXI\\Roberts et al. - 2023 - GPT4GEO How a Language Model Sees the World's Geo.pdf;C\:\\Users\\oskar\\Zotero\\storage\\BHCR5VUS\\2306.html
-      \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
-    \endentry
-    \entry{xuRetrievalMeetsLong2023}{misc}{}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=a9f1e89449a8f9e0a4b65ee24d8f421d}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Peng},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fe56a97aca48de3bbb0b53f223fd5015}{%
-           family={Ping},
-           familyi={P\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d3500b4dee991ee4ac34bbfdc16f1f0}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Xianchao},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0510cfc21925d6b7f6db8eb7666983f9}{%
-           family={McAfee},
-           familyi={M\bibinitperiod},
-           given={Lawrence},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78c6e8f414f28c863790e381ab51a773}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Chen},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb8220a39f4d4931c18b6d585fc2845e}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Zihan},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a74063219474ad33f9d0580979ea5ab6}{%
-           family={Subramanian},
-           familyi={S\bibinitperiod},
-           given={Sandeep},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3cff974ed33dc997a0167bed16fc484b}{%
-           family={Bakhturina},
-           familyi={B\bibinitperiod},
-           given={Evelina},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4af7939b0e0aac6c1e9dec565975b46c}{%
-           family={Shoeybi},
-           familyi={S\bibinitperiod},
-           given={Mohammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3c8bbc381484f2cfbbd08866be36590e}{%
-           family={Catanzaro},
-           familyi={C\bibinitperiod},
-           given={Bryan},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{8d7000bd3049040035288af08ec39c4f}
-      \strng{fullhash}{8124e052283029cb47bc1fed6c9684e2}
-      \strng{bibnamehash}{8124e052283029cb47bc1fed6c9684e2}
-      \strng{authorbibnamehash}{8124e052283029cb47bc1fed6c9684e2}
-      \strng{authornamehash}{8d7000bd3049040035288af08ec39c4f}
-      \strng{authorfullhash}{8124e052283029cb47bc1fed6c9684e2}
-      \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
+    \entry{STACTutorials}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
       \field{labeltitlesource}{title}
-      \field{abstract}{Extending the context window of large language models (LLMs) is getting popular recently, while the solution of augmenting LLMs with retrieval has existed for years. The natural questions are: i) Retrieval-augmentation versus long context window, which one is better for downstream tasks? ii) Can both methods be combined to get the best of both worlds? In this work, we answer these questions by studying both solutions using two state-of-the-art pretrained LLMs, i.e., a proprietary 43B GPT and LLaMA2-70B. Perhaps surprisingly, we find that LLM with 4K context window using simple retrieval-augmentation at generation can achieve comparable performance to finetuned LLM with 16K context window via positional interpolation on long context tasks, while taking much less computation. More importantly, we demonstrate that retrieval can significantly improve the performance of LLMs regardless of their extended context window sizes. Our best model, retrieval-augmented LLaMA2-70B with 32K context window, outperforms GPT-3.5-turbo-16k and Davinci003 in terms of average score on seven long context tasks including question answering and query-based summarization. It also outperforms its non-retrieval LLaMA2-70B-32k baseline by a margin, while being much faster at generation. Our study provides general insights on the choice of retrieval-augmentation versus long context extension of LLM for practitioners.}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{10}
-      \field{number}{arXiv:2310.03025}
-      \field{title}{Retrieval Meets {{Long Context Large Language Models}}}
-      \field{urlday}{5}
+      \field{abstract}{Here you can find our library of tutorials for learning all about STAC.}
+      \field{langid}{english}
+      \field{title}{{{STAC Tutorials}}}
+      \field{urlday}{23}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
-      \field{year}{2023}
       \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.2310.03025
+      \verb{urlraw}
+      \verb https://stacspec.org/en/tutorials/
       \endverb
-      \verb{eprint}
-      \verb 2310.03025
+      \verb{url}
+      \verb https://stacspec.org/en/tutorials/
       \endverb
-      \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\JRUJKG3V\\Xu et al. - 2023 - Retrieval meets Long Context Large Language Models.pdf;C\:\\Users\\oskar\\Zotero\\storage\\D6E8ZDVE\\2310.html
-      \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Information Retrieval,Computer Science - Machine Learning}
-    \endentry
-    \entry{yaoReActSynergizingReasoning2023}{misc}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=5c1b62cbd4e181d818b927549813cf73}{%
-           family={Yao},
-           familyi={Y\bibinitperiod},
-           given={Shunyu},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4fc64f0dbaf7cb8f21c7c85d580cdb15}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Jeffrey},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2cb7d2d6e42d109fa2c5086d6c8f6a63}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Dian},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a926c34a0eebdaaa30da36b46bd2192c}{%
-           family={Du},
-           familyi={D\bibinitperiod},
-           given={Nan},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=20b3779bbd037bbfdd1ffd3967624997}{%
-           family={Shafran},
-           familyi={S\bibinitperiod},
-           given={Izhak},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=997c3143c2e5d593e816d2ff704fbf98}{%
-           family={Narasimhan},
-           familyi={N\bibinitperiod},
-           given={Karthik},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2923de2da7f9b32b957552e414b6bc16}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={Yuan},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{4ae4be538df04cfc1571685175562cad}
-      \strng{fullhash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \strng{bibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \strng{authorbibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \strng{authornamehash}{4ae4be538df04cfc1571685175562cad}
-      \strng{authorfullhash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34\% and 10\% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{3}
-      \field{number}{arXiv:2210.03629}
-      \field{shorttitle}{{{ReAct}}}
-      \field{title}{{{ReAct}}: {{Synergizing Reasoning}} and {{Acting}} in {{Language Models}}}
-      \field{urlday}{5}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{eprint}
-      \verb 2210.03629
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\GYD7CH87\\Yao et al. - 2023 - ReAct Synergizing Reasoning and Acting in Languag.pdf;C\:\\Users\\oskar\\Zotero\\storage\\DNDVTT3Y\\2210.html
-      \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
     \endentry
     \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}
       \name{author}{5}{}{%
@@ -498,107 +630,339 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\F6ZE4DD9\\Zhang et al. - 2023 - GeoGPT Understanding and Processing Geospatial Ta.pdf;C\:\\Users\\oskar\\Zotero\\storage\\GYMENGQZ\\2307.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2307.07930
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2307.07930
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
-    \entry{maiOpportunitiesChallengesFoundation2023}{misc}{}
-      \name{author}{14}{}{%
-        {{un=0,uniquepart=base,hash=3670e7a39d1c8a8d1c797f624772df56}{%
-           family={Mai},
-           familyi={M\bibinitperiod},
-           given={Gengchen},
-           giveni={G\bibinitperiod},
+    \entry{chaseLangChain2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6b41fd745709d65ec7ab70864b8b466}{%
+           family={Chase},
+           familyi={C\bibinitperiod},
+           given={Harrison},
+           giveni={H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd38ce9a35519b0e7aa0294573a32e74}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Weiming},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8fd7d49bf86823d5100ee335f17c3505}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Jin},
+      }
+      \strng{namehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{fullhash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{bibnamehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{authorbibnamehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{authornamehash}{c6b41fd745709d65ec7ab70864b8b466}
+      \strng{authorfullhash}{c6b41fd745709d65ec7ab70864b8b466}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{⚡ Building applications with LLMs through composability ⚡}
+      \field{month}{10}
+      \field{title}{{{LangChain}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/langchain-ai/langchain
+      \endverb
+      \verb{url}
+      \verb https://github.com/langchain-ai/langchain
+      \endverb
+    \endentry
+    \entry{devlinBERTPretrainingDeep2019}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0921a70240b6b1ebb461ce4421d47963}{%
-           family={Song},
-           familyi={S\bibinitperiod},
-           given={Suhang},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0a30e65ae436a6d2d75a9086dad4226c}{%
-           family={Mishra},
-           familyi={M\bibinitperiod},
-           given={Deepak},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6462862c5b74b039231d999d3ccb3347}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Ninghao},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=80edc4011fde2f4defe68ef7e0b3c0cf}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Song},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7faa75cd0a9341fee33d1761b2b44234}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Tianming},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a261f3167350d9aac38a1ec2c2624662}{%
-           family={Cong},
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
            familyi={C\bibinitperiod},
-           given={Gao},
-           giveni={G\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4132c8a47fb7504e4f36340d98c3d109}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Yingjie},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f210a7146898d09978e1d7f8aab044a2}{%
-           family={Cundy},
-           familyi={C\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f82e9a8ed926ab9d768ff175f8e7e634}{%
-           family={Li},
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
            familyi={L\bibinitperiod},
-           given={Ziyuan},
-           giveni={Z\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=a409fcd3e2f9ae4fd6790ca28b9be27a}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Rui},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d9e5985236f468da29059654cd8447c4}{%
-           family={Lao},
-           familyi={L\bibinitperiod},
-           given={Ni},
-           giveni={N\bibinitperiod},
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {arXiv}%
       }
-      \strng{namehash}{70e95c3a27438e1bd7f88014b531787a}
-      \strng{fullhash}{59bb336f4d7106f859628d9c95c0a8fa}
-      \strng{bibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
-      \strng{authorbibnamehash}{59bb336f4d7106f859628d9c95c0a8fa}
-      \strng{authornamehash}{70e95c3a27438e1bd7f88014b531787a}
-      \strng{authorfullhash}{59bb336f4d7106f859628d9c95c0a8fa}
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5\% (7.7\% point absolute improvement), MultiNLI accuracy to 86.7\% (4.6\% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:1810.04805}
+      \field{shorttitle}{{{BERT}}}
+      \field{title}{{{BERT}}: {{Pre-training}} of {{Deep Bidirectional Transformers}} for {{Language Understanding}}}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1810.04805
+      \endverb
+      \verb{eprint}
+      \verb 1810.04805
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\G4I8TCLX\\Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf;C\:\\Users\\oskar\\Zotero\\storage\\AFC5RD5Z\\1810.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{fanLargeLanguageModels2023}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=277117db6b938bd36379979ac719cc02}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0392cbdf1b1bff405191e646a751b3d}{%
+           family={Gokkaya},
+           familyi={G\bibinitperiod},
+           given={Beliz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a97225992fa23f818d9b1269df83035}{%
+           family={Harman},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80dd509f97c118c0412a2cccea97001f}{%
+           family={Lyubarskiy},
+           familyi={L\bibinitperiod},
+           given={Mitya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0c47e078d4625980ee5ad6f1f735fbd}{%
+           family={Sengupta},
+           familyi={S\bibinitperiod},
+           given={Shubho},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6e3219567063628b0aa746e69b26412}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={Shin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f951ea0b08899e03de984bbf9739763f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{767b98621bcdbbf4ab796a25a3c32748}
+      \strng{fullhash}{c2bcb188270caefb48136d6372611c64}
+      \strng{bibnamehash}{c2bcb188270caefb48136d6372611c64}
+      \strng{authorbibnamehash}{c2bcb188270caefb48136d6372611c64}
+      \strng{authornamehash}{767b98621bcdbbf4ab796a25a3c32748}
+      \strng{authorfullhash}{c2bcb188270caefb48136d6372611c64}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper provides a survey of the emerging area of Large Language Models (LLMs) for Software Engineering (SE). It also sets out open research challenges for the application of LLMs to technical problems faced by software engineers. LLMs' emergent properties bring novelty and creativity with applications right across the spectrum of Software Engineering activities including coding, design, requirements, repair, refactoring, performance improvement, documentation and analytics. However, these very same emergent properties also pose significant technical challenges; we need techniques that can reliably weed out incorrect solutions, such as hallucinations. Our survey reveals the pivotal role that hybrid techniques (traditional SE plus LLMs) have to play in the development and deployment of reliable, efficient and effective LLM-based SE.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2310.03533}
+      \field{shorttitle}{Large {{Language Models}} for {{Software Engineering}}}
+      \field{title}{Large {{Language Models}} for {{Software Engineering}}: {{Survey}} and {{Open Problems}}}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2310.03533
+      \endverb
+      \verb{eprint}
+      \verb 2310.03533
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\6TMJQ6P2\\Fan et al. - 2023 - Large Language Models for Software Engineering Su.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ZBKRCYEV\\2310.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2310.03533
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2310.03533
+      \endverb
+      \keyw{Computer Science - Software Engineering}
+    \endentry
+    \entry{holmesSpatioTemporalAssetCatalogs2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6fa02041fbcd9115cc22a1d8b35a35cb}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{fullhash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{bibnamehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{authorbibnamehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{authornamehash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \strng{authorfullhash}{6fa02041fbcd9115cc22a1d8b35a35cb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As SpatioTemporal Asset Catalog (STAC) specification matures one of the more frequent questions we get asked is the relationship between\ldots}
+      \field{journaltitle}{Radiant Earth Insights}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{{{SpatioTemporal Asset Catalogs}} and the {{Open Geospatial Consortium}}}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\SU8TIBLC\spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7.html
+      \endverb
+      \verb{urlraw}
+      \verb https://medium.com/radiant-earth-insights/spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7
+      \endverb
+      \verb{url}
+      \verb https://medium.com/radiant-earth-insights/spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7
+      \endverb
+    \endentry
+    \entry{liAutonomousGISNextgeneration2023}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhenlong},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7228c6369bcf7adf5f0ee63a9a1a0fd0}{%
+           family={Ning},
+           familyi={N\bibinitperiod},
+           given={Huan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{fullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{bibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorbibnamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authornamehash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \strng{authorfullhash}{06342eaa41b53564b9a7c4f2bc473d1b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval. By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization. We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing. We developed a prototype system called LLM-Geo using the GPT-4 API in a Python environment, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies. For all case studies, LLM-Geo was able to return accurate results, including aggregated numbers, graphs, and maps, significantly reducing manual operation time. Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the next-generation AI-powered GIS. We advocate for the GIScience community to dedicate more effort to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:2305.06453}
+      \field{shorttitle}{Autonomous {{GIS}}}
+      \field{title}{Autonomous {{GIS}}: The next-Generation {{AI-powered GIS}}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2305.06453
+      \endverb
+      \verb{eprint}
+      \verb 2305.06453
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\F2SMY58Q\\Li and Ning - 2023 - Autonomous GIS the next-generation AI-powered GIS.pdf;C\:\\Users\\oskar\\Zotero\\storage\\JRUTEB6E\\2305.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2305.06453
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2305.06453
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Human-Computer Interaction}
+    \endentry
+    \entry{maehlumSOSI2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a76c9a203dad18389bfa5e21025ca2cb}{%
+           family={M{æ}hlum},
+           familyi={M\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7efdb39a8d7266dd06648a3b642c9313}{%
+           family={R{ø}d},
+           familyi={R\bibinitperiod},
+           given={Jan\bibnamedelima Ketil},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{fullhash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{bibnamehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{authorbibnamehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{authornamehash}{5bee00446e62908b7b023ffa160d15e4}
+      \strng{authorfullhash}{5bee00446e62908b7b023ffa160d15e4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -606,24 +970,159 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Large pre-trained models, also known as foundation models (FMs), are trained in a task-agnostic manner on large-scale data and can be adapted to a wide range of downstream tasks by fine-tuning, few-shot, or even zero-shot learning. Despite their successes in language and vision tasks, we have yet seen an attempt to develop foundation models for geospatial artificial intelligence (GeoAI). In this work, we explore the promises and challenges of developing multimodal foundation models for GeoAI. We first investigate the potential of many existing FMs by testing their performances on seven tasks across multiple geospatial subdomains including Geospatial Semantics, Health Geography, Urban Geography, and Remote Sensing. Our results indicate that on several geospatial tasks that only involve text modality such as toponym recognition, location description recognition, and US state-level/county-level dementia time series forecasting, these task-agnostic LLMs can outperform task-specific fully-supervised models in a zero-shot or few-shot learning setting. However, on other geospatial tasks, especially tasks that involve multiple data modalities (e.g., POI-based urban function classification, street view image-based urban noise intensity classification, and remote sensing image scene classification), existing foundation models still underperform task-specific models. Based on these observations, we propose that one of the major challenges of developing a FM for GeoAI is to address the multimodality nature of geospatial tasks. After discussing the distinct challenges of each geospatial data modality, we suggest the possibility of a multimodal foundation model which can reason over various types of geospatial data through geospatial alignments. We conclude this paper by discussing the unique risks and challenges to develop such a model for GeoAI.}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{4}
-      \field{number}{arXiv:2304.06798}
-      \field{title}{On the {{Opportunities}} and {{Challenges}} of {{Foundation Models}} for {{Geospatial Artificial Intelligence}}}
-      \field{urlday}{5}
+      \field{abstract}{SOSI er et norsk filformat for lagring og utveksling av geodata. Første versjon av SOSI kom i 1987 og har siden nærmet seg internasjonale standarder. SOSI er vedtatt norsk standard for etablering og leveranse av digitale geografiske data, og administreres av Statens kartverk. I et SOSI-datasett er terrengets punkter, linjer og flater representert ved sine koordinater og klassifisert i ulike objekttyper i henhold til standardens objektkatalog.}
+      \field{journaltitle}{Store norske leksikon}
+      \field{langid}{norsk}
+      \field{month}{6}
+      \field{title}{{SOSI}}
+      \field{urlday}{23}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \verb{eprint}
-      \verb 2304.06798
-      \endverb
       \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\KR8QU4W7\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\LIMFU3ZQ\\Mai et al. - 2023 - On the Opportunities and Challenges of Foundation .pdf;C\:\\Users\\oskar\\Zotero\\storage\\F5ULIY86\\2304.html
+      \verb C:\Users\oskar\Zotero\storage\2AIFZDZQ\SOSI.html
       \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,I.2.0,I.2.10,I.2.4,I.2.7,I.5.1}
+      \verb{urlraw}
+      \verb https://snl.no/SOSI
+      \endverb
+      \verb{url}
+      \verb https://snl.no/SOSI
+      \endverb
+      \keyw{Geomatikk}
+    \endentry
+    \entry{mardalNasjonalStrategiVidereutvikling2015}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=4e58689058ac3e0c40be7908ed4a5837}{%
+           family={Mardal},
+           familyi={M\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbbc4d7040d6c10e5f88655df14b2818}{%
+           family={Borreb},
+           familyi={B\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e16274b75e8d10b9e054ae0a3a8561b}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b5685bafae075261aebedc60f1ad287}{%
+           family={Jetlund},
+           familyi={J\bibinitperiod},
+           given={Knut},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=917bfac32691bf73bccddec309620c48}{%
+           family={Ryghaug},
+           familyi={R\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dc34478a41f205075f246bdd8c1afef}{%
+           family={Hokstad},
+           familyi={H\bibinitperiod},
+           given={Inger},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58d99f46ca7692290759d3788b242e51}
+      \strng{fullhash}{7af459bb38611c813da4ab77fa4ba883}
+      \strng{bibnamehash}{7af459bb38611c813da4ab77fa4ba883}
+      \strng{authorbibnamehash}{7af459bb38611c813da4ab77fa4ba883}
+      \strng{authornamehash}{58d99f46ca7692290759d3788b242e51}
+      \strng{authorfullhash}{7af459bb38611c813da4ab77fa4ba883}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{norsk}
+      \field{month}{10}
+      \field{title}{{Nasjonal strategi for videreutvikling av SOSI}}
+      \field{year}{2015}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\SQ4W6NP2\Mardal et al. - Nasjonal strategi for videreutvikling av SOSI.pdf
+      \endverb
+    \endentry
+    \entry{norgedigitaltGenerelleVilkarNorge2023}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d40b788102c76c6aed7ad0c07a7236e}{%
+           family={{Norge Digitalt}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{fullhash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{bibnamehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{authorbibnamehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{authornamehash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \strng{authorfullhash}{3d40b788102c76c6aed7ad0c07a7236e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Generelle Vilkår for {{Norge Digitalt-samarbeidet}}}
+      \field{type}{techreport}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\VPT7EGAL\generelle-vilkar.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.geonorge.no/globalassets/geonorge2/avtaler-og-bilag-norge-digitalt/generelle-vilkar.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.geonorge.no/globalassets/geonorge2/avtaler-og-bilag-norge-digitalt/generelle-vilkar.pdf
+      \endverb
+    \endentry
+    \entry{ogcOGCStandards2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=696dd49d88c8e0fe338c2d411cd7cfa9}{%
+           family={{OGC}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{fullhash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{bibnamehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{authorbibnamehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{authornamehash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \strng{authorfullhash}{696dd49d88c8e0fe338c2d411cd7cfa9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Geospatial Consortium}
+      \field{month}{10}
+      \field{title}{{{OGC Standards}}}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\QWK5I79E\\ogc.png;C\:\\Users\\oskar\\Zotero\\storage\\37QGTLZ7\\standards.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ogc.org/standards/
+      \endverb
+      \verb{url}
+      \verb https://www.ogc.org/standards/
+      \endverb
     \endentry
     \entry{richardAutoGPTHeartOpensource2023}{misc}{}
       \name{author}{1}{}{%
@@ -657,261 +1156,32 @@
       \field{urlyear}{2023}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/Significant-Gravitas/AutoGPT
+      \endverb
+      \verb{url}
+      \verb https://github.com/Significant-Gravitas/AutoGPT
+      \endverb
       \keyw{ai,artificial-intelligence,autonomous-agents,gpt-4,openai,python}
     \endentry
-    \entry{robertsGPT4GEOHowLanguage2023}{misc}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=65b931b85958ad179656a050cf28cf72}{%
-           family={Roberts},
-           familyi={R\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d2151d735dd59d4623eb15a59bb49cd2}{%
-           family={Lüddecke},
-           familyi={L\bibinitperiod},
-           given={Timo},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0e7812df1b1d4d75b6a3620ace5a8511}{%
-           family={Das},
-           familyi={D\bibinitperiod},
-           given={Sowmen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=735173e7254986d180bcb08fbac4266c}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={Kai},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=16b5c328bb82309153fe2dcf34adf4f0}{%
-           family={Albanie},
-           familyi={A\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{2dd2a97673eef748af93ff359ad08b6c}
-      \strng{fullhash}{0383cc78399fac912eccca995e006335}
-      \strng{bibnamehash}{0383cc78399fac912eccca995e006335}
-      \strng{authorbibnamehash}{0383cc78399fac912eccca995e006335}
-      \strng{authornamehash}{2dd2a97673eef748af93ff359ad08b6c}
-      \strng{authorfullhash}{0383cc78399fac912eccca995e006335}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Large language models (LLMs) have shown remarkable capabilities across a broad range of tasks involving question answering and the generation of coherent text and code. Comprehensively understanding the strengths and weaknesses of LLMs is beneficial for safety, downstream applications and improving performance. In this work, we investigate the degree to which GPT-4 has acquired factual geographic knowledge and is capable of using this knowledge for interpretative reasoning, which is especially important for applications that involve geographic data, such as geospatial analysis, supply chain management, and disaster response. To this end, we design and conduct a series of diverse experiments, starting from factual tasks such as location, distance and elevation estimation to more complex questions such as generating country outlines and travel networks, route finding under constraints and supply chain analysis. We provide a broad characterisation of what GPT-4 (without plugins or Internet access) knows about the world, highlighting both potentially surprising capabilities but also limitations.}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{5}
-      \field{number}{arXiv:2306.00020}
-      \field{shorttitle}{{{GPT4GEO}}}
-      \field{title}{{{GPT4GEO}}: {{How}} a {{Language Model Sees}} the {{World}}'s {{Geography}}}
-      \field{urlday}{5}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.2306.00020
-      \endverb
-      \verb{eprint}
-      \verb 2306.00020
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\7DRKDHXI\\Roberts et al. - 2023 - GPT4GEO How a Language Model Sees the World's Geo.pdf;C\:\\Users\\oskar\\Zotero\\storage\\BHCR5VUS\\2306.html
-      \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
-    \endentry
-    \entry{xuRetrievalMeetsLong2023}{misc}{}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=a9f1e89449a8f9e0a4b65ee24d8f421d}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Peng},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fe56a97aca48de3bbb0b53f223fd5015}{%
-           family={Ping},
-           familyi={P\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d3500b4dee991ee4ac34bbfdc16f1f0}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Xianchao},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0510cfc21925d6b7f6db8eb7666983f9}{%
-           family={McAfee},
-           familyi={M\bibinitperiod},
-           given={Lawrence},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78c6e8f414f28c863790e381ab51a773}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Chen},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb8220a39f4d4931c18b6d585fc2845e}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Zihan},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a74063219474ad33f9d0580979ea5ab6}{%
-           family={Subramanian},
-           familyi={S\bibinitperiod},
-           given={Sandeep},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3cff974ed33dc997a0167bed16fc484b}{%
-           family={Bakhturina},
-           familyi={B\bibinitperiod},
-           given={Evelina},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4af7939b0e0aac6c1e9dec565975b46c}{%
-           family={Shoeybi},
-           familyi={S\bibinitperiod},
-           given={Mohammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3c8bbc381484f2cfbbd08866be36590e}{%
-           family={Catanzaro},
-           familyi={C\bibinitperiod},
-           given={Bryan},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{8d7000bd3049040035288af08ec39c4f}
-      \strng{fullhash}{8124e052283029cb47bc1fed6c9684e2}
-      \strng{bibnamehash}{8124e052283029cb47bc1fed6c9684e2}
-      \strng{authorbibnamehash}{8124e052283029cb47bc1fed6c9684e2}
-      \strng{authornamehash}{8d7000bd3049040035288af08ec39c4f}
-      \strng{authorfullhash}{8124e052283029cb47bc1fed6c9684e2}
-      \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
+    \entry{STACTutorials}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
       \field{labeltitlesource}{title}
-      \field{abstract}{Extending the context window of large language models (LLMs) is getting popular recently, while the solution of augmenting LLMs with retrieval has existed for years. The natural questions are: i) Retrieval-augmentation versus long context window, which one is better for downstream tasks? ii) Can both methods be combined to get the best of both worlds? In this work, we answer these questions by studying both solutions using two state-of-the-art pretrained LLMs, i.e., a proprietary 43B GPT and LLaMA2-70B. Perhaps surprisingly, we find that LLM with 4K context window using simple retrieval-augmentation at generation can achieve comparable performance to finetuned LLM with 16K context window via positional interpolation on long context tasks, while taking much less computation. More importantly, we demonstrate that retrieval can significantly improve the performance of LLMs regardless of their extended context window sizes. Our best model, retrieval-augmented LLaMA2-70B with 32K context window, outperforms GPT-3.5-turbo-16k and Davinci003 in terms of average score on seven long context tasks including question answering and query-based summarization. It also outperforms its non-retrieval LLaMA2-70B-32k baseline by a margin, while being much faster at generation. Our study provides general insights on the choice of retrieval-augmentation versus long context extension of LLM for practitioners.}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{10}
-      \field{number}{arXiv:2310.03025}
-      \field{title}{Retrieval Meets {{Long Context Large Language Models}}}
-      \field{urlday}{5}
+      \field{abstract}{Here you can find our library of tutorials for learning all about STAC.}
+      \field{langid}{english}
+      \field{title}{{{STAC Tutorials}}}
+      \field{urlday}{23}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
-      \field{year}{2023}
       \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.2310.03025
+      \verb{urlraw}
+      \verb https://stacspec.org/en/tutorials/
       \endverb
-      \verb{eprint}
-      \verb 2310.03025
+      \verb{url}
+      \verb https://stacspec.org/en/tutorials/
       \endverb
-      \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\JRUJKG3V\\Xu et al. - 2023 - Retrieval meets Long Context Large Language Models.pdf;C\:\\Users\\oskar\\Zotero\\storage\\D6E8ZDVE\\2310.html
-      \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Information Retrieval,Computer Science - Machine Learning}
-    \endentry
-    \entry{yaoReActSynergizingReasoning2023}{misc}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=5c1b62cbd4e181d818b927549813cf73}{%
-           family={Yao},
-           familyi={Y\bibinitperiod},
-           given={Shunyu},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4fc64f0dbaf7cb8f21c7c85d580cdb15}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Jeffrey},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2cb7d2d6e42d109fa2c5086d6c8f6a63}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Dian},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a926c34a0eebdaaa30da36b46bd2192c}{%
-           family={Du},
-           familyi={D\bibinitperiod},
-           given={Nan},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=20b3779bbd037bbfdd1ffd3967624997}{%
-           family={Shafran},
-           familyi={S\bibinitperiod},
-           given={Izhak},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=997c3143c2e5d593e816d2ff704fbf98}{%
-           family={Narasimhan},
-           familyi={N\bibinitperiod},
-           given={Karthik},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2923de2da7f9b32b957552e414b6bc16}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={Yuan},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{4ae4be538df04cfc1571685175562cad}
-      \strng{fullhash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \strng{bibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \strng{authorbibnamehash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \strng{authornamehash}{4ae4be538df04cfc1571685175562cad}
-      \strng{authorfullhash}{6f22c9f891fbcfb7465b1c3157b57023}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34\% and 10\% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{month}{3}
-      \field{number}{arXiv:2210.03629}
-      \field{shorttitle}{{{ReAct}}}
-      \field{title}{{{ReAct}}: {{Synergizing Reasoning}} and {{Acting}} in {{Language Models}}}
-      \field{urlday}{5}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{eprint}
-      \verb 2210.03629
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\oskar\\Zotero\\storage\\GYD7CH87\\Yao et al. - 2023 - ReAct Synergizing Reasoning and Acting in Languag.pdf;C\:\\Users\\oskar\\Zotero\\storage\\DNDVTT3Y\\2210.html
-      \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
     \endentry
     \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}
       \name{author}{5}{}{%
@@ -982,6 +1252,12 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\F6ZE4DD9\\Zhang et al. - 2023 - GeoGPT Understanding and Processing Geospatial Ta.pdf;C\:\\Users\\oskar\\Zotero\\storage\\GYMENGQZ\\2307.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2307.07930
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2307.07930
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
