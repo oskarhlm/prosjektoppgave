@@ -6,7 +6,6 @@
 \usepackage[T1]{fontenc}				% Use rich fonts
 \usepackage{amsmath}
 \usepackage{amssymb}
-
 \usepackage[style=english]{csquotes}		% Context sensitive quotes
 \usepackage{lmodern}				% Exploit the above
 
@@ -39,6 +38,11 @@
 \usepackage{subcaption}
 \usepackage[shortlabels]{enumitem}
 
+% pdf stuff
+\usepackage{pdfpages}
+% \usepackage{fancyhdr}
+\usepackage{afterpage}
+
 % nicer table dividers á la MIT Press; the package booktabs provides a similar option
 %\usepackage{booktabs}
 \newcommand\tabletop{\hline\noalign{\smallskip}}
@@ -65,7 +69,7 @@
 %\usepackage[disable]{todonotes}
 
 \usepackage{verbatim}				% allow for longer comments
-%TC:group comment 0 0
+%TC:group comment 0 0'
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BIBLIOGRAPHY STUFF
@@ -126,7 +130,25 @@
 
 % Utility commands
 \newcommand{\Autochapterref}[1]{\hyperref[#1]{Chapter~\ref*{#1}}}
+\newcommand{\Autosectionref}[1]{\hyperref[#1]{Section~\ref*{#1}}}
+\newcommand{\Autosubsectionref}[1]{\hyperref[#1]{Subsection~\ref*{#1}}}
+\newcommand{\Autosubsubsectionref}[1]{\hyperref[#1]{Subsubsection~\ref*{#1}}}
 \newcommand{\rqref}[1]{\hyperref[#1]{RQ~\ref*{#1}}}
+
+% \newcommand{\includeappendixpdf[2]{
+%     \includepdf[pages=#1, scale=.7, pagecommand={\chapter{#1}\label{pdf:myfile}}, linktodoc=true]{#2}  
+% }
+
+\newcommand{\includeappendixpdfwithtitle}[2]{
+    \newgeometry{top=.5in}
+    \includepdf[pages=1, scale=.7, pagecommand={\chapter{#1}\label{pdf:myfile}}, linktodoc=true]{#2}
+    \restoregeometry
+    \includepdf[pages=2-, scale=.7, pagecommand={}, linktodoc=true]{#2}
+  }
+
+% Styling 
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\par\singlespacing\small}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Acronym stuff
@@ -145,7 +167,7 @@ acronym] 				% create a list of abbreviations
 \newcommand{\thesisAuthor}{Karl Oskar Magnus Holm}
 \newcommand{\thesisTitle}{LLMS - The Death of GIS Analysis?}
 \newcommand{\thesisSubtitle}{An Investigation into Using Large Language Models to Make GIS Analysis Simpler, Faster, and More Accessible}
-\newcommand{\thesisType}{Master's Thesis in Computer Science and Geomatics}
+\newcommand{\thesisType}{Specialization Project in Computer Science and Geomatics}
 \newcommand{\supervisor}{Supervisor: Hongchao Fan}
 \newcommand{\externalSupervisors}{External supervisors from Norkart: Alexander Salveson Nossum, Arild Nomeland and Rune Aasgaard}
 \newcommand{\thesisDate}{June 2024}
@@ -180,8 +202,8 @@ acronym] 				% create a list of abbreviations
     \noindent \externalSupervisors
     \vspace{2cm}
 
-    \noindent Data and Artificial Intelligence Group\\
-    Department of Geomatics\\
+    % \noindent Data and Artificial Intelligence Group\\
+    \noindent Department of Geomatics\\
     Faculty of Engineering\\
     Norwegian University of Science and Technology\\
 
@@ -235,9 +257,11 @@ acronym] 				% create a list of abbreviations
 %\backmatter
 \clearpage
 
-\addcontentsline{toc}{chapter}{Bibliography}
 \printglossary[type=\acronymtype]
+
+\addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
+
 \include{appendices/appendices}
 
 \end{document}

@@ -2,3 +2,4 @@
 {"rule":"EN_WORD_COHERENCY","sentence":"^\\QThe cha:theory chapter of my specialization project will\\E$"}
 {"rule":"EN_WORD_COHERENCY","sentence":"^\\QThe cha:theory chapter of this specialization project will talk about the leading technologies in the field of\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QOne key feature of Norge Digitalt is its focus on international standards and interoperability.\\E$"}
+{"rule":"EN_WORD_COHERENCY","sentence":"^\\QThese are questions outside the scope of this specialization project.\\E$"}

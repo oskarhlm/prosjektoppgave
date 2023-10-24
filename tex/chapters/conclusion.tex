@@ -1,9 +1,6 @@
 \chapter{Conclusion and Future Work}
 \label{cha:conclusion}
 
-\section{Contributions}
-\label{sec:contributions}
-
 \begin{comment}
 What are the main contributions made to the field?
 How significant are these contributions?
@@ -26,3 +23,28 @@ Note that in the Specialisation Project Report, the Future Work section will be 
 while in the Master's Thesis, the Future Work section rather will point to issues that others might be interested in addressing.
 This can include options and alternatives that you did not try out yourself, or potential improvements and extensions to your experiments or system.
 \end{comment}
+
+\section{Contributions}
+\label{sec:contributions}
+
+\section{Future Work}
+\label{sec:futureWork}
+
+\subsection{Test regime}
+
+In order to test the feasibility of different language models to serve as the brain of an autonomous \acrshort{acr:gis} agent, a testing regime should be developed. In the examples of autonomous \acrshort{acr:gis} agents described in the literature study of this report (see \autoref{subsec:autonomous-gis}), results have generally been presented in the form of case studies \citep{liAutonomousGISNextgeneration2023,zhangGeoGPTUnderstandingProcessing2023}. This type of qualitative testing is entirely appropriate to showcase the possibilities of the technologies but may be insufficient when comparing performance of different systems. In the latter case a quantitative approach would probably be preferable.
+
+One idea is to create a test dataset which consists of inputs and corresponding desired outputs of typical \acrshort{acr:gis} tasks. Inputs would in this case be natural language queries inputted by a mock user, and the output would be what you would expect a \acrshort{acr:gis} professional to return when given the same tasks/queries. Inputs should reflect the varying level of \acrshort{acr:gis} knowledge in the different user groups (see \autoref{sec:user-groups}). Outputs could be files with typical geospatial extensions (.shp, .geojson, .sosi, etc.), or they could adhere to API schemas specified by geospatial standards (see \autoref{sec:geospatial-standards}).
+
+While the inputs should be fairly simple to construct there are several questions to be answered in regard to the outputs:
+
+\begin{itemize}
+    \item How does one evaluate the accuracy of the output?
+    \item How should the \acrshort{acr:ai} agent respond when the user does not specify an output file format?
+    \item How does one evaluate the usefulness of outputs to questions that should not return geospatial files, e.g. answers to general questions about geo-related subjects?
+\end{itemize}
+
+These are questions outside the scope of this specialization project. They will, however, be pursued in my master thesis.
+
+
+

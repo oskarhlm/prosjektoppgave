@@ -152,7 +152,7 @@ Use boldface, boxes, colours, arrows, etc. to mark the important parts of the ta
 As can be seen in the example, elements in a table can sometimes benefit from being rotated (such as EMNLP in the `Source' column) or cover more than one row (EMNLP, as well as EN-HI and EN-BN in the `Langs' column) --- or more than one column, for that matter.
 \end{comment}
 
-\Autochapterref{cha:theory} of this specialization project will talk about the leading technologies in the field of \gls{acr:llm}, which in itself is a subfield of \gls{acr:nlp}. \autoref{sec:llms} will go over the leading \gls{acr:llm} models, their strengths and weaknesses, and briefly mention differences in model architecture. \Autochapterref{sec:llm-providers} will name the most prominent providers of \gls{acr:llm} services.
+\Autochapterref{cha:theory} of this specialization project will talk about the leading technologies in the field of \gls{acr:llm}, which in itself is a subfield of \gls{acr:nlp}. \autoref{sec:llms} will go over the leading \gls{acr:llm} models, their strengths and weaknesses, and briefly mention differences in model architecture. \Autosectionref{sec:llm-providers} will name the most prominent providers of \gls{acr:llm} services.
 
 \autoref{fig:actor-map} shows an actor map which includes stakeholders, providers, and other groups and organizations that could have some relevance to an autonomous LLM-based GIS-agent. Following subsections will go over the different groups and explain why they are included in the actor map.
 
@@ -166,7 +166,7 @@ As can be seen in the example, elements in a table can sometimes benefit from be
 
 \subsection[The GPT Family]{The \acrshort{acr:gpt} Family}
 
-\glspl{acr:gpt} are good.
+\glspl{acr:gpt} are a type of \gls{acr:llm} first introduced by \hyperref[subsec:openai]{OpenAI} in 2018 \citep{radfordImprovingLanguageUnderstanding2018}.
 
 \subsection[The BERT Family]{The \acrshort{acr:bert} Family}
 
@@ -179,7 +179,7 @@ As can be seen in the example, elements in a table can sometimes benefit from be
 \subsubsection{Codey}
 
 
-\section[LLM providers]{\gls{acr:llm} Providers}\label{sec:llm-providers}
+\section[LLM providers]{\acrfull{acr:llm} Providers}\label{sec:llm-providers}
 
 \subsection{OpenAI}\label{subsec:openai}
 
@@ -189,11 +189,11 @@ Being the most widely famous actor within the field of \glspl{acr:llm}, OpenAI h
 
 \subsection{Google Cloud}\label{subsec:google-cloud}
 
-\subsection[Amazon Web Services (AWS)]{\gls{acr:aws}}\label{subsec:aws}
+\subsection[Amazon Web Services (AWS)]{\acrfull{acr:aws}}\label{subsec:aws}
 
 \subsection{Anthropic}\label{subsec:anthropic}
 
-\section[Geographic information system (GIS)]{\gls{acr:gis}}\label{sec:gis}
+\section{Geospatial Standards}\label{sec:geospatial-standards}
 
 \subsection{International Standardization Work}\label{subsec:standardization-international}
 
@@ -209,37 +209,50 @@ The \gls{acr:stac} \acrshort{acr:api} is a standardized way to expose collection
 
 As \acrshort{acr:ogc} board member Chris Holmes puts it: "The \acrshort{acr:stac} \acrshort{acr:api} implements and extends the \gls{acr:ogc} \acrshort{acr:api} — Features standard, and our shared goal is for \gls{acr:stac} \acrshort{acr:api} to become a full \gls{acr:ogc} standard." \citep{holmesSpatioTemporalAssetCatalogs2021}.
 
-\subsection{Norwegian Standardization Work}\label{subsubsec:standardization-norway}
+\subsection{Norwegian Standardization Work}\label{subsec:standardization-norway}
 
-\subsubsection[SOSI]{\acrshort{acr:sosi}}
+Geospatial standardization work has been on the agenda of Norwegian governing powers for decades and have materialized in frameworks/collaborations like \nameref{subsubsec:geovekst} and \nameref{subsubsec:norge-digitalt}, as wells as the \nameref{subsubsec:sosi} file format. \Autosubsectionref{subsec:standardization-norway} will delve into the work that has been done and what is expected for the future. The reasoning for the conclusion of this section is that the constraints of this specialization project is set by the Norwegian borders, and thus it is important to be aware of the standards that apply.
+
+\subsubsection[SOSI]{\acrshort{acr:sosi}}\label{subsubsec:sosi}
 
 \gls{acr:sosi} is a Norwegian file format for storing and exchanging geospatial data. It was first introduced in 1987 and has since approached international standards, the most important arenas currently being \acrshort{acr:iso}/\acrshort{acr:tc} 211 and \gls{acr:ogc} \citep{mardalNasjonalStrategiVidereutvikling2015}. \gls{acr:sosi} is the adopted Norwegian standard for creating and delivering digital geographic data, administered by the Norwegian Mapping Authority (Statens kartverk) \citep{maehlumSOSI2023}.
 
 In a \gls{acr:sosi} dataset, terrain points, lines, and polygons are represented by their coordinates and classified into various object types according to the \gls{acr:sosi} object catalog standard. However, there are few GIS systems that can read \gls{acr:sosi} data directly, so data in \gls{acr:sosi} format usually needs to be converted to another \gls{acr:gis}-readable data format \citep{maehlumSOSI2023}.
 
-\subsubsection{Geovekst}
+\subsubsection{Geovekst}\label{subsubsec:geovekst}
 
 Geovekst is a collaborative initiative in Norway aimed at collecting, managing, and distributing geospatial information. Established in 1992, it is a partnership between national, regional, and local government bodies, as well as several private companies. Geovekst's primary focus is on creating a comprehensive, standardized geographical database for Norway that is easily accessible and updated regularly. It has played a vital role in various planning and development projects across the country, from urban planning to environmental conservation.
 
 Unlike other geospatial initiatives, Geovekst emphasizes shared responsibilities and costs among its partners. This cooperative model ensures consistent data quality and efficient use of resources. It utilizes a variety of data sources, including aerial photographs, laser scans, and mapping, making it a rich resource for both public and private sectors. Moreover, its open-access policy allows for wider dissemination of geospatial information, thus encouraging innovation and informed decision-making across multiple disciplines.
 
-\subsubsection{Norge digitalt}
+\subsubsection{Norge digitalt}\label{subsubsec:norge-digitalt}
 
 Established in 2005, Norge Digitalt is a more recent framework compared to Geovekst and is the name of Norway's national spatial data infrastructure. Norge Digitalt primarily involves governmental bodies (national, regional, and municipal), but also educational and research institutions and companies with responsibilities on a nation-wide scale; examples include Telenor and local and regional energy companies \citep[6]{norgedigitaltGenerelleVilkarNorge2023}. Norge Digitalt aims to coordinate and streamline all geospatial activities in Norway, making it easier for users to discover, access, and use spatial data.
 
 One key feature of Norge Digitalt is its focus on international standards and interoperability. While Geovekst is primarily a national initiative, Norge Digitalt aims to integrate Norway's geospatial data with that of other European countries. It supports a wide range of data formats and follows international standards, including those set by the Open Geospatial Consortium (OGC). The framework also provides various tools and services, like metadata catalogues and web services, making it a comprehensive solution for geospatial data management and distribution in Norway.
 
-\section{User Groups}
+\section{User Groups}\label{sec:user-groups}
 
-\section{Regulatory Bodies}
 
-\section{Related Work}
 
-\subsection[Autonomous GIS]{Autonomous \acrshort{acr:gis}}
+\section{Regulatory Bodies}\label{regulatory-bodies}
+
+\section{Related Work}\label{related-work}
+
+\subsection[Autonomous GIS]{Autonomous \acrshort{acr:gis}}\label{subsec:autonomous-gis}
 
 \cite{liAutonomousGISNextgeneration2023} states that “autonomous \acrshort{acr:gis} will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight need of a memory system in a mature \gls{acr:llm}-based \gls{acr:gis} system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called \acrshort{acr:llm}-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
 
 \cite{zhangGeoGPTUnderstandingProcessing2023} uses the Langchain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of \glspl{acr:llm} like (e.g., ChatGPT) to call externally defined tools, employing the \gls{acr:llm} as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
 
+\subsection[Retrieval Augmented Generation]{\acrfull{acr:rag}}
+
+\gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those desgined to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}.
+
+\subsubsection{Langchain}
+
+\subsubsection{Microsoft Semantic Kernel}
+
+\subsubsection{AutoGPT}
 
 \glsresetall
