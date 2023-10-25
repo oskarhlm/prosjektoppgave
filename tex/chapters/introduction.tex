@@ -82,9 +82,13 @@ Of course the Specialisation Project can also introduce novel work, but there is
 since the core of the project really is to figure out what is ``old'' before you can introduce something which is new.
 \end{comment}
 
-The overarching goal of this specialization project is to investigate how \acrfull{acr:llm} can be utilized to make \acrshort{acr:gis} analysis simpler, faster, and more accessible.
+The overarching goal of this specialization project is to investigate how \acrfull{acr:llm} can be utilized to make \acrshort{acr:gis} analysis simpler, faster, and more accessible. As exemplified in the task description provided by Norkart (see \cref{app:task-description}\todo{Fix references to appendix}), such a system should be able to create a meaningful response to a query such as:
 
-Research questions:
+\begin{quote}
+    "Find all buildings within a 100-meter belt that are above 100 meters above sea level and have docks."
+\end{quote}
+
+The task then is to investigate how modern language models can be used to perform classical \acrshort{acr:gis} analyses using standard \acrshort{acr:gis} technologies like PostGIS and geospatial data catalogues adhering to \acrshort{acr:ogc} or \acrshort{acr:stac} standards. Based on the task description I have constructed three research questions that I will attempt to answer in this specialization project report:
 
 \begin{enumerate}
     \item What is the potential of LLM-based GIS analysis? \label{rq:llm-potential}
@@ -92,13 +96,11 @@ Research questions:
     \item How can we give ChatGPT-4 access to external tools? \label{rq:external-tools}
 \end{enumerate}
 
-Researching the potential of Location-Based Machine Learning (LLM) in GIS could uncover new methodologies for spatial analysis, predictive modeling, and decision-making. The aim with \rqref{rq:llm-potential} would be to assess the capabilities and limitations of integrating machine learning algorithms with geographic information systems for tasks like clustering, anomaly detection, or spatial prediction.
+Researching the potential of using \glspl{acr:llm} in GIS could uncover new methodologies for spatial analysis, predictive modeling, and decision-making. The aim with \rqref{rq:llm-potential} would be to assess the capabilities and limitations of integrating machine learning algorithms with \glspl{acr:gis}, and also touch on how a mature \acrshort{acr:llm}-based \acrshort{acr:gis} could impact the daily work of (human) \acrshort{acr:gis} professionals.
 
-\rqref{rq:overlay-analysis} focuses on the feasibility of using the \acrshort{acr:ogc} - Features Standads in a typical overlay analysis within a conversational AI context like ChatGPT-4, having the users be able to express themselves using natural language queries. An answer to \rqref{rq:overlay-analysis} would describe how OGC APIs can be called and manipulated in a flexible manner during a conversation to perform spatial queries or analyses, like intersecting layers or filtering features based on certain criteria.
+\rqref{rq:overlay-analysis} focuses on the feasibility of using the \acrshort{acr:ogc} \acrshort{acr:api} - Features Standads in a typical overlay analysis within a conversational \acrshort{acr:ai} context like ChatGPT-4, having the users be able to express themselves using natural language queries. An answer to \rqref{rq:overlay-analysis} would describe how \acrshort{acr:ogc} \acrshortpl{acr:api} can be called and manipulated in a flexible manner during a conversation to perform spatial queries or analyses, like intersecting layers or filtering features based on certain criteria.
 
-\rqref{rq:external-tools} delves into the technical and ethical considerations of expanding ChatGPT-4’s capabilities through integration with external tools, such as GIS software or data analytics platforms. It would explore options for secure and efficient data exchange, as well as assess the implications of such access in terms of data privacy and user consent.
-
-I am now referencing \rqref{rq:overlay-analysis}.
+\rqref{rq:external-tools} delves into the technical and ethical considerations of expanding ChatGPT-4's capabilities through integration with external tools, such as \acrshort{acr:gis} software or data analytics platforms. It would explore options for secure and efficient data exchange, and assess the implications of such access in terms of data privacy and user consent.
 
 \section{Research Method}
 \label{sec:researchMethod}
@@ -109,7 +111,16 @@ This section will describe the research methodology applied and the reason for t
 You should return to the actual choices made in the work and the alternatives in the Discussion chapter.
 \end{comment}
 
+\subsection{Literature Study}\label{subsec:literature-study}
 
+I set out by deciding on some search terms, and used a "snowball sampling" technique to find relevant articles. \autoref{tbl:literature-search-resutls} shows the number of search results on various sites.
+
+\todo{Fix table data and styling}
+\begin{table}
+    \DTLdisplaydb{literature_study}
+    \caption{Literature study search results.}
+    \label{tbl:literature-search-resutls}
+\end{table}
 
 \section{Contributions}
 \label{sec:introContributions}
