@@ -178,7 +178,6 @@ As can be seen in the example, elements in a table can sometimes benefit from be
 
 \subsubsection{Codey}
 
-
 \section[LLM providers]{\acrfull{acr:llm} Providers}\label{sec:llm-providers}
 
 \subsection{OpenAI}\label{subsec:openai}
@@ -233,26 +232,76 @@ One key feature of Norge Digitalt is its focus on international standards and in
 
 \section{User Groups}\label{sec:user-groups}
 
+There are several user groups that could take advantage of an \acrshort{acr:ai}-based agent with general geographic and \acrshort{acr:gis} knowledge. Questions can span from simple retrieval questions such as "How many people live in Trondheim" and "How long is the drive from Oslo to Bergen?", to more complicated questions that require problem-solving abilities and reasoning. While it is difficult to obtain dataset over common queries, \cite{kumarWhatArePeople2023a}, creater of the chatbot app Pocket AI\footnote{\url{https://github.com/varunon9/pocket-ai}}, shared a dataset of \textasciitilde 13k user queries from his app along with classifications of these. Salient categories were:
 
+\begin{itemize}
+    \item "task oriented" (23.1\%)
+    \item "informational" (20.2\%)
+    \item "social"  (16.2\%)
+    \item "personal advice and self-improvement" (13.1\%)
+\end{itemize}
 
-\section{Regulatory Bodies}\label{regulatory-bodies}
+The main takeaway from these numbers is that the main motivation for use is productivity.
+
+This aligns with the results of \cite*{skjuveWhyPeopleUse2023} from their questionnaire-based study performed in late January 2023, about three months after its release \citep{openaiGPT4TechnicalReport2023}. The goal with the study was to find out \textit{why} people use ChatGPT. They found that most participants (55\%) are motivated by productivity, and specifically applying it for routine tasks, information retrieval, text generation and writing support, and software development \citep[17-21]{skjuveWhyPeopleUse2023}. \autoref{tbl:chatgpt-motivation-survey-restuls} shows all categories and their frequencies. There were 197 samples in total, and more than one category could be  assigned to each sample. It is worth noting that the study is likely to have included early adopters, and might therefore make the results less representative for the time at which this report is written (\today), now that use patterns have become more established \citep[37]{skjuveWhyPeopleUse2023}.
+
+\begin{table}[ht]
+    \centering
+    \caption{Categories and frequency of ChapGPT usage \citep[16-17]{skjuveWhyPeopleUse2023}.}
+    \label{tbl:chatgpt-motivation-survey-restuls}
+    % \begin{tabular}{|B|c|}
+    \begin{tabular}[t]{lr}
+        \hline
+        \textbf{Category}              & \% \textbf{(n)} \\
+        \hline
+        Productivity                   & 55\% (109)      \\
+        Novelty                        & 51\% (101)      \\
+        Fun and amusement              & 20\% (41)       \\
+        Creative work                  & 18\% (34)       \\
+        Social interaction and support & 9\% (18)        \\
+        Other                          & 7\% (15)        \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Given that the main reason people use conversational \acrshort{acr:ai} is for productivity, whether in a professional, academic, or personal context, such technology could be highly beneficial in a geospatial setting. 67 out of the 197 participants in \cite[18]{skjuveWhyPeopleUse2023} highlighted "ChatGPT's ability to understand complex queries" and that it is "efficient in alleviating the need to experiment with different phrasings of the query", as is often needed when 'Googling' for an answer to a specific question. This ease of information retrieval, along with it's problem-solving abilities \citep[20]{skjuveWhyPeopleUse2023}, could also make conversational \acrshortpl{acr:ai} highly relevant for geospatial purposes, and in the field of \acrshort{acr:gis}. The following sections will elaborate on the potential user groups presented in \autoref{fig:actor-map} that could benefit from such an artificial, and spatially aware, companion.
+
+\subsection{General Public}
+\subsection{GIS Professionals}
+\subsection{City Planners}
+\subsection{Business Analysts}
+\subsection{Academics and Researchers}
+\subsection{Emergency Services}
+
+\section{Regulatory Bodies and Privacy Concerns}\label{sec:regulatory-bodies-and-privacy-concerns}
+
+\subsection{Local Regulations}
+\subsection[The European Union (EU)]{The \acrlong{acr:eu}}
 
 \section{Related Work}\label{related-work}
 
-\subsection[Autonomous GIS]{Autonomous \acrshort{acr:gis}}\label{subsec:autonomous-gis}
+\subsection[GIS with LLMs]{\acrshort{acr:gis} with \acrshortpl{acr:llm}}\label{subsec:gis-with-llms}
+
+\cite{robertsGPT4GEOHowLanguage2023} investigated extent of GPT-4's geospatial awareness through a set of case studies with increasing difficulties.
 
 \cite{liAutonomousGISNextgeneration2023} states that “autonomous \acrshort{acr:gis} will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight need of a memory system in a mature \gls{acr:llm}-based \gls{acr:gis} system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called \acrshort{acr:llm}-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
 
-\cite{zhangGeoGPTUnderstandingProcessing2023} uses the Langchain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of \glspl{acr:llm} like (e.g., ChatGPT) to call externally defined tools, employing the \gls{acr:llm} as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
+\cite{zhangGeoGPTUnderstandingProcessing2023} uses the LangChain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of \glspl{acr:llm} like (e.g., ChatGPT) to call externally defined tools, employing the \gls{acr:llm} as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
 
 \subsection[Retrieval Augmented Generation]{\acrlong{acr:rag}}
 
-\gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those desgined to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
+\gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those designed to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
 
-\subsubsection{Langchain}
+\subsubsection{LangChain}
+
+LangChain \citep{chaseLangChain2022} is an open-source project that provides tooling that can be used to create autonomous \acrshort{acr:ai} agents. It is designed to help with prompt management and optimization, creating chains of calls to \acrshortpl{acr:llm}, data augmentation, autonomous agent creation, and memory-related tasks.
 
 \subsubsection{Microsoft Semantic Kernel}
 
+Microsoft Semantic Kernel is an \acrshort{acr:sdk} that functions as the brain of an autonomous agent and provides connectors to models and memory, and connects to triggers and actions.
+
 \subsubsection{AutoGPT}
+
+\cite{richardAutoGPTHeartOpensource2023} will try to split a task into subtasks and use the internet and other tools in an automatic loop to solve the task/subtasks.
 
 \glsresetall

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.10.3)  25 OCT 2023 12:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.10.3)  26 OCT 2023 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1070,6 +1070,8 @@ LaTeX Info: Redefining \cpagerefrange on input line 2370.
 LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: include cross-reference names in hyperlinks on input line 7836.
+Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
 ) (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count404
 \lst@gtempboxa=\box131
@@ -1423,46 +1425,46 @@ Package: glossary-tree 2022/11/03 v4.52 (NLCT)
 \glo@main@file=\write7
 \openout7 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 186.
+Package glossaries Info: Writing glossary file main.glo on input line 188.
 \glo@acronym@file=\write8
 \openout8 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 186.
+Package glossaries Info: Writing glossary file main.acn on input line 188.
  (frontmatter/glossary.tex)
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 209.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 211.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:\Users\oskar\master\tex\auxiliary\main.aux (c:\Users\oskar\master\tex\auxiliary\frontmatter/abstract.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/sammendrag.aux) (c:\Users\oskar\master\tex\auxiliary\frontmatter/preface.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/introduction.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/theory.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/experiments.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/discussion.aux) (c:\Users\oskar\master\tex\auxiliary\chapters/conclusion.aux) (c:\Users\oskar\master\tex\auxiliary\appendices/appendices.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-Package scrbase Info: activating british \partname on input line 209.
-Package scrbase Info: activating british \chaptername on input line 209.
-Package scrbase Info: activating british \appendixname on input line 209.
-Package scrbase Info: activating british \figurename on input line 209.
-Package scrbase Info: activating british \tablename on input line 209.
-Package scrbase Info: activating british \contentsname on input line 209.
-Package scrbase Info: activating british \listfigurename on input line 209.
-Package scrbase Info: activating british \listtablename on input line 209.
-Package scrbase Info: activating british \bibname on input line 209.
-Package scrbase Info: activating british \indexname on input line 209.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+Package scrbase Info: activating british \partname on input line 211.
+Package scrbase Info: activating british \chaptername on input line 211.
+Package scrbase Info: activating british \appendixname on input line 211.
+Package scrbase Info: activating british \figurename on input line 211.
+Package scrbase Info: activating british \tablename on input line 211.
+Package scrbase Info: activating british \contentsname on input line 211.
+Package scrbase Info: activating british \listfigurename on input line 211.
+Package scrbase Info: activating british \listtablename on input line 211.
+Package scrbase Info: activating british \bibname on input line 211.
+Package scrbase Info: activating british \indexname on input line 211.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1498,21 +1500,21 @@ Package scrbase Info: activating british \indexname on input line 209.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 209.
-Package microtype Info: Applying patch `item' on input line 209.
-Package microtype Info: Applying patch `toc' on input line 209.
-Package microtype Info: Applying patch `eqnum' on input line 209.
+LaTeX Info: Redefining \microtypecontext on input line 211.
+Package microtype Info: Applying patch `item' on input line 211.
+Package microtype Info: Applying patch `toc' on input line 211.
+Package microtype Info: Applying patch `eqnum' on input line 211.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 209.
+Package microtype Warning: Unable to apply patch `footnote' on input line 211.
 
-Package microtype Info: Applying patch `verbatim' on input line 209.
+Package microtype Info: Applying patch `verbatim' on input line 211.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 209.
+LaTeX Info: Redefining \showhyphens on input line 211.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1556,7 +1558,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
-Package hyperref Info: Link coloring ON on input line 209.
+Package hyperref Info: Link coloring ON on input line 211.
 (c:\Users\oskar\master\tex\auxiliary\main.out) (c:\Users\oskar\master\tex\auxiliary\main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
@@ -1568,7 +1570,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 209.
+(scrbook)           before \begin{document} on input line 211.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -1628,17 +1630,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (c:\Users\oskar\master\tex\auxiliary\main.bbl)
-Package biblatex Info: Reference section=0 on input line 209.
-Package biblatex Info: Reference segment=0 on input line 209.
+Package biblatex Info: Reference section=0 on input line 211.
+Package biblatex Info: Reference segment=0 on input line 211.
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--234
+Underfull \hbox (badness 10000) in paragraph at lines 233--236
 
  []
 
 <./figs/NTNUlogo.pdf, id=6, 146.5475pt x 155.58125pt>
 File: ./figs/NTNUlogo.pdf Graphic file (type pdf)
 <use ./figs/NTNUlogo.pdf>
-Package pdftex.def Info: ./figs/NTNUlogo.pdf  used on input line 237.
+Package pdftex.def Info: ./figs/NTNUlogo.pdf  used on input line 239.
 (pdftex.def)             Requested size: 85.35826pt x 90.61938pt.
 [1
 
@@ -1668,7 +1670,7 @@ Package pdftex.def Info: ./figs/NTNUlogo.pdf  used on input line 237.
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 259.
+Package tocbasic Info: character protrusion at toc deactivated on input line 261.
  (c:\Users\oskar\master\tex\auxiliary\main.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 11.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
@@ -1714,7 +1716,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout10 = `main.toc'.
 
  [5]
-Package tocbasic Info: character protrusion at lof deactivated on input line 261.
+Package tocbasic Info: character protrusion at lof deactivated on input line 263.
  (c:\Users\oskar\master\tex\auxiliary\main.lof)
 \tf@lof=\write11
 \openout11 = `main.lof'.
@@ -1723,7 +1725,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 261
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 264.
+Package tocbasic Info: character protrusion at lot deactivated on input line 266.
  (c:\Users\oskar\master\tex\auxiliary\main.lot)
 \tf@lot=\write12
 \openout12 = `main.lot'.
@@ -1755,13 +1757,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 38.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 38.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 85.
 [1
 
 
 
 
 ]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 118.
+
 Overfull \hbox (86.03844pt too wide) in paragraph at lines 120--121
 [][] 
  []
@@ -1771,7 +1774,7 @@ Overfull \hbox (86.03844pt too wide) in paragraph at lines 120--121
 
  (chapters/theory.tex
 chapter 2.
-<./figs/actor_map.png, id=253, 2221.29875pt x 2699.08376pt>
+<./figs/actor_map.png, id=271, 2221.29875pt x 2699.08376pt>
 File: ./figs/actor_map.png Graphic file (type png)
 <use ./figs/actor_map.png>
 Package pdftex.def Info: ./figs/actor_map.png  used on input line 160.
@@ -1782,12 +1785,16 @@ Package pdftex.def Info: ./figs/actor_map.png  used on input line 160.
 
 
 
-] [4 <./figs/actor_map.png>] [5] [6] [7]) [8]
+] [4 <./figs/actor_map.png>] [5] [6]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 238.
+ (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [7{C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [8]) [9] [10]
 \openout2 = `chapters/experiments.aux'.
 
  (chapters/experiments.tex
 chapter 3.
-) [9
+) [11
 
 
 
@@ -1798,7 +1805,7 @@ chapter 3.
 
  (chapters/discussion.tex
 chapter 4.
-) [10
+) [12
 
 
 
@@ -1809,39 +1816,40 @@ chapter 4.
 
  (chapters/conclusion.tex
 chapter 5.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 42.
-(C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [11
+
+LaTeX Warning: Reference `subsec:autonomous-gis' on page 13 undefined on input line 35.
+
+) [13
 
 
 
 
 
-{C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] (c:\Users\oskar\master\tex\auxiliary\main.acr
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7.
- (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [12
+] (c:\Users\oskar\master\tex\auxiliary\main.acr) [14
 
 
 
-
-
-
-
-] [13] [14
 
 
 ] [15]
 \openout2 = `appendices/appendices.aux'.
 
- (appendices/appendices.tex [16
+ (appendices/appendices.tex
+
+Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
+(scrbook)              You should note, that `\appendix' is a mostly globally
+(scrbook)              working command not an enviroment with only local
+(scrbook)              effects. Therefore `\end{appendix}' will neither
+(scrbook)              switch back to normal section numbering nor finish
+(scrbook)              every other effect of `\begin{appendix}'.
+(scrbook)              Nevertheless, some effects may end with
+(scrbook)              `\end{appendix}' and the document may become
+(scrbook)              inconsistent.
+(scrbook)              Because of this, you should remove `\end{appendix}'
+(scrbook)              and replace `\begin{appendix}' by command
+(scrbook)              `\appendix' on input line 1.
+
+[16
 
 
 
@@ -1881,17 +1889,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=507, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=569, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
-Package pdftex.def Info: appendices/project_description.pdf  used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
-Package pdftex.def Info: appendices/project_description.pdf  used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1899,27 +1907,27 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=510, page=1, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=572, page=1, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
-Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
-Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
-Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
-Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 chapter A.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
-Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 [17
 
@@ -1928,14 +1936,14 @@ Package pdftex.def Info: appendices/project_description.pdf , page1 used on inpu
  <./appendices/project_description.pdf>]
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
-Package pdftex.def Info: appendices/project_description.pdf  used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
-Package pdftex.def Info: appendices/project_description.pdf  used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1943,33 +1951,33 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=522, page=2, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=584, page=2, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
-Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
-Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
-Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
-Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
-Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 19.
+Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 [18
 
  <./appendices/project_description.pdf>]
 chapter B.
 
-Overfull \hbox (22.96368pt too wide) in paragraph at lines 58--59
+Overfull \hbox (14.63882pt too wide) in paragraph at lines 50--51
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1986,6 +1994,10 @@ chapter C.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1993,23 +2005,92 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64153 strings out of 475248
- 1411109 string characters out of 5757813
- 2688480 words of memory out of 5000000
- 84276 multiletter control sequences out of 15000+600000
- 639103 words of font info for 164 fonts, out of 8000000 for 9000
+ 64214 strings out of 475248
+ 1412490 string characters out of 5757813
+ 2689122 words of memory out of 5000000
+ 84330 multiletter control sequences out of 15000+600000
+ 633623 words of font info for 163 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  108i,18n,165p,10989b,8868s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:sdk} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:rag} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:eu} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 
+pdfTeX warning (dest): name{glo:acr:tc} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:iso} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:sosi} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:gdal} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:wfs} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:wms} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:gml} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:json} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:html} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:aws} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:bert} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:gpt} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:nlp} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:ai} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:api} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:stac} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:ogc} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acr:gis} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on c:\Users\oskar\master\tex\auxiliary\main.pdf (29 pages, 3682068 bytes).
+
+pdfTeX warning (dest): name{glo:acr:llm} has been referenced but does not exist, replaced by a fixed one
+
+<C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb>
+Output written on c:\Users\oskar\master\tex\auxiliary\main.pdf (29 pages, 3677242 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
- 206 named destinations out of 1000 (max. 500000)
- 49690 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 948 PDF objects out of 1000 (max. 8388607)
+ 216 named destinations out of 1000 (max. 500000)
+ 45650 words of extra memory for PDF output out of 51595 (max. 10000000)
 
