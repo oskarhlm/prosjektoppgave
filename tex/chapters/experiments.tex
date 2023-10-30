@@ -5,10 +5,30 @@
 \label{sec:experimentalPlan}
 
 \begin{comment}
-Trying and failing is a major part of research. However, to have a chance of success you need a plan driving the experimental research, just as you need a plan for your literature search. Further, plans are made to be revised and this revision ensures that any further decisions made are in line with the work already completed.
+Trying and failing is a major part of research. However, to have a chance of success you need a plan driving the experimental research, just as you need a plan for your literature search. Further, plans are made to be revised, and this revision ensures that any further decisions made are in line with the work already completed.
 
 The plan should include what experiments or series of experiments are planned and what questions the individual or set of experiments aim to answer. Such questions should be connected to your research questions, so that in the evaluation of your results you can discuss the results wrt to the research questions.
 \end{comment}
+
+The experiments conducted for this report have been planned to answer the research questions described in \autoref{sec:goals-and-research-questions}.
+
+\subsection[Determining the Potential of LLM-based GIS analysis (RQ 1)]{Determining the Potential of LLM-based GIS analysis (\rqref{rq:llm-potential})}
+
+\rqref{rq:llm-potential} differs from \rqref{rq:overlay-analysis} and \rqref{rq:external-tools} in that it is more open-ended. The tests will try to display the abilities of \acrshort{acr:gpt}-4 for geospatial tasks, without providing it with any context or external tools. The tests are inspired by the work of \cite{robertsGPT4GEOHowLanguage2023} (see \autoref{subsec:gis-with-llms}), who did experiments with increasing difficult on \acrshort{acr:gpt}-4 to characterize what \acrshort{acr:gpt}-4 knows about the geographical world, highlighting both capabilities and limitations.
+
+\subsection[Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features (RQ 2)]{Testing ChatGPT's Ability to Perform Overlay Analysis using \acrshort{acr:ogc} \acrshort{acr:api} - Features (\rqref{rq:overlay-analysis})}
+
+Experiments on \rqref{rq:overlay-analysis} will require three different elements:
+
+\begin{enumerate}
+    \item Input data in correspondence with the \acrshort{acr:ogc} \acrshort{acr:api} - Features specification
+    \item Prompts to ChatGPT-4 using the "Code Interpreter" beta feature
+    \item Gold standard/expected output for the given combination of input data and prompts
+\end{enumerate}
+
+\subsection[Testing ChatGPT's Ability to To Use External Tools (RQ 2)]{Testing ChatGPT's Ability to To Use External Tools (\rqref{rq:external-tools})}
+
+Experiments on \rqref{rq:external-tools} will test different tools and techniques intended to give an \acrshort{acr:llm} access to up-to-date information and external tools (see \autoref{subsec:retrieval-automented-generation} on \acrlong{acr:rag}). The main focus will be on how one can use a tool like \hyperref[subsubsec:langchain]{LangChain} hook up a conversational \acrshort{acr:ai} with sophisticated functionality found in various \acrshort{acr:gis} software.
 
 \section{Experimental Setup}
 \label{sec:experimentalSetup}

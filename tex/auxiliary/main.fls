@@ -774,6 +774,11 @@ INPUT chapters\conclusion.tex
 INPUT c:\Users\oskar\master\tex\auxiliary\main.acr
 INPUT c:\Users\oskar\master\tex\auxiliary\main.acr
 INPUT c:\Users\oskar\master\tex\auxiliary\main.acr
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmss.fd
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT .\appendices\appendices.tex
 INPUT .\appendices\appendices.tex
 OUTPUT c:\Users\oskar\master\tex\auxiliary\appendices\appendices.aux
@@ -863,3 +868,5 @@ INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmro10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb

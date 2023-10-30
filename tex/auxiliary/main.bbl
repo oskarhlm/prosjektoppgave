@@ -56,6 +56,401 @@
       \verb https://github.com/langchain-ai/langchain
       \endverb
     \endentry
+    \entry{chenEvaluatingLargeLanguage2021}{misc}{}
+      \name{author}{58}{}{%
+        {{un=0,uniquepart=base,hash=fb15a691583ec94aafe0be6e7da4878f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98cbd7022a1c31a6293aa1c8b62bdebf}{%
+           family={Tworek},
+           familyi={T\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dd736ee38ff1cbcc6f0d05487b9950b}{%
+           family={Jun},
+           familyi={J\bibinitperiod},
+           given={Heewoo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0082b934c2454295be3f0a3b138f21d}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Qiming},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14083f4b7ce05fa13a977cfd411c5961}{%
+           family={Pinto},
+           familyi={P\bibinitperiod},
+           given={Henrique\bibnamedelimb Ponde\bibnamedelimb de\bibnamedelima Oliveira},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e85370e215d552f72c95a2b63a37802}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4363fc942d7aad75404420e27d365084}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Harri},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=958f786a0b8eafaa29fae5c0aa0357a0}{%
+           family={Burda},
+           familyi={B\bibinitperiod},
+           given={Yuri},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66d93da29380904e9a0d586e6afe33b4}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ae2a0efeaf9c031f9b420bcb1c19e54}{%
+           family={Brockman},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=143fa59d90387ae4a6aa650dcf1c7ceb}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b1acce3edac7d7de9ceed942cc81cd8}{%
+           family={Puri},
+           familyi={P\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3a5cc5e520e0d1a9f8bbf377c74cd27}{%
+           family={Krueger},
+           familyi={K\bibinitperiod},
+           given={Gretchen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20bb006267a99bf6b2419ac00ec8decb}{%
+           family={Petrov},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b80e3fa0534e28598d15e7cb8f009ee2}{%
+           family={Khlaaf},
+           familyi={K\bibinitperiod},
+           given={Heidy},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c1d9a663596faaf544c1a65aac581be}{%
+           family={Sastry},
+           familyi={S\bibinitperiod},
+           given={Girish},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2321e04943bcadb0275819652b980521}{%
+           family={Mishkin},
+           familyi={M\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdcc84061540e15aac439cba59db6577}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Brooke},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7006ca8c1ce969019b89de50fece60dd}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ac58bd43db2434e8e1ffd6182c3fcda}{%
+           family={Ryder},
+           familyi={R\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=136e03924aa309ddc55df5589dd1a186}{%
+           family={Pavlov},
+           familyi={P\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22df8e37a680209732003e5024978cb9}{%
+           family={Power},
+           familyi={P\bibinitperiod},
+           given={Alethea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69471b8ab1a1d92877d0dfe5f57411e3}{%
+           family={Bavarian},
+           familyi={B\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdaff50f84c08440dcb5fad75b559780}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bce77092f420e5408da248395f999b2}{%
+           family={Tillet},
+           familyi={T\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d63ea89beaec44461e62a45c45eb2d8e}{%
+           family={Such},
+           familyi={S\bibinitperiod},
+           given={Felipe\bibnamedelima Petroski},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b818a6237a2cf43b9ee1463c798bf61c}{%
+           family={Cummings},
+           familyi={C\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=599240d5bfe42aeb65a0c26dae77cd31}{%
+           family={Plappert},
+           familyi={P\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=708efd31e27af20d8132273bbb13c985}{%
+           family={Chantzis},
+           familyi={C\bibinitperiod},
+           given={Fotios},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfc26705b4cc1ed9f45e89aa6a9b7b40}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=787b9715a98ea66a8d5e6bae042ae0b9}{%
+           family={{Herbert-Voss}},
+           familyi={H\bibinitperiod},
+           given={Ariel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01ba025c59466b0bec2481d71e656084}{%
+           family={Guss},
+           familyi={G\bibinitperiod},
+           given={William\bibnamedelima Hebgen},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc19c0dc057e2a02419916b39da6895b}{%
+           family={Nichol},
+           familyi={N\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=445e6e3c370e31dfc6fa4557bab7bbcb}{%
+           family={Paino},
+           familyi={P\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dab05157b89bd0192cb59f4386f74eda}{%
+           family={Tezak},
+           familyi={T\bibinitperiod},
+           given={Nikolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0b3008e85b1a8b38f46556abf1791c7}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92efe2a8e13a9b7a3fb647951ee2391c}{%
+           family={Babuschkin},
+           familyi={B\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f68e5815e38259569eb48ef8b6661adb}{%
+           family={Balaji},
+           familyi={B\bibinitperiod},
+           given={Suchir},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a790dd324cc2996773b48a54b142a3cd}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Shantanu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7173c96904fbae796aea158ab03efeb7}{%
+           family={Saunders},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68a04c5006dbbf98f7719709540c6b56}{%
+           family={Hesse},
+           familyi={H\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=780f653ca0052cfede7e1480462de41b}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc754f0620be1073909db48780f1da4d}{%
+           family={Leike},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=267a4b18ed7ad01341c2def38d96f010}{%
+           family={Achiam},
+           familyi={A\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e5089b1b1b0dd763ad19b53771227ac}{%
+           family={Misra},
+           familyi={M\bibinitperiod},
+           given={Vedant},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea9bbb128a701846c8928e6c20c32864}{%
+           family={Morikawa},
+           familyi={M\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83b87677f36852b115da60705a124ccf}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=491f407436bc852bea5077f37f0d5055}{%
+           family={Brundage},
+           familyi={B\bibinitperiod},
+           given={Miles},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67ea14288bd9a269577050fba375ae80}{%
+           family={Murati},
+           familyi={M\bibinitperiod},
+           given={Mira},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b6d1f81967039acf2a1e4a5ef709b36}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=462853f8544f0acfb7014fe747f84922}{%
+           family={Welinder},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6da1a977c02cecc78ec16c61217dcc42}{%
+           family={McGrew},
+           familyi={M\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e6adbf36ab730cd5fdadb838b4d2667}{%
+           family={Amodei},
+           familyi={A\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b51e7c5fe92844f39ce52b8a5fa5675f}{%
+           family={McCandlish},
+           familyi={M\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9fec85bbce1b087a6ebefe26e73f7bf}{%
+           family={Zaremba},
+           familyi={Z\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2fd8085024f85a70768cd686d429090e}
+      \strng{fullhash}{0bbf9ce0330d5c823ce549001ec5072b}
+      \strng{bibnamehash}{827801c2c536f7d374a3686d701f671e}
+      \strng{authorbibnamehash}{827801c2c536f7d374a3686d701f671e}
+      \strng{authornamehash}{2fd8085024f85a70768cd686d429090e}
+      \strng{authorfullhash}{0bbf9ce0330d5c823ce549001ec5072b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub, and study its Python code-writing capabilities. A distinct production version of Codex powers GitHub Copilot. On HumanEval, a new evaluation set we release to measure functional correctness for synthesizing programs from docstrings, our model solves 28.8\% of the problems, while GPT-3 solves 0\% and GPT-J solves 11.4\%. Furthermore, we find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions to difficult prompts. Using this method, we solve 70.2\% of our problems with 100 samples per problem. Careful investigation of our model reveals its limitations, including difficulty with docstrings describing long chains of operations and with binding operations to variables. Finally, we discuss the potential broader impacts of deploying powerful code generation technologies, covering safety, security, and economics.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{7}
+      \field{number}{arXiv:2107.03374}
+      \field{title}{Evaluating {{Large Language Models Trained}} on {{Code}}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2107.03374
+      \endverb
+      \verb{eprint}
+      \verb 2107.03374
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\JGC3GF77\\Chen et al. - 2021 - Evaluating Large Language Models Trained on Code.pdf;C\:\\Users\\oskar\\Zotero\\storage\\LRYWFJMQ\\2107.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2107.03374
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2107.03374
+      \endverb
+      \keyw{Computer Science - Machine Learning}
+    \endentry
     \entry{devlinBERTPretrainingDeep2019}{misc}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
@@ -218,6 +613,95 @@
       \endverb
       \keyw{Computer Science - Software Engineering}
     \endentry
+    \entry{hendrycksMeasuringMassiveMultitask2021}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=86d0b4ecd6b6066d49e7aecde6e5e630}{%
+           family={Hendrycks},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=624605ebd8b6b403b251522e3d1029ff}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={Collin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35f72302a7aebfd095414ce218b8fb5d}{%
+           family={Basart},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4817500e279ce97b8c8f18b92a2a6ead}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf291551acefa6a31206eb6853b65648}{%
+           family={Mazeika},
+           familyi={M\bibinitperiod},
+           given={Mantas},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d458d5f9b64652055bd81d57e4777b22}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Dawn},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe7a7e80c1857d185d3ab01f15fe584d}{%
+           family={Steinhardt},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{f461c117afa272374439d2db3ee67282}
+      \strng{fullhash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \strng{bibnamehash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \strng{authorbibnamehash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \strng{authornamehash}{f461c117afa272374439d2db3ee67282}
+      \strng{authorfullhash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. We find that while most recent models have near random-chance accuracy, the very largest GPT-3 model improves over random chance by almost 20 percentage points on average. However, on every one of the 57 tasks, the best models still need substantial improvements before they can reach expert-level accuracy. Models also have lopsided performance and frequently do not know when they are wrong. Worse, they still have near-random accuracy on some socially important subjects such as morality and law. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{1}
+      \field{number}{arXiv:2009.03300}
+      \field{title}{Measuring {{Massive Multitask Language Understanding}}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2009.03300
+      \endverb
+      \verb{eprint}
+      \verb 2009.03300
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\4AN4PUCX\\Hendrycks et al. - 2021 - Measuring Massive Multitask Language Understanding.pdf;C\:\\Users\\oskar\\Zotero\\storage\\SSIQIZYR\\2009.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2009.03300
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2009.03300
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computers and Society,Computer Science - Machine Learning}
+    \endentry
     \entry{holmesSpatioTemporalAssetCatalogs2021}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6fa02041fbcd9115cc22a1d8b35a35cb}{%
@@ -292,6 +776,9 @@
       \field{urlyear}{2023}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\I2LWCNWM\what-are-people-asking-to-chatgpt-f5f324a6cc27.html
+      \endverb
       \verb{urlraw}
       \verb https://varunon9.medium.com/what-are-people-asking-to-chatgpt-f5f324a6cc27
       \endverb
@@ -874,6 +1361,70 @@
       \verb https://stacspec.org/en/tutorials/
       \endverb
     \endentry
+    \entry{yiuTransmissionTruthImitation2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=df23612c0373204e14ef3bc5845c3770}{%
+           family={Yiu},
+           familyi={Y\bibinitperiod},
+           given={Eunice},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75643803e9906e218862321d2522e10a}{%
+           family={Kosoy},
+           familyi={K\bibinitperiod},
+           given={Eliza},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e063b0367cfac265e28330a57ad2739}{%
+           family={Gopnik},
+           familyi={G\bibinitperiod},
+           given={Alison},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{1bf33bf21c31c7b9b28ca07f1293370c}
+      \strng{fullhash}{832740bd5d90af563c400dda3f1ea062}
+      \strng{bibnamehash}{832740bd5d90af563c400dda3f1ea062}
+      \strng{authorbibnamehash}{832740bd5d90af563c400dda3f1ea062}
+      \strng{authornamehash}{1bf33bf21c31c7b9b28ca07f1293370c}
+      \strng{authorfullhash}{832740bd5d90af563c400dda3f1ea062}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Much discussion about large language models and language-and-vision models has focused on whether these models are intelligent agents. We present an alternative perspective. First, we argue that these artificial intelligence (AI) models are cultural technologies that enhance cultural transmission and are efficient and powerful imitation engines. Second, we explore what AI models can tell us about imitation and innovation by testing whether they can be used to discover new tools and novel causal structures and contrasting their responses with those of human children. Our work serves as a first step in determining which particular representations and competences, as well as which kinds of knowledge or skills, can be derived from particular learning techniques and data. In particular, we explore which kinds of cognitive capacities can be enabled by statistical analysis of large-scale linguistic data. Critically, our findings suggest that machines may need more than large-scale language and image data to allow the kinds of innovation that a small child can produce.}
+      \field{issn}{1745-6916}
+      \field{journaltitle}{Perspectives on Psychological Science}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{Transmission {{Versus Truth}}, {{Imitation Versus Innovation}}}
+      \field{title}{Transmission {{Versus Truth}}, {{Imitation Versus Innovation}}: {{What Children Can Do That Large Language}} and {{Language-and-Vision Models Cannot}} ({{Yet}})}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{17456916231201401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/17456916231201401
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\E64YEMHK\Yiu et al. - 2023 - Transmission Versus Truth, Imitation Versus Innova.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/17456916231201401
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/17456916231201401
+      \endverb
+    \endentry
     \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=614fdf51ce9628d993d9e0dc779c15a2}{%
@@ -951,6 +1502,80 @@
       \verb http://arxiv.org/abs/2307.07930
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
+    \endentry
+    \entry{zhouLanguageAgentTree2023}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d24d799b07e22cfb7f33575e3da1ba08}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6691f3b2dcdda8e96e2f585637c37ad7}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f50404510d152c521f3fa19a39ea3750}{%
+           family={{Shlapentokh-Rothman}},
+           familyi={S\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aef9f9a30b7bbf77d2bcb23de14493cb}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haohan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a45c843dc33b71402b796a7a10e8d53}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu-Xiong},
+           giveni={Y\bibinithyphendelim X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c64ea742c721e008a13d384dd7617779}
+      \strng{fullhash}{1b353726ff249a2b3a8a689ea78ee035}
+      \strng{bibnamehash}{1b353726ff249a2b3a8a689ea78ee035}
+      \strng{authorbibnamehash}{1b353726ff249a2b3a8a689ea78ee035}
+      \strng{authornamehash}{c64ea742c721e008a13d384dd7617779}
+      \strng{authorfullhash}{1b353726ff249a2b3a8a689ea78ee035}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While large language models (LLMs) have demonstrated impressive performance on a range of decision-making tasks, they rely on simple acting processes and fall short of broad deployment as autonomous agents. We introduce LATS (Language Agent Tree Search), a general framework that synergizes the capabilities of LLMs in planning, acting, and reasoning. Drawing inspiration from Monte Carlo tree search in model-based reinforcement learning, LATS employs LLMs as agents, value functions, and optimizers, repurposing their latent strengths for enhanced decision-making. What is crucial in this method is the use of an environment for external feedback, which offers a more deliberate and adaptive problem-solving mechanism that moves beyond the limitations of existing techniques. Our experimental evaluation across diverse domains, such as programming, HotPotQA, and WebShop, illustrates the applicability of LATS for both reasoning and acting. In particular, LATS achieves 94.4\textbackslash\% for programming on HumanEval with GPT-4 and an average score of 75.9 for web browsing on WebShop with GPT-3.5, demonstrating the effectiveness and generality of our method.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2310.04406}
+      \field{title}{Language {{Agent Tree Search Unifies Reasoning Acting}} and {{Planning}} in {{Language Models}}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2310.04406
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\WFHLX8XB\\Zhou et al. - 2023 - Language Agent Tree Search Unifies Reasoning Actin.pdf;C\:\\Users\\oskar\\Zotero\\storage\\D6MBARZ8\\2310.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2310.04406
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2310.04406
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -991,6 +1616,401 @@
       \verb https://github.com/langchain-ai/langchain
       \endverb
     \endentry
+    \entry{chenEvaluatingLargeLanguage2021}{misc}{}
+      \name{author}{58}{}{%
+        {{un=0,uniquepart=base,hash=fb15a691583ec94aafe0be6e7da4878f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98cbd7022a1c31a6293aa1c8b62bdebf}{%
+           family={Tworek},
+           familyi={T\bibinitperiod},
+           given={Jerry},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dd736ee38ff1cbcc6f0d05487b9950b}{%
+           family={Jun},
+           familyi={J\bibinitperiod},
+           given={Heewoo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0082b934c2454295be3f0a3b138f21d}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Qiming},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14083f4b7ce05fa13a977cfd411c5961}{%
+           family={Pinto},
+           familyi={P\bibinitperiod},
+           given={Henrique\bibnamedelimb Ponde\bibnamedelimb de\bibnamedelima Oliveira},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e85370e215d552f72c95a2b63a37802}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4363fc942d7aad75404420e27d365084}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Harri},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=958f786a0b8eafaa29fae5c0aa0357a0}{%
+           family={Burda},
+           familyi={B\bibinitperiod},
+           given={Yuri},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66d93da29380904e9a0d586e6afe33b4}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ae2a0efeaf9c031f9b420bcb1c19e54}{%
+           family={Brockman},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=143fa59d90387ae4a6aa650dcf1c7ceb}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b1acce3edac7d7de9ceed942cc81cd8}{%
+           family={Puri},
+           familyi={P\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3a5cc5e520e0d1a9f8bbf377c74cd27}{%
+           family={Krueger},
+           familyi={K\bibinitperiod},
+           given={Gretchen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20bb006267a99bf6b2419ac00ec8decb}{%
+           family={Petrov},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b80e3fa0534e28598d15e7cb8f009ee2}{%
+           family={Khlaaf},
+           familyi={K\bibinitperiod},
+           given={Heidy},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c1d9a663596faaf544c1a65aac581be}{%
+           family={Sastry},
+           familyi={S\bibinitperiod},
+           given={Girish},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2321e04943bcadb0275819652b980521}{%
+           family={Mishkin},
+           familyi={M\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdcc84061540e15aac439cba59db6577}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Brooke},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7006ca8c1ce969019b89de50fece60dd}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ac58bd43db2434e8e1ffd6182c3fcda}{%
+           family={Ryder},
+           familyi={R\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=136e03924aa309ddc55df5589dd1a186}{%
+           family={Pavlov},
+           familyi={P\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22df8e37a680209732003e5024978cb9}{%
+           family={Power},
+           familyi={P\bibinitperiod},
+           given={Alethea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69471b8ab1a1d92877d0dfe5f57411e3}{%
+           family={Bavarian},
+           familyi={B\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdaff50f84c08440dcb5fad75b559780}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bce77092f420e5408da248395f999b2}{%
+           family={Tillet},
+           familyi={T\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d63ea89beaec44461e62a45c45eb2d8e}{%
+           family={Such},
+           familyi={S\bibinitperiod},
+           given={Felipe\bibnamedelima Petroski},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b818a6237a2cf43b9ee1463c798bf61c}{%
+           family={Cummings},
+           familyi={C\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=599240d5bfe42aeb65a0c26dae77cd31}{%
+           family={Plappert},
+           familyi={P\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=708efd31e27af20d8132273bbb13c985}{%
+           family={Chantzis},
+           familyi={C\bibinitperiod},
+           given={Fotios},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfc26705b4cc1ed9f45e89aa6a9b7b40}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=787b9715a98ea66a8d5e6bae042ae0b9}{%
+           family={{Herbert-Voss}},
+           familyi={H\bibinitperiod},
+           given={Ariel},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01ba025c59466b0bec2481d71e656084}{%
+           family={Guss},
+           familyi={G\bibinitperiod},
+           given={William\bibnamedelima Hebgen},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc19c0dc057e2a02419916b39da6895b}{%
+           family={Nichol},
+           familyi={N\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=445e6e3c370e31dfc6fa4557bab7bbcb}{%
+           family={Paino},
+           familyi={P\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dab05157b89bd0192cb59f4386f74eda}{%
+           family={Tezak},
+           familyi={T\bibinitperiod},
+           given={Nikolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0b3008e85b1a8b38f46556abf1791c7}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92efe2a8e13a9b7a3fb647951ee2391c}{%
+           family={Babuschkin},
+           familyi={B\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f68e5815e38259569eb48ef8b6661adb}{%
+           family={Balaji},
+           familyi={B\bibinitperiod},
+           given={Suchir},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a790dd324cc2996773b48a54b142a3cd}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Shantanu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7173c96904fbae796aea158ab03efeb7}{%
+           family={Saunders},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68a04c5006dbbf98f7719709540c6b56}{%
+           family={Hesse},
+           familyi={H\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=780f653ca0052cfede7e1480462de41b}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc754f0620be1073909db48780f1da4d}{%
+           family={Leike},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=267a4b18ed7ad01341c2def38d96f010}{%
+           family={Achiam},
+           familyi={A\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e5089b1b1b0dd763ad19b53771227ac}{%
+           family={Misra},
+           familyi={M\bibinitperiod},
+           given={Vedant},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea9bbb128a701846c8928e6c20c32864}{%
+           family={Morikawa},
+           familyi={M\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83b87677f36852b115da60705a124ccf}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=491f407436bc852bea5077f37f0d5055}{%
+           family={Brundage},
+           familyi={B\bibinitperiod},
+           given={Miles},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67ea14288bd9a269577050fba375ae80}{%
+           family={Murati},
+           familyi={M\bibinitperiod},
+           given={Mira},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b6d1f81967039acf2a1e4a5ef709b36}{%
+           family={Mayer},
+           familyi={M\bibinitperiod},
+           given={Katie},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=462853f8544f0acfb7014fe747f84922}{%
+           family={Welinder},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6da1a977c02cecc78ec16c61217dcc42}{%
+           family={McGrew},
+           familyi={M\bibinitperiod},
+           given={Bob},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e6adbf36ab730cd5fdadb838b4d2667}{%
+           family={Amodei},
+           familyi={A\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b51e7c5fe92844f39ce52b8a5fa5675f}{%
+           family={McCandlish},
+           familyi={M\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9fec85bbce1b087a6ebefe26e73f7bf}{%
+           family={Zaremba},
+           familyi={Z\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2fd8085024f85a70768cd686d429090e}
+      \strng{fullhash}{0bbf9ce0330d5c823ce549001ec5072b}
+      \strng{bibnamehash}{827801c2c536f7d374a3686d701f671e}
+      \strng{authorbibnamehash}{827801c2c536f7d374a3686d701f671e}
+      \strng{authornamehash}{2fd8085024f85a70768cd686d429090e}
+      \strng{authorfullhash}{0bbf9ce0330d5c823ce549001ec5072b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub, and study its Python code-writing capabilities. A distinct production version of Codex powers GitHub Copilot. On HumanEval, a new evaluation set we release to measure functional correctness for synthesizing programs from docstrings, our model solves 28.8\% of the problems, while GPT-3 solves 0\% and GPT-J solves 11.4\%. Furthermore, we find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions to difficult prompts. Using this method, we solve 70.2\% of our problems with 100 samples per problem. Careful investigation of our model reveals its limitations, including difficulty with docstrings describing long chains of operations and with binding operations to variables. Finally, we discuss the potential broader impacts of deploying powerful code generation technologies, covering safety, security, and economics.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{7}
+      \field{number}{arXiv:2107.03374}
+      \field{title}{Evaluating {{Large Language Models Trained}} on {{Code}}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2107.03374
+      \endverb
+      \verb{eprint}
+      \verb 2107.03374
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\JGC3GF77\\Chen et al. - 2021 - Evaluating Large Language Models Trained on Code.pdf;C\:\\Users\\oskar\\Zotero\\storage\\LRYWFJMQ\\2107.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2107.03374
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2107.03374
+      \endverb
+      \keyw{Computer Science - Machine Learning}
+    \endentry
     \entry{devlinBERTPretrainingDeep2019}{misc}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
@@ -1153,6 +2173,95 @@
       \endverb
       \keyw{Computer Science - Software Engineering}
     \endentry
+    \entry{hendrycksMeasuringMassiveMultitask2021}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=86d0b4ecd6b6066d49e7aecde6e5e630}{%
+           family={Hendrycks},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=624605ebd8b6b403b251522e3d1029ff}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={Collin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35f72302a7aebfd095414ce218b8fb5d}{%
+           family={Basart},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4817500e279ce97b8c8f18b92a2a6ead}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf291551acefa6a31206eb6853b65648}{%
+           family={Mazeika},
+           familyi={M\bibinitperiod},
+           given={Mantas},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d458d5f9b64652055bd81d57e4777b22}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Dawn},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe7a7e80c1857d185d3ab01f15fe584d}{%
+           family={Steinhardt},
+           familyi={S\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{f461c117afa272374439d2db3ee67282}
+      \strng{fullhash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \strng{bibnamehash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \strng{authorbibnamehash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \strng{authornamehash}{f461c117afa272374439d2db3ee67282}
+      \strng{authorfullhash}{37926f74925a7ec5129b3f44dd0fd2f0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. We find that while most recent models have near random-chance accuracy, the very largest GPT-3 model improves over random chance by almost 20 percentage points on average. However, on every one of the 57 tasks, the best models still need substantial improvements before they can reach expert-level accuracy. Models also have lopsided performance and frequently do not know when they are wrong. Worse, they still have near-random accuracy on some socially important subjects such as morality and law. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{1}
+      \field{number}{arXiv:2009.03300}
+      \field{title}{Measuring {{Massive Multitask Language Understanding}}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2009.03300
+      \endverb
+      \verb{eprint}
+      \verb 2009.03300
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\4AN4PUCX\\Hendrycks et al. - 2021 - Measuring Massive Multitask Language Understanding.pdf;C\:\\Users\\oskar\\Zotero\\storage\\SSIQIZYR\\2009.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2009.03300
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2009.03300
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computers and Society,Computer Science - Machine Learning}
+    \endentry
     \entry{holmesSpatioTemporalAssetCatalogs2021}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6fa02041fbcd9115cc22a1d8b35a35cb}{%
@@ -1227,6 +2336,9 @@
       \field{urlyear}{2023}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\I2LWCNWM\what-are-people-asking-to-chatgpt-f5f324a6cc27.html
+      \endverb
       \verb{urlraw}
       \verb https://varunon9.medium.com/what-are-people-asking-to-chatgpt-f5f324a6cc27
       \endverb
@@ -1809,6 +2921,70 @@
       \verb https://stacspec.org/en/tutorials/
       \endverb
     \endentry
+    \entry{yiuTransmissionTruthImitation2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=df23612c0373204e14ef3bc5845c3770}{%
+           family={Yiu},
+           familyi={Y\bibinitperiod},
+           given={Eunice},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75643803e9906e218862321d2522e10a}{%
+           family={Kosoy},
+           familyi={K\bibinitperiod},
+           given={Eliza},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e063b0367cfac265e28330a57ad2739}{%
+           family={Gopnik},
+           familyi={G\bibinitperiod},
+           given={Alison},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{1bf33bf21c31c7b9b28ca07f1293370c}
+      \strng{fullhash}{832740bd5d90af563c400dda3f1ea062}
+      \strng{bibnamehash}{832740bd5d90af563c400dda3f1ea062}
+      \strng{authorbibnamehash}{832740bd5d90af563c400dda3f1ea062}
+      \strng{authornamehash}{1bf33bf21c31c7b9b28ca07f1293370c}
+      \strng{authorfullhash}{832740bd5d90af563c400dda3f1ea062}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Much discussion about large language models and language-and-vision models has focused on whether these models are intelligent agents. We present an alternative perspective. First, we argue that these artificial intelligence (AI) models are cultural technologies that enhance cultural transmission and are efficient and powerful imitation engines. Second, we explore what AI models can tell us about imitation and innovation by testing whether they can be used to discover new tools and novel causal structures and contrasting their responses with those of human children. Our work serves as a first step in determining which particular representations and competences, as well as which kinds of knowledge or skills, can be derived from particular learning techniques and data. In particular, we explore which kinds of cognitive capacities can be enabled by statistical analysis of large-scale linguistic data. Critically, our findings suggest that machines may need more than large-scale language and image data to allow the kinds of innovation that a small child can produce.}
+      \field{issn}{1745-6916}
+      \field{journaltitle}{Perspectives on Psychological Science}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{Transmission {{Versus Truth}}, {{Imitation Versus Innovation}}}
+      \field{title}{Transmission {{Versus Truth}}, {{Imitation Versus Innovation}}: {{What Children Can Do That Large Language}} and {{Language-and-Vision Models Cannot}} ({{Yet}})}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{17456916231201401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/17456916231201401
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\E64YEMHK\Yiu et al. - 2023 - Transmission Versus Truth, Imitation Versus Innova.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/17456916231201401
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/17456916231201401
+      \endverb
+    \endentry
     \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=614fdf51ce9628d993d9e0dc779c15a2}{%
@@ -1886,6 +3062,80 @@
       \verb http://arxiv.org/abs/2307.07930
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
+    \endentry
+    \entry{zhouLanguageAgentTree2023}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d24d799b07e22cfb7f33575e3da1ba08}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6691f3b2dcdda8e96e2f585637c37ad7}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f50404510d152c521f3fa19a39ea3750}{%
+           family={{Shlapentokh-Rothman}},
+           familyi={S\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aef9f9a30b7bbf77d2bcb23de14493cb}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haohan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a45c843dc33b71402b796a7a10e8d53}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu-Xiong},
+           giveni={Y\bibinithyphendelim X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c64ea742c721e008a13d384dd7617779}
+      \strng{fullhash}{1b353726ff249a2b3a8a689ea78ee035}
+      \strng{bibnamehash}{1b353726ff249a2b3a8a689ea78ee035}
+      \strng{authorbibnamehash}{1b353726ff249a2b3a8a689ea78ee035}
+      \strng{authornamehash}{c64ea742c721e008a13d384dd7617779}
+      \strng{authorfullhash}{1b353726ff249a2b3a8a689ea78ee035}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While large language models (LLMs) have demonstrated impressive performance on a range of decision-making tasks, they rely on simple acting processes and fall short of broad deployment as autonomous agents. We introduce LATS (Language Agent Tree Search), a general framework that synergizes the capabilities of LLMs in planning, acting, and reasoning. Drawing inspiration from Monte Carlo tree search in model-based reinforcement learning, LATS employs LLMs as agents, value functions, and optimizers, repurposing their latent strengths for enhanced decision-making. What is crucial in this method is the use of an environment for external feedback, which offers a more deliberate and adaptive problem-solving mechanism that moves beyond the limitations of existing techniques. Our experimental evaluation across diverse domains, such as programming, HotPotQA, and WebShop, illustrates the applicability of LATS for both reasoning and acting. In particular, LATS achieves 94.4\textbackslash\% for programming on HumanEval with GPT-4 and an average score of 75.9 for web browsing on WebShop with GPT-3.5, demonstrating the effectiveness and generality of our method.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2310.04406}
+      \field{title}{Language {{Agent Tree Search Unifies Reasoning Acting}} and {{Planning}} in {{Language Models}}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2310.04406
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\WFHLX8XB\\Zhou et al. - 2023 - Language Agent Tree Search Unifies Reasoning Actin.pdf;C\:\\Users\\oskar\\Zotero\\storage\\D6MBARZ8\\2310.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2310.04406
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2310.04406
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
     \endentry
   \enddatalist
 \endrefsection

@@ -164,19 +164,46 @@ As can be seen in the example, elements in a table can sometimes benefit from be
 
 \section[Large Language Models]{\acrshortpl{acr:llm}}\label{sec:llms}
 
-\subsection[The GPT Family]{The \acrshort{acr:gpt} Family}
+\subsection[Benchmarking for Large Language Models]{Benchmarking for \acrlongpl{acr:llm}}\label{subsec:llm-benchmarking}
+
+There are several ways of benchmarking \acrlongpl{acr:llm} but this section will focus on HumanEval and \gls{acr:mmlu}.
+
+\subsubsection{HumanEval}\label{subsubsec:humaneval}
+
+HumanEval is a dataset of handwritten problems used to measure functional correctness for synthesizing programs for docstrings \citep[2-4]{chenEvaluatingLargeLanguage2021}.
+
+\subsubsection[Multitask Language Understanding]{\acrlong{acr:mmlu}}
+
+First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \acrlong{acr:mmlu} is a way of tesing a \acrlong{acr:llm}'s multitask accuracy, covering 57 tasks including mathematics, computer science, and others.
+
+\subsection[The GPT Family]{The \acrshort{acr:gpt} Family}\label{subsec:openai-llms}
 
 \glspl{acr:gpt} are a type of \gls{acr:llm} first introduced by \hyperref[subsec:openai]{OpenAI} in 2018 \citep{radfordImprovingLanguageUnderstanding2018}.
 
-\subsection[The BERT Family]{The \acrshort{acr:bert} Family}
+
+\subsection{Google Products}\label{subsec:google-llms}
+
+\subsubsection[The BERT Family]{The \acrshort{acr:bert} Family}
 
 \gls{acr:bert} is a family of language models developed at Google \citep{devlinBERTPretrainingDeep2019}, first presented in 2018.
 
-\subsection{Google Products}
-
-\subsubsection{PaLM 2}
+\subsubsection{PaLM 2}\label{subsubsec:palm2}
 
 \subsubsection{Codey}
+
+\subsection{Meta Products}
+
+Like \hyperref[subsubsec:palm2]{PaLM 2} The language models developed by Meta (previously Facebook) differ from the products from \hyperref[subsec:openai-llms]{OpenAI} in that Meta's LLama models are open-source.
+
+\subsubsection{LLama 2}
+
+\subsubsection{Code LLama}
+
+\subsection{Honourable Mentions}
+
+\subsubsection{Falcon 180B}
+\subsubsection{Mistral}
+\subsubsection{Vicuna}
 
 \section[LLM providers]{\acrfull{acr:llm} Providers}\label{sec:llm-providers}
 
@@ -282,26 +309,30 @@ Given that the main reason people use conversational \acrshort{acr:ai} is for pr
 
 \subsection[GIS with LLMs]{\acrshort{acr:gis} with \acrshortpl{acr:llm}}\label{subsec:gis-with-llms}
 
-\cite{robertsGPT4GEOHowLanguage2023} investigated extent of GPT-4's geospatial awareness through a set of case studies with increasing difficulties.
+\cite{robertsGPT4GEOHowLanguage2023} investigated extent of GPT-4's geospatial awareness through a set of case studies with increasing difficulties, starting with general factual tasks and finishing with complex questions such as generating country outlines and travel networks.
 
 \cite{liAutonomousGISNextgeneration2023} states that “autonomous \acrshort{acr:gis} will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight need of a memory system in a mature \gls{acr:llm}-based \gls{acr:gis} system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called \acrshort{acr:llm}-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
 
 \cite{zhangGeoGPTUnderstandingProcessing2023} uses the LangChain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of \glspl{acr:llm} like (e.g., ChatGPT) to call externally defined tools, employing the \gls{acr:llm} as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
 
-\subsection[Retrieval Augmented Generation]{\acrlong{acr:rag}}
+\subsection[Retrieval Augmented Generation]{\acrlong{acr:rag}}\label{subsec:retrieval-automented-generation}
 
 \gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those designed to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
 
-\subsubsection{LangChain}
+\subsubsection{LangChain}\label{subsubsec:langchain}
 
 LangChain \citep{chaseLangChain2022} is an open-source project that provides tooling that can be used to create autonomous \acrshort{acr:ai} agents. It is designed to help with prompt management and optimization, creating chains of calls to \acrshortpl{acr:llm}, data augmentation, autonomous agent creation, and memory-related tasks.
 
-\subsubsection{Microsoft Semantic Kernel}
+\subsubsection{Microsoft Semantic Kernel}\label{subsubsec:microsoft-semantic-kernel}
 
 Microsoft Semantic Kernel is an \acrshort{acr:sdk} that functions as the brain of an autonomous agent and provides connectors to models and memory, and connects to triggers and actions.
 
-\subsubsection{AutoGPT}
+\subsubsection{AutoGPT}\label{subsubsec:autogpt}
 
 \cite{richardAutoGPTHeartOpensource2023} will try to split a task into subtasks and use the internet and other tools in an automatic loop to solve the task/subtasks.
+
+\subsection{Prompt Engineering and Planning Strategies}\label{subsec:prompt-engineering-and-planning-strategies}
+
+\cite{zhouLanguageAgentTree2023} introduces a framework called \gls{acr:lats} "that synergizes the capabilities of \acrshortpl{acr:llm} in planning, acting, and reasoning.". As of writing (October 30th, 2023), the \gls{acr:lats} framework is the highest scoring model on the \hyperref[subsubsec:humaneval]{HumanEval} benchmark.
 
 \glsresetall

@@ -3062,37 +3062,42 @@
     <bcf:citekey order="1" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
     <bcf:citekey order="2" intorder="1">fanLargeLanguageModels2023</bcf:citekey>
     <bcf:citekey order="3" intorder="1">fanLargeLanguageModels2023</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">radfordImprovingLanguageUnderstanding2018</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">devlinBERTPretrainingDeep2019</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">ogcOGCStandards2023</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">STACTutorials</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">holmesSpatioTemporalAssetCatalogs2021</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">mardalNasjonalStrategiVidereutvikling2015</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">maehlumSOSI2023</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">maehlumSOSI2023</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">norgedigitaltGenerelleVilkarNorge2023</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">kumarWhatArePeople2023a</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">openaiGPT4TechnicalReport2023</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">chenEvaluatingLargeLanguage2021</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">hendrycksMeasuringMassiveMultitask2021</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">radfordImprovingLanguageUnderstanding2018</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">devlinBERTPretrainingDeep2019</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">ogcOGCStandards2023</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">STACTutorials</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">holmesSpatioTemporalAssetCatalogs2021</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">mardalNasjonalStrategiVidereutvikling2015</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">maehlumSOSI2023</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">maehlumSOSI2023</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">norgedigitaltGenerelleVilkarNorge2023</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">kumarWhatArePeople2023a</bcf:citekey>
     <bcf:citekey order="16" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">openaiGPT4TechnicalReport2023</bcf:citekey>
     <bcf:citekey order="18" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
     <bcf:citekey order="19" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
     <bcf:citekey order="20" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
     <bcf:citekey order="21" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">robertsGPT4GEOHowLanguage2023</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">robertsGPT4GEOHowLanguage2023</bcf:citekey>
     <bcf:citekey order="25" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">chaseLangChain2022</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">martineauWhatRetrievalaugmentedGeneration2023</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">openaiGPT4TechnicalReport2023</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">chaseLangChain2022</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
-    <bcf:citekey order="33" intorder="2">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">chaseLangChain2022</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">martineauWhatRetrievalaugmentedGeneration2023</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">openaiGPT4TechnicalReport2023</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">chaseLangChain2022</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">zhouLanguageAgentTree2023</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">robertsGPT4GEOHowLanguage2023</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">yiuTransmissionTruthImitation2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

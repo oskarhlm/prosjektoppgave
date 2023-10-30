@@ -5,8 +5,8 @@
 \babel@toc {british}{}\relax 
 \contentsline {chapter}{Sammendrag}{ii}{section*.1}%
 \contentsline {chapter}{Preface}{iii}{section*.2}%
-\contentsline {chapter}{List of Figures}{vi}{chapter*.5}%
-\contentsline {chapter}{List of Tables}{vii}{chapter*.6}%
+\contentsline {chapter}{List of Figures}{vii}{chapter*.5}%
+\contentsline {chapter}{List of Tables}{viii}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background and Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Goals and Research Questions}{1}{section.1.2}%
@@ -16,57 +16,75 @@
 \contentsline {section}{\numberline {1.5}Thesis Structure}{2}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Large Language Models}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}The GPT Family}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}The BERT Family}{3}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Google Products}{3}{subsection.2.1.3}%
-\contentsline {subsubsection}{\nonumberline PaLM 2}{3}{subsubsection*.11}%
-\contentsline {subsubsection}{\nonumberline Codey}{3}{subsubsection*.13}%
-\contentsline {section}{\numberline {2.2}LLM providers}{3}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}OpenAI}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Benchmarking for Large Language Models}{3}{subsection.2.1.1}%
+\contentsline {subsubsection}{\nonumberline HumanEval}{3}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Multitask Language Understanding}{3}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {2.1.2}The GPT Family}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Google Products}{5}{subsection.2.1.3}%
+\contentsline {subsubsection}{\nonumberline The BERT Family}{5}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline PaLM 2}{5}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Codey}{5}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {2.1.4}Meta Products}{5}{subsection.2.1.4}%
+\contentsline {subsubsection}{\nonumberline LLama 2}{5}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Code LLama}{5}{subsubsection*.23}%
+\contentsline {subsection}{\numberline {2.1.5}Honourable Mentions}{5}{subsection.2.1.5}%
+\contentsline {subsubsection}{\nonumberline Falcon 180B}{5}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline Mistral}{5}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline Vicuna}{5}{subsubsection*.29}%
+\contentsline {section}{\numberline {2.2}LLM providers}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}OpenAI}{5}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Microsoft Azure}{5}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Google Cloud}{5}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Amazon Web Services (AWS)}{5}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Anthropic}{5}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Geospatial Standards}{5}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}International Standardization Work}{5}{subsection.2.3.1}%
-\contentsline {subsubsection}{\nonumberline OGC Standards}{5}{subsubsection*.15}%
-\contentsline {subsubsection}{\nonumberline STAC Api Standard}{5}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline OGC Standards}{5}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline STAC Api Standard}{6}{subsubsection*.33}%
 \contentsline {subsection}{\numberline {2.3.2}Norwegian Standardization Work}{6}{subsection.2.3.2}%
-\contentsline {subsubsection}{\nonumberline SOSI}{6}{subsubsection*.19}%
-\contentsline {subsubsection}{\nonumberline Geovekst}{6}{subsubsection*.21}%
-\contentsline {subsubsection}{\nonumberline Norge digitalt}{6}{subsubsection*.23}%
-\contentsline {section}{\numberline {2.4}User Groups}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}General Public}{8}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}GIS Professionals}{8}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}City Planners}{8}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Business Analysts}{8}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Academics and Researchers}{8}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Emergency Services}{8}{subsection.2.4.6}%
-\contentsline {section}{\numberline {2.5}Regulatory Bodies and Privacy Concerns}{8}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Local Regulations}{8}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}The European Union (EU)}{8}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Related Work}{8}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}GIS with LLMs}{8}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Retrieval Augmented Generation}{9}{subsection.2.6.2}%
-\contentsline {subsubsection}{\nonumberline LangChain}{9}{subsubsection*.26}%
-\contentsline {subsubsection}{\nonumberline Microsoft Semantic Kernel}{9}{subsubsection*.28}%
-\contentsline {subsubsection}{\nonumberline AutoGPT}{10}{subsubsection*.30}%
-\contentsline {chapter}{\numberline {3}Experiments and Results}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Experimental Plan}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Experimental Setup}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Experimental Results}{11}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Evaluation}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Discussion}{12}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Contributions}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{13}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Test regime}{13}{subsection.5.2.1}%
-\contentsline {chapter}{Bibliography}{14}{subsection.5.2.1}%
-\contentsline {chapter}{Appendices}{16}{chapter*.32}%
-\contentsline {chapter}{\numberline {A}Task Description from Norkart}{17}{appendix.A}%
-\contentsline {chapter}{\numberline {B}API Schemas}{19}{appendix.B}%
-\contentsline {section}{\numberline {B.1}OGC API - Features}{19}{section.B.1}%
-\contentsline {section}{\numberline {B.2}STAC API}{20}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Code Examples}{21}{appendix.C}%
+\contentsline {subsubsection}{\nonumberline SOSI}{7}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline Geovekst}{7}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Norge digitalt}{7}{subsubsection*.39}%
+\contentsline {section}{\numberline {2.4}User Groups}{8}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}General Public}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}GIS Professionals}{9}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}City Planners}{9}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Business Analysts}{9}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Academics and Researchers}{9}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Emergency Services}{9}{subsection.2.4.6}%
+\contentsline {section}{\numberline {2.5}Regulatory Bodies and Privacy Concerns}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Local Regulations}{9}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}The European Union (EU)}{9}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Related Work}{9}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}GIS with LLMs}{9}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Retrieval Augmented Generation}{10}{subsection.2.6.2}%
+\contentsline {subsubsection}{\nonumberline LangChain}{10}{subsubsection*.42}%
+\contentsline {subsubsection}{\nonumberline Microsoft Semantic Kernel}{10}{subsubsection*.44}%
+\contentsline {subsubsection}{\nonumberline AutoGPT}{10}{subsubsection*.46}%
+\contentsline {subsection}{\numberline {2.6.3}Prompt Engineering and Planning Strategies}{10}{subsection.2.6.3}%
+\contentsline {chapter}{\numberline {3}Experiments and Results}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Experimental Plan}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Determining the Potential of LLM-based GIS analysis (RQ 1)}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features (RQ 2)}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Testing ChatGPT's Ability to To Use External Tools (RQ 2)}{12}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Experimental Setup}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Experimental Results}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Evaluation}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Discussion}{13}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Contributions}{14}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{14}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Test regime}{14}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Framework for Planning, Acting, and Reasoning}{15}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Embeddings}{15}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Fine-Tuning}{15}{subsection.5.2.4}%
+\contentsline {chapter}{Acronyms}{16}{section*.47}%
+\contentsline {chapter}{Bibliography}{18}{section*.49}%
+\contentsline {chapter}{Appendices}{20}{chapter*.51}%
+\contentsline {chapter}{\numberline {A}Task Description from Norkart}{21}{appendix.A}%
+\contentsline {chapter}{\numberline {B}API Schemas}{23}{appendix.B}%
+\contentsline {section}{\numberline {B.1}OGC API - Features}{23}{section.B.1}%
+\contentsline {section}{\numberline {B.2}STAC API}{24}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Code Examples}{25}{appendix.C}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
