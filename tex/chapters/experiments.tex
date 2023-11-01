@@ -12,11 +12,11 @@ The plan should include what experiments or series of experiments are planned an
 
 The experiments conducted for this report have been planned to answer the research questions described in \autoref{sec:goals-and-research-questions}.
 
-\subsection[Determining the Potential of LLM-based GIS analysis (RQ 1)]{Determining the Potential of LLM-based GIS analysis (\rqref{rq:llm-potential})}
+\subsection[RQ1: Determining the Potential of LLM-based GIS analysis]{\rqref{rq:llm-potential}: Determining the Potential of LLM-based GIS analysis}
 
-\rqref{rq:llm-potential} differs from \rqref{rq:overlay-analysis} and \rqref{rq:external-tools} in that it is more open-ended. The tests will try to display the abilities of \acrshort{acr:gpt}-4 for geospatial tasks, without providing it with any context or external tools. The tests are inspired by the work of \cite{robertsGPT4GEOHowLanguage2023} (see \autoref{subsec:gis-with-llms}), who did experiments with increasing difficult on \acrshort{acr:gpt}-4 to characterize what \acrshort{acr:gpt}-4 knows about the geographical world, highlighting both capabilities and limitations.
+\rqref{rq:llm-potential} differs from \rqref{rq:overlay-analysis} and \rqref{rq:external-tools} in that it is more open-ended. The tests will try to display the abilities of \acrshort{acr:gpt}-4 for geospatial tasks, without providing it with any context or external tools. The tests are inspired by the work of \cite{robertsGPT4GEOHowLanguage2023} (see \autoref{subsec:gis-with-llms}), who did experiments with increasing difficult on \acrshort{acr:gpt}-4 to characterize what \acrshort{acr:gpt}-4 knows about the geographical world, highlighting both capabilities and limitations. These tests focused on \acrshort{acr:gpt}-4's general geospatial awareness, and were not concerned with \acrshort{acr:gis}-related tasks. Therefore, I will refer to \cite{robertsGPT4GEOHowLanguage2023} when highlighting its somewhat surprising geospatial awareness abilities, and focus my efforts to displaying its potential for use in the world of \acrshort{acr:gis}. I will do this by constructing various tests that try to reflect its GIS knowledge.
 
-\subsection[Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features (RQ 2)]{Testing ChatGPT's Ability to Perform Overlay Analysis using \acrshort{acr:ogc} \acrshort{acr:api} - Features (\rqref{rq:overlay-analysis})}
+\subsection[RQ2: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features]{\rqref{rq:overlay-analysis}: Testing ChatGPT's Ability to Perform Overlay Analysis using \acrshort{acr:ogc} \acrshort{acr:api} - Features}
 
 Experiments on \rqref{rq:overlay-analysis} will require three different elements:
 
@@ -26,7 +26,7 @@ Experiments on \rqref{rq:overlay-analysis} will require three different elements
     \item Gold standard/expected output for the given combination of input data and prompts
 \end{enumerate}
 
-\subsection[Testing ChatGPT's Ability to To Use External Tools (RQ 2)]{Testing ChatGPT's Ability to To Use External Tools (\rqref{rq:external-tools})}
+\subsection[RQ3: Testing ChatGPT's Ability to To Use External Tools]{\rqref{rq:external-tools}: Testing ChatGPT's Ability to Use External Tools}
 
 Experiments on \rqref{rq:external-tools} will test different tools and techniques intended to give an \acrshort{acr:llm} access to up-to-date information and external tools (see \autoref{subsec:retrieval-automented-generation} on \acrlong{acr:rag}). The main focus will be on how one can use a tool like \hyperref[subsubsec:langchain]{LangChain} hook up a conversational \acrshort{acr:ai} with sophisticated functionality found in various \acrshort{acr:gis} software.
 
@@ -37,6 +37,13 @@ Experiments on \rqref{rq:external-tools} will test different tools and technique
 The experimental setup should include all data --- parameters, etc. --- that would allow a person to repeat your experiments.
 This will thus be the actual instantiation for each experiment of the general architecture described in Chapter~\ref{cha:architecture}.
 \end{comment}
+
+\subsection[RQ1: Determining the Potential of LLM-based GIS analysis]{\rqref{rq:llm-potential}: Determining the Potential of LLM-based GIS analysis}
+
+\subsection[RQ2: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features]{\rqref{rq:overlay-analysis}: Testing ChatGPT's Ability to Perform Overlay Analysis using \acrshort{acr:ogc} \acrshort{acr:api} - Features}
+
+
+\subsection[RQ3: Testing ChatGPT's Ability to To Use External Tools]{\rqref{rq:external-tools}: Testing ChatGPT's Ability to Use External Tools}
 
 \section{Experimental Results}
 \label{sec:experimentalResults}
