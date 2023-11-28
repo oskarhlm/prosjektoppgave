@@ -1,0 +1,14 @@
+{
+  "FKB Tiltak (DEMO)": {
+    "type": "application/json",
+    "href": "https://alenos-tester001.azurewebsites.net/collections?f=json",
+    "description": "A API endpoint with JSON response which conforms to the OGC API Features standard. This is a it contains a list of collections.",
+    "links": [
+      {
+        "type": "application/yaml",
+        "title": "Schema definition for Collections in OGC API Features",
+        "href": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collections.yaml"
+      }
+    ]
+  }
+}
