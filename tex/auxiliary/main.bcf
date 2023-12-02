@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.10" bltxversion="3.19" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.8" bltxversion="3.17" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -37,11 +37,6 @@
     <bcf:option type="singlevalued">
       <bcf:key>alphaothers</bcf:key>
       <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
@@ -139,10 +134,6 @@
     <bcf:option type="singlevalued">
       <bcf:key>nosortothers</bcf:key>
       <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>pluralothers</bcf:key>
-      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>singletitle</bcf:key>
@@ -295,11 +286,6 @@
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -398,238 +384,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
       <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquename</bcf:key>
-      <bcf:value>full</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniqueprimaryauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquetitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquebaretitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquework</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useprefix</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useafterword</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useannotator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usebookauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usecommentator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditora</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditorb</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditorc</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useforeword</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useholder</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useintroduction</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenamea</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenameb</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenamec</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usetranslator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useshortauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useshorteditor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenarrator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useexecproducer</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useexecdirector</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usewith</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-  </bcf:options>
-  <!-- inbook -->
-  <bcf:options component="biblatex" type="inbook">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labelalpha</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labelnamespec</bcf:key>
-      <bcf:value order="1">shortauthor</bcf:value>
-      <bcf:value order="2">author</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeltitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labeltitlespec</bcf:key>
-      <bcf:value order="1">shorttitle</bcf:value>
-      <bcf:value order="2">title</bcf:value>
-      <bcf:value order="3">maintitle</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeltitleyear</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labeldatespec</bcf:key>
-      <bcf:value order="1" type="field">pubstate</bcf:value>
-      <bcf:value order="2" type="field">date</bcf:value>
-      <bcf:value order="3" type="field">eventdate</bcf:value>
-      <bcf:value order="4" type="field">year</bcf:value>
-      <bcf:value order="5" type="string">nodate</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxalphanames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>20</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>2</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>20</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxitems</bcf:key>
-      <bcf:value>999</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minalphanames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minbibnames</bcf:key>
-      <bcf:value>19</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minsortnames</bcf:key>
-      <bcf:value>19</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minitems</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>nohashothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>noroman</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>nosortothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>singletitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skipbib</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
       <bcf:key>skipbiblist</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -751,11 +510,6 @@
   </bcf:options>
   <!-- constitution -->
   <bcf:options component="biblatex" type="constitution">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -850,11 +604,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -985,7 +739,6 @@
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -1098,7 +851,6 @@
     <bcf:option datatype="boolean">labeltitle</bcf:option>
     <bcf:option datatype="boolean">labeltitleyear</bcf:option>
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
-    <bcf:option datatype="boolean">pluralothers</bcf:option>
     <bcf:option datatype="boolean">nohashothers</bcf:option>
     <bcf:option datatype="boolean">nosortothers</bcf:option>
     <bcf:option datatype="boolean">noroman</bcf:option>
@@ -1219,7 +971,6 @@
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
     <bcf:option datatype="xml">sortinclusion</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -1391,7 +1142,6 @@
       <bcf:map>
         <bcf:per_type>inproceedings</bcf:per_type>
         <bcf:map_step map_notfield="editor" map_final="1"/>
-        <bcf:map_step map_notfield="crossref" map_final="1"/>
         <bcf:map_step map_field_source="booktitle" map_field_target="journaltitle"/>
         <bcf:map_step map_type_source="inproceedings" map_type_target="article"/>
       </bcf:map>
@@ -1608,22 +1358,7 @@
     <bcf:namepart order="4">suffix</bcf:namepart>
   </bcf:uniquenametemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
-  <bcf:sortingnamekeytemplate name="global" visibility="sort">
-    <bcf:keypart order="1">
-      <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
-      <bcf:part type="namepart" order="2">family</bcf:part>
-    </bcf:keypart>
-    <bcf:keypart order="2">
-      <bcf:part type="namepart" order="1">given</bcf:part>
-    </bcf:keypart>
-    <bcf:keypart order="3">
-      <bcf:part type="namepart" order="1">suffix</bcf:part>
-    </bcf:keypart>
-    <bcf:keypart order="4">
-      <bcf:part type="namepart" order="1" use="0">prefix</bcf:part>
-    </bcf:keypart>
-  </bcf:sortingnamekeytemplate>
-  <bcf:sortingnamekeytemplate name="apasortcite" visibility="cite">
+  <bcf:sortingnamekeytemplate name="global">
     <bcf:keypart order="1">
       <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
       <bcf:part type="namepart" order="2">family</bcf:part>
@@ -1639,9 +1374,6 @@
     </bcf:keypart>
   </bcf:sortingnamekeytemplate>
   <bcf:presort>mm</bcf:presort>
-  <bcf:sortexclusion type="inbook">
-    <bcf:exclusion>editor</bcf:exclusion>
-  </bcf:sortexclusion>
   <!-- DATA MODEL -->
   <bcf:datamodel>
     <bcf:constants>
@@ -3059,46 +2791,70 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">fanLargeLanguageModels2023</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">fanLargeLanguageModels2023</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">chenEvaluatingLargeLanguage2021</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">hendrycksMeasuringMassiveMultitask2021</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">radfordImprovingLanguageUnderstanding2018</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">devlinBERTPretrainingDeep2019</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">ogcOGCStandards2023</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">STACTutorials</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">holmesSpatioTemporalAssetCatalogs2021</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">mardalNasjonalStrategiVidereutvikling2015</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">maehlumSOSI2023</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">maehlumSOSI2023</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">norgedigitaltGenerelleVilkarNorge2023</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">kumarWhatArePeople2023a</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">openaiGPT4TechnicalReport2023</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">skjuveWhyPeopleUse2023</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">robertsGPT4GEOHowLanguage2023</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">chaseLangChain2022</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">martineauWhatRetrievalaugmentedGeneration2023</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">openaiGPT4TechnicalReport2023</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">chaseLangChain2022</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">richardAutoGPTHeartOpensource2023</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">zhouLanguageAgentTree2023</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">robertsGPT4GEOHowLanguage2023</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">robertsGPT4GEOHowLanguage2023</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">yiuTransmissionTruthImitation2023</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">liAutonomousGISNextgeneration2023</bcf:citekey>
-    <bcf:citekey order="39" intorder="2">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
+    <bcf:citekey order="1">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="2">fanLargeLanguageModels2023</bcf:citekey>
+    <bcf:citekey order="3">fanLargeLanguageModels2023</bcf:citekey>
+    <bcf:citekey order="4">chenEvaluatingLargeLanguage2021</bcf:citekey>
+    <bcf:citekey order="5">hendrycksMeasuringMassiveMultitask2021</bcf:citekey>
+    <bcf:citekey order="6">radfordImprovingLanguageUnderstanding2018</bcf:citekey>
+    <bcf:citekey order="7">devlinBERTPretrainingDeep2019</bcf:citekey>
+    <bcf:citekey order="8">ogcOGCStandards2023</bcf:citekey>
+    <bcf:citekey order="9">STACTutorials</bcf:citekey>
+    <bcf:citekey order="10">holmesSpatioTemporalAssetCatalogs2021</bcf:citekey>
+    <bcf:citekey order="11">mardalNasjonalStrategiVidereutvikling2015</bcf:citekey>
+    <bcf:citekey order="12">maehlumSOSI2023</bcf:citekey>
+    <bcf:citekey order="13">maehlumSOSI2023</bcf:citekey>
+    <bcf:citekey order="14">norgedigitaltGenerelleVilkarNorge2023</bcf:citekey>
+    <bcf:citekey order="15">kumarWhatArePeople2023a</bcf:citekey>
+    <bcf:citekey order="16">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="17">openaiGPT4TechnicalReport2023</bcf:citekey>
+    <bcf:citekey order="18">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="19">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="20">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="21">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="22">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="23">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="24">robertsGPT4GEOHowLanguage2023</bcf:citekey>
+    <bcf:citekey order="25">liAutonomousGISNextgeneration2023</bcf:citekey>
+    <bcf:citekey order="26">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="27">liAutonomousGISNextgeneration2023</bcf:citekey>
+    <bcf:citekey order="28">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
+    <bcf:citekey order="29">chaseLangChain2022</bcf:citekey>
+    <bcf:citekey order="30">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="31">martineauWhatRetrievalaugmentedGeneration2023</bcf:citekey>
+    <bcf:citekey order="32">openaiGPT4TechnicalReport2023</bcf:citekey>
+    <bcf:citekey order="33">chaseLangChain2022</bcf:citekey>
+    <bcf:citekey order="34">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="35">zhouLanguageAgentTree2023</bcf:citekey>
+    <bcf:citekey order="36">robertsGPT4GEOHowLanguage2023</bcf:citekey>
+    <bcf:citekey order="37">robertsGPT4GEOHowLanguage2023</bcf:citekey>
+    <bcf:citekey order="38">thenorwegianmappingauthorityElveg2019</bcf:citekey>
+    <bcf:citekey order="39">yiuTransmissionTruthImitation2023</bcf:citekey>
+    <bcf:citekey order="40">liAutonomousGISNextgeneration2023</bcf:citekey>
+    <bcf:citekey order="40">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
+    <bcf:citekey order="41">skjuveWhyPeopleUse2023</bcf:citekey>
+    <bcf:citekey order="42">fanLargeLanguageModels2023</bcf:citekey>
+    <bcf:citekey order="43">chenEvaluatingLargeLanguage2021</bcf:citekey>
+    <bcf:citekey order="44">hendrycksMeasuringMassiveMultitask2021</bcf:citekey>
+    <bcf:citekey order="45">radfordImprovingLanguageUnderstanding2018</bcf:citekey>
+    <bcf:citekey order="46">devlinBERTPretrainingDeep2019</bcf:citekey>
+    <bcf:citekey order="47">ogcOGCStandards2023</bcf:citekey>
+    <bcf:citekey order="48">STACTutorials</bcf:citekey>
+    <bcf:citekey order="49">holmesSpatioTemporalAssetCatalogs2021</bcf:citekey>
+    <bcf:citekey order="50">mardalNasjonalStrategiVidereutvikling2015</bcf:citekey>
+    <bcf:citekey order="51">maehlumSOSI2023</bcf:citekey>
+    <bcf:citekey order="52">norgedigitaltGenerelleVilkarNorge2023</bcf:citekey>
+    <bcf:citekey order="53">kumarWhatArePeople2023a</bcf:citekey>
+    <bcf:citekey order="54">openaiGPT4TechnicalReport2023</bcf:citekey>
+    <bcf:citekey order="55">robertsGPT4GEOHowLanguage2023</bcf:citekey>
+    <bcf:citekey order="56">liAutonomousGISNextgeneration2023</bcf:citekey>
+    <bcf:citekey order="57">richardAutoGPTHeartOpensource2023</bcf:citekey>
+    <bcf:citekey order="58">zhangGeoGPTUnderstandingProcessing2023</bcf:citekey>
+    <bcf:citekey order="59">chaseLangChain2022</bcf:citekey>
+    <bcf:citekey order="60">martineauWhatRetrievalaugmentedGeneration2023</bcf:citekey>
+    <bcf:citekey order="61">zhouLanguageAgentTree2023</bcf:citekey>
+    <bcf:citekey order="62">thenorwegianmappingauthorityElveg2019</bcf:citekey>
+    <bcf:citekey order="63">yiuTransmissionTruthImitation2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
@@ -3141,15 +2897,6 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="apa/apasortcite//global/global"
-                type="entry"
-                sortingtemplatename="apa"
-                sortingnamekeytemplatename="apasortcite"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
   <bcf:datalist section="0"
                 name="apa/global//global/global"
                 type="entry"

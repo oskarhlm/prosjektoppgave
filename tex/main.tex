@@ -1,4 +1,4 @@
-\documentclass[a4paper,twoside=false]{scrbook}
+\documentclass[a4paper,twoside=false]{scrbook} 
 \usepackage{etex}					% Avoid errors caused by too many packages
 \usepackage[norsk,british]{babel}		% Correct Norwegian and English hyphenation
 \selectlanguage{british}
@@ -30,11 +30,11 @@
 \usepackage{framed}
 \usepackage{tabularx}
 \usepackage{multicol}
-\usepackage{multirow}
+\usepackage{multirow} 
 \usepackage{rotating}
-\usepackage{array}
+\usepackage{array} 
 \usepackage{supertabular}
-\usepackage{hhline}
+\usepackage{hhline} 
 \usepackage{subcaption}
 \usepackage[shortlabels]{enumitem}
 \usepackage{datatool}
@@ -115,11 +115,11 @@
             maxcitenames=2,
             language=british,
             uniquelist=false,
-            ]{biblatex}         				% Correct citations
+            ]{biblatex}         				% Correct citations 
 
 % Bibliography (+ hacks)
 % \addbibresource{bib/references.bib}
-\addbibresource{bib/bibliography.bib}
+\addbibresource{bib/bibliography.bib}  
 \DeclareLanguageMapping{british}{british-apa}
 \setlength\bibitemsep{2\itemsep}
 \patchcmd{\bibsetup}{\interlinepenalty=5000}{\interlinepenalty=10000}{}{}
@@ -147,7 +147,7 @@
 % HYPHENATION DEFINITIONS
 
 \usepackage{hyphenat}
-
+ 
 % add correct hyphenations as needed
 \hyphenation{hash-tag Sem-Eval}
 \hyphenation{cyber-bully cyber-bullying}
@@ -279,6 +279,11 @@ acronym] 				% create a list of abbreviations
 \include{chapters/experiments}
 \include{chapters/discussion}
 \include{chapters/conclusion}
+% \input{chapters/introduction}
+% \input{chapters/theory}
+% \input{chapters/experiments}
+% \input{chapters/discussion}
+% \input{chapters/conclusion}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\backmatter

@@ -7,3 +7,7 @@ LLama
 Honerable
 LangChain
 ChatGPT
+Norkart
+Drammen
+GeoJSON
+FeatureCollection

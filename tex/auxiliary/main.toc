@@ -60,35 +60,34 @@
 \contentsline {subsection}{\numberline {2.6.1}GIS with LLMs}{9}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Retrieval Augmented Generation}{10}{subsection.2.6.2}%
 \contentsline {subsubsection}{\nonumberline LangChain}{10}{subsubsection*.44}%
-\contentsline {subsubsection}{\nonumberline Microsoft Semantic Kernel}{11}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline Microsoft Semantic Kernel}{10}{subsubsection*.46}%
 \contentsline {subsubsection}{\nonumberline AutoGPT}{11}{subsubsection*.48}%
 \contentsline {subsection}{\numberline {2.6.3}Prompt Engineering and Planning Strategies}{11}{subsection.2.6.3}%
 \contentsline {chapter}{\numberline {3}Experiments and Results}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Experimental Plan}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Experimental Plan and Setup}{12}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}RQ1: Determining the Potential of LLM-based GIS analysis}{12}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}RQ2: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features}{12}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}RQ3: Testing ChatGPT's Ability to To Use External Tools}{12}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Experimental Setup}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}RQ1: Determining the Potential of LLM-based GIS analysis}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}RQ2: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features}{13}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}RQ3: Testing ChatGPT's Ability to To Use External Tools}{13}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Experimental Results}{13}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Discussion}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Evaluation}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Discussion}{14}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Contributions}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{15}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Test regime}{15}{subsection.5.2.1}%
+\contentsline {subsubsection}{\nonumberline Ability to Conduct Geospatial Anaylsis}{12}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline Data Access}{13}{subsubsection*.52}%
+\contentsline {subsection}{\numberline {3.1.2}RQ2: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API - Features}{13}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}RQ3: Testing ChatGPT's Ability to To Use External Tools}{13}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Experimental Results}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}RQ1: Determining the Potential of LLM-based GIS analysis}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Data Access}{14}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Discussion}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Evaluation}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Discussion}{15}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Contributions}{16}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{16}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Test regime}{16}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Framework for Planning, Acting, and Reasoning}{16}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Embeddings}{16}{subsection.5.2.3}%
 \contentsline {subsection}{\numberline {5.2.4}Fine-Tuning}{16}{subsection.5.2.4}%
-\contentsline {chapter}{Acronyms}{17}{section*.49}%
-\contentsline {chapter}{Bibliography}{19}{section*.51}%
-\contentsline {chapter}{Appendices}{21}{chapter*.53}%
-\contentsline {chapter}{\numberline {A}Task Description from Norkart}{22}{appendix.A}%
-\contentsline {chapter}{\numberline {B}API Schemas}{24}{appendix.B}%
-\contentsline {section}{\numberline {B.1}OGC API - Features}{24}{section.B.1}%
-\contentsline {section}{\numberline {B.2}STAC API}{25}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Code Examples}{26}{appendix.C}%
+\contentsline {chapter}{Bibliography}{18}{section*.53}%
+\contentsline {chapter}{Appendices}{20}{chapter*.55}%
+\contentsline {chapter}{\numberline {A}Task Description from Norkart}{21}{appendix.A}%
+\contentsline {chapter}{\numberline {B}API Schemas}{23}{appendix.B}%
+\contentsline {section}{\numberline {B.1}OGC API - Features}{23}{section.B.1}%
+\contentsline {section}{\numberline {B.2}STAC API}{24}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Code Examples}{25}{appendix.C}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
