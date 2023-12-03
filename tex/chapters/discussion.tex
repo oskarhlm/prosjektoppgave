@@ -124,4 +124,12 @@ As for most parts of the thesis, it is possible to select various outlines and s
 
 \cite{yiuTransmissionTruthImitation2023} calls \acrshort{acr:ai} technologies like \acrlongpl{acr:llm} "powerful imitation engines" but claim that they are unable to innovate and that significant advancements in \acrshort{acr:ai} development is required for them to be able to learn the in the same way human children do.
 
+\subsection{Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}
+
+When using ChatGPT's Code Interpreter with file uploads, it became apparent that it runs in a Linux environment, and that it uses a mounted drive  in the \texttt{/mnt} director, which is used for temporarily mounted filesystems. From the initial experiments where the same data in different file formats was tested it tried to a \acrshort{acr:gdal} command (\texttt{ogr2ogr -f "GeoJSON" \{converted\_geojson\_path\} \{sosi\_file\_path\}}) to perform a conversion from \acrshort{acr:sosi} to GeoJSON, the latter of which is far easier to manipulate in a Python environment. This test failed, and the system's response was that \enquote{the \texttt{ogr2ogr} tool is not available in this environment}.
+
+This result was not very surprising, especially since the driver needed to read and write \acrshort{acr:sosi} files---which is called \textit{fyba} and is developed by The Norwegian Mapping Authority\footnote{\url{https://github.com/kartverket/fyba}}---is almost certaintly not available in the standard Linux environment for ChatGPT's Code Interpreter. Seeing as the \acrshort{acr:sosi} standard still is widely used for Norwegian geospatial purposes (though expected to be exchanged with the \acrshort{acr:gml} format in the future), it is important for an \acrshort{acr:llm}-based \acrshort{acr:gis} agent focused on the Norwegian market to be able to handle this file type.
+
+The inability to manipulate the Linux environment using by the Code Interpreter clearly poses some limitations on the systems. A solution to the problem is to create a custom environment on a server and implement agent-like capabilities by other means (LangChain, AutoGPT, AutoGen, etc.). Having the agent run on an environment that we control ourselves gives us greater flexibility, and we can then allow the agent to access powerful \acrshort{acr:gis} tooling, such as the \acrshort{acr:gdal} library. This also allows us to avoid having to perform I/O on a mounted directory (in the \texttt{/mnt} directory), which can increase the speed of reads and writes.
+
 \glsaddall

@@ -11,3 +11,4 @@ Norkart
 Drammen
 GeoJSON
 FeatureCollection
+shapefile
