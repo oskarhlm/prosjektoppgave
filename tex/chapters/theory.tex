@@ -164,32 +164,51 @@ As can be seen in the example, elements in a table can sometimes benefit from be
 
 \section[Large Language Models]{\acrshortpl{acr:llm}}\label{sec:llms}
 
-\subsection[Benchmarking for Large Language Models]{Benchmarking for \acrlongpl{acr:llm}}\label{subsec:llm-benchmarking}
+\textit{Disclaimer: I will reuse parts of the Background section of a paper I wrote in the theory module called "TDT13 - Advanced Text Analytics and Language Understanding", for this section on \acrlongpl{acr:llm}. This includes the \autoref{subsec:attention-and-transformers} and \autoref{subsec:bert}.}
 
-There are several ways of benchmarking \acrlongpl{acr:llm} but this section will focus on HumanEval, \gls{acr:mmlu}, and \gls{acr:gsm8k}. According to metrics displayed on the various pages for these datasets found on \href{https://paperswithcode.com}{PapersWithCode}, they seem to be the three most common datasets for measuring the different abilities of a given \acrshort{acr:llm}.
+\vspace{12pt}
 
-\subsubsection{HumanEval}\label{subsubsec:humaneval}
+This section will open with an explanation of the building block of most \todo{All?} modern \acrlongpl{acr:llm}, namely the Transformer, which employs self-attention. \Autosubsectionref{subsec:gpt} and \autoref{subsec:bert} will then discuss the two most famous families of \acrshortpl{acr:llm}, namely the \acrshort{acr:gpt}'s and the \acrshort{acr:bert}'s. Section something\todo{ref} will discuss other modern \acrshortpl{acr:llm} which, though not as famous, are powerful and deserve mentions. \Autosubsectionref{subsec:benchmarks} and \autoref{subsec:evaluation-metrics} will then enlighten the reader about the different ways in which \acrlongpl{acr:llm} can be benchmarked and how we can measure the quality of a natural language response produced by an \acrshort{acr:llm}.
 
-HumanEval is a dataset of handwritten problems used to measure functional correctness for synthesizing programs for docstrings \citep[2-4]{chenEvaluatingLargeLanguage2021}.
+\subsection{Attention and The Transformer Architecture}\label{subsec:attention-and-transformers}
 
-\subsubsection[Multitask Language Understanding]{\acrlong{acr:mmlu}}
+\cite{vaswaniAttentionAllYou2017} managed to achieve new state-of-the-art results for machine translation tasks with their introduction of the Transformer architecture. The Transformer has later been proved effective for numerous downstream tasks, and for a variety of modalities. Titling their paper \citetitle{vaswaniAttentionAllYou2017}, \citeauthor{vaswaniAttentionAllYou2017} suggest that their attention-based architecture renders \glspl{acr:rnn} redundant, due to its superior parallelization abilities and the shorter path between combinations of position input and output sequences, making it easier to learn long-range dependencies \citep[6]{vaswaniAttentionAllYou2017}.
 
-First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \acrlong{acr:mmlu} is a way of tesing a \acrlong{acr:llm}'s multitask accuracy, covering 57 tasks including mathematics, computer science, and others.
+The Transformer employs self-attention, which enables the model to draw connections between arbitrary parts of a given sequence, bypassing the long-range dependency issue commonly found with \glspl{acr:rnn}. An attention function maps a query and a set of key-value pairs to an output, calculating the compatibility between a query and a corresponding key \citep[3]{vaswaniAttentionAllYou2017}. Looking at \citeauthor{vaswaniAttentionAllYou2017}'s proposed attention function \eqref{eq:attention}, we observe that we take the dot product between the query $Q$ and the keys $K$, where $Q$ is the token that we want to compare all the keys to. Keys similar to $Q$ will get a higher score, e.g., be \textit{more attended to}. These differences in attention are further emphasized by applying the softmax function. The final matrix multiplication with the values $V$, being the initial embeddings of all input tokens, will give us a new embedding in which all tokens have some context from all other words. We improve the attention mechanism by multiplying queries, keys, and values with weight matrices learned through backpropagation. Self-attention is a special kind of attention in which queries, keys, and values are all the sequence.
 
-\subsubsection[Grade School Math 8K]{\acrlong{acr:gsm8k}}
+\begin{equation}
+    \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+    \label{eq:attention}
+\end{equation}
 
-This is a dataset made to measure an \acrshort{acr:llm}'s abilities to perform mathemathical arthimetic.
+Attention blocks can be found in three places in the Transformer architecture \citep[5]{vaswaniAttentionAllYou2017} (I will use machine translation from Norwegian to German as an example):
 
-\subsection[The GPT Family]{The \acrshort{acr:gpt} Family}\label{subsec:openai-llms}
+\begin{enumerate}
+    \item In the encoder block to perform self-attention on the input sequence (which is in Norwegian)
+    \item In the decoder block to perform self-attention on the output sequence (which is in German)
+    \item In the decoder block to perform cross-attention (or encoder-decoder attention) where each position in the decoder attends to all positions in the encoder
+\end{enumerate}
+
+The Transformer represented a breakthrough in the field of \gls{acr:nlp}, and is the fundamental building block of \acrshortpl{acr:llm} like \acrshort{acr:bert}.
+
+
+\subsection[The GPT Family]{The \acrshort{acr:gpt} Family}\label{subsec:gpt}
 
 \glspl{acr:gpt} are a type of \gls{acr:llm} first introduced by \hyperref[subsec:openai]{OpenAI} in 2018 \citep{radfordImprovingLanguageUnderstanding2018}.
 
+\subsection[The BERT Family]{The \acrshort{acr:bert} Family}\label{subsec:bert}
 
-\subsection{Google Products}\label{subsec:google-llms}
+\gls{acr:bert} is a family of language models which was first introduced in 2018 and is designed to facilitate a wide range of downstream tasks \citep[5]{devlinBERTPretrainingDeep2019}. The \acrshort{acr:bert} architecture consists of stacked bidirectional Transformer encoders. The self-attention mechanism allows for training of deep bidirectional representations. The input sequence is transformed into embeddings (vector representations). These per-token embeddings include information about the meaning of the word itself, the meaning of the sentence/segment it belongs to, and the token's position in the full input. These embeddings then pass through a stack of Transformer encoders (12 and 24 for \textbf{\acrshort{acr:bert}\textsubscript{BASE}} and \textbf{\acrshort{acr:bert}\textsubscript{LARGE}}, respectively), allowing the model to learn more complex patterns and of different granularities (token, sentence, document) \citep[5]{devlinBERTPretrainingDeep2019}.
 
-\subsubsection[The BERT Family]{The \acrshort{acr:bert} Family}
+In the \acrshort{acr:bert} framework, there are two training steps, namely the pre-training and fine-tuning procedures. \acrshort{acr:bert} is pre-trained on two \acrshort{acr:nlp} tasks. One is \gls{acr:mlm}, in which 15\% of words are masked with the special \texttt{[MASK]} token and are left for the model to predict \citep[4]{devlinBERTPretrainingDeep2019}. The \gls{acr:mlm} task helps the model learn bidirectional representations. The second of the two unsupervised tasks used during pre-training is \gls{acr:nsp}, where the special \texttt{[CLS]} token (found at the start of each tokenized sequence) is used to predict if a sentence \texttt{B} follows \texttt{A}. During this pre-training step, the input sequence looks like this:
 
-\gls{acr:bert} is a family of language models developed at Google \citep{devlinBERTPretrainingDeep2019}, first presented in 2018.
+$$
+    \texttt{[CLS]} \text{ this is sentence A } \texttt{[SEP]} \text{ and this is sentence B } \texttt{[SEP]}
+$$
+
+The \texttt{[CLS]} token is used to label sentence B as either \texttt{IsNext} or \texttt{NotNext}.
+
+\acrshort{acr:bert} is normally fine-tuned to specific downstream tasks by using the \texttt{[CLS]} token, which captures an aggregated representation of the input sequence. This vector representation can then be used as input to a classification layer for tasks like multi-label classification and regression.
 
 \subsubsection{PaLM 2}\label{subsubsec:palm2}
 
@@ -208,6 +227,28 @@ Like \hyperref[subsubsec:palm2]{PaLM 2} The language models developed by Meta (p
 \subsubsection{Falcon 180B}
 \subsubsection{Mistral}
 \subsubsection{Vicuna}
+
+\section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{subsec:llm-benchmarking-and-evaluation}
+
+There are several ways of benchmarking \acrlongpl{acr:llm} but this section will focus on HumanEval, \gls{acr:mmlu}, and \gls{acr:gsm8k}. According to metrics displayed on the various pages for these datasets found on \href{https://paperswithcode.com}{PapersWithCode}, they seem to be the three most common datasets for measuring the different abilities of a given \acrshort{acr:llm}.
+
+\subsection{Benchmarks}\label{subsec:benchmarks}
+
+\subsubsection{HumanEval}\label{subsubsec:humaneval}
+
+HumanEval is a dataset of handwritten problems used to measure functional correctness for synthesizing programs for docstrings \citep[2-4]{chenEvaluatingLargeLanguage2021}.
+
+\subsubsection[Multitask Language Understanding]{\acrlong{acr:mmlu}}
+
+First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \acrlong{acr:mmlu} is a way of tesing a \acrlong{acr:llm}'s multitask accuracy, covering 57 tasks including mathematics, computer science, and others.
+
+\subsubsection[Grade School Math 8K]{\acrlong{acr:gsm8k}}
+
+This is a dataset made to measure an \acrshort{acr:llm}'s abilities to perform mathemathical arthimetic.
+
+\subsection{Evaluation Metrics}\label{subsec:evaluation-metrics}
+
+\todo{Write}
 
 \section[LLM providers]{\acrfull{acr:llm} Providers}\label{sec:llm-providers}
 
@@ -240,6 +281,8 @@ The \gls{acr:stac} \acrshort{acr:api} is a standardized way to expose collection
 As \acrshort{acr:ogc} board member Chris Holmes puts it: "The \acrshort{acr:stac} \acrshort{acr:api} implements and extends the \gls{acr:ogc} \acrshort{acr:api} — Features standard, and our shared goal is for \gls{acr:stac} \acrshort{acr:api} to become a full \gls{acr:ogc} standard." \citep{holmesSpatioTemporalAssetCatalogs2021}.
 
 \subsection{Norwegian Standardization Work}\label{subsec:standardization-norway}
+
+\todo{Skriv om til ikke-gpt-språk}
 
 Geospatial standardization work has been on the agenda of Norwegian governing powers for decades and have materialized in frameworks/collaborations like \nameref{subsubsec:geovekst} and \nameref{subsubsec:norge-digitalt}, as wells as the \nameref{subsubsec:sosi} file format. \Autosubsectionref{subsec:standardization-norway} will delve into the work that has been done and what is expected for the future. The reasoning for the conclusion of this section is that the constraints of this specialization project is set by the Norwegian borders, and thus it is important to be aware of the standards that apply.
 

@@ -6,3 +6,4 @@
 {"rule":"DID_FOUND_AMBIGUOUS","sentence":"^\\QQuestions can span from simple retrieval questions such as \"How many people live in Trondheim\" and \"How long is the drive from Oslo to Bergen?\", to more complicated questions that require problem-solving abilities and reasoning.\\E$"}
 {"rule":"EN_A_VS_AN","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is tightly interwoven with explainable acr:ai, being a framework for retrieving facts from an external knowledge base to allow a acr:llm-based agent access to accurate up-to-date information \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
 {"rule":"GENERAL_XX","sentence":"^\\QGeneral Public.\\E$"}
+{"rule":"EN_WORD_COHERENCY","sentence":"^\\Qcha:theory of this specialization project will talk about the leading technologies in the field of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, which in itself is a subfield of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
