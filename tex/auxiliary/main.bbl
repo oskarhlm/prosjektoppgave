@@ -935,6 +935,58 @@
       \verb C:\Users\oskar\Zotero\storage\4IXQ75XY\retrieval-augmented-generation-RAG.html
       \endverb
     \endentry
+    \entry{mooneyUnderstandingGeospatialSkills2023}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=118ce8006d9537341b85fd1eb39fd928}{%
+           family={Mooney},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b315a09bfda680fc6b0cfe4ef89f2c}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Wencong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ba12769186e5ee7f0873ea9645ad2ad}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Boyuan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1e62ffa1108bc8d57463814ceaf04f4}{%
+           family={Juhász},
+           familyi={J\bibinitperiod},
+           given={Levente},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5925eb7130a619565fb079d2649f827f}
+      \strng{fullhash}{edc0181abb57054c5314c35a9ceeba9d}
+      \strng{bibnamehash}{edc0181abb57054c5314c35a9ceeba9d}
+      \strng{authorbibnamehash}{edc0181abb57054c5314c35a9ceeba9d}
+      \strng{authornamehash}{5925eb7130a619565fb079d2649f827f}
+      \strng{authorfullhash}{edc0181abb57054c5314c35a9ceeba9d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper examines the performance of ChatGPT, a large language model (LLM), in a geographic information systems (GIS) exam. As LLMs like ChatGPT become increasingly prevalent in various domains, including education, it is important to understand their capabilities and limitations in specialized subject areas such as GIS. Human learning of spatial concepts significantly differs from LLM training methodologies. Therefore, this study aims to assess ChatGPT's performance and ability to grasp geospatial concepts by challenging it with a real GIS exam. By analyzing ChatGPT's responses and evaluating its understanding of GIS principles, we gain insights into the potential applications and challenges of LLMs in spatially-oriented fields. We conduct our evaluation with two models, GPT-3.5 and GPT-4, to understand whether general improvements of an LLM translate to improvements in answering questions related to the spatial domain. We find that both GPT variants can pass a balanced, introductory GIS exam, scoring 63.3\% (GPT-3.5) and 88.3\% (GPT-4), which correspond to grades D and B+ respectively in standard US letter grading scale. In addition, we also identify specific questions and topics where the LLMs struggle to grasp spatial concepts, highlighting the challenges in teaching such topics to these models. Finally, we assess ChatGPT's performance in specific aspects of GIS, including spatial analysis, basic concepts of mapping, and data management. This granular analysis provides further insights into the strengths and weaknesses of ChatGPT's GIS literacy. This research contributes to the ongoing dialogue on the integration of AI models in education and can provide guidance for educators, researchers, and practitioners seeking to leverage LLMs in GIS. By focusing on specific questions or concepts that pose difficulties for the LLM, this study addresses the nuances of teaching spatial concepts to AI models and offers potential avenues for improvement in spatial literacy within future iterations of LLMs.}
+      \field{month}{11}
+      \field{shorttitle}{Towards {{Understanding}} the {{Geospatial Skills}} of {{ChatGPT}}}
+      \field{title}{Towards {{Understanding}} the {{Geospatial Skills}} of {{ChatGPT}}: {{Taking}} a {{Geographic Information Systems}} ({{GIS}}) {{Exam}}}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1145/3615886.3627745
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\2N5LZDKP\Mooney et al. - 2023 - Towards Understanding the Geospatial Skills of Cha.pdf
+      \endverb
+    \endentry
     \entry{norgedigitaltGenerelleVilkarNorge2023}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3d40b788102c76c6aed7ad0c07a7236e}{%
@@ -1287,6 +1339,54 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\TUVKD3T5\Produktspesifikasjoner_elveg-2-0_v2_sosi-standardisert-produktspesifikasjon-elveg-2_0_1_.pdf
       \endverb
+    \endentry
+    \entry{unluChatmapLargeLanguage2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52cbd73ca651298c79db562e8068d6fa}{%
+           family={Unlu},
+           familyi={U\bibinitperiod},
+           given={Eren},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{52cbd73ca651298c79db562e8068d6fa}
+      \strng{fullhash}{52cbd73ca651298c79db562e8068d6fa}
+      \strng{bibnamehash}{52cbd73ca651298c79db562e8068d6fa}
+      \strng{authorbibnamehash}{52cbd73ca651298c79db562e8068d6fa}
+      \strng{authornamehash}{52cbd73ca651298c79db562e8068d6fa}
+      \strng{authorfullhash}{52cbd73ca651298c79db562e8068d6fa}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The swift advancement and widespread availability of foundational Large Language Models (LLMs), complemented by robust fine-tuning methodologies, have catalyzed their adaptation for innovative and industrious applications. Enabling LLMs to recognize and interpret geospatial data, while offering a linguistic access to vast cartographic datasets, is of significant importance. OpenStreetMap (OSM) is the most ambitious open-source global initiative offering detailed urban and rural geographic data, curated by a community of over 10 million contributors, which constitutes a great potential for LLM applications. In this study, we demonstrate the proof of concept and details of the process of fine-tuning a relatively small scale (1B parameters) LLM with a relatively small artificial dataset curated by a more capable teacher model, in order to provide a linguistic interface to the OSM data of an arbitrary urban region. Through this interface, users can inquire about a location's attributes, covering a wide spectrum of concepts, such as its touristic appeal or the potential profitability of various businesses in that vicinity. The study aims to provide an initial guideline for such generative artificial intelligence (AI) adaptations and demonstrate early signs of useful emerging abilities in this context even in minimal computational settings. The embeddings of artificially curated prompts including OSM data are also investigated in detail, which might be instrumental for potential geospatially aware urban Retrieval Augmented Generation (RAG) applications.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{9}
+      \field{number}{arXiv:2310.01429}
+      \field{shorttitle}{Chatmap}
+      \field{title}{Chatmap : {{Large Language Model Interaction}} with {{Cartographic Data}}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2310.01429
+      \endverb
+      \verb{eprint}
+      \verb 2310.01429
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\BM96N7DH\\Unlu - 2023 - Chatmap Large Language Model Interaction with Ca.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ZLF9DTRG\\2310.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
     \entry{vaswaniAttentionAllYou2017}{misc}{}
       \name{author}{8}{}{%

@@ -7,3 +7,4 @@
 {"rule":"EN_A_VS_AN","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is tightly interwoven with explainable acr:ai, being a framework for retrieving facts from an external knowledge base to allow a acr:llm-based agent access to accurate up-to-date information \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
 {"rule":"GENERAL_XX","sentence":"^\\QGeneral Public.\\E$"}
 {"rule":"EN_WORD_COHERENCY","sentence":"^\\Qcha:theory of this specialization project will talk about the leading technologies in the field of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, which in itself is a subfield of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QHe exemplifies this claim through a proof of concept in which he performs small-scale fine-tuning on an acr:llm with 1B parameters, using an artificial supervised datasets curated by the more capable ChatGPT 3.5-turbo, which functions as a teacher model, generating prompt-answer pairs for given preprompts.\\E$"}

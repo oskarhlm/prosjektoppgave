@@ -12,3 +12,4 @@ Drammen
 GeoJSON
 FeatureCollection
 shapefile
+prepromts
