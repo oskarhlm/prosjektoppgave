@@ -8,3 +8,5 @@
 {"rule":"GENERAL_XX","sentence":"^\\QGeneral Public.\\E$"}
 {"rule":"EN_WORD_COHERENCY","sentence":"^\\Qcha:theory of this specialization project will talk about the leading technologies in the field of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, which in itself is a subfield of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QHe exemplifies this claim through a proof of concept in which he performs small-scale fine-tuning on an acr:llm with 1B parameters, using an artificial supervised datasets curated by the more capable ChatGPT 3.5-turbo, which functions as a teacher model, generating prompt-answer pairs for given preprompts.\\E$"}
+{"rule":"GENERAL_XX","sentence":"^\\QAn acr:ai agent with geospatial awareness could also be useful to the general public.\\E$"}
+{"rule":"WHETHER","sentence":"^\\QWhile it becomes obvious that a lot of geospatial context have been embedded within the model during the vast pre-training, the question whether this is memorization or reasoning is a central one.\\E$"}

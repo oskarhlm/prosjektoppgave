@@ -31,4 +31,48 @@ Note that a reference needs to be complete: you should always give the full name
 always include page numbers, always say where a book or thesis was published, and where a conference took place, as further described in Section~\ref{sec:reference_list}.
 \end{comment}
 
+
+\section[GIS with LLMs]{\acrshort{acr:gis} with \acrshortpl{acr:llm}}\label{subsec:gis-with-llms}
+
+A substantial body of work have been done in recent years to assess the geospatial knowledge of \acrshortpl{acr:llm}, and how they can be fine-tuned or embedded into frameworks to serve downstream tasks.
+
+\subsection[]{Geospatial Context in \acrshortpl{acr:llm}}
+
+\cite{scherrerHeLjuVarDial20202020} were able to show that \acrshort{acr:bert} can be fine-tuned to accurately predict geolocations from textual input, by winning a shared task on predicting geolocations from Twitter/Jodel messages in a workshop in 2020 \citep{gamanReportVarDialEvaluation2020}. By converting the task into a double regression problem, where they predicted latitude/longitude pairs from the output \texttt{[CLS]} representation of \acrshort{acr:bert} models. For a subtask on a Swiss Jodel dataset, they were able to achieve a median distance of 15.72 km from the ground truth, showing that \acrshortpl{acr:llm} can be trained correlate lingual features and geolocations.
+
+\cite{robertsGPT4GEOHowLanguage2023} investigated extent of GPT-4's geospatial awareness through a set of case studies with increasing difficulties, starting with general factual tasks and finishing with complex questions such as generating country outlines and travel networks. The authors find that \acrshort{acr:gpt}-4 is \enquote{skilful at solving a variety of application-centric tasks}, almost having the ability to \enquote{see}, despite being a language model and thus only being able to interface with the world through sequenced, textual input. Examples include its ability to perform as a travel assistant in providing itinerary suggestions for a trip when provided with requirements, and its ability to provide start and end locations bird migrations generally correct, and in some cases highly accurate. While it becomes obvious that a lot of geospatial context have been embedded within the model during the vast pre-training, the question whether this is memorization or reasoning is a central one. The authors suggest that variability of tasks in their experiments deems it unlikely that it is all memorization, but they say that some things appear to be memorized.
+
+\cite{mooneyUnderstandingGeospatialSkills2023} examined the performance of ChatGPT in a \acrfull{acr:gis} exam, aiming to assess its ability to grasp various geospatial concepts, highlighting its capabilities and limitations. Experiments were conducted on GPT-3.5 and GPT-4, which delivered performances equivalent to grades of D and B+, respectively. Additional experiments were conducted for more specialized areas of \acrshort{acr:gis}, including True/False questions about spatial analysis, and simple tasks in applied \acrshort{acr:gis} workflow. Experiments on the latter showed that ChatGPT-4 was able to correctly answer a relatively complex \acrshort{acr:gis} tasks involving seven different datasets, requiring seven steps in order to obtain a perfect score. Generally, ChatGPT-4 outperformed ChatGPT-3.5 in all tasks. While clearly powerful, the authors highlight a range of limitations, among which the multimodal nature of \acrshort{acr:gis}, which would hinder a straightforward application of existing models.
+
+\cite{unluChatmapLargeLanguage2023} discussed importance of enabling \acrshortpl{acr:llm} to recognize and interpret geospatial data, and how \gls{acr:osm} can play an important role in offering \acrshortpl{acr:llm} linguistic access to vast cartographic datasets. He exemplifies this claim through a proof of concept in which he performs small-scale fine-tuning on an \acrshort{acr:llm} with 1B parameters, using an artificial supervised datasets curated by the more capable ChatGPT 3.5-turbo, which functions as a teacher model, generating prompt-answer pairs for given preprompts. The fine-tuned model displays promising ability of answer questions about a location's attributes, allowing the user to inquire about things like tourist appeal and potential profitability of businesses in the vicinity of the given location. \citeauthor{unluChatmapLargeLanguage2023} emphasizes the method's strengths for small datasets and minimal computational settings. The study also investigated the idea of using embeddings of the curated prepromts. Experimenting with average GLOVE embeddings, he showed that the latent structure of verbal descriptions of \gls{acr:osm} data can yield insightful patters. This, he argues, can prove useful when creating \acrfull{acr:rag} applications aimed at allowing users to retrieve geospatial information in a prompt-based manner.
+
+\subsection[]{Autonomous \acrshort{acr:gis}}
+
+\cite{liAutonomousGISNextgeneration2023} states that “autonomous \acrshort{acr:gis} will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight need of a memory system in a mature \gls{acr:llm}-based \gls{acr:gis} system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called \acrshort{acr:llm}-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
+
+\cite{zhangGeoGPTUnderstandingProcessing2023} use the LangChain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of \glspl{acr:llm} like (e.g., ChatGPT) to call externally defined tools, employing the \gls{acr:llm} as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
+
+\cite{qiMaaSDBSpatialDatabases2023} discuss how \acrshortpl{acr:llm} can be used in spatial data management, facilitating a system that can learn from both structured and unstructured data, the latter of which is possibly the greatest strength of modern \acrshortpl{acr:llm}.
+
+\section{Prompt Engineering and Planning Strategies}\label{subsec:prompt-engineering-and-planning-strategies}
+
+\cite{zhouLanguageAgentTree2023} introduces a framework called \gls{acr:lats} "that synergizes the capabilities of \acrshortpl{acr:llm} in planning, acting, and reasoning.". As of writing (October 30th, 2023), the \gls{acr:lats} framework is the highest scoring model on the \hyperref[subsubsec:humaneval]{HumanEval} benchmark.
+
+\section[Retrieval Augmented Generation]{\acrlong{acr:rag}}\label{subsec:retrieval-automented-generation}
+
+\gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those designed to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
+
+\subsection{LangChain}\label{subsubsec:langchain}
+
+LangChain \citep{chaseLangChain2022} is an open-source project that provides tooling that can be used to create autonomous \acrshort{acr:ai} agents. It is designed to help with prompt management and optimization, creating chains of calls to \acrshortpl{acr:llm}, data augmentation, autonomous agent creation, and memory-related tasks.
+
+\subsection{Microsoft Semantic Kernel}\label{subsubsec:microsoft-semantic-kernel}
+
+Microsoft Semantic Kernel is an \acrshort{acr:sdk} that functions as the brain of an autonomous agent and provides connectors to models and memory, and connects to triggers and actions.
+
+\subsection{AutoGPT}\label{subsubsec:autogpt}
+
+\cite{richardAutoGPTHeartOpensource2023} will try to split a task into subtasks and use the internet and other tools in an automatic loop to solve the task/subtasks.
+
+
 \glsresetall

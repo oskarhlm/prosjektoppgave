@@ -439,6 +439,36 @@
       \endverb
       \keyw{Computer Science - Machine Learning}
     \endentry
+    \entry{datatilsynetGeneralDataProtection}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7449f4d00623be255220f53c95420fe2}{%
+           family={{Datatilsynet}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7449f4d00623be255220f53c95420fe2}
+      \strng{fullhash}{7449f4d00623be255220f53c95420fe2}
+      \strng{bibnamehash}{7449f4d00623be255220f53c95420fe2}
+      \strng{authorbibnamehash}{7449f4d00623be255220f53c95420fe2}
+      \strng{authornamehash}{7449f4d00623be255220f53c95420fe2}
+      \strng{authorfullhash}{7449f4d00623be255220f53c95420fe2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.datatilsynet.no/en/regulations-and-tools/regulations/}
+      \field{journaltitle}{Datatilsynet}
+      \field{langid}{english}
+      \field{title}{General {{Data Protection Regulation}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\MM6JTID7\regulations.html
+      \endverb
+    \endentry
     \entry{devlinBERTPretrainingDeep2019}{misc}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
@@ -588,6 +618,109 @@
       \verb C\:\\Users\\oskar\\Zotero\\storage\\6TMJQ6P2\\Fan et al. - 2023 - Large Language Models for Software Engineering Su.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ZBKRCYEV\\2310.html
       \endverb
       \keyw{Computer Science - Software Engineering}
+    \endentry
+    \entry{gamanReportVarDialEvaluation2020}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=3b91b15541af28ddf7e126649bd848a0}{%
+           family={Gaman},
+           familyi={G\bibinitperiod},
+           given={Mihaela},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=460909209014ce11714ba7d75523ebc8}{%
+           family={Hovy},
+           familyi={H\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c881a20b685d760d9286b0c22525505}{%
+           family={Ionescu},
+           familyi={I\bibinitperiod},
+           given={Radu\bibnamedelima Tudor},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00cb1f9eced85afe258374e2b0132b15}{%
+           family={Jauhiainen},
+           familyi={J\bibinitperiod},
+           given={Heidi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c483d222829b6fbaa25a6be73efa0db9}{%
+           family={Jauhiainen},
+           familyi={J\bibinitperiod},
+           given={Tommi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad7941717fde150030c5182b4ccf1c2f}{%
+           family={Lindén},
+           familyi={L\bibinitperiod},
+           given={Krister},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24de4e3994b979e459a4b6c29c7ae830}{%
+           family={Ljubešić},
+           familyi={L\bibinitperiod},
+           given={Nikola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6ceb8be21c784a3ba84b9a52d5bc68b}{%
+           family={Partanen},
+           familyi={P\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2489a8e01998ec584f769dde71b44628}{%
+           family={Purschke},
+           familyi={P\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c53e65b760b3618d1b9e40bbad6a801b}{%
+           family={Scherrer},
+           familyi={S\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a301ba393789d01af4847ae604d64f6}{%
+           family={Zampieri},
+           familyi={Z\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Barcelona, Spain (Online)}%
+      }
+      \list{publisher}{1}{%
+        {International Committee on Computational Linguistics (ICCL)}%
+      }
+      \strng{namehash}{3c588ab6eaf006f9b54540bb08f5e839}
+      \strng{fullhash}{9adbe94d777f7c0855095cd8ffc8a2be}
+      \strng{bibnamehash}{9adbe94d777f7c0855095cd8ffc8a2be}
+      \strng{authorbibnamehash}{9adbe94d777f7c0855095cd8ffc8a2be}
+      \strng{authornamehash}{3c588ab6eaf006f9b54540bb08f5e839}
+      \strng{authorfullhash}{9adbe94d777f7c0855095cd8ffc8a2be}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the results of the VarDial Evaluation Campaign 2020 organized as part of the seventh workshop on Natural Language Processing (NLP) for Similar Languages, Varieties and Dialects (VarDial), co-located with COLING 2020. The campaign included three shared tasks each focusing on a different challenge of language and dialect identification: Romanian Dialect Identification (RDI), Social Media Variety Geolocation (SMG), and Uralic Language Identification (ULI). The campaign attracted 30 teams who enrolled to participate in one or multiple shared tasks and 14 of them submitted runs across the three shared tasks. Finally, 11 papers describing participating systems are published in the VarDial proceedings and referred to in this report.}
+      \field{journaltitle}{Proceedings of the 7th {{Workshop}} on {{NLP}} for {{Similar Languages}}, {{Varieties}} and {{Dialects}}}
+      \field{month}{12}
+      \field{title}{A {{Report}} on the {{VarDial Evaluation Campaign}} 2020}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\8UCGMNYC\Gaman et al. - 2020 - A Report on the VarDial Evaluation Campaign 2020.pdf
+      \endverb
     \endentry
     \entry{hendrycksMeasuringMassiveMultitask2021}{misc}{}
       \name{author}{7}{}{%
@@ -1093,6 +1226,62 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
+    \entry{qiMaaSDBSpatialDatabases2023}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1b02772a564a3a401f6b7f8c5c960bfe}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Jianzhong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=819d2b50ab01119370f45460230edcb8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zuqing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ff9c72df1fb2e708f2fc53d79c37e76}{%
+           family={Tanin},
+           familyi={T\bibinitperiod},
+           given={Egemen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d8222eea4390dc1505cca53e45c356d}
+      \strng{fullhash}{f920e20e046040bae01bef42882e1e38}
+      \strng{bibnamehash}{f920e20e046040bae01bef42882e1e38}
+      \strng{authorbibnamehash}{f920e20e046040bae01bef42882e1e38}
+      \strng{authornamehash}{5d8222eea4390dc1505cca53e45c356d}
+      \strng{authorfullhash}{f920e20e046040bae01bef42882e1e38}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large language models (LLMs) are advancing rapidly. Such models have demonstrated strong capabilities in learning from large-scale (unstructured) text data and answering user queries. Users do not need to be experts in structured query languages to interact with systems built upon such models. This provides great opportunities to reduce the barrier of information retrieval for the general public. By introducing LLMs into spatial data management, we envisage an LLM-based spatial database system to learn from both structured and unstructured spatial data. Such a system will offer seamless access to spatial knowledge for the users, thus benefiting individuals, business, and government policy makers alike.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{9}
+      \field{shorttitle}{{{MaaSDB}}}
+      \field{title}{{{MaaSDB}}: {{Spatial Databases}} in the {{Era}} of {{Large Language Models}} ({{Vision Paper}})}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1145/3589132.3625597
+      \endverb
+      \verb{eprint}
+      \verb 2309.17072
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\YZDM594F\\Qi et al. - 2023 - MaaSDB Spatial Databases in the Era of Large Lang.pdf;C\:\\Users\\oskar\\Zotero\\storage\\V87YV6DH\\2309.html
+      \endverb
+      \keyw{Computer Science - Databases}
+    \endentry
     \entry{radfordImprovingLanguageUnderstanding2018}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a812c46caad94fc8701be37871f303ba}{%
@@ -1238,6 +1427,56 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
     \endentry
+    \entry{scherrerHeLjuVarDial20202020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c53e65b760b3618d1b9e40bbad6a801b}{%
+           family={Scherrer},
+           familyi={S\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24de4e3994b979e459a4b6c29c7ae830}{%
+           family={Ljubešić},
+           familyi={L\bibinitperiod},
+           given={Nikola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Barcelona, Spain (Online)}%
+      }
+      \list{publisher}{1}{%
+        {International Committee on Computational Linguistics (ICCL)}%
+      }
+      \strng{namehash}{c84b448de641ca5e3d9d8601991d6519}
+      \strng{fullhash}{c84b448de641ca5e3d9d8601991d6519}
+      \strng{bibnamehash}{c84b448de641ca5e3d9d8601991d6519}
+      \strng{authorbibnamehash}{c84b448de641ca5e3d9d8601991d6519}
+      \strng{authornamehash}{c84b448de641ca5e3d9d8601991d6519}
+      \strng{authorfullhash}{c84b448de641ca5e3d9d8601991d6519}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper describes the Helsinki-Ljubljana contribution to the VarDial shared task on social media variety geolocation. Our solutions are based on the BERT Transformer models, the constrained versions of our models reaching 1st place in two subtasks and 3rd place in one subtask, while our unconstrained models outperform all the constrained systems by a large margin. We show in our analyses that Transformer-based models outperform traditional models by far, and that improvements obtained by pre-training models on large quantities of (mostly standard) text are significant, but not drastic, with single-language models also outperforming multilingual models. Our manual analysis shows that two types of signals are the most crucial for a (mis)prediction: named entities and dialectal features, both of which are handled well by our models.}
+      \field{journaltitle}{Proceedings of the 7th {{Workshop}} on {{NLP}} for {{Similar Languages}}, {{Varieties}} and {{Dialects}}}
+      \field{month}{12}
+      \field{shorttitle}{{{HeLju}}@{{VarDial}} 2020}
+      \field{title}{{{HeLju}}@{{VarDial}} 2020: {{Social Media Variety Geolocation}} with {{BERT Models}}}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{202\bibrangedash 211}
+      \range{pages}{10}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\SXY6K8F7\Scherrer and Ljubešić - 2020 - HeLju@VarDial 2020 Social Media Variety Geolocati.pdf
+      \endverb
+    \endentry
     \entry{skjuveWhyPeopleUse2023}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=721c72ed0fce55e848082d6cf6529eeb}{%
@@ -1293,6 +1532,53 @@
       \verb C:\Users\oskar\Zotero\storage\6CBMX6DH\Skjuve et al. - 2023 - Why People Use ChatGPT.pdf
       \endverb
       \keyw{ChatGPT,Conversational AI,Large Language Models,Motivations,Uses and Gratifications}
+    \endentry
+    \entry{sparrowKillerRobots2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1110f107d52abf787c4cb602d3bee387}{%
+           family={Sparrow},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{fullhash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{bibnamehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{authorbibnamehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{authornamehash}{1110f107d52abf787c4cb602d3bee387}
+      \strng{authorfullhash}{1110f107d52abf787c4cb602d3bee387}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The United States Army's Future Combat Systems Project, which aims to manufacture a `robot army' to be ready for deployment by 2012, is only the latest and most dramatic example of military interest in the use of artificially intelligent systems in modern warfare. This paper considers the ethics of the decision to send artificially intelligent robots into war, by asking who we should hold responsible when an autonomous weapon system is involved in an atrocity of the sort that would normally be described as a war crime. A number of possible loci of responsibility for robot war crimes are canvassed: the persons who designed or programmed the system, the commanding officer who ordered its use, the machine itself. I argue that in fact none of these are ultimately satisfactory. Yet it is a necessary condition for fighting a just war, under the principle of jus in bellum, that someone can be justly held responsible for deaths that occur in the course of the war. As this condition cannot be met in relation to deaths caused by an autonomous weapon system it would therefore be unethical to deploy such systems in warfare.}
+      \field{issn}{02643758}
+      \field{journaltitle}{Journal of Applied Philosophy}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Killer {{Robots}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{volume}{24}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{62\bibrangedash 77}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1468-5930.2007.00346.x
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\AN6UJNPA\Sparrow - 2007 - Killer Robots.pdf
+      \endverb
+      \keyw{ARTIFICIAL intelligence,ETHICS,MILITARY science,ROBOTS,UNITED States. Army}
     \endentry
     \entry{STACTutorials}{misc}{}
       \field{sortinit}{S}

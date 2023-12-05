@@ -152,6 +152,10 @@ Use boldface, boxes, colours, arrows, etc. to mark the important parts of the ta
 As can be seen in the example, elements in a table can sometimes benefit from being rotated (such as EMNLP in the `Source' column) or cover more than one row (EMNLP, as well as EN-HI and EN-BN in the `Langs' column) --- or more than one column, for that matter.
 \end{comment}
 
+\textit{Disclaimer: I will reuse parts of a paper I wrote in the theory module called "TDT13 - Advanced Text Analytics and Language Understanding" in this \autoref{cha:theory} chapter. This includes sections \autoref{subsec:attention-and-transformers}, \autoref{subsec:bert}, and sections regarding geolocation of Twitter/Jodel messages in \autoref{sec:related-work}.}
+
+\vspace{12pt}
+
 \Autochapterref{cha:theory} of this specialization project will talk about the leading technologies in the field of \gls{acr:llm}, which in itself is a subfield of \gls{acr:nlp}. \autoref{sec:llms} will go over the leading \gls{acr:llm} models, their strengths and weaknesses, and briefly mention differences in model architecture. \Autosectionref{sec:llm-providers} will name the most prominent providers of \gls{acr:llm} services.
 
 \autoref{fig:actor-map} shows an actor map which includes stakeholders, providers, and other groups and organizations that could have some relevance to an autonomous LLM-based GIS-agent. Following subsections will go over the different groups and explain why they are included in the actor map.
@@ -163,10 +167,6 @@ As can be seen in the example, elements in a table can sometimes benefit from be
 \end{figure}
 
 \section[Large Language Models]{\acrshortpl{acr:llm}}\label{sec:llms}
-
-\textit{Disclaimer: I will reuse parts of the Background section of a paper I wrote in the theory module called "TDT13 - Advanced Text Analytics and Language Understanding", for this section on \acrlongpl{acr:llm}. This includes the \autoref{subsec:attention-and-transformers} and \autoref{subsec:bert}.}
-
-\vspace{12pt}
 
 This section will open with an explanation of the building block of most \todo{All?} modern \acrlongpl{acr:llm}, namely the Transformer, which employs self-attention. \Autosubsectionref{subsec:gpt} and \autoref{subsec:bert} will then discuss the two most famous families of \acrshortpl{acr:llm}, namely the \acrshort{acr:gpt}'s and the \acrshort{acr:bert}'s. Section something\todo{ref} will discuss other modern \acrshortpl{acr:llm} which, though not as famous, are powerful and deserve mentions. \Autosubsectionref{subsec:benchmarks} and \autoref{subsec:evaluation-metrics} will then enlighten the reader about the different ways in which \acrlongpl{acr:llm} can be benchmarked and how we can measure the quality of a natural language response produced by an \acrshort{acr:llm}.
 
@@ -227,6 +227,7 @@ Like \hyperref[subsubsec:palm2]{PaLM 2} The language models developed by Meta (p
 \subsubsection{Falcon 180B}
 \subsubsection{Mistral}
 \subsubsection{Vicuna}
+\subsubsection{BLOOM}
 
 \section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{subsec:llm-benchmarking-and-evaluation}
 
@@ -338,52 +339,22 @@ This aligns with the results of \cite*{skjuveWhyPeopleUse2023} from their questi
     \end{tabular}
 \end{table}
 
-Given that the main reason people use conversational \acrshort{acr:ai} is for productivity, whether in a professional, academic, or personal context, such technology could be highly beneficial in a geospatial setting. 67 out of the 197 participants in \cite[18]{skjuveWhyPeopleUse2023} highlighted "ChatGPT's ability to understand complex queries" and that it is "efficient in alleviating the need to experiment with different phrasings of the query", as is often needed when 'Googling' for an answer to a specific question. This ease of information retrieval, along with it's problem-solving abilities \citep[20]{skjuveWhyPeopleUse2023}, could also make conversational \acrshortpl{acr:ai} highly relevant for geospatial purposes, and in the field of \acrshort{acr:gis}. The following sections will elaborate on the potential user groups presented in \autoref{fig:actor-map} that could benefit from such an artificial, and spatially aware, companion.
+Given that the main reason people use conversational \acrshort{acr:ai} is for productivity, whether in a professional, academic, or personal context, such technology could be highly beneficial in a geospatial setting. 67 out of the 197 participants in \cite[18]{skjuveWhyPeopleUse2023} highlighted "ChatGPT's ability to understand complex queries" and that it is "efficient in alleviating the need to experiment with different phrasings of the query", as is often needed when 'Googling' for an answer to a specific question. This ease of information retrieval, along with it's problem-solving abilities \citep[20]{skjuveWhyPeopleUse2023}, could also make conversational \acrshortpl{acr:ai} highly relevant for geospatial purposes, and in the field of \acrshort{acr:gis}.
 
-\subsection{General Public}
-\subsection{GIS Professionals}
-\subsection{City Planners}
-\subsection{Business Analysts}
-\subsection{Academics and Researchers}
-\subsection{Emergency Services}
+One could imagine a range of potential user groups that could benefit from such an artificial, and spatially aware, companion. A couple of suggestions user groups are presented in \autoref{fig:actor-map}. Perhaps the most obvious one is that of the \acrshort{acr:gis} professionals. While a \acrshort{acr:ai}-based \acrshort{acr:gis} agent more capable than the average \acrshort{acr:gis} professional currently far from becoming a reality, such an agent could help suggest strategies of solving a particular problem using the input data available and the end goal, or it could help solve mundane tasks in an automated way in order to allow the \acrshort{acr:gis} professional to allocate more time to creative and complex tasks.
 
-\section{Regulatory Bodies and Privacy Concerns}\label{sec:regulatory-bodies-and-privacy-concerns}
+Closely related is city planners. Though often less knowledgeable in the field of \acrshort{acr:gis}, they are increasingly dependent upon geospatial analysis in order to make informed decisions. Having an easy-to-use \acrshort{acr:gis} ready at any moment could prove both time- and -cost-saving. The same goes for business analysts and people involved in academia. The \textit{time} variable is especially important to the emergency services. At the impact of a natural disaster like a flood or forest fire, geospatial analysis could prove lifesaving. Having powerful geospatial knowledge even in the absence of a \acrshort{acr:gis} professional is therefore important in order to focus resources to areas where the situation is most pressing.
 
-\subsection{Local Regulations}
-\subsection[The European Union (EU)]{The \acrlong{acr:eu}}
+An \acrshort{acr:ai} agent with geospatial awareness could also be useful to the general public. One may want to find suitable biking routes or good hills to do interval running in, or to know what areas are prone to flooding, when buying a house. Most people do not have the knowledge or time to perform such analyses themselves, so an automated \acrshort{acr:ai}-based agent could prove useful here.
 
-\section{Related Work}\label{related-work}
 
-\subsection[GIS with LLMs]{\acrshort{acr:gis} with \acrshortpl{acr:llm}}\label{subsec:gis-with-llms}
 
-\cite{robertsGPT4GEOHowLanguage2023} investigated extent of GPT-4's geospatial awareness through a set of case studies with increasing difficulties, starting with general factual tasks and finishing with complex questions such as generating country outlines and travel networks.
+\section{Ethical and Privacy Concerns}\label{sec:regulatory-bodies-and-privacy-concerns}
 
-\cite{mooneyUnderstandingGeospatialSkills2023} examined the performance of ChatGPT in a \acrfull{acr:gis} exam, aiming to assess its ability to grasp various geospatial concepts, highlighting its capabilities and limitations. Experiments were conducted on GPT-3.5 and GPT-4, which delivered performances equivalent to grades of D and B+, respectively. Additional experiments were conducted for more specialized areas of \acrshort{acr:gis}, including True/False questions about spatial analysis, and simple tasks in applied \acrshort{acr:gis} workflow. Experiments on the latter showed that ChatGPT-4 was able to correctly answer a relatively complex \acrshort{acr:gis} tasks involving seven different datasets, requiring seven steps in order to obtain a perfect score. Generally, ChatGPT-4 outperformed ChatGPT-3.5 in all tasks. While clearly powerful, the authors highlight a range of limitations, among which the multimodal nature of \acrshort{acr:gis}, which would hinder a straightforward application of existing models.
+Although an \acrshort{acr:ai}-based \acrshort{acr:gis} agent could prove powerful, there are some ehtical pitfalls in terms of regulations and privacy concerns. If such an agent is to make decision on behalf of humans it is important that one can hold someone accountable in the case where something goes wrong. If an \acrshort{acr:ai}-based agent is tasked to lead firefighters to the tactically optimal locations in order to quench the fire, but misleads them and traps them inside the fire, who is then to blame? \cite{sparrowKillerRobots2007} provides an interesting angle on this issue, though related the role of artificially intelligent robots in modern warfare.
 
-\cite{unluChatmapLargeLanguage2023} discussed importance of enabling \acrshortpl{acr:llm} to recognize and interpret geospatial data, and how \gls{acr:osm} can play an important role in offering \acrshortpl{acr:llm} linguistic access to vast cartographic datasets. He exemplifies this claim through a proof of concept in which he performs small-scale fine-tuning on an \acrshort{acr:llm} with 1B parameters, using an artificial supervised datasets curated by the more capable ChatGPT 3.5-turbo, which functions as a teacher model, generating prompt-answer pairs for given preprompts. The fine-tuned model displays promising ability of answer questions about a location's attributes, allowing the user to inquire about things like tourist appeal and potential profitability of businesses in the vicinity of the given location. \citeauthor{unluChatmapLargeLanguage2023} emphasizes the method's strengths for small datasets and minimal computational settings. The study also investigated the idea of using embeddings of the curated prepromts. Experimenting with average GLOVE embeddings, he showed that the latent structure of verbal descriptions of \gls{acr:osm} data can yield insightful patters. This, he argues, can prove useful when creating \acrfull{acr:rag} applications aimed at allowing users to retrieve geospatial information in a prompt-based manner.
+Furthermore, it is important that it is impossible to use the \acrshort{acr:ai} for immoral purposes, such as finding the optimal location in which to dissolve poison into people's drinking water. Work has been done with newer \acrshortpl{acr:llm} to prevent them from producing dangerous, misinformed, or toxic text---it is widely discussed in the technical report of the latest \acrshort{acr:gpt} model \citep[11-14]{openaiGPT4TechnicalReport2023}---but there have been cases where these issues haven't been considered well enough\footnote{The LLaMA-based Alpaca model, developed at Stanford University, was taken offline after being shown to produce misinformation, toxic text: \url{https://www.theregister.com/2023/03/21/stanford_ai_alpaca_taken_offline/}}.
 
-\cite{liAutonomousGISNextgeneration2023} states that “autonomous \acrshort{acr:gis} will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight need of a memory system in a mature \gls{acr:llm}-based \gls{acr:gis} system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called \acrshort{acr:llm}-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
-
-\cite{zhangGeoGPTUnderstandingProcessing2023} uses the LangChain framework \citep{chaseLangChain2022} in order to combine different GIS tools in a sequence in order to solve different sub-goals, and focuses on using the semantic understanding and reasoning abilities of \glspl{acr:llm} like (e.g., ChatGPT) to call externally defined tools, employing the \gls{acr:llm} as an agent or controller. The authors take great inspiration from the AutoGPT framework \citep{richardAutoGPTHeartOpensource2023}. The externally defined tools are described (manually) by its name and description. Said description contains information about the input parameters and output types of the tools/functions. Tools are defined for geospatial data collection, data processing and analysis, and data visualization. The effectiveness of the system is showcased in four case studies.
-
-\subsection{Prompt Engineering and Planning Strategies}\label{subsec:prompt-engineering-and-planning-strategies}
-
-\cite{zhouLanguageAgentTree2023} introduces a framework called \gls{acr:lats} "that synergizes the capabilities of \acrshortpl{acr:llm} in planning, acting, and reasoning.". As of writing (October 30th, 2023), the \gls{acr:lats} framework is the highest scoring model on the \hyperref[subsubsec:humaneval]{HumanEval} benchmark.
-
-\subsection[Retrieval Augmented Generation]{\acrlong{acr:rag}}\label{subsec:retrieval-automented-generation}
-
-\gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those designed to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
-
-\subsubsection{LangChain}\label{subsubsec:langchain}
-
-LangChain \citep{chaseLangChain2022} is an open-source project that provides tooling that can be used to create autonomous \acrshort{acr:ai} agents. It is designed to help with prompt management and optimization, creating chains of calls to \acrshortpl{acr:llm}, data augmentation, autonomous agent creation, and memory-related tasks.
-
-\subsubsection{Microsoft Semantic Kernel}\label{subsubsec:microsoft-semantic-kernel}
-
-Microsoft Semantic Kernel is an \acrshort{acr:sdk} that functions as the brain of an autonomous agent and provides connectors to models and memory, and connects to triggers and actions.
-
-\subsubsection{AutoGPT}\label{subsubsec:autogpt}
-
-\cite{richardAutoGPTHeartOpensource2023} will try to split a task into subtasks and use the internet and other tools in an automatic loop to solve the task/subtasks.
+The \gls{acr:gdpr} entered into applicability in the European Union in 25th of May 2018, and although not a member of the European Union, Norway incorporated the \gls{acr:gdpr} in July the same year due to its membership of the European Economic Area. The \gls{acr:gdpr} imposes stricter regulations about data privacy, meaning people have more control over their personal data, and that businesses get a level playing field in terms of what customer information is available \citep{datatilsynetGeneralDataProtection}. With data privacy being more relevant than ever in this information age we find ourselves in, we must make certain that \acrshort{acr:ai}-based \acrshort{acr:gis} agents are unable to access and spread information of private or sensitive character, even if such information has become publicly available by accident---as was the case when the Norwegian Broadcasting Corporation (NRK) was able to (legally) obtain accuracy geolocations of central people in the Norwegian army from a commercial London-based company\footnote{Link to news article in Norwegian: \url{https://www.nrk.no/norge/xl/norske-offiserer-og-soldater-avslort-av-mobilen-1.14890424}}.
 
 \glsresetall
