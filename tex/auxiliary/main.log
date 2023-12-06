@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  6 DEC 2023 14:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  6 DEC 2023 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1742,10 +1742,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 119.
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]|\T1/lmr/bx/n/10.95 (+20) Google
+ []
 
-Overfull \hbox (86.03844pt too wide) in paragraph at lines 121--122
-[][] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]|\T1/lmr/bx/n/10.95 (+20) Web of
  []
 
 ) [2]
@@ -1753,11 +1756,12 @@ Overfull \hbox (86.03844pt too wide) in paragraph at lines 121--122
 
  (./chapters/theory.tex
 chapter 2.
-<./figs//actor_map.png, id=304, 2221.29875pt x 2699.08376pt>
+<./figs//actor_map.png, id=289, 2221.29875pt x 2699.08376pt>
 File: ./figs//actor_map.png Graphic file (type png)
 <use ./figs//actor_map.png>
 Package pdftex.def Info: ./figs//actor_map.png  used on input line 164.
 (pdftex.def)             Requested size: 418.25368pt x 508.21857pt.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 171.
 [3
 
 
@@ -1804,18 +1808,18 @@ chapter 4.
 
 
 ] [19]
-<../figs/residential_expansion_areas_map.png, id=851, 722.7pt x 722.7pt>
+<../figs/residential_expansion_areas_map.png, id=836, 722.7pt x 722.7pt>
 File: ../figs/residential_expansion_areas_map.png Graphic file (type png)
 <use ../figs/residential_expansion_areas_map.png>
 Package pdftex.def Info: ../figs/residential_expansion_areas_map.png  used on input line 96.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
  [20] [21 <auxiliary/../figs/residential_expansion_areas_map.png>]
-<../figs/drammen_outline_file_upload.png, id=867, 552.1428pt x 397.84634pt>
+<../figs/drammen_outline_file_upload.png, id=851, 552.1428pt x 397.84634pt>
 File: ../figs/drammen_outline_file_upload.png Graphic file (type png)
 <use ../figs/drammen_outline_file_upload.png>
 Package pdftex.def Info: ../figs/drammen_outline_file_upload.png  used on input line 108.
 (pdftex.def)             Requested size: 188.21288pt x 135.61198pt.
-<../figs/drammen_outline_api.png, id=868, 454.5783pt x 604.53854pt>
+<../figs/drammen_outline_api.png, id=852, 454.5783pt x 604.53854pt>
 File: ../figs/drammen_outline_api.png Graphic file (type png)
 <use ../figs/drammen_outline_api.png>
 Package pdftex.def Info: ../figs/drammen_outline_api.png  used on input line 114.
@@ -1919,7 +1923,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=957, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=942, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
 Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
@@ -1937,7 +1941,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=960, page=1, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=945, page=1, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
 Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
@@ -1981,7 +1985,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=971, page=2, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=956, page=2, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
 Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
@@ -2015,10 +2019,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64664 strings out of 479647
- 1419120 string characters out of 5878802
- 2555607 words of memory out of 5000000
- 81101 multiletter control sequences out of 15000+600000
+ 64629 strings out of 479647
+ 1418591 string characters out of 5878802
+ 2553984 words of memory out of 5000000
+ 81081 multiletter control sequences out of 15000+600000
  550164 words of font info for 173 fonts, out of 8000000 for 9000
  354 hyphenation exceptions out of 8191
  108i,18n,166p,10699b,8831s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2099,10 +2103,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 pdfTeX warning (dest): name{glo:acr:llm} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on auxiliary/main.pdf (39 pages, 4323184 bytes).
+Output written on auxiliary/main.pdf (39 pages, 4322851 bytes).
 PDF statistics:
- 1336 PDF objects out of 1440 (max. 8388607)
- 1225 compressed objects within 13 object streams
- 256 named destinations out of 1000 (max. 500000)
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 1207 compressed objects within 13 object streams
+ 241 named destinations out of 1000 (max. 500000)
  47257 words of extra memory for PDF output out of 51595 (max. 10000000)
 
