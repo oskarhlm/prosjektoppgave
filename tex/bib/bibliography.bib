@@ -181,6 +181,23 @@
   file = {C\:\\Users\\oskar\\Zotero\\storage\\6TMJQ6P2\\Fan et al. - 2023 - Large Language Models for Software Engineering Su.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ZBKRCYEV\\2310.html}
 }
 
+@article{firatWhatIfGPT4,
+  title = {What If {{GPT4 Became Autonomous}}: {{The Auto-GPT Project}} and {{Use Cases}}},
+  shorttitle = {What If {{GPT4 Became Autonomous}}},
+  author = {Firat, Mehmet and Kulel{\.i}, Saniye},
+  journal = {Journal of Emerging Computer Technologies},
+  volume = {3},
+  number = {1},
+  pages = {1--6},
+  publisher = {{{\.I}zmir Academy Association}},
+  issn = {2757-8267},
+  doi = {10.57020/ject.1297961},
+  urldate = {2023-12-06},
+  abstract = {Auto-GPT is a product of an experimental project that makes the use of GPT-4 autonomous. Notably, Auto-GPT emerged and spread rapidly, while the echo of OpenAI's ChatGPT continues. However, there are insufficient studies on this new application in related literature. The purpose of this exploratory case study was to explore the different use cases and experiences of Auto-GPT users. For this purpose, 16 users with an Auto-GPT experience on the GitHub platform were interviewed. Thematic content analysis was performed on the qualitative data. AutoGPT experiences of users can be characterized by learning programs, autonomous applications, conducting research, and writing reports. The results of this study showed that content creation is the most important purpose of using Auto-GPT. As independent research functions of Auto-GPT, users also emphasize data summarization and information organization. However, the participants also pointed out the token limit (inefficiency), forgetting generated tools, and iteration as some prominent limitations of Auto-GPT. It is possible to say that Auto-GPT has a high potential to use in also in educational purpose, but it is still in the development stage.},
+  langid = {english},
+  file = {C:\Users\oskar\Zotero\storage\D23BL9DX\Firat and Kuleli̇ - What if GPT4 Became Autonomous The Auto-GPT Proje.pdf}
+}
+
 @inproceedings{gamanReportVarDialEvaluation2020,
   title = {A {{Report}} on the {{VarDial Evaluation Campaign}} 2020},
   booktitle = {Proceedings of the 7th {{Workshop}} on {{NLP}} for {{Similar Languages}}, {{Varieties}} and {{Dialects}}},
@@ -343,6 +360,23 @@
   file = {C\:\\Users\\oskar\\Zotero\\storage\\FBDIM7D6\\Hu et al. - 2021 - LoRA Low-Rank Adaptation of Large Language Models.pdf;C\:\\Users\\oskar\\Zotero\\storage\\HPY45HFE\\2106.html}
 }
 
+@misc{jiangActiveRetrievalAugmented2023,
+  title = {Active {{Retrieval Augmented Generation}}},
+  author = {Jiang, Zhengbao and Xu, Frank F. and Gao, Luyu and Sun, Zhiqing and Liu, Qian and {Dwivedi-Yu}, Jane and Yang, Yiming and Callan, Jamie and Neubig, Graham},
+  year = {2023},
+  month = oct,
+  number = {arXiv:2305.06983},
+  eprint = {2305.06983},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2305.06983},
+  urldate = {2023-12-06},
+  abstract = {Despite the remarkable ability of large language models (LMs) to comprehend and generate language, they have a tendency to hallucinate and create factually inaccurate output. Augmenting LMs by retrieving information from external knowledge resources is one promising solution. Most existing retrieval augmented LMs employ a retrieve-and-generate setup that only retrieves information once based on the input. This is limiting, however, in more general scenarios involving generation of long texts, where continually gathering information throughout generation is essential. In this work, we provide a generalized view of active retrieval augmented generation, methods that actively decide when and what to retrieve across the course of the generation. We propose Forward-Looking Active REtrieval augmented generation (FLARE), a generic method which iteratively uses a prediction of the upcoming sentence to anticipate future content, which is then utilized as a query to retrieve relevant documents to regenerate the sentence if it contains low-confidence tokens. We test FLARE along with baselines comprehensively over 4 long-form knowledge-intensive generation tasks/datasets. FLARE achieves superior or competitive performance on all tasks, demonstrating the effectiveness of our method. Code and datasets are available at https://github.com/jzbjyb/FLARE.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+  file = {C\:\\Users\\oskar\\Zotero\\storage\\YQPVQ4FH\\Jiang et al. - 2023 - Active Retrieval Augmented Generation.pdf;C\:\\Users\\oskar\\Zotero\\storage\\PY98V3XJ\\2305.html}
+}
+
 @misc{karpasMRKLSystemsModular2022,
   title = {{{MRKL Systems}}: {{A}} Modular, Neuro-Symbolic Architecture That Combines Large Language Models, External Knowledge Sources and Discrete Reasoning},
   shorttitle = {{{MRKL Systems}}},
@@ -405,6 +439,19 @@
   abstract = {What's hot these days? ``Spam calls'' on WhatsApp? Crisis in Pakistan? Election in Karnataka?},
   langid = {english},
   file = {C:\Users\oskar\Zotero\storage\I2LWCNWM\what-are-people-asking-to-chatgpt-f5f324a6cc27.html}
+}
+
+@inproceedings{lewisRetrievalAugmentedGenerationKnowledgeIntensive2020,
+  title = {Retrieval-{{Augmented Generation}} for {{Knowledge-Intensive NLP Tasks}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim and Riedel, Sebastian and Kiela, Douwe},
+  year = {2020},
+  volume = {33},
+  pages = {9459--9474},
+  publisher = {{Curran Associates, Inc.}},
+  urldate = {2023-12-06},
+  abstract = {Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.},
+  file = {C:\Users\oskar\Zotero\storage\C9CZL5M6\Lewis et al. - 2020 - Retrieval-Augmented Generation for Knowledge-Inten.pdf}
 }
 
 @misc{liAutonomousGISNextgeneration2023,
@@ -641,9 +688,11 @@
   file = {C\:\\Users\\oskar\\Zotero\\storage\\U4ISGUBN\\OpenAI - 2023 - GPT-4 Technical Report.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ANYBWPS8\\2303.html}
 }
 
-@misc{openaiIntroducingChatGPT,
+@misc{openaiIntroducingChatGPT2022,
   title = {Introducing {{ChatGPT}}},
   author = {{OpenAI}},
+  year = {2022},
+  month = nov,
   urldate = {2023-10-26},
   abstract = {We've trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.},
   howpublished = {https://openai.com/blog/chatgpt},
@@ -856,6 +905,23 @@
   file = {C\:\\Users\\oskar\\Zotero\\storage\\HG5BUPY7\\Rozière et al. - 2023 - Code Llama Open Foundation Models for Code.pdf;C\:\\Users\\oskar\\Zotero\\storage\\XF7M2VMP\\2308.html}
 }
 
+@misc{roziereCodeLlamaOpen2023a,
+  title = {Code {{Llama}}: {{Open Foundation Models}} for {{Code}}},
+  shorttitle = {Code {{Llama}}},
+  author = {Rozi{\`e}re, Baptiste and Gehring, Jonas and Gloeckle, Fabian and Sootla, Sten and Gat, Itai and Tan, Xiaoqing Ellen and Adi, Yossi and Liu, Jingyu and Remez, Tal and Rapin, J{\'e}r{\'e}my and Kozhevnikov, Artyom and Evtimov, Ivan and Bitton, Joanna and Bhatt, Manish and Ferrer, Cristian Canton and Grattafiori, Aaron and Xiong, Wenhan and D{\'e}fossez, Alexandre and Copet, Jade and Azhar, Faisal and Touvron, Hugo and Martin, Louis and Usunier, Nicolas and Scialom, Thomas and Synnaeve, Gabriel},
+  year = {2023},
+  month = aug,
+  number = {arXiv:2308.12950},
+  eprint = {2308.12950},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-12-06},
+  abstract = {We release Code Llama, a family of large language models for code based on Llama 2 providing state-of-the-art performance among open models, infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks. We provide multiple flavors to cover a wide range of applications: foundation models (Code Llama), Python specializations (Code Llama - Python), and instruction-following models (Code Llama - Instruct) with 7B, 13B and 34B parameters each. All models are trained on sequences of 16k tokens and show improvements on inputs with up to 100k tokens. 7B and 13B Code Llama and Code Llama - Instruct variants support infilling based on surrounding content. Code Llama reaches state-of-the-art performance among open models on several code benchmarks, with scores of up to 53\% and 55\% on HumanEval and MBPP, respectively. Notably, Code Llama - Python 7B outperforms Llama 2 70B on HumanEval and MBPP, and all our models outperform every other publicly available model on MultiPL-E. We release Code Llama under a permissive license that allows for both research and commercial use.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Computation and Language},
+  file = {C\:\\Users\\oskar\\Zotero\\storage\\ZMFJYZFI\\Rozière et al. - 2023 - Code Llama Open Foundation Models for Code.pdf;C\:\\Users\\oskar\\Zotero\\storage\\24UFYPRZ\\2308.html}
+}
+
 @inproceedings{scherrerHeLjuVarDial20202020,
   title = {{{HeLju}}@{{VarDial}} 2020: {{Social Media Variety Geolocation}} with {{BERT Models}}},
   shorttitle = {{{HeLju}}@{{VarDial}} 2020},
@@ -997,6 +1063,20 @@
   file = {C:\Users\oskar\Zotero\storage\TUVKD3T5\Produktspesifikasjoner_elveg-2-0_v2_sosi-standardisert-produktspesifikasjon-elveg-2_0_1_.pdf}
 }
 
+@article{topsakalCreatingLargeLanguage2023,
+  title = {Creating {{Large Language Model Applications Utilizing LangChain}}: {{A Primer}} on {{Developing LLM Apps Fast}}},
+  shorttitle = {Creating {{Large Language Model Applications Utilizing LangChain}}},
+  author = {Topsakal, Oguzhan and Akinci, T. Cetin},
+  year = {2023},
+  month = jul,
+  journal = {International Conference on Applied Engineering and Natural Sciences},
+  volume = {1},
+  pages = {1050--1056},
+  doi = {10.59287/icaens.1127},
+  abstract = {This study focuses on the utilization of Large Language Models (LLMs) for the rapid development of applications, with a spotlight on LangChain, an open-source software library. LLMs have been rapidly adopted due to their capabilities in a range of tasks, including essay composition, code writing, explanation, and debugging, with OpenAI's ChatGPT popularizing their usage among millions ofusers. The crux of the study centers around LangChain, designed to expedite the development of bespoke AI applications using LLMs. LangChain has been widely recognized in the AI community for its ability to seamlessly interact with various data sources and applications. The paper provides an examination of LangChain's core features, including its components and chains, acting as modular abstractions and customizable, use-case-specific pipelines, respectively. Through a series of practical examples, the study elucidates the potential of this framework in fostering the swift development of LLM-based applications.},
+  file = {C:\Users\oskar\Zotero\storage\586XFC8J\Topsakal and Akinci - 2023 - Creating Large Language Model Applications Utilizi.pdf}
+}
+
 @misc{touvronLLaMAOpenEfficient2023,
   title = {{{LLaMA}}: {{Open}} and {{Efficient Foundation Language Models}}},
   shorttitle = {{{LLaMA}}},
@@ -1097,6 +1177,24 @@
   archiveprefix = {arxiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Software Engineering},
   file = {C\:\\Users\\oskar\\Zotero\\storage\\M7SC9URA\\White et al. - 2023 - A Prompt Pattern Catalog to Enhance Prompt Enginee.pdf;C\:\\Users\\oskar\\Zotero\\storage\\JHQNKRW4\\2302.html}
+}
+
+@misc{wuAutoGenEnablingNextGen2023,
+  title = {{{AutoGen}}: {{Enabling Next-Gen LLM Applications}} via {{Multi-Agent Conversation}}},
+  shorttitle = {{{AutoGen}}},
+  author = {Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Zhang, Shaokun and Liu, Jiale and Awadallah, Ahmed Hassan and White, Ryen W. and Burger, Doug and Wang, Chi},
+  year = {2023},
+  month = oct,
+  number = {arXiv:2308.08155},
+  eprint = {2308.08155},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2308.08155},
+  urldate = {2023-12-06},
+  abstract = {AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic infrastructure to build diverse applications of various complexities and LLM capacities. Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language},
+  file = {C\:\\Users\\oskar\\Zotero\\storage\\G62PQ5SB\\Wu et al. - 2023 - AutoGen Enabling Next-Gen LLM Applications via Mu.pdf;C\:\\Users\\oskar\\Zotero\\storage\\XCS4SCF5\\2308.html}
 }
 
 @article{wurstleViabilityTestingGame2022,

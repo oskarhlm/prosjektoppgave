@@ -1182,6 +1182,40 @@
       \verb C\:\\Users\\oskar\\Zotero\\storage\\QWK5I79E\\ogc.png;C\:\\Users\\oskar\\Zotero\\storage\\37QGTLZ7\\standards.html
       \endverb
     \endentry
+    \entry{openaiIntroducingChatGPT2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={{OpenAI}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We've trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.}
+      \field{howpublished}{https://openai.com/blog/chatgpt}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{Introducing {{ChatGPT}}}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\BXCIMZNC\chatgpt.html
+      \endverb
+    \endentry
     \entry{openaiGPT4TechnicalReport2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
@@ -1197,6 +1231,7 @@
       \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{extraname}{2}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
