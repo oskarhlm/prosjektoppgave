@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'auxiliary/main.blg'
-[142] biber:340> INFO - === Wed Dec  6, 2023, 22:48:43
-[167] Biber.pm:418> INFO - Reading 'auxiliary/main.bcf'
-[305] Biber.pm:972> INFO - Found 32 citekeys in bib section 0
-[327] Biber.pm:4383> INFO - Processing section 0
-[345] Biber.pm:4574> INFO - Looking for bibtex file 'bib/bibliography.bib' for section 0
-[365] bibtex.pm:1713> INFO - LaTeX decoding ...
-[638] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/bibliography.bib'
-[1345] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1345] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1345] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
-[1346] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-GB'
-[1463] bbl.pm:654> INFO - Writing 'auxiliary/main.bbl' with encoding 'UTF-8'
-[1593] bbl.pm:757> INFO - Output to auxiliary/main.bbl
+[0] Config.pm:310> INFO - Logfile is 'auxiliary/main.blg'
+[129] biber:340> INFO - === Thu Dec  7, 2023, 12:53:37
+[149] Biber.pm:418> INFO - Reading 'auxiliary/main.bcf'
+[284] Biber.pm:972> INFO - Found 36 citekeys in bib section 0
+[302] Biber.pm:4383> INFO - Processing section 0
+[315] Biber.pm:4574> INFO - Looking for bibtex file 'bib/bibliography.bib' for section 0
+[344] bibtex.pm:1713> INFO - LaTeX decoding ...
+[605] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/bibliography.bib'
+[1333] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1333] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1333] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+[1333] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-GB'
+[1429] bbl.pm:654> INFO - Writing 'auxiliary/main.bbl' with encoding 'UTF-8'
+[1604] bbl.pm:757> INFO - Output to auxiliary/main.bbl

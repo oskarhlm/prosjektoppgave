@@ -212,28 +212,42 @@ The \texttt{[CLS]} token is used to label sentence B as either \texttt{IsNext} o
 
 \acrshort{acr:bert} is normally fine-tuned to specific downstream tasks by using the \texttt{[CLS]} token, which captures an aggregated representation of the input sequence. This vector representation can then be used as input to a classification layer for tasks like multi-label classification and regression.
 
-\subsubsection{PaLM 2}\label{subsubsec:palm2}
+\subsection{Gemini}\label{subsec:gemini}
 
-\subsubsection{Codey}
+As of writing, Google's Gemini \citep{geminiteamGeminiFamilyHighly2023} (introduced on December 6th 2023) is the latest addition to the field of \acrshortpl{acr:llm}. Being fundamentally designed for multimodality, it is able to reason between text, images, video, audio, and code. Is released in different sizes: the Gemini Ultra, the Gemini Pro, and the Gemini Nano. The Gemini Ultra produces state-of-the-art performance on 30 of 32 widely-used academic benchmarks, and performs worse than \citeauthor{openaiGPT4TechnicalReport2023}'s \acrshort{acr:gpt}-4 on only one benchmark, the HellaSwag benchmark for common-sense reasoning for everyday tasks. Gemini Ultra outperforms \acrshort{acr:gpt}-4 on the \acrshort{acr:mmlu} benchmark, various reasoning benchmarks, and shows significant improvements in maths and code related benchmarks  \citep[7]{geminiteamGeminiFamilyHighly2023}. Gemini performs better than \citeauthor{openaiGPT4TechnicalReport2023}'s multimodal equivalent of \acrshort{acr:gpt}-4V in all  \citep[12]{geminiteamGeminiFamilyHighly2023}.
 
-\subsection{Meta Products}
+Like the \acrshort{acr:gpt} architecture, Gemini is built on top of Transformer decoders, and trained to accommodate various modalities, supporting interleaved sequences of text, image, audio, and video as inputs \citep[3-4]{geminiteamGeminiFamilyHighly2023}. This highlights one of the greatest strengths of the Transformer architecture, namely that it can be adapted for multiple modalities. Commonly, multimodal \acrshort{acr:ai} architectures consist of an ensemble of models, one for each given modality, with different representations that can be difficult to combine. The Transformer solves this issue and provides a common architecture that can be trained end-to-end.
 
-Like \hyperref[subsubsec:palm2]{PaLM 2} The language models developed by Meta (previously Facebook) differ from the products from \hyperref[subsec:openai-llms]{OpenAI} in that Meta's LLama models are open-source.
+\subsection{Open-Source Alternatives}
 
-\subsubsection{LLama 2}
+Seeing as the state-of-the-art models of today (\acrshort{acr:gpt}-4 and now, Google's Gemini) are all closed-source, it is important to note that there are viable open-source alternatives out there that. This section lists the most prominent ones.
 
-\subsubsection{Code LLama}
+\subsubsection{LLaMA 2}
 
-\subsection{Honourable Mentions}
+Perhaps the most famous open-source \acrshort{acr:llm}, Meta AI's LLaMA 2 is a powerful family of pre-trained and fine-tuned \acrshortpl{acr:llm} that outperformed open-source chat models on most benchmarks \cite{touvronLlamaOpenFoundation2023a}. It also shows great results in terms of safety, even outperforming the closed-source ChatGPT-0301 model. The training process of LLaMA is similar to that of the \acrshort{acr:gpt} model (see \autoref{subsec:gpt}). Pre-training is performed using an optimized auto-regressive transformer which is trained from a large corpus of unstructured data. It is the fine-tuned using  various alignment techniques, and the authors also share anew technique they call Ghost Attentions, which aims to control dialogue flow over multiple turns. \gls{acr:rlhf} and \acrfull{acr:ppo} are important techniques used to get the desired behaviour out of the model.
 
-\subsubsection{Falcon 180B}
+Many flavours of LLaMA have been trained. Most notably is, Code LLaMA \citep{roziereCodeLlamaOpen2023}, a family of \acrshortpl{acr:llm} fine-tuned for code, scoring at 53\% and 55\% on HumanEval and MBPP, respectively. Vicuna-13B is another example, which is a LLaMA model fine-tuned on user-shared conversations collected from ShareGPT (a website where users can upload ChatGPT conversations). At its release in March 2023, it achives more than 90\% quality of OpenAI ChatGPT and Google Bard, while also outperforming the original LLaMA model.
+
 \subsubsection{Mistral}
-\subsubsection{Vicuna}
-\subsubsection{BLOOM}
+
+Mistral 7B \citep{aiMistral7B2023} is another open-source \acrshort{acr:llm}, claiming to be \enquote{the most powerful language model for its size to date}. Being a 7.3B parameter model, it is quite small compared to other models, such as the 1.76T parameter \acrshort{acr:gpt}-4 model. Mistral 7B outperforms the LLaMA 2 13B on all benchmarks, and approaches CodeLlama 7B performance on code. It uses a sliding window attention mechanism, which yields a linear compute cost of O(sliding\_window.seq\_len).
+
+% \subsubsection{Falcon 180B}
+% \subsubsection{Vicuna}
+% \subsubsection{BLOOM}
 
 \section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{subsec:llm-benchmarking-and-evaluation}
 
 There are several ways of benchmarking \acrlongpl{acr:llm} but this section will focus on HumanEval, \gls{acr:mmlu}, and \gls{acr:gsm8k}. According to metrics displayed on the various pages for these datasets found on \href{https://paperswithcode.com}{PapersWithCode}, they seem to be the three most common datasets for measuring the different abilities of a given \acrshort{acr:llm}.
+
+\subsection{Evaluation Metrics}\label{subsec:evaluation-metrics}
+
+\subsubsection{Perplexity}
+\subsubsection{Huamn Evaluation}
+\subsubsection{BLEU}
+\subsubsection{ROUGE}
+\subsubsection{Diversity}
+
 
 \subsection{Benchmarks}\label{subsec:benchmarks}
 
@@ -249,9 +263,6 @@ First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \acrlong{acr:m
 
 This is a dataset made to measure an \acrshort{acr:llm}'s abilities to perform mathemathical arthimetic.
 
-\subsection{Evaluation Metrics}\label{subsec:evaluation-metrics}
-
-\todo{Write}
 
 \section[LLM providers]{\acrfull{acr:llm} Providers}\label{sec:llm-providers}
 
@@ -355,7 +366,7 @@ An \acrshort{acr:ai} agent with geospatial awareness could also be useful to the
 
 Although an \acrshort{acr:ai}-based \acrshort{acr:gis} agent could prove powerful, there are some ehtical pitfalls in terms of regulations and privacy concerns. If such an agent is to make decision on behalf of humans it is important that one can hold someone accountable in the case where something goes wrong. If an \acrshort{acr:ai}-based agent is tasked to lead firefighters to the tactically optimal locations in order to quench the fire, but misleads them and traps them inside the fire, who is then to blame? \cite{sparrowKillerRobots2007} provides an interesting angle on this issue, though related the role of artificially intelligent robots in modern warfare.
 
-Furthermore, it is important that it is impossible to use the \acrshort{acr:ai} for immoral purposes, such as finding the optimal location in which to dissolve poison into people's drinking water. Work has been done with newer \acrshortpl{acr:llm} to prevent them from producing dangerous, misinformed, or toxic text---it is widely discussed in the technical report of the latest \acrshort{acr:gpt} model \citep[11-14]{openaiGPT4TechnicalReport2023}---but there have been cases where these issues haven't been considered well enough\footnote{The LLaMA-based Alpaca model, developed at Stanford University, was taken offline after being shown to produce misinformation, toxic text: \url{https://www.theregister.com/2023/03/21/stanford_ai_alpaca_taken_offline/}}.
+Furthermore, it is important that it is impossible to use the \acrshort{acr:ai} for immoral purposes, such as finding the optimal location in which to dissolve poison into people's drinking water. Work has been done with newer \acrshortpl{acr:llm} to prevent them from producing dangerous, misinformed, or toxic text---it is widely discussed in the technical report of the latest \acrshort{acr:gpt} model \citep[11-14]{openaiGPT4TechnicalReport2023}---but there have been cases where these issues haven't been considered well enough\footnote{The LaMA-based Alpaca model, developed at Stanford University, was taken offline after being shown to produce misinformation, toxic text: \url{https://www.theregister.com/2023/03/21/stanford_ai_alpaca_taken_offline/}}.
 
 The \gls{acr:gdpr} entered into applicability in the European Union in 25th of May 2018, and although not a member of the European Union, Norway incorporated the \gls{acr:gdpr} in July the same year due to its membership of the European Economic Area. The \gls{acr:gdpr} imposes stricter regulations about data privacy, meaning people have more control over their personal data, and that businesses get a level playing field in terms of what customer information is available \citep{datatilsynetGeneralDataProtection}. With data privacy being more relevant than ever in this information age we find ourselves in, we must make certain that \acrshort{acr:ai}-based \acrshort{acr:gis} agents are unable to access and spread information of private or sensitive character, even if such information has become publicly available by accident---as was the case when the Norwegian Broadcasting Corporation (NRK) was able to (legally) obtain accuracy geolocations of central people in the Norwegian army from a commercial London-based company\footnote{Link to news article in Norwegian: \url{https://www.nrk.no/norge/xl/norske-offiserer-og-soldater-avslort-av-mobilen-1.14890424}}.
 
