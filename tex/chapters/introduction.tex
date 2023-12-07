@@ -112,9 +112,24 @@ You should return to the actual choices made in the work and the alternatives in
 
 My research methods consist of a literature study and a set of experiments/proofs of concept, the latter of which is described in detail in \autoref{cha:experiments}.
 
-\subsection{Literature Study}\label{subsec:literature-study}
+\subsection{Literature Study}\label{subsec:research-method-literature-study}
 
 I set out by deciding on some search terms, and used a "snowball sampling" technique to find relevant articles. \autoref{tbl:literature-search-results} shows the number of search results on various sites.
+
+In order to evaluate large amounts of literature, a strategy of filtering out papers that are \textit{not} relevant was put in place. The strategy involves reading the least time-consuming and more information- packed sections first, and then reading other parts of the paper if it is deemed relevant to the project. \autoref{fig:searching-strategy} shows the order in which the different types of elements/sections commonly were read, and at any point in this pipeline the paper could be deemed irrelevant, and would subsequently be discarded from the literature study. The literature study is presented in \autoref{cha:related-work}.
+
+\subsection{Experiments}\label{subsec:research-method-experiments}
+
+Three experiments were conducted in order to answer the research questions listed in \autoref{sec:goals-and-research-questions}. As the literature study is the main focus of this specialization project, the experiments are not very in depth, but serve to support some of the claims that are made about the potential of an \acrshort{acr:llm}-based \acrshort{acr:gis} agent. The experiments is are presented in \autoref{cha:experiments}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{../figs/Literature study.png}
+    \caption{Seaching strategy}
+    \label{fig:searching-strategy}
+\end{figure}
+
+
 
 % \begin{table}
 %     \centering
@@ -179,6 +194,12 @@ Hence most of the content on this list will be addressed 4--5 times in your text
 in the Results chapter.
 \end{comment}
 
+The main contributions of this specialization project are listed below:
+\begin{enumerate}
+    \item Gather relevant literature to facilitate development of a state-of-the-art \acrshort{acr:llm}-based \acrshort{acr:gis} agent.
+    \item Perform experiments on ChatGPT-4, investigating its abilities in manipulating geospatial data of different formats and access channels.
+\end{enumerate}
+
 \section{Thesis Structure}
 \label{sec:thesisStructure}
 
@@ -192,5 +213,14 @@ You want to say more than what is explicit in the chapter name, if possible, but
     \item Chapter~\ref{cha:conclusion} sums up the work and points to ways it can be improved or extended in the future.
 \end{itemize}
 \end{comment}
+
+The thesis is divided into four main sections:
+\begin{itemize}
+    \item \Autochapterref{cha:theory} introduces the theory, tools, and methods necessary to understand the work.
+    \item \Autochapterref{cha:related-work} discusses previous work related to this thesis.
+    \item \Autochapterref{cha:experiments} explains the experimental plan and setup, and lists the results of these.
+    \item \Autochapterref{cha:discussion} discusses some of the finding of the experiments, and other considerations when developing an \acrshort{acr:llm}-based \acrshort{acr:gis} agent.
+    \item \Autochapterref{cha:conclusion} sums up the work and points to ways it can be improved or extended in the future.
+\end{itemize}
 
 \glsresetall
