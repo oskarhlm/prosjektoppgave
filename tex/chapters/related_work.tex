@@ -57,11 +57,15 @@ A substantial body of work have been done in recent years to assess the geospati
 
 \section{Prompt Engineering and Planning Strategies}\label{sec:prompt-engineering-and-planning-strategies}
 
+\todo{Planning to add one or two papers}
+
 \acrlongpl{acr:llm} have shown great abilities in problem-solving and decision-making tasks, but generally struggle as they are presented with larger and more complex tasks. Also, seeing as they are pure stochastic machines, the output is seldom reproducible. While the temperature parameter of the \acrshort{acr:gpt} models help serve as a control mechanism for this randomness, it does not guarantee fully predictable text generation. These issues have lead people into investigation \textit{prompt engineering} and various techniques for helping the models form plans when faced with large and complex tasks, both of which aim to guide the model into producing the desired response.
 
 \cite{zhouLanguageAgentTree2023} introduces a framework called \gls{acr:lats} "that synergizes the capabilities of \acrshortpl{acr:llm} in planning, acting, and reasoning.". As of writing (October 30th, 2023), the \gls{acr:lats} framework is the highest scoring model on the \hyperref[subsubsec:humaneval]{HumanEval} benchmark, demonstrating state-of-the-art performance on decision-making tasks in a range of diverse domains. \gls{acr:lats} performs a sequence of operations in succession until the task at hand is solved. These are \textit{selection, expansion, evaluation, simulation, backpropagation, and reflection}. Employing Monte Carlo Tree Search they enable the \acrshort{acr:llm}-based to select the among $n$ sampled options while still exploring other promising alternatives, using a heuristic to rank alternatives. Though a shared space of thoughts and actions, the framework supports both reasoning and decision-making tasks. Observation and self-reflection abilities enables \acrshort{acr:lats} to use external feedback, which proved valuable when testing the framework on different benchmarks, some of which were discussed in \autoref{subsec:benchmarks}.
 
 \section[Retrieval Augmented Generation]{\acrlong{acr:rag}}\label{sec:retrieval-automented-generation}
+
+\todo{Planning to add one or two papers}
 
 \gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those designed to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
 

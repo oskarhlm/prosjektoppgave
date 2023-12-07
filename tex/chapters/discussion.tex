@@ -116,7 +116,7 @@ Discussion and evaluation can either be two different chapters, a joint chapter 
 As for most parts of the thesis, it is possible to select various outlines and setups for the discussion; the important thing is that all the relevant parts appear \textit{somewhere\/} in the text.
 \end{comment}
 
-\cite{yiuTransmissionTruthImitation2023} calls \acrshort{acr:ai} technologies like \acrlongpl{acr:llm} "powerful imitation engines" but claim that they are unable to innovate and that significant advancements in \acrshort{acr:ai} development is required for them to be able to learn the in the same way human children do.
+% \cite{yiuTransmissionTruthImitation2023} calls \acrshort{acr:ai} technologies like \acrlongpl{acr:llm} "powerful imitation engines" but claim that they are unable to innovate and that significant advancements in \acrshort{acr:ai} development is required for them to be able to learn the in the same way human children do.
 
 \subsection{Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}
 
@@ -125,5 +125,11 @@ When using ChatGPT's Code Interpreter with file uploads, it became apparent that
 This result was not very surprising, especially since the driver needed to read and write \acrshort{acr:sosi} files---which is called \textit{fyba} and is developed by The Norwegian Mapping Authority\footnote{\url{https://github.com/kartverket/fyba}}---is almost certaintly not available in the standard Linux environment for ChatGPT's Code Interpreter. Seeing as the \acrshort{acr:sosi} standard still is widely used for Norwegian geospatial purposes (though expected to be exchanged with the \acrshort{acr:gml} format in the future), it is important for an \acrshort{acr:llm}-based \acrshort{acr:gis} agent focused on the Norwegian market to be able to handle this file type.
 
 The inability to manipulate the Linux environment using by the Code Interpreter clearly poses some limitations on the systems. A solution to the problem is to create a custom environment on a server and implement agent-like capabilities by other means (LangChain, AutoGPT, AutoGen, etc.). Having the agent run on an environment that we control ourselves gives us greater flexibility, and we can then allow the agent to access powerful \acrshort{acr:gis} tooling, such as the \acrshort{acr:gdal} library. This also allows us to avoid having to perform I/O on a mounted directory (in the \texttt{/mnt} directory), which can increase the speed of reads and writes.
+
+\subsection[Mitigating ChatGPT's Inability to Access Web APIs]{Mitigating ChatGPT's Inability to Access Web \acrshort{acr:api}s}
+
+As results of experiment 2 (see \autoref{subsec:experiment-2-results}) showed, ChatGPT-4 struggles when provided with URLs to external Web APIs, even when prompted to use its web browsing abilities and pairing them with its Code Interpreter. These issues are not present when using direct file upload, in which case the model appears to save the uploaded file in a temporary file directory in on a mounted drive in its Linux environment. While it can be hard to interpret the inner workings only from the code samples, it appears that it does not do this by default after fetching data from an external \acrshort{acr:api}. It appears from the results, in which it \textit{truncates} the file and \enquote{store's} the content directly in code, thus attempting to store the entire file in the context window of the  \acrshort{acr:llm}. The context window of the ChatGPT-4 model is currently at 32,000 tokens (the new GPT-4 Turbo has a context length of 128,000 tokens). While these are of significant size, they are not meant to (or able to) store large file, and thus it becomes a limiting factor when the file contents grow large, which is not uncommon for geospatial files.
+
+This is a significant limitation of using ChatGPT-4 out of the box, and one should therefore look into other ways of handling web requests and subsequent storing of the received data. Techniques within \gls{acr:rag} can help here, and tools like LangChain or OpenAI's own \enquote{GPTs}\footnote{\url{https://openai.com/blog/introducing-gpts}} can help solve this issue.
 
 \glsaddall

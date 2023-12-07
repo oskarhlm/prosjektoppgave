@@ -23,7 +23,7 @@ The experiments conducted for this report have been planned to answer the resear
 
 \subsection{Experiment 1: Testing ChatGPT's Ability to Perform Geospatial Analysis}
 
-Tests were performed to assess ChatGPT's ability to perform geospatial analysis. The testing approach is inspired by the work of \cite{robertsGPT4GEOHowLanguage2023} (see \autoref{subsec:gis-with-llms}), who did experiments with increasing difficult on \acrshort{acr:gpt}-4 to characterize what \acrshort{acr:gpt}-4 knows about the geographical world, highlighting both capabilities and limitations. These focused on \acrshort{acr:gpt}-4's general geospatial awareness, and were not concerned with \acrshort{acr:gis}-related tasks. Therefore, I will refer to \cite{robertsGPT4GEOHowLanguage2023} when highlighting its somewhat surprising geospatial awareness abilities, and focus my efforts to displaying its potential for use in the world of \acrshort{acr:gis}. I will do this by constructing various tests that try to reflect its GIS knowledge.
+Tests were performed to assess ChatGPT's ability to perform geospatial analysis. The testing approach is inspired by the work of \cite{robertsGPT4GEOHowLanguage2023} (see \autoref{sec:gis-with-llms}), who did experiments with increasing difficult on \acrshort{acr:gpt}-4 to characterize what \acrshort{acr:gpt}-4 knows about the geographical world, highlighting both capabilities and limitations. These focused on \acrshort{acr:gpt}-4's general geospatial awareness, and were not concerned with \acrshort{acr:gis}-related tasks. Therefore, I will refer to \cite{robertsGPT4GEOHowLanguage2023} when highlighting its somewhat surprising geospatial awareness abilities, and focus my efforts to displaying its potential for use in the world of \acrshort{acr:gis}. I will do this by constructing various tests that try to reflect its GIS knowledge.
 
 I will use the Elveg 2.0 dataset \citep{thenorwegianmappingauthorityElveg2019}, along with cadastral data. In order to assess ChatGPT's ability to read and understand different data formats, the data will be provided in both \acrshort{acr:sosi}, \acrshort{acr:gml}, and GeoJSON format. Datasets for the first two formats were downloaded from \url{https://geonorge.no}, while the GeoJSON datasets were created using a custom Bash script which converts from \acrshort{acr:gml} to GeoJSON using the \texttt{ogr2ogr} program from \acrshort{acr:gdal}. The Elveg 2.0 dataset contains a range of different layers for different types of geometries. In order to simplify the experiments, only the layer named "Fartsgrense" (eng. "Speed limit") was used fro Elveg 2.0.
 
@@ -50,7 +50,9 @@ A dataset containing the border of Drammen Municipality was used to test compare
 
 \subsection[Experiment 3: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API Features]{Experiment 3: Testing ChatGPT's Ability to Perform Overlay Analysis using \acrshort{acr:ogc} \acrshort{acr:api} Features and LangChain}
 
-Experiments on \rqref{rq:external-tools} will test different tools and techniques intended to give an \acrshort{acr:llm} access to up-to-date information and external tools (see \autoref{subsec:retrieval-automented-generation} on \acrlong{acr:rag}). The main focus will be on how one can use a tool like \hyperref[subsubsec:langchain]{LangChain} hook up a conversational \acrshort{acr:ai} with sophisticated functionality found in various \acrshort{acr:gis} software.
+\todo{Havn't done this yet, and may remove the experiment}
+
+Experiments on \rqref{rq:external-tools} will test different tools and techniques intended to give an \acrshort{acr:llm} access to up-to-date information and external tools (see \autoref{sec:retrieval-automented-generation} on \acrlong{acr:rag}). The main focus will be on how one can use a tool like \hyperref[subsubsec:langchain]{LangChain} hook up a conversational \acrshort{acr:ai} with sophisticated functionality found in various \acrshort{acr:gis} software.
 
 Experiments on \rqref{rq:overlay-analysis} will require three different elements:
 
@@ -64,7 +66,7 @@ These experiments will be limited to the collections found at \url{https://aleno
 
 \section{Experimental Results}\label{sec:experimental-results}
 
-\subsection{Results for Experiment 1}
+\subsection{Results for Experiment 1}\label{subsec:experiment-1-results}
 
 \begin{table}
     \centering
@@ -99,7 +101,7 @@ Using the shapefile formatted data, ChatGPT was able to produce a decent summary
     \label{fig:planning-plot-from-geojson}
 \end{figure}
 
-\subsection{Results for Experiment 2}
+\subsection{Results for Experiment 2}\label{subsec:experiment-2-results}
 
 \autoref{subfig:drammen-outline-file-upload} and \autoref{subfig:drammen-outline-api} shows the results when providing ChatGPT-4 with the GeoJSON for the outline of Drammen municipality using the file upload functionality and providing it and URL to an \acrshort{acr:api} endpoint, respectively. While handling the direct file upload with bravura, it struggled when provided the URL. When provided the URL, its first response was that \enquote{there was a problem with establishing a connection to the website}, after trying to process the request using Code Interpreter. When guided (twice) to try accessing the URL using its web browsing abilities, it was eventually able to read the data. In the subsequent prompt it was asked to provide a visual representation, but failed to do so successfully as \autoref{subfig:drammen-outline-api} shows. The reason for this was its decision to \enquote{truncate the dataset for brevity, using a subset of the full coordinate list} (see \autoref{lst:python-for-failed-drammen-outline}).
 

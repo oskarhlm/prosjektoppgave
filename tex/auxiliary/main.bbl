@@ -1332,6 +1332,90 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
+    \entry{papineniBleuMethodAutomatic2002}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7f72c67734e28d79452d687f2b2825d0}{%
+           family={Papineni},
+           familyi={P\bibinitperiod},
+           given={Kishore},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcdf7cf3f3cfe87d0f08f8f4d98b1137}{%
+           family={Roukos},
+           familyi={R\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=630f7af400534d0e9f11cc0befbb3fe3}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecc966c09b4816bda3be0efb9bedb125}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Wei-Jing},
+           giveni={W\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=94f99d08869c0e5e542d0788cc85fc94}{%
+           family={Isabelle},
+           familyi={I\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0fdf25cc625982a538938b5c9a3024f8}{%
+           family={Charniak},
+           familyi={C\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2e7ed8cdaec24e8abe4685e384ec3a2e}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Dekang},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, Pennsylvania, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{d4eb40956a6de2c2fe50bfef6a72df63}
+      \strng{fullhash}{0a6e6b36539eaebe00a3fef93d4cd32a}
+      \strng{bibnamehash}{0a6e6b36539eaebe00a3fef93d4cd32a}
+      \strng{authorbibnamehash}{0a6e6b36539eaebe00a3fef93d4cd32a}
+      \strng{authornamehash}{d4eb40956a6de2c2fe50bfef6a72df63}
+      \strng{authorfullhash}{0a6e6b36539eaebe00a3fef93d4cd32a}
+      \strng{editorbibnamehash}{c8bcecc236bd96e3f6e3810018b8f268}
+      \strng{editornamehash}{70beed68bb345043fe0e845c62c125c8}
+      \strng{editorfullhash}{c8bcecc236bd96e3f6e3810018b8f268}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings of the 40th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}}}
+      \field{month}{7}
+      \field{shorttitle}{Bleu}
+      \field{title}{Bleu: A {{Method}} for {{Automatic Evaluation}} of {{Machine Translation}}}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{311\bibrangedash 318}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.3115/1073083.1073135
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\B5PXQHSU\Papineni et al. - 2002 - Bleu a Method for Automatic Evaluation of Machine.pdf
+      \endverb
+    \endentry
     \entry{qiMaaSDBSpatialDatabases2023}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1b02772a564a3a401f6b7f8c5c960bfe}{%
@@ -2496,64 +2580,6 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\KG8K58TW\Vaswani et al. - 2017 - Attention Is All You Need.pdf
-      \endverb
-    \endentry
-    \entry{yiuTransmissionTruthImitation2023}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=df23612c0373204e14ef3bc5845c3770}{%
-           family={Yiu},
-           familyi={Y\bibinitperiod},
-           given={Eunice},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75643803e9906e218862321d2522e10a}{%
-           family={Kosoy},
-           familyi={K\bibinitperiod},
-           given={Eliza},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3e063b0367cfac265e28330a57ad2739}{%
-           family={Gopnik},
-           familyi={G\bibinitperiod},
-           given={Alison},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {SAGE Publications Inc}%
-      }
-      \strng{namehash}{1bf33bf21c31c7b9b28ca07f1293370c}
-      \strng{fullhash}{832740bd5d90af563c400dda3f1ea062}
-      \strng{bibnamehash}{832740bd5d90af563c400dda3f1ea062}
-      \strng{authorbibnamehash}{832740bd5d90af563c400dda3f1ea062}
-      \strng{authornamehash}{1bf33bf21c31c7b9b28ca07f1293370c}
-      \strng{authorfullhash}{832740bd5d90af563c400dda3f1ea062}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Much discussion about large language models and language-and-vision models has focused on whether these models are intelligent agents. We present an alternative perspective. First, we argue that these artificial intelligence (AI) models are cultural technologies that enhance cultural transmission and are efficient and powerful imitation engines. Second, we explore what AI models can tell us about imitation and innovation by testing whether they can be used to discover new tools and novel causal structures and contrasting their responses with those of human children. Our work serves as a first step in determining which particular representations and competences, as well as which kinds of knowledge or skills, can be derived from particular learning techniques and data. In particular, we explore which kinds of cognitive capacities can be enabled by statistical analysis of large-scale linguistic data. Critically, our findings suggest that machines may need more than large-scale language and image data to allow the kinds of innovation that a small child can produce.}
-      \field{issn}{1745-6916}
-      \field{journaltitle}{Perspectives on Psychological Science}
-      \field{langid}{english}
-      \field{month}{10}
-      \field{shorttitle}{Transmission {{Versus Truth}}, {{Imitation Versus Innovation}}}
-      \field{title}{Transmission {{Versus Truth}}, {{Imitation Versus Innovation}}: {{What Children Can Do That Large Language}} and {{Language-and-Vision Models Cannot}} ({{Yet}})}
-      \field{urlday}{30}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \field{pages}{17456916231201401}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1177/17456916231201401
-      \endverb
-      \verb{file}
-      \verb C:\Users\oskar\Zotero\storage\E64YEMHK\Yiu et al. - 2023 - Transmission Versus Truth, Imitation Versus Innova.pdf
       \endverb
     \endentry
     \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}

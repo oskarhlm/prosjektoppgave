@@ -168,7 +168,7 @@ As can be seen in the example, elements in a table can sometimes benefit from be
 
 \section[Large Language Models]{\acrshortpl{acr:llm}}\label{sec:llms}
 
-This section will open with an explanation of the building block of most \todo{All?} modern \acrlongpl{acr:llm}, namely the Transformer, which employs self-attention. \Autosubsectionref{subsec:gpt} and \autoref{subsec:bert} will then discuss the two most famous families of \acrshortpl{acr:llm}, namely the \acrshort{acr:gpt}'s and the \acrshort{acr:bert}'s. Section something\todo{ref} will discuss other modern \acrshortpl{acr:llm} which, though not as famous, are powerful and deserve mentions. \Autosubsectionref{subsec:benchmarks} and \autoref{subsec:evaluation-metrics} will then enlighten the reader about the different ways in which \acrlongpl{acr:llm} can be benchmarked and how we can measure the quality of a natural language response produced by an \acrshort{acr:llm}.
+This section will open with an explanation of the building block of modern \acrlongpl{acr:llm}, namely the Transformer, which employs self-attention. \Autosubsectionref{subsec:gpt} and \autoref{subsec:bert} will then discuss the two most famous families of \acrshortpl{acr:llm}, namely the \acrshort{acr:gpt}'s and the \acrshort{acr:bert}'s, as well as the brand new multimodal Gemini model from Google, and various open-source alternatives. \Autosectionref{sec:benchmarking-and-evaluation} will then enlighten the reader about the different ways in which \acrlongpl{acr:llm} can be benchmarked and how we can measure the quality of a natural language response produced by an \acrshort{acr:llm}.
 
 \subsection{Attention and The Transformer Architecture}\label{subsec:attention-and-transformers}
 
@@ -236,18 +236,51 @@ Mistral 7B \citep{aiMistral7B2023} is another open-source \acrshort{acr:llm}, cl
 % \subsubsection{Vicuna}
 % \subsubsection{BLOOM}
 
-\section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{subsec:llm-benchmarking-and-evaluation}
+\section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{sec:benchmarking-and-evaluation}
+
+\todo{Not finished}
 
 There are several ways of benchmarking \acrlongpl{acr:llm} but this section will focus on HumanEval, \gls{acr:mmlu}, and \gls{acr:gsm8k}. According to metrics displayed on the various pages for these datasets found on \href{https://paperswithcode.com}{PapersWithCode}, they seem to be the three most common datasets for measuring the different abilities of a given \acrshort{acr:llm}.
 
 \subsection{Evaluation Metrics}\label{subsec:evaluation-metrics}
 
 \subsubsection{Perplexity}
-\subsubsection{Huamn Evaluation}
-\subsubsection{BLEU}
-\subsubsection{ROUGE}
+
+Perplexity measures the degree of uncertainty in predicting the next word in a sequence, based on the preceding words. This is done by calculating the negative average log-likelihood. A lower score indicates better performance.
+
+\subsubsection{Human Evaluation}
+
+Human evaluation, though an obvious evaluation metric, can be powerful. Human evaluators can manually score generated text based on a range of criteria, including relevance, fluency, coherence, and overall impression.
+
+\subsubsection[BiLingual Evaluation Understudy]{\acrfull{acr:bleu}}
+
+\gls{acr:bleu} provides a quick, inexpensive, and language-independent method of automatic machine translation, allowing researchers to rapidly home in on effective modelling ideas \citep{papineniBleuMethodAutomatic2002}. \gls{acr:bleu} shows the \gls{acr:bleu} formula, which takes the geometric mean of the corpus' modified precision score and then multiplies it by an exponential brevity penalty factor. \eqref{eq:bleu} shows the result when taking the log of the function, which makes the ranking behaviour more apparent \citep[5]{papineniBleuMethodAutomatic2002}.
+
+\begin{equation}
+    \text{log BLEU} = \min\left(1 - \frac{r}{c}, 0\right) + \sum_{n=1}^{N} w_n \log p_n
+    \label{eq:bleu}
+\end{equation}
+
+\subsubsection[Recall-Oriented Understudy (ROUGE)]{\acrfull{acr:rouge}}
+
+The \gls{acr:rouge} metric aims to automatically determine the quality of a summary by comparing it to ground truth summaries produced by humans. \eqref{eq:rouge} shows the $\text{ROUGE-N}$ formula, which is the n-gram recall between a candidate summary and a set of the aforementioned ground truth summaries.
+
+\begin{equation}
+    \text{ROUGE-N} = \frac{
+    \sum_{S \in \{\text{ReferenceSummaries}\}}
+    \sum_{\text{gram}_n \in S}
+    \text{Count}_{\text{match}}(\text{gram}_n)
+    }{
+    \sum_{S \in \{\text{ReferenceSummaries}\}}
+    \sum_{\text{gram}_n \in S}
+    \text{Count}(\text{gram}_n)
+    }
+    \label{eq:rouge}
+\end{equation}
+
 \subsubsection{Diversity}
 
+Diversity is an important measure to assess the predictability of a model. n-gram diversity is a common metric. Other methods to measure diversity aim to find the semantic diversity between generated sequences.
 
 \subsection{Benchmarks}\label{subsec:benchmarks}
 
@@ -266,9 +299,13 @@ This is a dataset made to measure an \acrshort{acr:llm}'s abilities to perform m
 
 \section[LLM providers]{\acrfull{acr:llm} Providers}\label{sec:llm-providers}
 
+\todo{Not finished}
+
+\subsection{Huggingface}\label{subsec:hugginface}
+
 \subsection{OpenAI}\label{subsec:openai}
 
-Being the most widely famous actor within the field of \glspl{acr:llm}, OpenAI has gained great influence through their vast portfolio.
+% Being the most widely famous actor within the field of \glspl{acr:llm}, OpenAI has gained great influence through their vast portfolio.
 
 \subsection{Microsoft Azure}\label{subsec:microsoft-azure}
 
@@ -296,7 +333,7 @@ As \acrshort{acr:ogc} board member Chris Holmes puts it: "The \acrshort{acr:stac
 
 \subsection{Norwegian Standardization Work}\label{subsec:standardization-norway}
 
-\todo{Skriv om til ikke-gpt-språk}
+\todo{ChatGPT placeholder text - will rewrite}
 
 Geospatial standardization work has been on the agenda of Norwegian governing powers for decades and have materialized in frameworks/collaborations like \nameref{subsubsec:geovekst} and \nameref{subsubsec:norge-digitalt}, as wells as the \nameref{subsubsec:sosi} file format. \Autosubsectionref{subsec:standardization-norway} will delve into the work that has been done and what is expected for the future. The reasoning for the conclusion of this section is that the constraints of this specialization project is set by the Norwegian borders, and thus it is important to be aware of the standards that apply.
 
