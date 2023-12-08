@@ -152,7 +152,7 @@ Use boldface, boxes, colours, arrows, etc. to mark the important parts of the ta
 As can be seen in the example, elements in a table can sometimes benefit from being rotated (such as EMNLP in the `Source' column) or cover more than one row (EMNLP, as well as EN-HI and EN-BN in the `Langs' column) --- or more than one column, for that matter.
 \end{comment}
 
-\textit{Disclaimer: I will reuse parts of a paper I wrote in the theory module called "TDT13 - Advanced Text Analytics and Language Understanding" in this \autoref{cha:theory} chapter. This includes \autoref{subsec:attention-and-transformers} and \autoref{subsec:bert}.}
+\textit{Disclaimer: Parts from a paper written in the theory module "TDT13 - Advanced Text Analytics and Language Understanding" will be reused in the \autoref{cha:theory} chapter. This includes \autoref{subsec:attention-and-transformers} and \autoref{subsec:bert}.}
 
 \vspace{12pt}
 
@@ -218,7 +218,7 @@ As of writing, Google's Gemini \citep{geminiteamGeminiFamilyHighly2023} (introdu
 
 Like the \acrshort{acr:gpt} architecture, Gemini is built on top of Transformer decoders, and trained to accommodate various modalities, supporting interleaved sequences of text, image, audio, and video as inputs \citep[3-4]{geminiteamGeminiFamilyHighly2023}. This highlights one of the greatest strengths of the Transformer architecture, namely that it can be adapted for multiple modalities. Commonly, multimodal \acrshort{acr:ai} architectures consist of an ensemble of models, one for each given modality, with different representations that can be difficult to combine. The Transformer solves this issue and provides a common architecture that can be trained end-to-end.
 
-\subsection{Open-Source Alternatives}
+\subsection{Open-Source Alternatives}\label{subsec:open-source-llms}
 
 Seeing as the state-of-the-art models of today (\acrshort{acr:gpt}-4 and now, Google's Gemini) are all closed-source, it is important to note that there are viable open-source alternatives out there that. This section lists the most prominent ones.
 
@@ -240,17 +240,19 @@ Mistral 7B \citep{aiMistral7B2023} is another open-source \acrshort{acr:llm}, cl
 
 \todo{Not finished}
 
-There are several ways of benchmarking \acrlongpl{acr:llm} but this section will focus on HumanEval, \gls{acr:mmlu}, and \gls{acr:gsm8k}. According to metrics displayed on the various pages for these datasets found on \href{https://paperswithcode.com}{PapersWithCode}, they seem to be the three most common datasets for measuring the different abilities of a given \acrshort{acr:llm}.
+There are several ways of benchmarking \acrlongpl{acr:llm}, but this section will focus on HumanEval, \gls{acr:mmlu}, and \gls{acr:gsm8k}. According to metrics displayed on the various pages for these datasets found on \href{https://paperswithcode.com}{PapersWithCode}, they seem to be the three most common datasets for measuring the different abilities of a given \acrshort{acr:llm}.
 
 \subsection{Evaluation Metrics}\label{subsec:evaluation-metrics}
 
-\subsubsection{Perplexity}
-
-Perplexity measures the degree of uncertainty in predicting the next word in a sequence, based on the preceding words. This is done by calculating the negative average log-likelihood. A lower score indicates better performance.
+Having objective ways of evaluating the performance of a textual response is as important as it is difficult. Such evaluations often have subjective nature, and it is not immediately obvious how automate evaluation. This section presents common approaches for different objectives, and serves as inspiration for how an evaluation metric can be adapted for \acrshort{acr:gis}-related purposes.
 
 \subsubsection{Human Evaluation}
 
 Human evaluation, though an obvious evaluation metric, can be powerful. Human evaluators can manually score generated text based on a range of criteria, including relevance, fluency, coherence, and overall impression.
+
+\subsubsection{Perplexity}
+
+Perplexity measures the degree of uncertainty in predicting the next word in a sequence, based on the preceding words. This is done by calculating the negative average log-likelihood. A lower score indicates better performance.
 
 \subsubsection[BiLingual Evaluation Understudy]{\acrfull{acr:bleu}}
 
@@ -297,23 +299,17 @@ First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \acrlong{acr:m
 This is a dataset made to measure an \acrshort{acr:llm}'s abilities to perform mathemathical arthimetic.
 
 
-\section[LLM providers]{\acrfull{acr:llm} Providers}\label{sec:llm-providers}
+\section[LLM providers]{\acrlong{acr:llm} Providers}\label{sec:llm-providers}
 
-\todo{Not finished}
+The \acrshort{acr:ai} community called Hugging Face\footnote{\url{https://huggingface.co/}} is the most widely used hub for open-source and open-science machine learning. It is used by community members and also large commercial actors like Google Cloud and Meta \acrshort{acr:ai} to contribute the world open-source \acrshort{acr:ai}. Hugging Face's \texttt{transformers} Python library\footnote{\url{https://github.com/huggingface/transformers}} provides an interface with their hub, which at the time of writing has 177k stars on GitHub.
 
-\subsection{Huggingface}\label{subsec:hugginface}
+OpenAI is one of the leading providers of \acrshortpl{acr:llm}, most prominently through their \acrshort{acr:gpt} series. While originally formed to be an open-source company, their models are now closed-source and their \acrshort{acr:gpt} models are only available through their own \acrshort{acr:api}, which are paid services. It should be noted, however, that they still are great contributors to open-source having uploaded a range of speech detection and diffusion models to Hugging Face. Microsoft Azure, the main partner to OpenAI, provides \acrshortpl{acr:api} for OpenAI's language models including the \acrshort{acr:gpt}-4, \acrshort{acr:gpt}-3.5-Turbo and Embeddings model series. Unlike OpenAI's own \acrshortpl{acr:api}, Microsoft Azure also offers private networking, regional availability, and responsible \acrshort{acr:ai} content filtering\footnote{\url{https://learn.microsoft.com/en-us/azure/ai-services/openai/overview?source=recommendations}}. Also, by using Microsoft Azure's \acrshort{acr:api}, \acrshort{acr:llm} inputs and outputs do not become available to OpenAI, which is not the case otherwise\footnote{\url{https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy}}.
 
-\subsection{OpenAI}\label{subsec:openai}
+Aforementioned Google Cloud is another one of the largest \acrshort{acr:llm} providers. They provide a wide range of services, among these the Vertex \acrshort{acr:ai} platform\footnote{\url{https://cloud.google.com/vertex-ai/}}. Vertex \acrshort{acr:ai} provides access to foundational models through \acrshortpl{acr:api} through their Model Garden platform which supports first-party, open-source, and third-party models. Vertex \acrshort{acr:ai} also provides experimental prompt design and fine-tuning services. Like the OpenAI \acrshortpl{acr:api}, Vertex \acrshort{acr:ai} is a paid service.
 
-% Being the most widely famous actor within the field of \glspl{acr:llm}, OpenAI has gained great influence through their vast portfolio.
+Anthropic\footnote{\url{https://www.anthropic.com/}} is a closed-source \acrshort{acr:llm} provider that has grown rapidly in size since their launch in 2021, and focus on creating safer, steerable, and more reliable models. Their flagship model is Claude 2.1, which has a large context window of 200,000 tokens which enables users to upload large technical documentation that the model can keep in its memory when creating responses. Anthropic lists complex reasoning, creativity, and coding as Claude's major strengths. Perhaps their most famous model is \acrshort{acr:gpt}-J, which is an auto-regressive model in the style of \acrshort{acr:gpt}-3, aimed at the English language.
 
-\subsection{Microsoft Azure}\label{subsec:microsoft-azure}
-
-\subsection{Google Cloud}\label{subsec:google-cloud}
-
-\subsection[Amazon Web Services (AWS)]{\acrlong{acr:aws}}\label{subsec:aws}
-
-\subsection{Anthropic}\label{subsec:anthropic}
+There are numerous open-source alternatives to the closed-source OpenAI and Google resources. Meta \acrshort{acr:ai}\footnote{\url{https://ai.meta.com/}} is a big contributor to open-source \acrshort{acr:ai}, most famously through Pytorch---a popular deep learning framework---and their LLaMA models (see \autoref{subsec:open-source-llms}). Eleuther \acrshort{acr:ai}\footnote{\url{https://www.eleuther.ai/}} is an open-source centred company with aim to \enquote{increase transparency and reduce potential harms from emerging \acrshort{acr:ai} technologies}. As such, they have released a range of trained \acrshortpl{acr:llm} along with the codebases used to train these.
 
 \section{Geospatial Standards}\label{sec:geospatial-standards}
 

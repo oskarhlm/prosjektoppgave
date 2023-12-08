@@ -1,5 +1,4 @@
-\chapter{Discussion}
-\label{cha:discussion}
+\chapter{Discussion and Conclusion}\label{cha:discussion-and-conclusion}
 
 \begin{comment}
 When evaluating your results, avoid drawing grand conclusions, beyond those that your results can in fact support.
@@ -118,7 +117,9 @@ As for most parts of the thesis, it is possible to select various outlines and s
 
 % \cite{yiuTransmissionTruthImitation2023} calls \acrshort{acr:ai} technologies like \acrlongpl{acr:llm} "powerful imitation engines" but claim that they are unable to innovate and that significant advancements in \acrshort{acr:ai} development is required for them to be able to learn the in the same way human children do.
 
-\subsection{Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}
+Sections \autoref{sec:code-interpreter-discussion} and \autoref{sec:api-access-discussion} will discuss the experimental results (see \autoref{sec:experimental-results}), and providing suggestions as to how the limitations highlighted by the experiments can be mitigated. \Autosectionref{sec:conclusion-and-future-work} will conclude this specialization project report, and provide directives for future work on the subject of \acrshort{acr:llm}-power \acrshort{acr:gis}.
+
+\section{Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}\label{sec:code-interpreter-discussion}
 
 When using ChatGPT's Code Interpreter with file uploads, it became apparent that it runs in a Linux environment, and that it uses a mounted drive  in the \texttt{/mnt} director, which is used for temporarily mounted filesystems. From the initial experiments where the same data in different file formats was tested it tried to a \acrshort{acr:gdal} command (\texttt{ogr2ogr -f "GeoJSON" \{converted\_geojson\_path\} \{sosi\_file\_path\}}) to perform a conversion from \acrshort{acr:sosi} to GeoJSON, the latter of which is far easier to manipulate in a Python environment. This test failed, and the system's response was that \enquote{the \texttt{ogr2ogr} tool is not available in this environment}.
 
@@ -126,10 +127,60 @@ This result was not very surprising, especially since the driver needed to read 
 
 The inability to manipulate the Linux environment using by the Code Interpreter clearly poses some limitations on the systems. A solution to the problem is to create a custom environment on a server and implement agent-like capabilities by other means (LangChain, AutoGPT, AutoGen, etc.). Having the agent run on an environment that we control ourselves gives us greater flexibility, and we can then allow the agent to access powerful \acrshort{acr:gis} tooling, such as the \acrshort{acr:gdal} library. This also allows us to avoid having to perform I/O on a mounted directory (in the \texttt{/mnt} directory), which can increase the speed of reads and writes.
 
-\subsection[Mitigating ChatGPT's Inability to Access Web APIs]{Mitigating ChatGPT's Inability to Access Web \acrshort{acr:api}s}
+\section[Mitigating ChatGPT's Inability to Access Web APIs]{Mitigating ChatGPT's Inability to Access Web \acrshort{acr:api}s}\label{sec:api-access-discussion}
 
 As results of experiment 2 (see \autoref{subsec:experiment-2-results}) showed, ChatGPT-4 struggles when provided with URLs to external Web APIs, even when prompted to use its web browsing abilities and pairing them with its Code Interpreter. These issues are not present when using direct file upload, in which case the model appears to save the uploaded file in a temporary file directory in on a mounted drive in its Linux environment. While it can be hard to interpret the inner workings only from the code samples, it appears that it does not do this by default after fetching data from an external \acrshort{acr:api}. It appears from the results, in which it \textit{truncates} the file and \enquote{store's} the content directly in code, thus attempting to store the entire file in the context window of the  \acrshort{acr:llm}. The context window of the ChatGPT-4 model is currently at 32,000 tokens (the new GPT-4 Turbo has a context length of 128,000 tokens). While these are of significant size, they are not meant to (or able to) store large file, and thus it becomes a limiting factor when the file contents grow large, which is not uncommon for geospatial files.
 
 This is a significant limitation of using ChatGPT-4 out of the box, and one should therefore look into other ways of handling web requests and subsequent storing of the received data. Techniques within \gls{acr:rag} can help here, and tools like LangChain or OpenAI's own \enquote{GPTs}\footnote{\url{https://openai.com/blog/introducing-gpts}} can help solve this issue.
+
+\section{Conclusion and Future Work}\label{sec:conclusion-and-future-work}
+
+\begin{comment}
+What are the main contributions made to the field?
+How significant are these contributions?
+Also discuss the contributions in terms of the goals and research questions formulated in the Introduction.
+
+The contributions section will normally contain everything that you address in the abstract, but in an extended form and quite possibly additional issues that cannot be included in the abstract.
+An obvious difference is that when the reader has come this far in the text, she/he should be quite familiar with the work, but while reading the abstract they will have little to no knowledge of the work.
+
+The section ``Contributions'' in Chapter~\ref{cha:introduction} differs from this one in that the former is just a list of the main bits, while this section should explain them in more detail.
+However, basically the same items should appear in both sections.
+
+\section{Future Work}
+\label{sec:futureWork}
+
+Consider where you would like to extend or improve this work, or how somebody else could continue it.
+These extensions might either be continuing the ongoing direction or taking a side direction that became obvious during the work.
+Further, possible solutions to limitations in the work conducted, highlighted in Section~\ref{sec:discussion} may be presented.
+
+Note that in the Specialisation Project Report, the Future Work section will be a key part of your plan for the novel work to be carried out in the next semester,
+while in the Master's Thesis, the Future Work section rather will point to issues that others might be interested in addressing.
+This can include options and alternatives that you did not try out yourself, or potential improvements and extensions to your experiments or system.
+\end{comment}
+
+Seeing as this is a specialization project that will transition into a larger master thesis, the points discussed in this section will be key parts of the plan for the work carried out in the latter.
+
+\subsection{Testing regime}
+
+In order to test the feasibility of different language models to serve as the brain of an autonomous \acrshort{acr:gis} agent, a testing regime should be developed. In the examples of autonomous \acrshort{acr:gis} agents described in the literature study of this report (see \autoref{sec:gis-with-llms}), results have generally been presented in the form of case studies \citep{liAutonomousGISNextgeneration2023,zhangGeoGPTUnderstandingProcessing2023}. This type of qualitative testing is entirely appropriate to showcase the possibilities of the technologies but may be insufficient when comparing performance of different systems. In the latter case a quantitative approach would probably be preferable.
+
+One idea is to create a test dataset which consists of inputs and corresponding desired outputs of typical \acrshort{acr:gis} tasks. Inputs would in this case be natural language queries inputted by a mock user, and the output would be what you would expect a \acrshort{acr:gis} professional to return when given the same tasks/queries. Inputs should reflect the varying level of \acrshort{acr:gis} knowledge in the different user groups (see \autoref{sec:user-groups}). Outputs could be files with typical geospatial extensions (.shp, .geojson, .sosi, etc.), or they could adhere to API schemas specified by geospatial standards (see \autoref{sec:geospatial-standards}).
+
+While the inputs should be fairly simple to construct there are several questions to be answered in regard to the outputs:
+
+\begin{itemize}
+    \item How does one evaluate the accuracy of the output?
+    \item How should the \acrshort{acr:ai} agent respond when the user does not specify an output file format?
+    \item How does one evaluate the usefulness of outputs to questions that should not return geospatial files, e.g. answers to general questions about geo-related subjects?
+\end{itemize}
+
+These are questions outside the scope of this specialization project. They will, however, be pursued in my master thesis.
+
+
+\subsection{Framework for Planning, Acting, and Reasoning}
+\subsection{Embeddings}
+\subsection{Fine-Tuning}
+\todo{To be written}
+
 
 \glsaddall

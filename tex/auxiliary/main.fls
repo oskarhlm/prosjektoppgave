@@ -1847,10 +1847,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 OUTPUT auxiliary/main.glo
 OUTPUT auxiliary/main.acn
 INPUT ./frontmatter/glossary.tex
-INPUT ./frontmatter/glossary.tex
-INPUT ./frontmatter/glossary.tex
 INPUT frontmatter/glossary.tex
-INPUT ./frontmatter/glossary.tex
 INPUT ./frontmatter/glossary.tex
 INPUT frontmatter/glossary.tex
 INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -1876,12 +1873,9 @@ INPUT auxiliary/chapters/related_work.aux
 INPUT auxiliary/chapters/experiments.aux
 INPUT auxiliary/chapters/experiments.aux
 INPUT auxiliary/chapters/experiments.aux
-INPUT auxiliary/chapters/discussion.aux
-INPUT auxiliary/chapters/discussion.aux
-INPUT auxiliary/chapters/discussion.aux
-INPUT auxiliary/chapters/conclusion.aux
-INPUT auxiliary/chapters/conclusion.aux
-INPUT auxiliary/chapters/conclusion.aux
+INPUT auxiliary/chapters/discussion_and_conclusion.aux
+INPUT auxiliary/chapters/discussion_and_conclusion.aux
+INPUT auxiliary/chapters/discussion_and_conclusion.aux
 INPUT auxiliary/appendices/appendices.aux
 INPUT auxiliary/appendices/appendices.aux
 INPUT auxiliary/appendices/appendices.aux
@@ -2167,12 +2161,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
-INPUT auxiliary/../figs/Literature study.png
-INPUT auxiliary/../figs/Literature study.png
-INPUT auxiliary/../figs/Literature study.png
-INPUT auxiliary/../figs/Literature study.png
-INPUT auxiliary/../figs/Literature study.png
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ts1lmr.fd
@@ -2188,6 +2176,7 @@ INPUT ./chapters/theory.tex
 INPUT chapters/theory.tex
 INPUT ./chapters/theory.tex
 INPUT chapters/theory.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT ./figs//actor_map.png
 INPUT ./figs//actor_map.png
 INPUT ./figs//actor_map.png
@@ -2239,26 +2228,16 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT ./chapters/discussion.tex
-INPUT ./chapters/discussion.tex
-INPUT ./chapters/discussion.tex
-OUTPUT auxiliary/chapters/discussion.aux
-INPUT ./chapters/discussion.tex
-INPUT ./chapters/discussion.tex
-INPUT ./chapters/discussion.tex
-INPUT chapters/discussion.tex
-INPUT ./chapters/discussion.tex
-INPUT chapters/discussion.tex
-INPUT ./chapters/conclusion.tex
-INPUT ./chapters/conclusion.tex
-INPUT ./chapters/conclusion.tex
-OUTPUT auxiliary/chapters/conclusion.aux
-INPUT ./chapters/conclusion.tex
-INPUT ./chapters/conclusion.tex
-INPUT ./chapters/conclusion.tex
-INPUT chapters/conclusion.tex
-INPUT ./chapters/conclusion.tex
-INPUT chapters/conclusion.tex
+INPUT ./chapters/discussion_and_conclusion.tex
+INPUT ./chapters/discussion_and_conclusion.tex
+INPUT ./chapters/discussion_and_conclusion.tex
+OUTPUT auxiliary/chapters/discussion_and_conclusion.aux
+INPUT ./chapters/discussion_and_conclusion.tex
+INPUT ./chapters/discussion_and_conclusion.tex
+INPUT ./chapters/discussion_and_conclusion.tex
+INPUT chapters/discussion_and_conclusion.tex
+INPUT ./chapters/discussion_and_conclusion.tex
+INPUT chapters/discussion_and_conclusion.tex
 INPUT ./appendices/appendices.tex
 INPUT ./appendices/appendices.tex
 INPUT ./appendices/appendices.tex
@@ -2352,12 +2331,9 @@ INPUT auxiliary/chapters/related_work.aux
 INPUT auxiliary/chapters/experiments.aux
 INPUT auxiliary/chapters/experiments.aux
 INPUT auxiliary/chapters/experiments.aux
-INPUT auxiliary/chapters/discussion.aux
-INPUT auxiliary/chapters/discussion.aux
-INPUT auxiliary/chapters/discussion.aux
-INPUT auxiliary/chapters/conclusion.aux
-INPUT auxiliary/chapters/conclusion.aux
-INPUT auxiliary/chapters/conclusion.aux
+INPUT auxiliary/chapters/discussion_and_conclusion.aux
+INPUT auxiliary/chapters/discussion_and_conclusion.aux
+INPUT auxiliary/chapters/discussion_and_conclusion.aux
 INPUT auxiliary/appendices/appendices.aux
 INPUT auxiliary/appendices/appendices.aux
 INPUT auxiliary/appendices/appendices.aux

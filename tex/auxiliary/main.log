@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  7 DEC 2023 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  8 DEC 2023 18:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1425,7 +1425,7 @@ Package glossaries Info: Writing glossary file main.acn on input line 192.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 215.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion.aux) (auxiliary/chapters/conclusion.aux) (auxiliary/appendices/appendices.aux))
+) (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion_and_conclusion.aux) (auxiliary/appendices/appendices.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
@@ -1692,17 +1692,17 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-] [3])
+])
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
- [4]
+ [3]
 Package tocbasic Info: character protrusion at lof deactivated on input line 267.
  (auxiliary/main.lof)
 \tf@lof=\write11
 \openout11 = `main.lof'.
 
- [5
+ [4
 
 
 ]
@@ -1711,7 +1711,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 270
 \tf@lot=\write12
 \openout12 = `main.lot'.
 
- [6
+ [5
 
 
 ]
@@ -1744,42 +1744,30 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-<../figs/Literature study.png, id=285, 1694.33pt x 376.40625pt>
-File: ../figs/Literature study.png Graphic file (type png)
-<use ../figs/Literature study.png>
-Package pdftex.def Info: ../figs/Literature study.png  used on input line 127.
-(pdftex.def)             Requested size: 418.25368pt x 92.91817pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]|\T1/lmr/bx/n/10.95 (+20) Google
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-[]|\T1/lmr/bx/n/10.95 (+20) Web of
- []
-
-[2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 219.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 220.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [3 <auxiliary/../figs/Literature study.png>]
+)) [2]
 \openout2 = `chapters/theory.aux'.
 
  (./chapters/theory.tex
 chapter 2.
-<./figs//actor_map.png, id=322, 2221.29875pt x 2699.08376pt>
+<./figs//actor_map.png, id=275, 2221.29875pt x 2699.08376pt>
 File: ./figs//actor_map.png Graphic file (type png)
 <use ./figs//actor_map.png>
 Package pdftex.def Info: ./figs//actor_map.png  used on input line 164.
 (pdftex.def)             Requested size: 418.25368pt x 508.21857pt.
-[4
+[3
 
 
 
 
 
-] [5 <./figs//actor_map.png>] [6]
+] [4 <./figs//actor_map.png>]
+
+LaTeX Warning: Hyper reference `subsec:openai' on page 5 undefined on input line 197.
+
+[5]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 205.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1788,13 +1776,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7] [8] [9] [10] [11]
-Overfull \hbox (5.00056pt too wide) in paragraph at lines 336--336
+ [6] [7] [8] [9] [10] [11]
+Overfull \hbox (5.00056pt too wide) in paragraph at lines 332--332
 [][][]\T1/lmr/m/n/9 (-20) ChatGPT 
  []
 
 
-Overfull \hbox (5.00056pt too wide) in paragraph at lines 336--336
+Overfull \hbox (5.00056pt too wide) in paragraph at lines 332--332
 [][][]\T1/lmr/m/n/9 (-20) ChatGPT 
  []
 
@@ -1841,17 +1829,17 @@ chapter 4.
 
 
 ] [21] [22]
-<../figs/residential_expansion_areas_map.png, id=941, 722.7pt x 722.7pt>
+<../figs/residential_expansion_areas_map.png, id=962, 722.7pt x 722.7pt>
 File: ../figs/residential_expansion_areas_map.png Graphic file (type png)
 <use ../figs/residential_expansion_areas_map.png>
 Package pdftex.def Info: ../figs/residential_expansion_areas_map.png  used on input line 99.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
-<../figs/drammen_outline_file_upload.png, id=947, 552.1428pt x 397.84634pt>
+<../figs/drammen_outline_file_upload.png, id=968, 552.1428pt x 397.84634pt>
 File: ../figs/drammen_outline_file_upload.png Graphic file (type png)
 <use ../figs/drammen_outline_file_upload.png>
 Package pdftex.def Info: ../figs/drammen_outline_file_upload.png  used on input line 111.
 (pdftex.def)             Requested size: 188.21288pt x 135.61198pt.
-<../figs/drammen_outline_api.png, id=948, 454.5783pt x 604.53854pt>
+<../figs/drammen_outline_api.png, id=969, 454.5783pt x 604.53854pt>
 File: ../figs/drammen_outline_api.png Graphic file (type png)
 <use ../figs/drammen_outline_api.png>
 Package pdftex.def Info: ../figs/drammen_outline_api.png  used on input line 117.
@@ -1866,9 +1854,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 125--139
  []
 
 ) [23] [24 <auxiliary/../figs/residential_expansion_areas_map.png>] [25 <auxiliary/../figs/drammen_outline_file_upload.png> <auxiliary/../figs/drammen_outline_api.png>]
-\openout2 = `chapters/discussion.aux'.
+\openout2 = `chapters/discussion_and_conclusion.aux'.
 
- (./chapters/discussion.tex
+ (./chapters/discussion_and_conclusion.tex
 chapter 5.
 [26
 
@@ -1876,28 +1864,17 @@ chapter 5.
 
 
 
-]) [27]
-\openout2 = `chapters/conclusion.aux'.
-
- (./chapters/conclusion.tex
-chapter 6.
-[28
-
-
-
-
-
-]) [29]
+] [27]) [28]
 No file main.acr.
-[30
+[29
 
 
 
-] [31
+] [30
 
 
 
-] [32] [33]
+] [31] [32]
 \openout2 = `appendices/appendices.aux'.
 
  (./appendices/appendices.tex
@@ -1915,7 +1892,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrbook)              and replace `\begin{appendix}' by command
 (scrbook)              `\appendix' on input line 1.
 
-[34
+[33
 
 
 
@@ -1955,7 +1932,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1054, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1077, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
 Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
@@ -1973,7 +1950,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1057, page=1, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1080, page=1, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
 Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
@@ -1995,7 +1972,7 @@ File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
 Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-[35
+[34
 
 
 
@@ -2017,7 +1994,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1068, page=2, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1091, page=2, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
 Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
@@ -2038,9 +2015,12 @@ File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
 Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-[36
+[35
 
- <./appendices/project_description.pdf>]) (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion.aux) (auxiliary/chapters/conclusion.aux) (auxiliary/appendices/appendices.aux))
+ <./appendices/project_description.pdf>]) (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion_and_conclusion.aux) (auxiliary/appendices/appendices.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2048,18 +2028,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64807 strings out of 479647
- 1422918 string characters out of 5878802
- 2564361 words of memory out of 5000000
- 81233 multiletter control sequences out of 15000+600000
- 550170 words of font info for 173 fonts, out of 8000000 for 9000
+ 64722 strings out of 479647
+ 1421209 string characters out of 5878802
+ 2561416 words of memory out of 5000000
+ 81167 multiletter control sequences out of 15000+600000
+ 550040 words of font info for 172 fonts, out of 8000000 for 9000
  354 hyphenation exceptions out of 8191
  108i,18n,166p,10699b,8831s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:acr:sdk} has been referenced but does not exist, replaced by a fixed one
 
@@ -2071,13 +2051,13 @@ pdfTeX warning (dest): name{glo:acr:osm} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{glo:acr:rag} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:acr:gdpr} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:acr:tc} has been referenced but does not exist, replaced by a fixed one
 
@@ -2097,7 +2077,21 @@ pdfTeX warning (dest): name{glo:acr:json} has been referenced but does not exist
 
 pdfTeX warning (dest): name{glo:acr:html} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{glo:acr:aws} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:acr:rouge} has been referenced but does not exist, replaced by a fixed one
 
@@ -2138,10 +2132,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 pdfTeX warning (dest): name{glo:acr:llm} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on auxiliary/main.pdf (43 pages, 4377383 bytes).
+Output written on auxiliary/main.pdf (41 pages, 4363507 bytes).
 PDF statistics:
- 1451 PDF objects out of 1728 (max. 8388607)
- 1328 compressed objects within 14 object streams
- 262 named destinations out of 1000 (max. 500000)
- 47278 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1439 PDF objects out of 1440 (max. 8388607)
+ 1320 compressed objects within 14 object streams
+ 253 named destinations out of 1000 (max. 500000)
+ 47185 words of extra memory for PDF output out of 51595 (max. 10000000)
 
