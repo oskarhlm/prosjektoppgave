@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  8 DEC 2023 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  9 DEC 2023 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1037,7 +1037,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip89
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 67.
+Package hyperref Info: Option `colorlinks' set `true' on input line 70.
  (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -1339,8 +1339,8 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
-Package biblatex Info: Redefining '\textcite' on input line 133.
-Package biblatex Info: Redefining '\parencite' on input line 142.
+Package biblatex Info: Redefining '\textcite' on input line 136.
+Package biblatex Info: Redefining '\parencite' on input line 145.
  (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language33
@@ -1416,39 +1416,39 @@ Package: glossary-tree 2021/11/01 v4.49 (NLCT)
 \glo@main@file=\write7
 \openout7 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 192.
+Package glossaries Info: Writing glossary file main.glo on input line 195.
 \glo@acronym@file=\write8
 \openout8 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 192.
+Package glossaries Info: Writing glossary file main.acn on input line 195.
  (./frontmatter/glossary.tex)
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 215.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 218.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion_and_conclusion.aux) (auxiliary/appendices/appendices.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-Package scrbase Info: activating british \contentsname on input line 215.
-Package scrbase Info: activating british \listfigurename on input line 215.
-Package scrbase Info: activating british \listtablename on input line 215.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+Package scrbase Info: activating british \contentsname on input line 218.
+Package scrbase Info: activating british \listfigurename on input line 218.
+Package scrbase Info: activating british \listtablename on input line 218.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1484,12 +1484,12 @@ Package scrbase Info: activating british \listtablename on input line 215.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 215.
-Package microtype Info: Applying patch `item' on input line 215.
-Package microtype Info: Applying patch `toc' on input line 215.
-Package microtype Info: Applying patch `eqnum' on input line 215.
+LaTeX Info: Redefining \microtypecontext on input line 218.
+Package microtype Info: Applying patch `item' on input line 218.
+Package microtype Info: Applying patch `toc' on input line 218.
+Package microtype Info: Applying patch `eqnum' on input line 218.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 215.
+Package microtype Warning: Unable to apply patch `footnote' on input line 218.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1497,7 +1497,7 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 215.
+LaTeX Info: Redefining \showhyphens on input line 218.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1539,7 +1539,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
-Package hyperref Info: Link coloring ON on input line 215.
+Package hyperref Info: Link coloring ON on input line 218.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1549,9 +1549,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count564
 )
-LaTeX Info: Redefining \ref on input line 215.
-LaTeX Info: Redefining \pageref on input line 215.
-LaTeX Info: Redefining \nameref on input line 215.
+LaTeX Info: Redefining \ref on input line 218.
+LaTeX Info: Redefining \pageref on input line 218.
+LaTeX Info: Redefining \nameref on input line 218.
  (auxiliary/main.out) (auxiliary/main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
@@ -1563,7 +1563,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 215.
+(scrbook)           before \begin{document} on input line 218.
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1623,17 +1623,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (auxiliary/main.bbl)
-Package biblatex Info: Reference section=0 on input line 215.
-Package biblatex Info: Reference segment=0 on input line 215.
+Package biblatex Info: Reference section=0 on input line 218.
+Package biblatex Info: Reference segment=0 on input line 218.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
+Underfull \hbox (badness 10000) in paragraph at lines 240--243
 
  []
 
 <./figs//NTNUlogo.pdf, id=7, 146.5475pt x 155.58125pt>
 File: ./figs//NTNUlogo.pdf Graphic file (type pdf)
 <use ./figs//NTNUlogo.pdf>
-Package pdftex.def Info: ./figs//NTNUlogo.pdf  used on input line 243.
+Package pdftex.def Info: ./figs//NTNUlogo.pdf  used on input line 246.
 (pdftex.def)             Requested size: 85.35826pt x 90.61938pt.
 [1
 
@@ -1651,7 +1651,7 @@ Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 265.
+Package tocbasic Info: character protrusion at toc deactivated on input line 268.
  (auxiliary/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -1697,7 +1697,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout10 = `main.toc'.
 
  [3]
-Package tocbasic Info: character protrusion at lof deactivated on input line 267.
+Package tocbasic Info: character protrusion at lof deactivated on input line 270.
  (auxiliary/main.lof)
 \tf@lof=\write11
 \openout11 = `main.lof'.
@@ -1706,7 +1706,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 267
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 270.
+Package tocbasic Info: character protrusion at lot deactivated on input line 273.
  (auxiliary/main.lot)
 \tf@lot=\write12
 \openout12 = `main.lot'.
@@ -1763,11 +1763,7 @@ Package pdftex.def Info: ./figs//actor_map.png  used on input line 164.
 
 
 
-] [4 <./figs//actor_map.png>]
-
-LaTeX Warning: Hyper reference `subsec:openai' on page 5 undefined on input line 197.
-
-[5]
+] [4 <./figs//actor_map.png>] [5]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 205.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1777,27 +1773,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [6] [7] [8] [9] [10] [11]
-Overfull \hbox (5.00056pt too wide) in paragraph at lines 332--332
+Overfull \hbox (5.00056pt too wide) in paragraph at lines 357--357
 [][][]\T1/lmr/m/n/9 (-20) ChatGPT 
  []
 
 
-Overfull \hbox (5.00056pt too wide) in paragraph at lines 332--332
+Overfull \hbox (5.00056pt too wide) in paragraph at lines 357--357
 [][][]\T1/lmr/m/n/9 (-20) ChatGPT 
  []
 
-[12] [13] [14]) [15]
+[12] [13] [14] [15]) [16]
 \openout2 = `chapters/related_work.aux'.
 
  (./chapters/related_work.tex
 chapter 3.
-[16
+[17
 
 
 
 
 
-] [17]
+] [18]
 Overfull \hbox (1.24261pt too wide) in paragraph at lines 60--60
 [][][]\T1/lmr/m/n/9 (-20) Planning 
  []
@@ -1807,7 +1803,7 @@ Overfull \hbox (1.24261pt too wide) in paragraph at lines 60--60
 [][][]\T1/lmr/m/n/9 (-20) Planning 
  []
 
-[18]
+[19]
 Overfull \hbox (1.24261pt too wide) in paragraph at lines 68--68
 [][][]\T1/lmr/m/n/9 (-20) Planning 
  []
@@ -1817,29 +1813,29 @@ Overfull \hbox (1.24261pt too wide) in paragraph at lines 68--68
 [][][]\T1/lmr/m/n/9 (-20) Planning 
  []
 
-) [19]
+) [20]
 \openout2 = `chapters/experiments.aux'.
 
  (./chapters/experiments.tex
 chapter 4.
-[20
+[21
 
 
 
 
 
-] [21] [22]
-<../figs/residential_expansion_areas_map.png, id=962, 722.7pt x 722.7pt>
+] [22] [23]
+<../figs/residential_expansion_areas_map.png, id=1003, 722.7pt x 722.7pt>
 File: ../figs/residential_expansion_areas_map.png Graphic file (type png)
 <use ../figs/residential_expansion_areas_map.png>
 Package pdftex.def Info: ../figs/residential_expansion_areas_map.png  used on input line 99.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
-<../figs/drammen_outline_file_upload.png, id=968, 552.1428pt x 397.84634pt>
+<../figs/drammen_outline_file_upload.png, id=1009, 552.1428pt x 397.84634pt>
 File: ../figs/drammen_outline_file_upload.png Graphic file (type png)
 <use ../figs/drammen_outline_file_upload.png>
 Package pdftex.def Info: ../figs/drammen_outline_file_upload.png  used on input line 111.
 (pdftex.def)             Requested size: 188.21288pt x 135.61198pt.
-<../figs/drammen_outline_api.png, id=969, 454.5783pt x 604.53854pt>
+<../figs/drammen_outline_api.png, id=1010, 454.5783pt x 604.53854pt>
 File: ../figs/drammen_outline_api.png Graphic file (type png)
 <use ../figs/drammen_outline_api.png>
 Package pdftex.def Info: ../figs/drammen_outline_api.png  used on input line 117.
@@ -1853,28 +1849,28 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 125--139
 []$[]$ 
  []
 
-) [23] [24 <auxiliary/../figs/residential_expansion_areas_map.png>] [25 <auxiliary/../figs/drammen_outline_file_upload.png> <auxiliary/../figs/drammen_outline_api.png>]
+) [24] [25 <auxiliary/../figs/residential_expansion_areas_map.png>] [26 <auxiliary/../figs/drammen_outline_file_upload.png> <auxiliary/../figs/drammen_outline_api.png>]
 \openout2 = `chapters/discussion_and_conclusion.aux'.
 
  (./chapters/discussion_and_conclusion.tex
 chapter 5.
-[26
+[27
 
 
 
 
 
-] [27]) [28]
+] [28]) [29]
 No file main.acr.
-[29
+[30
 
 
 
-] [30
+] [31
 
 
 
-] [31] [32]
+] [32] [33]
 \openout2 = `appendices/appendices.aux'.
 
  (./appendices/appendices.tex
@@ -1892,7 +1888,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrbook)              and replace `\begin{appendix}' by command
 (scrbook)              `\appendix' on input line 1.
 
-[33
+[34
 
 
 
@@ -1932,7 +1928,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1077, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1117, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
 Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
@@ -1950,7 +1946,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1080, page=1, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1120, page=1, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
 Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
@@ -1972,7 +1968,7 @@ File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
 Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-[34
+[35
 
 
 
@@ -1994,7 +1990,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1091, page=2, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1131, page=2, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
 Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
@@ -2015,12 +2011,9 @@ File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
 Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-[35
+[36
 
  <./appendices/project_description.pdf>]) (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion_and_conclusion.aux) (auxiliary/appendices/appendices.aux))
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2028,11 +2021,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64722 strings out of 479647
- 1421209 string characters out of 5878802
- 2561416 words of memory out of 5000000
- 81167 multiletter control sequences out of 15000+600000
- 550040 words of font info for 172 fonts, out of 8000000 for 9000
+ 64868 strings out of 479647
+ 1424860 string characters out of 5878802
+ 2562913 words of memory out of 5000000
+ 81290 multiletter control sequences out of 15000+600000
+ 550372 words of font info for 176 fonts, out of 8000000 for 9000
  354 hyphenation exceptions out of 8191
  108i,18n,166p,10699b,8831s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
@@ -2093,6 +2086,12 @@ pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
+pdfTeX warning (dest): name{glo:acr:nli} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:acr:lstm} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:acr:mmi} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{glo:acr:rouge} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:acr:bleu} has been referenced but does not exist, replaced by a fixed one
@@ -2131,11 +2130,11 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{glo:acr:llm} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on auxiliary/main.pdf (41 pages, 4363507 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on auxiliary/main.pdf (42 pages, 4379286 bytes).
 PDF statistics:
- 1439 PDF objects out of 1440 (max. 8388607)
- 1320 compressed objects within 14 object streams
- 253 named destinations out of 1000 (max. 500000)
+ 1482 PDF objects out of 1728 (max. 8388607)
+ 1361 compressed objects within 14 object streams
+ 264 named destinations out of 1000 (max. 500000)
  47185 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -912,6 +912,35 @@
       \verb C:\Users\oskar\Zotero\storage\SU8TIBLC\spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7.html
       \endverb
     \endentry
+    \entry{huggingfacePerplexityFixedlengthModels}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e0b6bb846c6a3e0649ce0e3cd9355df3}{%
+           family={{Hugging Face}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{fullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{bibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorbibnamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authornamehash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \strng{authorfullhash}{e0b6bb846c6a3e0649ce0e3cd9355df3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/docs/transformers/perplexity}
+      \field{title}{Perplexity of Fixed-Length Models}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\YS2BKABR\perplexity.html
+      \endverb
+    \endentry
     \entry{kumarWhatArePeople2023a}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=51d98cb674c9719e186bd9ba5fed0fb0}{%
@@ -948,14 +977,102 @@
       \verb C:\Users\oskar\Zotero\storage\I2LWCNWM\what-are-people-asking-to-chatgpt-f5f324a6cc27.html
       \endverb
     \endentry
+    \entry{liDiversityPromotingObjectiveFunction2016}{inbook}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=9e784630a0c25d3ed602dfe506235c30}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jiwei},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=fda9fdf6ebb4aa0e4f37826ef02391c3}{%
+           family={Galley},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15e87e276e6019ac1304793ab77184be}{%
+           family={Brockett},
+           familyi={B\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=159bca5607e3797666654a2e3022978a}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b3db39806e6059146b4d991272b0a78}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=49fbfd99532ca0bf67fc21d5b6c1328a}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0aa759b738fc3af9c3def808c8aa619a}{%
+           family={Nenkova},
+           familyi={N\bibinitperiod},
+           given={Ani},
+           giveni={A\bibinitperiod}}}%
+        {{hash=50e8b13f09de6a4c5cb0f209843877e4}{%
+           family={Rambow},
+           familyi={R\bibinitperiod},
+           given={Owen},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, California}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{deaecf55c405f8de9e78713a6782909c}
+      \strng{fullhash}{ebb34a0115f9aa341fe4537a56723b18}
+      \strng{bibnamehash}{ebb34a0115f9aa341fe4537a56723b18}
+      \strng{authorbibnamehash}{ebb34a0115f9aa341fe4537a56723b18}
+      \strng{authornamehash}{deaecf55c405f8de9e78713a6782909c}
+      \strng{authorfullhash}{ebb34a0115f9aa341fe4537a56723b18}
+      \strng{editorbibnamehash}{ff9976122822537d9201d8be5eb62c08}
+      \strng{editornamehash}{094fab2571f278f19d8ff70f1117e40d}
+      \strng{editorfullhash}{ff9976122822537d9201d8be5eb62c08}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2016 {{Conference}} of the {{North American Chapter}} of the {{Association}} for {{Computational Linguistics}}: {{Human Language Technologies}}}
+      \field{month}{6}
+      \field{title}{A {{Diversity-Promoting Objective Function}} for {{Neural Conversation Models}}}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{110\bibrangedash 119}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.18653/v1/N16-1014
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\N9UYMECF\Li et al. - 2016 - A Diversity-Promoting Objective Function for Neura.pdf
+      \endverb
+    \endentry
     \entry{liAutonomousGISNextgeneration2023}{misc}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
+        {{un=1,uniquepart=given,hash=42a0df1a3b77d8838b5444c135bdab4c}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Zhenlong},
            giveni={Z\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=7228c6369bcf7adf5f0ee63a9a1a0fd0}{%
            family={Ning},
            familyi={N\bibinitperiod},
@@ -976,7 +1093,6 @@
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Large Language Models (LLMs), such as ChatGPT, demonstrate a strong understanding of human natural language and have been explored and applied in various fields, including reasoning, creative writing, code generation, translation, and information retrieval. By adopting LLM as the reasoning core, we introduce Autonomous GIS as an AI-powered geographic information system (GIS) that leverages the LLM's general abilities in natural language understanding, reasoning, and coding for addressing spatial problems with automatic spatial data collection, analysis, and visualization. We envision that autonomous GIS will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing. We developed a prototype system called LLM-Geo using the GPT-4 API in a Python environment, demonstrating what an autonomous GIS looks like and how it delivers expected results without human intervention using three case studies. For all case studies, LLM-Geo was able to return accurate results, including aggregated numbers, graphs, and maps, significantly reducing manual operation time. Although still in its infancy and lacking several important modules such as logging and code testing, LLM-Geo demonstrates a potential path toward the next-generation AI-powered GIS. We advocate for the GIScience community to dedicate more effort to the research and development of autonomous GIS, making spatial analysis easier, faster, and more accessible to a broader audience.}
@@ -1001,6 +1117,49 @@
       \verb C\:\\Users\\oskar\\Zotero\\storage\\F2SMY58Q\\Li and Ning - 2023 - Autonomous GIS the next-generation AI-powered GIS.pdf;C\:\\Users\\oskar\\Zotero\\storage\\JRUTEB6E\\2305.html
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Human-Computer Interaction}
+    \endentry
+    \entry{linROUGEPackageAutomatic2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc6dfe0750848d77d639c1de6b9934e4}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chin-Yew},
+           giveni={C\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Barcelona, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{fullhash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{bibnamehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{authorbibnamehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{authornamehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{authorfullhash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Text {{Summarization Branches Out}}}
+      \field{month}{7}
+      \field{shorttitle}{{{ROUGE}}}
+      \field{title}{{{ROUGE}}: {{A Package}} for {{Automatic Evaluation}} of {{Summaries}}}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{74\bibrangedash 81}
+      \range{pages}{8}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\DR2YMCEH\Lin - 2004 - ROUGE A Package for Automatic Evaluation of Summa.pdf
+      \endverb
     \endentry
     \entry{maehlumSOSI2023}{article}{}
       \name{author}{2}{}{%
@@ -1972,6 +2131,75 @@
       \field{urlmonth}{10}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+    \endentry
+    \entry{stasaskiSemanticDiversityDialogue2022}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=34249c3d3b758b0aa65ae1f62584aa35}{%
+           family={Stasaski},
+           familyi={S\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e7ce2b4ef72492ff0e28a03000fe45e}{%
+           family={Hearst},
+           familyi={H\bibinitperiod},
+           given={Marti},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=9cf67a53d9ebd335c787b143ec098196}{%
+           family={Carpuat},
+           familyi={C\bibinitperiod},
+           given={Marine},
+           giveni={M\bibinitperiod}}}%
+        {{hash=12b5609f0c19e4c61332c868e5140802}{%
+           family={{de Marneffe}},
+           familyi={d\bibinitperiod},
+           given={Marie-Catherine},
+           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=8f313a0c5fcda80a23979e5370b79d3e}{%
+           family={Meza\bibnamedelima Ruiz},
+           familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Ivan\bibnamedelima Vladimir},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Seattle, United States}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{b570a5b080cb8f3a67fd9e26d5b4846c}
+      \strng{fullhash}{b570a5b080cb8f3a67fd9e26d5b4846c}
+      \strng{bibnamehash}{b570a5b080cb8f3a67fd9e26d5b4846c}
+      \strng{authorbibnamehash}{b570a5b080cb8f3a67fd9e26d5b4846c}
+      \strng{authornamehash}{b570a5b080cb8f3a67fd9e26d5b4846c}
+      \strng{authorfullhash}{b570a5b080cb8f3a67fd9e26d5b4846c}
+      \strng{editorbibnamehash}{683718d04ab9f8a5df42d5f496377e35}
+      \strng{editornamehash}{20cb9eb26858d9458820dabc49f5992f}
+      \strng{editorfullhash}{683718d04ab9f8a5df42d5f496377e35}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Generating diverse, interesting responses to chitchat conversations is a problem for neural conversational agents. This paper makes two substantial contributions to improving diversity in dialogue generation. First, we propose a novel metric which uses Natural Language Inference (NLI) to measure the semantic diversity of a set of model responses for a conversation. We evaluate this metric using an established framework (Tevet and Berant, 2021) and find strong evidence indicating NLI Diversity is correlated with semantic diversity. Specifically, we show that the contradiction relation is more useful than the neutral relation for measuring this diversity and that incorporating the NLI model's confidence achieves state-of-the-art results. Second, we demonstrate how to iteratively improve the semantic diversity of a sampled set of responses via a new generation procedure called Diversity Threshold Generation, which results in an average 137\% increase in NLI Diversity compared to standard generation procedures.}
+      \field{booktitle}{Proceedings of the 2022 {{Conference}} of the {{North American Chapter}} of the {{Association}} for {{Computational Linguistics}}: {{Human Language Technologies}}}
+      \field{month}{7}
+      \field{title}{Semantic {{Diversity}} in {{Dialogue}} with {{Natural Language Inference}}}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{85\bibrangedash 98}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18653/v1/2022.naacl-main.6
+      \endverb
     \endentry
     \entry{thenorwegianmappingauthorityElveg2019}{report}{}
       \name{author}{1}{}{%

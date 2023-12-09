@@ -152,7 +152,7 @@ Use boldface, boxes, colours, arrows, etc. to mark the important parts of the ta
 As can be seen in the example, elements in a table can sometimes benefit from being rotated (such as EMNLP in the `Source' column) or cover more than one row (EMNLP, as well as EN-HI and EN-BN in the `Langs' column) --- or more than one column, for that matter.
 \end{comment}
 
-\textit{Disclaimer: Parts from a paper written in the theory module "TDT13 - Advanced Text Analytics and Language Understanding" will be reused in the \autoref{cha:theory} chapter. This includes \autoref{subsec:attention-and-transformers} and \autoref{subsec:bert}.}
+\textit{Disclaimer: Parts from a paper written in the theory module "TDT13 - Advanced Text Analytics and Language Understanding" will be reused in the \nameref{cha:theory} chapter. This includes \autoref{subsec:attention-and-transformers} and \autoref{subsec:bert}.}
 
 \vspace{12pt}
 
@@ -194,7 +194,7 @@ The Transformer represented a breakthrough in the field of \gls{acr:nlp}, and is
 
 \subsection[The GPT Family]{The \acrshort{acr:gpt} Family}\label{subsec:gpt}
 
-\glspl{acr:gpt} are a type of \gls{acr:llm} first introduced by \hyperref[subsec:openai]{OpenAI} in 2018 \citep{radfordImprovingLanguageUnderstanding2018}. Specifically designed to perform text generation, it is essentially a stack of Transformer \textit{decoders}, and demonstrates through its vast training on unlabelled data help a language model learn good representations, providing a significant performance boost, while alleviating the dependence on supervised learning. While the original Transformer architecture as described by \cite{vaswaniAttentionAllYou2017} was intended for machine translation, thus having encoder to learn the representation of the origin language representation of a given input sequence and an encoder to learn the representation in the target language and perform cross-attention between the two, the \acrshort{acr:gpt} is designed only to \textit{imitate} language. By applying masked multi-head attention, the model is restricted to only see past $k$ (with $k$ being the size of the context window) tokens and is tasked to predict the next one.
+\glspl{acr:gpt} are a type of \gls{acr:llm} first introduced by OpenAI in 2018 \citep{radfordImprovingLanguageUnderstanding2018}. Specifically designed to perform text generation, it is essentially a stack of Transformer \textit{decoders}, and demonstrates through its vast training on unlabelled data help a language model learn good representations, providing a significant performance boost, while alleviating the dependence on supervised learning. While the original Transformer architecture as described by \cite{vaswaniAttentionAllYou2017} was intended for machine translation, thus having encoder to learn the representation of the origin language representation of a given input sequence and an encoder to learn the representation in the target language and perform cross-attention between the two, the \acrshort{acr:gpt} is designed only to \textit{imitate} language. By applying masked multi-head attention, the model is restricted to only see past $k$ (with $k$ being the size of the context window) tokens and is tasked to predict the next one.
 
 Training consists of two stages: unsupervised pre-training and supervised fine-tuning. The former is used to find a good initialization point, essentially teaching the model to imitate the corpora it is trained upon. This results in a model that will ramble on uncontrollably, just trying to complete the input sequence it's given to the best of its knowledge, however this will produce undefined behaviour. It is therefore necessary to fine-tune the model on a target task with supervision. \cite[4]{radfordImprovingLanguageUnderstanding2018} explain how the model can fine-tune directly on tasks like text classification, but how one for other tasks needs to convert structured inputs into ordered sequences because the pre-trained model was trained on contiguous sequences of text. In the case of ChatGPT, \citeauthor{openaiIntroducingChatGPT2022} used \gls{acr:rlhf} by employing a three-step strategy: first training using a supervised policy, then using trained reward models to rank alternative completions produced by ChatGPT models, before fine-tuning the model using \gls{acr:ppo}. This pipeline is then performed for several iterations until the model produces the desired behaviour \citep{openaiIntroducingChatGPT2022}.
 
@@ -248,11 +248,18 @@ Having objective ways of evaluating the performance of a textual response is as 
 
 \subsubsection{Human Evaluation}
 
-Human evaluation, though an obvious evaluation metric, can be powerful. Human evaluators can manually score generated text based on a range of criteria, including relevance, fluency, coherence, and overall impression.
+Human evaluation, though an obvious evaluation metric, can be powerful. Human evaluators can manually score generated text based on a range of criteria, including relevance, fluency, coherence, and overall impression. Human evaluation can be expensive and time-consuming, and researchers have therefore developed mathematical formulas for evaluation. 
 
 \subsubsection{Perplexity}
 
-Perplexity measures the degree of uncertainty in predicting the next word in a sequence, based on the preceding words. This is done by calculating the negative average log-likelihood. A lower score indicates better performance.
+Perplexity is an evaluation metric suitable for autoregressive models, measuring the degree of uncertainty in predicting the next word in a sequence, based on the preceding words. It is essentially a way of evaluating a model's ability to predict uniformly among the tokens available in the corpus it is trained upon. This is done by calculating the negative average log-likelihood
+
+\begin{equation}
+    \text{PPL}(X) = \exp \left\{ -\frac{1}{t} \sum_{i} \log p_\theta(x_i | x_{<i}) \right\}
+    \label{eq:ppl}
+\end{equation}
+
+\noindent where $X = (x_0, x_1, \ldots, x_t)$ is the tokenized input sequence and $p_\theta(x_i | x_{<i})$ is the log-likelihood of token $x_i$ given the preceding tokens $x_(<i)$. A lower score indicates better performance. It is normally calculated using a sliding window strategy, where a fixed number $k$ preceding tokens $(x_{i-k-1},x_{i-k},\ldots,x_{i-1})$ are used to calculate the perplexity for token $x_i$ \citep{huggingfacePerplexityFixedlengthModels}.
 
 \subsubsection[BiLingual Evaluation Understudy]{\acrfull{acr:bleu}}
 
@@ -265,7 +272,7 @@ Perplexity measures the degree of uncertainty in predicting the next word in a s
 
 \subsubsection[Recall-Oriented Understudy (ROUGE)]{\acrfull{acr:rouge}}
 
-The \gls{acr:rouge} metric aims to automatically determine the quality of a summary by comparing it to ground truth summaries produced by humans. \eqref{eq:rouge} shows the $\text{ROUGE-N}$ formula, which is the n-gram recall between a candidate summary and a set of the aforementioned ground truth summaries.
+The \gls{acr:rouge} metric, introduced by \cite{linROUGEPackageAutomatic2004}, aims to automatically determine the quality of a summary by comparing it to ground truth summaries produced by humans. \eqref{eq:rouge} shows the $\text{ROUGE-N}$ formula, which is the n-gram recall between a candidate summary and a set of the aforementioned ground truth summaries.
 
 \begin{equation}
     \text{ROUGE-N} = \frac{
@@ -282,7 +289,25 @@ The \gls{acr:rouge} metric aims to automatically determine the quality of a summ
 
 \subsubsection{Diversity}
 
-Diversity is an important measure to assess the predictability of a model. n-gram diversity is a common metric. Other methods to measure diversity aim to find the semantic diversity between generated sequences.
+Diversity metrics aim to measure the variety and uniqueness of generated sequences. \cite{liDiversityPromotingObjectiveFunction2016} proposed an objective function called \gls{acr:mmi}, which seeks to guide sequence-to-sequence models into producing more diverse, interesting, and appropriate responses, as opposed to safe and commonplace ones. The parameters of \gls{acr:mmi} are chosen in order to maximize mutual information between the source sequence $S$ and the target sequence $T$
+
+\begin{equation}
+    \hat{T} = \argmax_{T} \{ (1 - \lambda) \log p(T|S) + \lambda \log p(S|T) \}
+\end{equation}
+
+\noindent where $\lambda$ serves as a weighting parameter. As the paper is from \citeyear{liDiversityPromotingObjectiveFunction2016}, the authors only discuss the $p(Y|X)$ function in relation to the \gls{acr:lstm} algorithm, but it can be applicable to contemporary language models as well.
+
+\cite{stasaskiSemanticDiversityDialogue2022} propose three metrics which leverage the predictions of a \gls{acr:nli} model, that is, a model which seeks to determine if one sentence entails, contradicts, or is neutral toward a second  sentence \citep[1]{stasaskiSemanticDiversityDialogue2022}. The \textit{Baseline \acrshort{acr:nli} Diversity} metric
+
+\begin{equation}
+    \text{Baseline NLI Diversity} = \sum_{u_i,u_j \in u_1,...,u_n} NLI_{score}(NLI_{pred}(NLI(u_i, u_j)))
+\end{equation}
+
+where $NLI_{score}$ is 1, 0, or -1 if the sentence is deemed contradictory, neutral, or entails the other sentence, respectively. The two other metrics, the \textit{Neutral NLI Diversity} and \textit{Confidence NLI Diversity} differ only in how they define the $NLI_{score}$. Results from experiments show that using these can produce more diverse sets of responses, and that they can be used to investigate a model's ability to produce diverse responses \citep[9]{stasaskiSemanticDiversityDialogue2022}.
+
+
+
+
 
 \subsection{Benchmarks}\label{subsec:benchmarks}
 

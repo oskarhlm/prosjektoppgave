@@ -981,6 +981,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT ../documents/literature_study.csv
 INPUT ../documents/literature_study.csv
 INPUT ../documents/literature_study.csv
@@ -2341,9 +2342,9 @@ INPUT auxiliary/main.out
 INPUT auxiliary/main.out
 INPUT auxiliary/main.run.xml
 OUTPUT auxiliary/main.run.xml
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
