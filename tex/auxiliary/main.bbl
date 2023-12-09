@@ -2201,6 +2201,110 @@
       \verb 10.18653/v1/2022.naacl-main.6
       \endverb
     \endentry
+    \entry{suzgunChallengingBIGBenchTasks2022}{misc}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=25ec2d343e5a8bcf8fd2513198259cd1}{%
+           family={Suzgun},
+           familyi={S\bibinitperiod},
+           given={Mirac},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99f83374a0e4b88e034733a94ada784d}{%
+           family={Scales},
+           familyi={S\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ea44635a11d472b3b533f1ac10ecdf0}{%
+           family={Schärli},
+           familyi={S\bibinitperiod},
+           given={Nathanael},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80c831c617902a22d4fa4074948f3aff}{%
+           family={Gehrmann},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7579658a0aca8cb0e17a89deb28b8ccc}{%
+           family={Tay},
+           familyi={T\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10118dd89bd210596b82c1b6feb26faf}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Hyung\bibnamedelima Won},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd55b702c004c13506e70bb76a4e987c}{%
+           family={Chowdhery},
+           familyi={C\bibinitperiod},
+           given={Aakanksha},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c636f146591d51579a8119b777394878}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Quoc\bibnamedelima V.},
+           giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=594b2be737e055817db9ad276b6bf05a}{%
+           family={Chi},
+           familyi={C\bibinitperiod},
+           given={Ed\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=797f9a226fd7356db5edc6feba1a0e87}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Denny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61331a11b490f3d927555985facd25b3}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{f9d3e08a3aadd01ab6b860ec5529f80a}
+      \strng{fullhash}{d5fb843f4e489df414a8dd38ca6c9bc2}
+      \strng{bibnamehash}{d5fb843f4e489df414a8dd38ca6c9bc2}
+      \strng{authorbibnamehash}{d5fb843f4e489df414a8dd38ca6c9bc2}
+      \strng{authornamehash}{f9d3e08a3aadd01ab6b860ec5529f80a}
+      \strng{authorfullhash}{d5fb843f4e489df414a8dd38ca6c9bc2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BIG-Bench (Srivastava et al., 2022) is a diverse evaluation suite that focuses on tasks believed to be beyond the capabilities of current language models. Language models have already made good progress on this benchmark, with the best model in the BIG-Bench paper outperforming average reported human-rater results on 65\% of the BIG-Bench tasks via few-shot prompting. But on what tasks do language models fall short of average human-rater performance, and are those tasks actually unsolvable by current language models? In this work, we focus on a suite of 23 challenging BIG-Bench tasks which we call BIG-Bench Hard (BBH). These are the task for which prior language model evaluations did not outperform the average human-rater. We find that applying chain-of-thought (CoT) prompting to BBH tasks enables PaLM to surpass the average human-rater performance on 10 of the 23 tasks, and Codex (code-davinci-002) to surpass the average human-rater performance on 17 of the 23 tasks. Since many tasks in BBH require multi-step reasoning, few-shot prompting without CoT, as done in the BIG-Bench evaluations (Srivastava et al., 2022), substantially underestimates the best performance and capabilities of language models, which is better captured via CoT prompting. As further analysis, we explore the interaction between CoT and model scale on BBH, finding that CoT enables emergent task performance on several BBH tasks with otherwise flat scaling curves.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2210.09261}
+      \field{title}{Challenging {{BIG-Bench Tasks}} and {{Whether Chain-of-Thought Can Solve Them}}}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2210.09261
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\LQR9D9UB\\Suzgun et al. - 2022 - Challenging BIG-Bench Tasks and Whether Chain-of-T.pdf;C\:\\Users\\oskar\\Zotero\\storage\\C9V3K24C\\2210.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
+    \endentry
     \entry{thenorwegianmappingauthorityElveg2019}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0600edd9555989a2a6d7f7ccb9c7de5b}{%
@@ -2809,6 +2913,78 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\KG8K58TW\Vaswani et al. - 2017 - Attention Is All You Need.pdf
       \endverb
+    \endentry
+    \entry{zellersHellaSwagCanMachine2019}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=560f431bda2e90c8056046656d2b7f8b}{%
+           family={Zellers},
+           familyi={Z\bibinitperiod},
+           given={Rowan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c32ace2a5a2590ef3542c3713e05925d}{%
+           family={Holtzman},
+           familyi={H\bibinitperiod},
+           given={Ari},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cc4ca13eda1b8380f1589532b8e33ae}{%
+           family={Bisk},
+           familyi={B\bibinitperiod},
+           given={Yonatan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64d48b2f4b0370b6692c87cfc65f19b9}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Yejin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a0039a739658bc14f2025d49d2e80750}
+      \strng{fullhash}{f6687d08ef441f6ce2eb6407dc46b06e}
+      \strng{bibnamehash}{f6687d08ef441f6ce2eb6407dc46b06e}
+      \strng{authorbibnamehash}{f6687d08ef441f6ce2eb6407dc46b06e}
+      \strng{authornamehash}{a0039a739658bc14f2025d49d2e80750}
+      \strng{authorfullhash}{f6687d08ef441f6ce2eb6407dc46b06e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recent work by Zellers et al. (2018) introduced a new task of commonsense natural language inference: given an event description such as "A woman sits at a piano," a machine must select the most likely followup: "She sets her fingers on the keys." With the introduction of BERT, near human-level performance was reached. Does this mean that machines can perform human level commonsense inference? In this paper, we show that commonsense inference still proves difficult for even state-of-the-art models, by presenting HellaSwag, a new challenge dataset. Though its questions are trivial for humans ({$>$}95\% accuracy), state-of-the-art models struggle ({$<$}48\%). We achieve this via Adversarial Filtering (AF), a data collection paradigm wherein a series of discriminators iteratively select an adversarial set of machine-generated wrong answers. AF proves to be surprisingly robust. The key insight is to scale up the length and complexity of the dataset examples towards a critical 'Goldilocks' zone wherein generated text is ridiculous to humans, yet often misclassified by state-of-the-art models. Our construction of HellaSwag, and its resulting difficulty, sheds light on the inner workings of deep pretrained models. More broadly, it suggests a new path forward for NLP research, in which benchmarks co-evolve with the evolving state-of-the-art in an adversarial way, so as to present ever-harder challenges.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:1905.07830}
+      \field{shorttitle}{{{HellaSwag}}}
+      \field{title}{{{HellaSwag}}: {{Can}} a {{Machine Really Finish Your Sentence}}?}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1905.07830
+      \endverb
+      \verb{eprint}
+      \verb 1905.07830
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\UPR2CQAR\\Zellers et al. - 2019 - HellaSwag Can a Machine Really Finish Your Senten.pdf;C\:\\Users\\oskar\\Zotero\\storage\\P3CK28LB\\1905.html
+      \endverb
+      \keyw{Computer Science - Computation and Language}
     \endentry
     \entry{zhangGeoGPTUnderstandingProcessing2023}{misc}{}
       \name{author}{5}{}{%

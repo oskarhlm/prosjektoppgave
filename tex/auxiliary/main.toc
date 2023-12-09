@@ -19,24 +19,21 @@
 \contentsline {subsubsection}{\nonumberline Mistral}{8}{subsubsection*.10}%
 \contentsline {section}{\numberline {2.2}Benchmarking and Evaluation of LLMs}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Evaluation Metrics}{8}{subsection.2.2.1}%
-\contentsline {subsubsection}{\nonumberline Human Evaluation}{8}{subsubsection*.13}%
-\contentsline {subsubsection}{\nonumberline Perplexity}{9}{subsubsection*.15}%
-\contentsline {subsubsection}{\nonumberline BiLingual Evaluation Understudy}{9}{subsubsection*.17}%
-\contentsline {subsubsection}{\nonumberline Recall-Oriented Understudy (ROUGE)}{9}{subsubsection*.19}%
-\contentsline {subsubsection}{\nonumberline Diversity}{9}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Human Evaluation}{8}{subsubsection*.12}%
+\contentsline {subsubsection}{\nonumberline Perplexity}{8}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline BiLingual Evaluation Understudy}{9}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline Recall-Oriented Understudy (ROUGE)}{9}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Diversity}{9}{subsubsection*.20}%
 \contentsline {subsection}{\numberline {2.2.2}Benchmarks}{10}{subsection.2.2.2}%
-\contentsline {subsubsection}{\nonumberline HumanEval}{10}{subsubsection*.23}%
-\contentsline {subsubsection}{\nonumberline Multitask Language Understanding}{10}{subsubsection*.25}%
-\contentsline {subsubsection}{\nonumberline Grade School Math 8K}{10}{subsubsection*.27}%
 \contentsline {section}{\numberline {2.3}LLM providers}{11}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Geospatial Standards}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}International Standardization Work}{12}{subsection.2.4.1}%
-\contentsline {subsubsection}{\nonumberline OGC Standards}{12}{subsubsection*.29}%
-\contentsline {subsubsection}{\nonumberline STAC Api Standard}{12}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline OGC Standards}{12}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline STAC Api Standard}{12}{subsubsection*.24}%
 \contentsline {subsection}{\numberline {2.4.2}Norwegian Standardization Work}{12}{subsection.2.4.2}%
-\contentsline {subsubsection}{\nonumberline SOSI}{13}{subsubsection*.34}%
-\contentsline {subsubsection}{\nonumberline Geovekst}{13}{subsubsection*.36}%
-\contentsline {subsubsection}{\nonumberline Norge digitalt}{13}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline SOSI}{13}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline Geovekst}{13}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Norge digitalt}{13}{subsubsection*.31}%
 \contentsline {section}{\numberline {2.5}User Groups}{14}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Ethical and Privacy Concerns}{16}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Related Work}{17}{chapter.3}%
@@ -62,7 +59,7 @@
 \contentsline {subsection}{\numberline {5.3.2}Framework for Planning, Acting, and Reasoning}{29}{subsection.5.3.2}%
 \contentsline {subsection}{\numberline {5.3.3}Embeddings}{29}{subsection.5.3.3}%
 \contentsline {subsection}{\numberline {5.3.4}Fine-Tuning}{29}{subsection.5.3.4}%
-\contentsline {chapter}{Bibliography}{31}{section*.47}%
-\contentsline {chapter}{Appendices}{34}{chapter*.49}%
-\contentsline {chapter}{\numberline {A}Task Description from Norkart}{35}{appendix.A}%
+\contentsline {chapter}{Bibliography}{31}{section*.40}%
+\contentsline {chapter}{Appendices}{35}{chapter*.42}%
+\contentsline {chapter}{\numberline {A}Task Description from Norkart}{36}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -232,15 +232,9 @@ Many flavours of LLaMA have been trained. Most notably is, Code LLaMA \citep{roz
 
 Mistral 7B \citep{aiMistral7B2023} is another open-source \acrshort{acr:llm}, claiming to be \enquote{the most powerful language model for its size to date}. Being a 7.3B parameter model, it is quite small compared to other models, such as the 1.76T parameter \acrshort{acr:gpt}-4 model. Mistral 7B outperforms the LLaMA 2 13B on all benchmarks, and approaches CodeLlama 7B performance on code. It uses a sliding window attention mechanism, which yields a linear compute cost of O(sliding\_window.seq\_len).
 
-% \subsubsection{Falcon 180B}
-% \subsubsection{Vicuna}
-% \subsubsection{BLOOM}
-
 \section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{sec:benchmarking-and-evaluation}
 
-\todo{Not finished}
-
-There are several ways of benchmarking \acrlongpl{acr:llm}, but this section will focus on HumanEval, \gls{acr:mmlu}, and \gls{acr:gsm8k}. According to metrics displayed on the various pages for these datasets found on \href{https://paperswithcode.com}{PapersWithCode}, they seem to be the three most common datasets for measuring the different abilities of a given \acrshort{acr:llm}.
+Subsection \ref{subsec:evaluation-metrics} will address common evaluation metrics used during model development, while \autoref{subsec:benchmarks} will present some common benchmarks used to compare the performance of different \acrshortpl{acr:llm}.
 
 \subsection{Evaluation Metrics}\label{subsec:evaluation-metrics}
 
@@ -248,7 +242,7 @@ Having objective ways of evaluating the performance of a textual response is as 
 
 \subsubsection{Human Evaluation}
 
-Human evaluation, though an obvious evaluation metric, can be powerful. Human evaluators can manually score generated text based on a range of criteria, including relevance, fluency, coherence, and overall impression. Human evaluation can be expensive and time-consuming, and researchers have therefore developed mathematical formulas for evaluation. 
+Human evaluation, though an obvious evaluation metric, can be powerful. Human evaluators can manually score generated text based on a range of criteria, including relevance, fluency, coherence, and overall impression. Human evaluation can be expensive and time-consuming, and researchers have therefore developed mathematical formulas for evaluation.
 
 \subsubsection{Perplexity}
 
@@ -305,23 +299,20 @@ Diversity metrics aim to measure the variety and uniqueness of generated sequenc
 
 where $NLI_{score}$ is 1, 0, or -1 if the sentence is deemed contradictory, neutral, or entails the other sentence, respectively. The two other metrics, the \textit{Neutral NLI Diversity} and \textit{Confidence NLI Diversity} differ only in how they define the $NLI_{score}$. Results from experiments show that using these can produce more diverse sets of responses, and that they can be used to investigate a model's ability to produce diverse responses \citep[9]{stasaskiSemanticDiversityDialogue2022}.
 
-
-
-
-
 \subsection{Benchmarks}\label{subsec:benchmarks}
 
-\subsubsection{HumanEval}\label{subsubsec:humaneval}
+Benchmarks are standardized tests that aim to highlight the strengths and weaknesses of different \acrlongpl{acr:llm}, and serve as a non-biased way of comparing them. Benchmarks have been developed to assess different tasks, such as language understanding, general knowledge, arithmetic, and code generation. This section will introduce some common benchmarks.
 
-HumanEval is a dataset of handwritten problems used to measure functional correctness for synthesizing programs for docstrings \citep[2-4]{chenEvaluatingLargeLanguage2021}.
+HumanEval is a dataset of handwritten problems used to measure functional correctness for synthesizing programs for docstrings \citep[2-4]{chenEvaluatingLargeLanguage2021}. Code generation is one of the most common use cases for \acrshortpl{acr:llm} and HumanEval is therefore arguably one of the more important benchmarks.
 
-\subsubsection[Multitask Language Understanding]{\acrlong{acr:mmlu}}
+First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \gls{acr:mmlu} is a way of testing an \acrlong{acr:llm}'s multitask accuracy, covering 57 tasks including mathematics, computer science, and others. \gls{acr:mmlu} a commonly used to highlight the general knowledge that is embedded within the model.
 
-First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \acrlong{acr:mmlu} is a way of tesing a \acrlong{acr:llm}'s multitask accuracy, covering 57 tasks including mathematics, computer science, and others.
+The BIG-Bench-Hard is another \acrshort{acr:llm} benchmark created by \cite{suzgunChallengingBIGBenchTasks2022}. It is a suite of 23 problems where prior language models were unable to exceed average human performance. The character of many of the BIG-Bench-Hard tasks, requires the rater to use multi-step reasoning, which has traditionally been hard for language models to apply.
 
-\subsubsection[Grade School Math 8K]{\acrlong{acr:gsm8k}}
+HellaSwag \citep{zellersHellaSwagCanMachine2019} is a benchmark designed to measure an \acrshort{acr:llm}'s ability to \enquote{finish your sentence}. By developing a lengthy and complex dataset to see where the \acrshort{acr:llm} starts producing \enquote{ridiculous} responses, the HellaSwag benchmark provides a way of testing a model's common-sense inference abilities.
 
-This is a dataset made to measure an \acrshort{acr:llm}'s abilities to perform mathemathical arthimetic.
+
+
 
 
 \section[LLM providers]{\acrlong{acr:llm} Providers}\label{sec:llm-providers}
