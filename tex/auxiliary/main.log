@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  9 DEC 2023 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.2)  11 DEC 2023 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -129,10 +129,7 @@ Package: babel 2022/01/26 3.70 The Babel package
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count197
- (/usr/share/texlive/texmf-dist/tex/generic/babel-norsk/norsk.ldf
-Language: norsk 2012/08/06 v2.0i Norsk support from the babel system
-Package babel Info: Making " an active character on input line 113.
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/british.ldf
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-english/british.ldf
 Language: british 2017/06/06 v3.3r English support from the babel system
  (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -1364,12 +1361,6 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-
-Package glossaries Warning: No language module detected for `norsk'.
-(glossaries)                Language modules need to be installed separately.
-(glossaries)                Please check on CTAN for a bundle called
-(glossaries)                `glossaries-norsk' or similar.
-
 \gls@level=\count552
 \@gls@tmpb=\toks83
 \gls@tmplen=\skip112
@@ -1377,7 +1368,7 @@ Package glossaries Warning: No language module detected for `norsk'.
 \glslabeltok=\toks85
 \glsshorttok=\toks86
 \glslongtok=\toks87
-(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2021/11/01 v4.49 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2021/11/01 v4.49 (NLCT)
@@ -1601,20 +1592,6 @@ Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
 ))))))
-Package biblatex Info: Trying to load language 'norsk' -> 'norsk-apa'...
-Package biblatex Info: ... file 'norsk-apa.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/norsk-apa.lbx
-File: norsk-apa.lbx 2021/12/24 v9.15 APA biblatex localisation
-Package biblatex Info: Trying to load language 'norsk'...
-Package biblatex Info: ... file 'norsk.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/norsk.lbx
-File: norsk.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'norsk'...
-Package biblatex Info: ... file 'norsk.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/norsk.lbx
-File: norsk.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
-))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1764,7 +1741,7 @@ Package pdftex.def Info: ./figs//actor_map.png  used on input line 164.
 
 
 ] [4 <./figs//actor_map.png>] [5]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 205.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 206.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1772,73 +1749,40 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [6] [7] [8] [9] [10] [11]
-Overfull \hbox (5.00056pt too wide) in paragraph at lines 348--348
-[][][]\T1/lmr/m/n/9 (-20) ChatGPT 
- []
-
-
-Overfull \hbox (5.00056pt too wide) in paragraph at lines 348--348
-[][][]\T1/lmr/m/n/9 (-20) ChatGPT 
- []
-
-[12] [13] [14] [15]) [16]
+ [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]) [17]
 \openout2 = `chapters/related_work.aux'.
 
  (./chapters/related_work.tex
 chapter 3.
-[17
+[18
 
 
 
 
 
-] [18]
-Overfull \hbox (1.24261pt too wide) in paragraph at lines 60--60
-[][][]\T1/lmr/m/n/9 (-20) Planning 
- []
-
-
-Overfull \hbox (1.24261pt too wide) in paragraph at lines 60--60
-[][][]\T1/lmr/m/n/9 (-20) Planning 
- []
-
-
-LaTeX Warning: Hyper reference `subsubsec:humaneval' on page 19 undefined on input line 64.
-
-[19]
-Overfull \hbox (1.24261pt too wide) in paragraph at lines 68--68
-[][][]\T1/lmr/m/n/9 (-20) Planning 
- []
-
-
-Overfull \hbox (1.24261pt too wide) in paragraph at lines 68--68
-[][][]\T1/lmr/m/n/9 (-20) Planning 
- []
-
-) [20]
+] [19] [20] [21] [22]) [23]
 \openout2 = `chapters/experiments.aux'.
 
  (./chapters/experiments.tex
 chapter 4.
-[21
+[24
 
 
 
 
 
-] [22] [23]
-<../figs/residential_expansion_areas_map.png, id=993, 722.7pt x 722.7pt>
+] [25] [26]
+<../figs/residential_expansion_areas_map.png, id=1111, 722.7pt x 722.7pt>
 File: ../figs/residential_expansion_areas_map.png Graphic file (type png)
 <use ../figs/residential_expansion_areas_map.png>
 Package pdftex.def Info: ../figs/residential_expansion_areas_map.png  used on input line 99.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
-<../figs/drammen_outline_file_upload.png, id=999, 552.1428pt x 397.84634pt>
+<../figs/drammen_outline_file_upload.png, id=1117, 552.1428pt x 397.84634pt>
 File: ../figs/drammen_outline_file_upload.png Graphic file (type png)
 <use ../figs/drammen_outline_file_upload.png>
 Package pdftex.def Info: ../figs/drammen_outline_file_upload.png  used on input line 111.
 (pdftex.def)             Requested size: 188.21288pt x 135.61198pt.
-<../figs/drammen_outline_api.png, id=1000, 454.5783pt x 604.53854pt>
+<../figs/drammen_outline_api.png, id=1118, 454.5783pt x 604.53854pt>
 File: ../figs/drammen_outline_api.png Graphic file (type png)
 <use ../figs/drammen_outline_api.png>
 Package pdftex.def Info: ../figs/drammen_outline_api.png  used on input line 117.
@@ -1852,28 +1796,24 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 125--139
 []$[]$ 
  []
 
-) [24] [25 <auxiliary/../figs/residential_expansion_areas_map.png>] [26 <auxiliary/../figs/drammen_outline_file_upload.png> <auxiliary/../figs/drammen_outline_api.png>]
+) [27] [28 <auxiliary/../figs/residential_expansion_areas_map.png>] [29 <auxiliary/../figs/drammen_outline_file_upload.png> <auxiliary/../figs/drammen_outline_api.png>]
 \openout2 = `chapters/discussion_and_conclusion.aux'.
 
  (./chapters/discussion_and_conclusion.tex
 chapter 5.
-[27
-
-
-
-
-
-] [28]) [29]
-No file main.acr.
 [30
 
 
 
-] [31
+
+
+] [31] [32]) [33] [34
 
 
 
-] [32] [33] [34]
+
+
+] [35] [36] [37] [38]
 \openout2 = `appendices/appendices.aux'.
 
  (./appendices/appendices.tex
@@ -1891,7 +1831,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrbook)              and replace `\begin{appendix}' by command
 (scrbook)              `\appendix' on input line 1.
 
-[35
+[39
 
 
 
@@ -1931,7 +1871,7 @@ Class scrbook Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1111, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1356, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf>
 Package pdftex.def Info: appendices/project_description.pdf  used on input line 6.
@@ -1949,7 +1889,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1114, page=1, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1359, page=1, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
 Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
@@ -1971,7 +1911,7 @@ File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 1>
 Package pdftex.def Info: appendices/project_description.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-[36
+[40
 
 
 
@@ -1993,7 +1933,7 @@ pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclus
 
 
 pdfTeX warning: pdflatex (file ./appendices/project_description.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendices/project_description.pdf, id=1125, page=2, 614.295pt x 794.97pt>
+<appendices/project_description.pdf, id=1370, page=2, 614.295pt x 794.97pt>
 File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
 Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
@@ -2014,12 +1954,26 @@ File: appendices/project_description.pdf Graphic file (type pdf)
 <use appendices/project_description.pdf, page 2>
 Package pdftex.def Info: appendices/project_description.pdf , page2 used on input line 6.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
-[37
+[41
 
- <./appendices/project_description.pdf>]) (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion_and_conclusion.aux) (auxiliary/appendices/appendices.aux))
+ <./appendices/project_description.pdf>]) (auxiliary/main.acr
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 12.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [42
 
-LaTeX Warning: There were undefined references.
 
+
+
+
+
+
+]) [43] (auxiliary/main.aux (auxiliary/frontmatter/abstract.aux) (auxiliary/chapters/introduction.aux) (auxiliary/chapters/theory.aux) (auxiliary/chapters/related_work.aux) (auxiliary/chapters/experiments.aux) (auxiliary/chapters/discussion_and_conclusion.aux) (auxiliary/appendices/appendices.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2027,54 +1981,38 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64837 strings out of 479647
- 1424750 string characters out of 5878802
- 2561566 words of memory out of 5000000
- 81262 multiletter control sequences out of 15000+600000
- 550372 words of font info for 176 fonts, out of 8000000 for 9000
+ 65085 strings out of 479647
+ 1431487 string characters out of 5878802
+ 2571661 words of memory out of 5000000
+ 81452 multiletter control sequences out of 15000+600000
+ 557224 words of font info for 189 fonts, out of 8000000 for 9000
  354 hyphenation exceptions out of 8191
- 108i,18n,166p,10699b,8831s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,18n,166p,10699b,8829s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{glo:acr:sdk} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:lats} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:gan} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:osm} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:rag} has been referenced but does not exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{glo:acr:gdpr} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:acr:nsdi} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exist, replaced by a fixed one
 
+pdfTeX warning (dest): name{glo:acr:fkb} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:tc} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:iso} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:sosi} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:gdal} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:wfs} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:wms} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:gml} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:json} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:html} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
 
@@ -2092,53 +2030,13 @@ pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{glo:acr:nli} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:lstm} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:mmi} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:rouge} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:bleu} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:mmlu} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:nsp} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:mlm} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:ppo} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:rlhf} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:rnn} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:bert} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:gpt} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:nlp} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:ai} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:api} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:stac} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:ogc} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:acr:gis} has been referenced but does not exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{glo:acr:llm} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on auxiliary/main.pdf (43 pages, 4379490 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on auxiliary/main.pdf (49 pages, 4430877 bytes).
 PDF statistics:
- 1468 PDF objects out of 1728 (max. 8388607)
- 1346 compressed objects within 14 object streams
- 259 named destinations out of 1000 (max. 500000)
- 47161 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1738 PDF objects out of 2073 (max. 8388607)
+ 1605 compressed objects within 17 object streams
+ 291 named destinations out of 1000 (max. 500000)
+ 51257 words of extra memory for PDF output out of 51595 (max. 10000000)
 

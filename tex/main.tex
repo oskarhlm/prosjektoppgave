@@ -1,6 +1,6 @@
 \documentclass[a4paper,twoside=false]{scrbook} 
 \usepackage{etex}					% Avoid errors caused by too many packages
-\usepackage[norsk,british]{babel}		% Correct Norwegian and English hyphenation
+\usepackage[british]{babel}		% Correct Norwegian and English hyphenation
 \selectlanguage{british}
 \usepackage[utf8]{inputenc}			% Allow for non-ASCII input
 \usepackage[T1]{fontenc}				% Use rich fonts
@@ -116,7 +116,7 @@
             citestyle=authoryear,
             natbib=true,
             url=true,
-            doi=false,
+            doi=true,
             hyperref=true,
             apamaxprtauth=99,
             maxcitenames=2,
@@ -287,13 +287,13 @@ acronym] 				% create a list of abbreviations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\backmatter
 \clearpage
-\printglossary[type=\acronymtype]
-
-\clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
 \include{appendices/appendices}
+
+\clearpage
+\printglossary[type=\acronymtype]
 
 \end{document}

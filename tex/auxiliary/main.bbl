@@ -19,6 +19,26 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{AgentProtocol}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{Agent {{Protocol}}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\EXGN5DIA\agentprotocol.ai.html
+      \endverb
+      \verb{urlraw}
+      \verb https://agentprotocol.ai/
+      \endverb
+      \verb{url}
+      \verb https://agentprotocol.ai/
+      \endverb
+    \endentry
     \entry{aiMistral7B2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=88c6124836971d87dfd8464b6c01eddc}{%
@@ -43,7 +63,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{The best 7B model to date, Apache 2.0}
       \field{chapter}{news}
-      \field{howpublished}{https://mistral.ai/news/announcing-mistral-7b/}
       \field{langid}{american}
       \field{month}{9}
       \field{title}{Mistral {{7B}}}
@@ -54,6 +73,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\4VXGY5JH\announcing-mistral-7b.html
+      \endverb
+      \verb{urlraw}
+      \verb https://mistral.ai/news/announcing-mistral-7b/
+      \endverb
+      \verb{url}
+      \verb https://mistral.ai/news/announcing-mistral-7b/
       \endverb
     \endentry
     \entry{chaseLangChain2022}{misc}{}
@@ -86,6 +111,12 @@
       \field{urlyear}{2023}
       \field{year}{2022}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/langchain-ai/langchain
+      \endverb
+      \verb{url}
+      \verb https://github.com/langchain-ai/langchain
+      \endverb
     \endentry
     \entry{chenEvaluatingLargeLanguage2021}{misc}{}
       \name{author}{58}{}{%
@@ -474,7 +505,55 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\JGC3GF77\\Chen et al. - 2021 - Evaluating Large Language Models Trained on Code.pdf;C\:\\Users\\oskar\\Zotero\\storage\\LRYWFJMQ\\2107.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2107.03374
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2107.03374
+      \endverb
       \keyw{Computer Science - Machine Learning}
+    \endentry
+    \entry{clearyLatencyBenchmarksComparisons2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=884580f8131b37a3cd2ce8d153febeb0}{%
+           family={Cleary},
+           familyi={C\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{884580f8131b37a3cd2ce8d153febeb0}
+      \strng{fullhash}{884580f8131b37a3cd2ce8d153febeb0}
+      \strng{bibnamehash}{884580f8131b37a3cd2ce8d153febeb0}
+      \strng{authorbibnamehash}{884580f8131b37a3cd2ce8d153febeb0}
+      \strng{authornamehash}{884580f8131b37a3cd2ce8d153febeb0}
+      \strng{authorfullhash}{884580f8131b37a3cd2ce8d153febeb0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{‍We just recently launched Anthropic's models on PromptHub. Their larger context windows allow for way more token usage. I've been chatting{\ldots}}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Latency {{Benchmarks}} and {{Comparisons}} for {{OpenAI}}, {{Azure}}, and {{Anthropic}}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\57PT76U8\latency-benchmarks-and-comparisons-for-openai-azure-and-anthropic-6f035f1acab6.html
+      \endverb
+      \verb{urlraw}
+      \verb https://medium.com/@dan_43009/latency-benchmarks-and-comparisons-for-openai-azure-and-anthropic-6f035f1acab6
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@dan_43009/latency-benchmarks-and-comparisons-for-openai-azure-and-anthropic-6f035f1acab6
+      \endverb
     \endentry
     \entry{datatilsynetGeneralDataProtection}{misc}{}
       \name{author}{1}{}{%
@@ -494,7 +573,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.datatilsynet.no/en/regulations-and-tools/regulations/}
       \field{journaltitle}{Datatilsynet}
       \field{langid}{english}
       \field{title}{General {{Data Protection Regulation}}}
@@ -504,6 +582,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\MM6JTID7\regulations.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.datatilsynet.no/en/regulations-and-tools/regulations/
+      \endverb
+      \verb{url}
+      \verb https://www.datatilsynet.no/en/regulations-and-tools/regulations/
       \endverb
     \endentry
     \entry{devlinBERTPretrainingDeep2019}{misc}{}
@@ -570,7 +654,51 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\G4I8TCLX\\Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf;C\:\\Users\\oskar\\Zotero\\storage\\AFC5RD5Z\\1810.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.04805
+      \endverb
       \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{evchakiVectorDatabase2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa954a273d847898e9b6e9228126bd1c}{%
+           family={{evchaki}},
+           familyi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa954a273d847898e9b6e9228126bd1c}
+      \strng{fullhash}{aa954a273d847898e9b6e9228126bd1c}
+      \strng{bibnamehash}{aa954a273d847898e9b6e9228126bd1c}
+      \strng{authorbibnamehash}{aa954a273d847898e9b6e9228126bd1c}
+      \strng{authornamehash}{aa954a273d847898e9b6e9228126bd1c}
+      \strng{authorfullhash}{aa954a273d847898e9b6e9228126bd1c}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vector Database}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{Vector {{Database}}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\VG2JUSU5\vector-db.html
+      \endverb
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db
+      \endverb
     \endentry
     \entry{fanLargeLanguageModels2023}{misc}{}
       \name{author}{7}{}{%
@@ -654,7 +782,73 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\6TMJQ6P2\\Fan et al. - 2023 - Large Language Models for Software Engineering Su.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ZBKRCYEV\\2310.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2310.03533
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2310.03533
+      \endverb
       \keyw{Computer Science - Software Engineering}
+    \endentry
+    \entry{firatWhatIfGPT42023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2e5fc4ed61b9df9d3031e635a12b16d}{%
+           family={Firat},
+           familyi={F\bibinitperiod},
+           given={Mehmet},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d47bef998b09813ca82d368b53cd8db3}{%
+           family={Kuleli},
+           familyi={K\bibinitperiod},
+           given={Saniye},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Izmir Academy Association}%
+      }
+      \strng{namehash}{5add20c881035bcddbfe402f277d8f86}
+      \strng{fullhash}{5add20c881035bcddbfe402f277d8f86}
+      \strng{bibnamehash}{5add20c881035bcddbfe402f277d8f86}
+      \strng{authorbibnamehash}{5add20c881035bcddbfe402f277d8f86}
+      \strng{authornamehash}{5add20c881035bcddbfe402f277d8f86}
+      \strng{authorfullhash}{5add20c881035bcddbfe402f277d8f86}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Auto-GPT is a product of an experimental project that makes the use of GPT-4 autonomous. Notably, Auto-GPT emerged and spread rapidly, while the echo of OpenAI's ChatGPT continues. However, there are insufficient studies on this new application in related literature. The purpose of this exploratory case study was to explore the different use cases and experiences of Auto-GPT users. For this purpose, 16 users with an Auto-GPT experience on the GitHub platform were interviewed. Thematic content analysis was performed on the qualitative data. AutoGPT experiences of users can be characterized by learning programs, autonomous applications, conducting research, and writing reports. The results of this study showed that content creation is the most important purpose of using Auto-GPT. As independent research functions of Auto-GPT, users also emphasize data summarization and information organization. However, the participants also pointed out the token limit (inefficiency), forgetting generated tools, and iteration as some prominent limitations of Auto-GPT. It is possible to say that Auto-GPT has a high potential to use in also in educational purpose, but it is still in the development stage.}
+      \field{issn}{2757-8267}
+      \field{journaltitle}{Journal of Emerging Computer Technologies}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shorttitle}{What If {{GPT4 Became Autonomous}}}
+      \field{title}{What If {{GPT4 Became Autonomous}}: {{The Auto-GPT Project}} and {{Use Cases}}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.57020/ject.1297961
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\D23BL9DX\Firat and Kuleli̇ - What if GPT4 Became Autonomous The Auto-GPT Proje.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dergipark.org.tr/en/pub/ject/issue/77437/1297961
+      \endverb
+      \verb{url}
+      \verb https://dergipark.org.tr/en/pub/ject/issue/77437/1297961
+      \endverb
     \endentry
     \entry{gamanReportVarDialEvaluation2020}{article}{}
       \name{author}{11}{}{%
@@ -758,6 +952,12 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\8UCGMNYC\Gaman et al. - 2020 - A Report on the VarDial Evaluation Campaign 2020.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2020.vardial-1.1
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2020.vardial-1.1
+      \endverb
     \endentry
     \entry{geminiteamGeminiFamilyHighly2023}{report}{}
       \name{author}{2}{}{%
@@ -791,6 +991,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\9EWCSJ9W\gemini_1_report.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+      \endverb
+      \verb{url}
+      \verb https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
       \endverb
     \endentry
     \entry{hendrycksMeasuringMassiveMultitask2021}{misc}{}
@@ -874,6 +1080,12 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\4AN4PUCX\\Hendrycks et al. - 2021 - Measuring Massive Multitask Language Understanding.pdf;C\:\\Users\\oskar\\Zotero\\storage\\SSIQIZYR\\2009.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2009.03300
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2009.03300
+      \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computers and Society,Computer Science - Machine Learning}
     \endentry
     \entry{holmesSpatioTemporalAssetCatalogs2021}{misc}{}
@@ -911,6 +1123,12 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\SU8TIBLC\spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7.html
       \endverb
+      \verb{urlraw}
+      \verb https://medium.com/radiant-earth-insights/spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7
+      \endverb
+      \verb{url}
+      \verb https://medium.com/radiant-earth-insights/spatiotemporal-asset-catalogs-and-the-open-geospatial-consortium-659538dce5c7
+      \endverb
     \endentry
     \entry{huggingfacePerplexityFixedlengthModels}{misc}{}
       \name{author}{1}{}{%
@@ -931,7 +1149,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
-      \field{howpublished}{https://huggingface.co/docs/transformers/perplexity}
       \field{title}{Perplexity of Fixed-Length Models}
       \field{urlday}{9}
       \field{urlmonth}{12}
@@ -939,6 +1156,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\YS2BKABR\perplexity.html
+      \endverb
+      \verb{urlraw}
+      \verb https://huggingface.co/docs/transformers/perplexity
+      \endverb
+      \verb{url}
+      \verb https://huggingface.co/docs/transformers/perplexity
       \endverb
     \endentry
     \entry{kumarWhatArePeople2023a}{misc}{}
@@ -975,6 +1198,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\I2LWCNWM\what-are-people-asking-to-chatgpt-f5f324a6cc27.html
+      \endverb
+      \verb{urlraw}
+      \verb https://varunon9.medium.com/what-are-people-asking-to-chatgpt-f5f324a6cc27
+      \endverb
+      \verb{url}
+      \verb https://varunon9.medium.com/what-are-people-asking-to-chatgpt-f5f324a6cc27
       \endverb
     \endentry
     \entry{liDiversityPromotingObjectiveFunction2016}{inbook}{}
@@ -1064,6 +1293,113 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\N9UYMECF\Li et al. - 2016 - A Diversity-Promoting Objective Function for Neura.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N16-1014
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N16-1014
+      \endverb
+    \endentry
+    \entry{liAPIBankComprehensiveBenchmark2023}{misc}{}
+      \name{author}{9}{}{%
+        {{un=1,uniquepart=given,hash=54c3918df39c65be2d07d130c2d4bc6d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0954a2b51f991768d459f9e6bba65d77}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yingxiu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdf3e14cd1c158076088aab21aed2346}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5f362616a20debb566cbb885b995f98}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Feifan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3d3d6331e93c4b6ace27af64d35b3a7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hangyu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd7b974029a17a5f1ab7931d59a7fcb9}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Haiyang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5756883fe146f8c0788104bc4fc41e77}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhoujun},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10a0d3aa004649de7a7ab2ffecb35bce}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c59e4db88947e6a3cdb5338a6f88639}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yongbin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{dc366cb7a1733319bef0ae8bc84f0faf}
+      \strng{fullhash}{515d82f523b516a3bd6848f81561ffe4}
+      \strng{bibnamehash}{515d82f523b516a3bd6848f81561ffe4}
+      \strng{authorbibnamehash}{515d82f523b516a3bd6848f81561ffe4}
+      \strng{authornamehash}{dc366cb7a1733319bef0ae8bc84f0faf}
+      \strng{authorfullhash}{515d82f523b516a3bd6848f81561ffe4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recent research has demonstrated that Large Language Models (LLMs) can enhance their capabilities by utilizing external tools. However, three pivotal questions remain unanswered: (1) How effective are current LLMs in utilizing tools? (2) How can we enhance LLMs' ability to utilize tools? (3) What obstacles need to be overcome to leverage tools? To address these questions, we introduce API-Bank, a groundbreaking benchmark, specifically designed for tool-augmented LLMs. For the first question, we develop a runnable evaluation system consisting of 73 API tools. We annotate 314 tool-use dialogues with 753 API calls to assess the existing LLMs' capabilities in planning, retrieving, and calling APIs. For the second question, we construct a comprehensive training set containing 1,888 tool-use dialogues from 2,138 APIs spanning 1,000 distinct domains. Using this dataset, we train Lynx, a tool-augmented LLM initialized from Alpaca. Experimental results demonstrate that GPT-3.5 exhibits improved tool utilization compared to GPT-3, while GPT-4 excels in planning. However, there is still significant potential for further improvement. Moreover, Lynx surpasses Alpaca's tool utilization performance by more than 26 pts and approaches the effectiveness of GPT-3.5. Through error analysis, we highlight the key challenges for future research in this field to answer the third question.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2304.08244}
+      \field{shorttitle}{{{API-Bank}}}
+      \field{title}{{{API-Bank}}: {{A Comprehensive Benchmark}} for {{Tool-Augmented LLMs}}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2304.08244
+      \endverb
+      \verb{eprint}
+      \verb 2304.08244
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\ACGLRV7J\\Li et al. - 2023 - API-Bank A Comprehensive Benchmark for Tool-Augme.pdf;C\:\\Users\\oskar\\Zotero\\storage\\6IIAZDGD\\2304.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2304.08244
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2304.08244
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
     \entry{liAutonomousGISNextgeneration2023}{misc}{}
       \name{author}{2}{}{%
@@ -1116,6 +1452,12 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\F2SMY58Q\\Li and Ning - 2023 - Autonomous GIS the next-generation AI-powered GIS.pdf;C\:\\Users\\oskar\\Zotero\\storage\\JRUTEB6E\\2305.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2305.06453
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2305.06453
+      \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Human-Computer Interaction}
     \endentry
     \entry{linROUGEPackageAutomatic2004}{article}{}
@@ -1160,6 +1502,54 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\DR2YMCEH\Lin - 2004 - ROUGE A Package for Automatic Evaluation of Summa.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/W04-1013
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/W04-1013
+      \endverb
+    \endentry
+    \entry{maedaAutoGenAgentsMeet2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d8c125c90913c045cdc1afe7bdf69f7}{%
+           family={Maeda},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d8c125c90913c045cdc1afe7bdf69f7}
+      \strng{fullhash}{9d8c125c90913c045cdc1afe7bdf69f7}
+      \strng{bibnamehash}{9d8c125c90913c045cdc1afe7bdf69f7}
+      \strng{authorbibnamehash}{9d8c125c90913c045cdc1afe7bdf69f7}
+      \strng{authornamehash}{9d8c125c90913c045cdc1afe7bdf69f7}
+      \strng{authorfullhash}{9d8c125c90913c045cdc1afe7bdf69f7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this blog post, we show you how you can use Semantic Kernel with~AutoGen, a Microsoft Research project that shows the potential of using multiple agents together. With AutoGen, Microsoft research has shown that multiple agents can be better than one.}
+      \field{journaltitle}{Semantic Kernel}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{{{AutoGen Agents Meet Semantic Kernel}}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\VN7STXYH\autogen-agents-meet-semantic-kernel.html
+      \endverb
+      \verb{urlraw}
+      \verb https://devblogs.microsoft.com/semantic-kernel/autogen-agents-meet-semantic-kernel/
+      \endverb
+      \verb{url}
+      \verb https://devblogs.microsoft.com/semantic-kernel/autogen-agents-meet-semantic-kernel/
+      \endverb
     \endentry
     \entry{maehlumSOSI2023}{article}{}
       \name{author}{2}{}{%
@@ -1201,6 +1591,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\2AIFZDZQ\SOSI.html
+      \endverb
+      \verb{urlraw}
+      \verb https://snl.no/SOSI
+      \endverb
+      \verb{url}
+      \verb https://snl.no/SOSI
       \endverb
       \keyw{Geomatikk}
     \endentry
@@ -1286,7 +1682,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://research.ibm.com/blog/retrieval-augmented-generation-RAG}
       \field{month}{8}
       \field{title}{What Is Retrieval-Augmented Generation?}
       \field{urlday}{6}
@@ -1296,6 +1691,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\4IXQ75XY\retrieval-augmented-generation-RAG.html
+      \endverb
+      \verb{urlraw}
+      \verb https://research.ibm.com/blog/retrieval-augmented-generation-RAG
+      \endverb
+      \verb{url}
+      \verb https://research.ibm.com/blog/retrieval-augmented-generation-RAG
       \endverb
     \endentry
     \entry{mooneyUnderstandingGeospatialSkills2023}{book}{}
@@ -1350,6 +1751,76 @@
       \verb C:\Users\oskar\Zotero\storage\2N5LZDKP\Mooney et al. - 2023 - Towards Understanding the Geospatial Skills of Cha.pdf
       \endverb
     \endentry
+    \entry{nascimentoFamilyNaturalLanguage}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=0c0f5e65c4674113a79563efba554cca}{%
+           family={Nascimento},
+           familyi={N\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dcb5ca5b30ecdcc6501c652d777c1e6}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Grettel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ad616bb8aac254dd9aeb648f15e05a1}{%
+           family={Victorio},
+           familyi={V\bibinitperiod},
+           given={Wendy},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f905ba680568e9afdc99bf7b3f77871}{%
+           family={Lemos},
+           familyi={L\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1a4b47c8178971912cc39ddfd12b588}{%
+           family={Izquierdo},
+           familyi={I\bibinitperiod},
+           given={Yenier},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c05e95fc66012d3993e0baa36263eec}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Robinson},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2853ac04feaa1848d1989ee2db4bbcc}{%
+           family={Leme},
+           familyi={L\bibinitperiod},
+           given={Luiz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=435bd665faae3d803a36e8469dc6abbc}{%
+           family={Casanova},
+           familyi={C\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a16415bd9ee545bac50a91793b28cf0e}
+      \strng{fullhash}{54b805c434340e7241a24f6127b07626}
+      \strng{bibnamehash}{54b805c434340e7241a24f6127b07626}
+      \strng{authorbibnamehash}{54b805c434340e7241a24f6127b07626}
+      \strng{authornamehash}{a16415bd9ee545bac50a91793b28cf0e}
+      \strng{authorfullhash}{54b805c434340e7241a24f6127b07626}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This poster paper proposes a family of Natural Language (NL) interfaces for databases (NLIDBs) that use ChatGPT and LangChain features to compile NL sentences expressing database questions into SQL queries or to extract keywords from NL sentences, which are passed to a database keyword search tool. The use of ChatGPT reduces dealing with NL questions to a few-shot learning process for the benefit of developers interested in creating NLIDBs. The paper concludes by comparing the NLIDBs in the family.}
+      \field{langid}{english}
+      \field{title}{A {{Family}} of {{Natural Language Interfaces}} for {{Databases}} Based on {{ChatGPT}} and {{LangChain}}}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\J7R85NP7\Nascimento et al. - A Family of Natural Language Interfaces for Databa.pdf
+      \endverb
+    \endentry
     \entry{norgedigitaltGenerelleVilkarNorge2023}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3d40b788102c76c6aed7ad0c07a7236e}{%
@@ -1379,6 +1850,12 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\VPT7EGAL\generelle-vilkar.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://www.geonorge.no/globalassets/geonorge2/avtaler-og-bilag-norge-digitalt/generelle-vilkar.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.geonorge.no/globalassets/geonorge2/avtaler-og-bilag-norge-digitalt/generelle-vilkar.pdf
+      \endverb
     \endentry
     \entry{ogcOGCStandards2023}{misc}{}
       \name{author}{1}{}{%
@@ -1399,7 +1876,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.ogc.org/standards/}
       \field{journaltitle}{Open Geospatial Consortium}
       \field{month}{10}
       \field{title}{{{OGC Standards}}}
@@ -1410,6 +1886,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\QWK5I79E\\ogc.png;C\:\\Users\\oskar\\Zotero\\storage\\37QGTLZ7\\standards.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ogc.org/standards/
+      \endverb
+      \verb{url}
+      \verb https://www.ogc.org/standards/
       \endverb
     \endentry
     \entry{openaiIntroducingChatGPT2022}{misc}{}
@@ -1433,7 +1915,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We've trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.}
-      \field{howpublished}{https://openai.com/blog/chatgpt}
       \field{langid}{american}
       \field{month}{11}
       \field{title}{Introducing {{ChatGPT}}}
@@ -1444,6 +1925,12 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\BXCIMZNC\chatgpt.html
+      \endverb
+      \verb{urlraw}
+      \verb https://openai.com/blog/chatgpt
+      \endverb
+      \verb{url}
+      \verb https://openai.com/blog/chatgpt
       \endverb
     \endentry
     \entry{openaiGPT4TechnicalReport2023}{misc}{}
@@ -1488,6 +1975,12 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\U4ISGUBN\\OpenAI - 2023 - GPT-4 Technical Report.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ANYBWPS8\\2303.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2303.08774
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2303.08774
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
@@ -1574,6 +2067,12 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\B5PXQHSU\Papineni et al. - 2002 - Bleu a Method for Automatic Evaluation of Machine.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P02-1040
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P02-1040
+      \endverb
     \endentry
     \entry{qiMaaSDBSpatialDatabases2023}{misc}{}
       \name{author}{3}{}{%
@@ -1629,6 +2128,12 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\YZDM594F\\Qi et al. - 2023 - MaaSDB Spatial Databases in the Era of Large Lang.pdf;C\:\\Users\\oskar\\Zotero\\storage\\V87YV6DH\\2309.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2309.17072
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2309.17072
+      \endverb
       \keyw{Computer Science - Databases}
     \endentry
     \entry{radfordImprovingLanguageUnderstanding2018}{article}{}
@@ -1669,6 +2174,12 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\HR6GDGYQ\Radford and Narasimhan - 2018 - Improving Language Understanding by Generative Pre.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://www.semanticscholar.org/paper/Improving-Language-Understanding-by-Generative-Radford-Narasimhan/cd18800a0fe0b668a1cc19f2ec95b5003d0a5035
+      \endverb
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/Improving-Language-Understanding-by-Generative-Radford-Narasimhan/cd18800a0fe0b668a1cc19f2ec95b5003d0a5035
+      \endverb
     \endentry
     \entry{richardAutoGPTHeartOpensource2023}{misc}{}
       \name{author}{1}{}{%
@@ -1702,6 +2213,12 @@
       \field{urlyear}{2023}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/Significant-Gravitas/AutoGPT
+      \endverb
+      \verb{url}
+      \verb https://github.com/Significant-Gravitas/AutoGPT
+      \endverb
       \keyw{ai,artificial-intelligence,autonomous-agents,gpt-4,openai,python}
     \endentry
     \entry{robertsGPT4GEOHowLanguage2023}{misc}{}
@@ -1773,6 +2290,12 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\7DRKDHXI\\Roberts et al. - 2023 - GPT4GEO How a Language Model Sees the World's Geo.pdf;C\:\\Users\\oskar\\Zotero\\storage\\BHCR5VUS\\2306.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2306.00020
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2306.00020
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
     \endentry
@@ -1963,6 +2486,12 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\HG5BUPY7\\Rozière et al. - 2023 - Code Llama Open Foundation Models for Code.pdf;C\:\\Users\\oskar\\Zotero\\storage\\XF7M2VMP\\2308.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2308.12950
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2308.12950
+      \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
     \entry{scherrerHeLjuVarDial20202020}{article}{}
@@ -2013,6 +2542,12 @@
       \range{pages}{10}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\SXY6K8F7\Scherrer and Ljubešić - 2020 - HeLju@VarDial 2020 Social Media Variety Geolocati.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2020.vardial-1.19
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2020.vardial-1.19
       \endverb
     \endentry
     \entry{skjuveWhyPeopleUse2023}{misc}{}
@@ -2069,6 +2604,12 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\6CBMX6DH\Skjuve et al. - 2023 - Why People Use ChatGPT.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/abstract=4376834
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/abstract=4376834
+      \endverb
       \keyw{ChatGPT,Conversational AI,Large Language Models,Motivations,Uses and Gratifications}
     \endentry
     \entry{sparrowKillerRobots2007}{article}{}
@@ -2116,6 +2657,12 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\AN6UJNPA\Sparrow - 2007 - Killer Robots.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=23774147&site=ehost-live
+      \endverb
+      \verb{url}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=23774147&site=ehost-live
+      \endverb
       \keyw{ARTIFICIAL intelligence,ETHICS,MILITARY science,ROBOTS,UNITED States. Army}
     \endentry
     \entry{STACTutorials}{misc}{}
@@ -2124,13 +2671,18 @@
       \field{labeldatesource}{nodate}
       \field{labeltitlesource}{title}
       \field{abstract}{Here you can find our library of tutorials for learning all about STAC.}
-      \field{howpublished}{https://stacspec.org/en/tutorials/}
       \field{langid}{english}
       \field{title}{{{STAC Tutorials}}}
       \field{urlday}{23}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stacspec.org/en/tutorials/
+      \endverb
+      \verb{url}
+      \verb https://stacspec.org/en/tutorials/
+      \endverb
     \endentry
     \entry{stasaskiSemanticDiversityDialogue2022}{inbook}{}
       \name{author}{2}{}{%
@@ -2199,6 +2751,15 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.18653/v1/2022.naacl-main.6
+      \endverb
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\R2WFFNVN\Stasaski and Hearst - 2022 - Semantic Diversity in Dialogue with Natural Langua.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2022.naacl-main.6
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2022.naacl-main.6
       \endverb
     \endentry
     \entry{suzgunChallengingBIGBenchTasks2022}{misc}{}
@@ -2303,6 +2864,12 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\LQR9D9UB\\Suzgun et al. - 2022 - Challenging BIG-Bench Tasks and Whether Chain-of-T.pdf;C\:\\Users\\oskar\\Zotero\\storage\\C9V3K24C\\2210.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2210.09261
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2210.09261
+      \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
     \entry{thenorwegianmappingauthorityElveg2019}{report}{}
@@ -2317,6 +2884,7 @@
       \strng{authorbibnamehash}{0600edd9555989a2a6d7f7ccb9c7de5b}
       \strng{authornamehash}{0600edd9555989a2a6d7f7ccb9c7de5b}
       \strng{authorfullhash}{0600edd9555989a2a6d7f7ccb9c7de5b}
+      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -2335,6 +2903,55 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\TUVKD3T5\Produktspesifikasjoner_elveg-2-0_v2_sosi-standardisert-produktspesifikasjon-elveg-2_0_1_.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://register.geonorge.no/data/documents/Produktspesifikasjoner_elveg-2-0_v2_sosi-standardisert-produktspesifikasjon-elveg-2_0_1_.pdf
+      \endverb
+      \verb{url}
+      \verb https://register.geonorge.no/data/documents/Produktspesifikasjoner_elveg-2-0_v2_sosi-standardisert-produktspesifikasjon-elveg-2_0_1_.pdf
+      \endverb
+    \endentry
+    \entry{thenorwegianmappingauthorityHandbokGeovekstsamarbeidet2023}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0600edd9555989a2a6d7f7ccb9c7de5b}{%
+           family={{The Norwegian Mapping Authority}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Kartverket}%
+      }
+      \strng{namehash}{0600edd9555989a2a6d7f7ccb9c7de5b}
+      \strng{fullhash}{0600edd9555989a2a6d7f7ccb9c7de5b}
+      \strng{bibnamehash}{0600edd9555989a2a6d7f7ccb9c7de5b}
+      \strng{authorbibnamehash}{0600edd9555989a2a6d7f7ccb9c7de5b}
+      \strng{authornamehash}{0600edd9555989a2a6d7f7ccb9c7de5b}
+      \strng{authorfullhash}{0600edd9555989a2a6d7f7ccb9c7de5b}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Geovekst er et partssamarbeid om felles etablering, forvaltning, drift, vedlikehold og bruk av detaljerte kartdata og ortofoto. Nasjonale retningslinjer for samarbeidet samordnes igjennom Geovekst-forum. Geovekst-dataene sikres og oppdate {\ldots}}
+      \field{langid}{norwegianbokmal}
+      \field{month}{9}
+      \field{title}{{H{å}ndbok for Geovekst-samarbeidet}}
+      \field{type}{techreport}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\WRAWFM5K\\2023 - Håndbok for Geovekst-samarbeidet.pdf;C\:\\Users\\oskar\\Zotero\\storage\\FMVCCWW3\\veiledningsmateriell-geovekst.html
+      \endverb
+      \verb{urlraw}
+      \verb https://kartverket.no/geodataarbeid/geovekst/veiledningsmateriell-geovekst/
+      \endverb
+      \verb{url}
+      \verb https://kartverket.no/geodataarbeid/geovekst/veiledningsmateriell-geovekst/
       \endverb
     \endentry
     \entry{touvronLlamaOpenFoundation2023a}{misc}{}
@@ -2785,6 +3402,12 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\PQJCXPA5\\Touvron et al. - 2023 - Llama 2 Open Foundation and Fine-Tuned Chat Model.pdf;C\:\\Users\\oskar\\Zotero\\storage\\5BRHXUNL\\2307.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2307.09288
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2307.09288
+      \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
     \entry{unluChatmapLargeLanguage2023}{misc}{}
@@ -2832,6 +3455,12 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\BM96N7DH\\Unlu - 2023 - Chatmap Large Language Model Interaction with Ca.pdf;C\:\\Users\\oskar\\Zotero\\storage\\ZLF9DTRG\\2310.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2310.01429
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2310.01429
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
@@ -2900,7 +3529,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.}
-      \field{howpublished}{https://arxiv.org/abs/1706.03762v7}
       \field{journaltitle}{arXiv.org}
       \field{langid}{english}
       \field{month}{6}
@@ -2913,6 +3541,378 @@
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\KG8K58TW\Vaswani et al. - 2017 - Attention Is All You Need.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1706.03762v7
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1706.03762v7
+      \endverb
+    \endentry
+    \entry{weiChainofThoughtPromptingElicits2023}{misc}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=61331a11b490f3d927555985facd25b3}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27d22d8f05f44b47f7dcfe9b7fb85584}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xuezhi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc76f5fb256da4d423554f8e629b4321}{%
+           family={Schuurmans},
+           familyi={S\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fd5b56bfa48546f2caae7b4aa56a29f}{%
+           family={Bosma},
+           familyi={B\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a096e9107f0463212211c4510c6fa470}{%
+           family={Ichter},
+           familyi={I\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61e00ed0c44b8bddb9077a74a4ac1167}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c62c73d10bbf27f93c07774d30f647c}{%
+           family={Chi},
+           familyi={C\bibinitperiod},
+           given={Ed},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=841a83a4bb5e622d6e1bde4818879016}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Quoc},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=797f9a226fd7356db5edc6feba1a0e87}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Denny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{7e5e566ee8f47df717196e96221e7705}
+      \strng{fullhash}{3f24890ded09deea1c8fd996843d5e2e}
+      \strng{bibnamehash}{3f24890ded09deea1c8fd996843d5e2e}
+      \strng{authorbibnamehash}{3f24890ded09deea1c8fd996843d5e2e}
+      \strng{authornamehash}{7e5e566ee8f47df717196e96221e7705}
+      \strng{authorfullhash}{3f24890ded09deea1c8fd996843d5e2e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{1}
+      \field{number}{arXiv:2201.11903}
+      \field{title}{Chain-of-{{Thought Prompting Elicits Reasoning}} in {{Large Language Models}}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2201.11903
+      \endverb
+      \verb{eprint}
+      \verb 2201.11903
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\LRRPI8LI\\Wei et al. - 2023 - Chain-of-Thought Prompting Elicits Reasoning in La.pdf;C\:\\Users\\oskar\\Zotero\\storage\\FGEAGYAP\\2201.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2201.11903
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2201.11903
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
+    \endentry
+    \entry{wengLLMPoweredAutonomous2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49d03d499031db786a0e61119024cf5a}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Lilian},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{fullhash}{49d03d499031db786a0e61119024cf5a}
+      \strng{bibnamehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{authorbibnamehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{authornamehash}{49d03d499031db786a0e61119024cf5a}
+      \strng{authorfullhash}{49d03d499031db786a0e61119024cf5a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT, GPT-Engineer and BabyAGI, serve as inspiring examples. The potentiality of LLM extends beyond generating well-written copies, stories, essays and programs; it can be framed as a powerful general problem solver. Agent System Overview In a LLM-powered autonomous agent system, LLM functions as the agent's brain, complemented by several key components:}
+      \field{chapter}{posts}
+      \field{journaltitle}{lilianweng.github.io}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{{{LLM Powered Autonomous Agents}}}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\BKMD7SPN\2023-06-23-agent.html
+      \endverb
+      \verb{urlraw}
+      \verb https://lilianweng.github.io/posts/2023-06-23-agent/
+      \endverb
+      \verb{url}
+      \verb https://lilianweng.github.io/posts/2023-06-23-agent/
+      \endverb
+    \endentry
+    \entry{wuAutoGenEnablingNextGen2023}{misc}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=6154e8b767a07e53ba059e3ac7df5d83}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Qingyun},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6751ff8ce679fd345d66a156462f1915}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Gagan},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=212f2ffa62575655103450499c26678d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jieyu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8a163828804bc78bf30d6151252ce5f}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yiran},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c57851806a4078dfd1b4e8d429b9a9f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Beibin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff3f3d040319c6441a541a662718d7d5}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Erkang},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=357b0b769575e7caa1fa1e98ea04a1fe}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cf81b111784e6b097bc8fc66643e33c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d95bd570217b62424a544dcb057c3ede}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaokun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a30bd94c8f427bff99361e9d32e2e0f0}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiale},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f71a09c5b133ccb5e81c650d94b1b882}{%
+           family={Awadallah},
+           familyi={A\bibinitperiod},
+           given={Ahmed\bibnamedelima Hassan},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49ccf4fc1a94855e04184746e8caed94}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Ryen\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa76ebd83aa8c795c67769c23f359cdb}{%
+           family={Burger},
+           familyi={B\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71fb46abf1babb7fa14488bb4e0c23ba}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chi},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{14eae4f2249e69b15441e755c93a566f}
+      \strng{fullhash}{9ebc0e9828b38a56c0dd45b499921f72}
+      \strng{bibnamehash}{9ebc0e9828b38a56c0dd45b499921f72}
+      \strng{authorbibnamehash}{9ebc0e9828b38a56c0dd45b499921f72}
+      \strng{authornamehash}{14eae4f2249e69b15441e755c93a566f}
+      \strng{authorfullhash}{9ebc0e9828b38a56c0dd45b499921f72}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic infrastructure to build diverse applications of various complexities and LLM capacities. Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2308.08155}
+      \field{shorttitle}{{{AutoGen}}}
+      \field{title}{{{AutoGen}}: {{Enabling Next-Gen LLM Applications}} via {{Multi-Agent Conversation}}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2308.08155
+      \endverb
+      \verb{eprint}
+      \verb 2308.08155
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\G62PQ5SB\\Wu et al. - 2023 - AutoGen Enabling Next-Gen LLM Applications via Mu.pdf;C\:\\Users\\oskar\\Zotero\\storage\\XCS4SCF5\\2308.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2308.08155
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2308.08155
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
+    \endentry
+    \entry{yaoTreeThoughtsDeliberate2023}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5c1b62cbd4e181d818b927549813cf73}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Shunyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cb7d2d6e42d109fa2c5086d6c8f6a63}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Dian},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fc64f0dbaf7cb8f21c7c85d580cdb15}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20b3779bbd037bbfdd1ffd3967624997}{%
+           family={Shafran},
+           familyi={S\bibinitperiod},
+           given={Izhak},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15f19cfb916ba0b8afb494f250ea80a2}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Thomas\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2923de2da7f9b32b957552e414b6bc16}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997c3143c2e5d593e816d2ff704fbf98}{%
+           family={Narasimhan},
+           familyi={N\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4ae4be538df04cfc1571685175562cad}
+      \strng{fullhash}{fcc1044810d016020eadbbe80a54f53e}
+      \strng{bibnamehash}{fcc1044810d016020eadbbe80a54f53e}
+      \strng{authorbibnamehash}{fcc1044810d016020eadbbe80a54f53e}
+      \strng{authornamehash}{4ae4be538df04cfc1571685175562cad}
+      \strng{authorfullhash}{fcc1044810d016020eadbbe80a54f53e}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4\% of tasks, our method achieved a success rate of 74\%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{12}
+      \field{number}{arXiv:2305.10601}
+      \field{shorttitle}{Tree of {{Thoughts}}}
+      \field{title}{Tree of {{Thoughts}}: {{Deliberate Problem Solving}} with {{Large Language Models}}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2305.10601
+      \endverb
+      \verb{eprint}
+      \verb 2305.10601
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\IRTZJEVP\\Yao et al. - 2023 - Tree of Thoughts Deliberate Problem Solving with .pdf;C\:\\Users\\oskar\\Zotero\\storage\\GZ8PQJKR\\2305.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2305.10601
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2305.10601
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
     \endentry
     \entry{zellersHellaSwagCanMachine2019}{misc}{}
       \name{author}{5}{}{%
@@ -2983,6 +3983,12 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\UPR2CQAR\\Zellers et al. - 2019 - HellaSwag Can a Machine Really Finish Your Senten.pdf;C\:\\Users\\oskar\\Zotero\\storage\\P3CK28LB\\1905.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1905.07830
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1905.07830
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
@@ -3056,6 +4062,12 @@
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\F6ZE4DD9\\Zhang et al. - 2023 - GeoGPT Understanding and Processing Geospatial Ta.pdf;C\:\\Users\\oskar\\Zotero\\storage\\GYMENGQZ\\2307.html
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2307.07930
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2307.07930
+      \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
     \entry{zhouLanguageAgentTree2023}{misc}{}
@@ -3123,6 +4135,12 @@
       \endverb
       \verb{file}
       \verb C\:\\Users\\oskar\\Zotero\\storage\\WFHLX8XB\\Zhou et al. - 2023 - Language Agent Tree Search Unifies Reasoning Actin.pdf;C\:\\Users\\oskar\\Zotero\\storage\\D6MBARZ8\\2310.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2310.04406
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2310.04406
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
     \endentry

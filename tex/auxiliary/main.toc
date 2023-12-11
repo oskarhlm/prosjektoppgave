@@ -29,37 +29,37 @@
 \contentsline {section}{\numberline {2.4}Geospatial Standards}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}International Standardization Work}{12}{subsection.2.4.1}%
 \contentsline {subsubsection}{\nonumberline OGC Standards}{12}{subsubsection*.22}%
-\contentsline {subsubsection}{\nonumberline STAC Api Standard}{12}{subsubsection*.24}%
-\contentsline {subsection}{\numberline {2.4.2}Norwegian Standardization Work}{12}{subsection.2.4.2}%
-\contentsline {subsubsection}{\nonumberline SOSI}{13}{subsubsection*.27}%
-\contentsline {subsubsection}{\nonumberline Geovekst}{13}{subsubsection*.29}%
-\contentsline {subsubsection}{\nonumberline Norge digitalt}{13}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline STAC Api Standard}{13}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {2.4.2}Norwegian Standardization Work}{13}{subsection.2.4.2}%
+\contentsline {subsubsection}{\nonumberline SOSI}{13}{subsubsection*.26}%
+\contentsline {subsubsection}{\nonumberline Geovekst}{14}{subsubsection*.28}%
+\contentsline {subsubsection}{\nonumberline Norge digitalt}{14}{subsubsection*.30}%
 \contentsline {section}{\numberline {2.5}User Groups}{14}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Ethical and Privacy Concerns}{16}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Related Work}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}GIS with LLMs}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Prompt Engineering and Planning Strategies}{19}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Retrieval Augmented Generation}{20}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}LangChain}{20}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Microsoft Semantic Kernel}{20}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}AutoGPT}{20}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {4}Experiments and Results}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Method: Experimental Plan and Setup}{21}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Experiment 1: Testing ChatGPT's Ability to Perform Geospatial Analysis}{21}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Experiment 2: Comparing File Upload and API Calling in ChatGPT-4}{22}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Experiment 3: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API Features}{22}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Experimental Results}{23}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Results for Experiment 1}{23}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Results for Experiment 2}{24}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Mitigating ChatGPT's Inability to Access Web APIs}{28}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Conclusion and Future Work}{28}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Testing regime}{28}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Framework for Planning, Acting, and Reasoning}{29}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Embeddings}{29}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Fine-Tuning}{29}{subsection.5.3.4}%
-\contentsline {chapter}{Bibliography}{31}{section*.40}%
-\contentsline {chapter}{Appendices}{35}{chapter*.42}%
-\contentsline {chapter}{\numberline {A}Task Description from Norkart}{36}{appendix.A}%
+\contentsline {chapter}{\numberline {3}Related Work}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}GIS with LLMs}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Prompt Engineering and Planning Strategies}{20}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Retrieval Augmented Generation}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}LangChain}{22}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}AutoGPT}{22}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}AutoGen and Microsoft Semantic Kernel}{22}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Experiments and Results}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Method: Experimental Plan and Setup}{24}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Experiment 1: Testing ChatGPT's Ability to Perform Geospatial Analysis}{24}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Experiment 2: Comparing File Upload and API Calling in ChatGPT-4}{25}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Experiment 3: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API Features}{25}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Experimental Results}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Results for Experiment 1}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Results for Experiment 2}{27}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}{30}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Mitigating ChatGPT's Inability to Access Web APIs}{31}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Conclusion and Future Work}{31}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Balancing Accuracy Against Performance and Costs}{31}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Testing regime}{32}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Memory and Embeddings}{32}{subsection.5.3.3}%
+\contentsline {chapter}{Bibliography}{34}{section*.36}%
+\contentsline {chapter}{Appendices}{39}{chapter*.38}%
+\contentsline {chapter}{\numberline {A}Task Description from Norkart}{40}{appendix.A}%
+\contentsline {chapter}{Acronyms}{42}{section*.39}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

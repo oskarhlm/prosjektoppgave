@@ -158,7 +158,15 @@ while in the Master's Thesis, the Future Work section rather will point to issue
 This can include options and alternatives that you did not try out yourself, or potential improvements and extensions to your experiments or system.
 \end{comment}
 
-Seeing as this is a specialization project that will transition into a larger master thesis, the points discussed in this section will be key parts of the plan for the work carried out in the latter.
+This specialization project has displayed an extensive literature research in the fields of \acrlong{acr:nlp}, \acrlongpl{acr:llm}, and \acrlong{acr:gis}, along with two experiments trying to learn display strengths and limitations of \acrshortpl{acr:llm} when dealing with geospatial data in different file formats. The literature and experiments serve as a preliminary study to provide a better starting point when attempting to develop an \acrshort{acr:llm}-based \acrshort{acr:gis} agent.
+
+With this being a specialization project that will transition into a larger master thesis, some points of discussion have been reserved for future work. Additionally, the task of developing a proof of concept has been assigned to the master thesis due to time constraints and the intention to acquire more knowledge before proceeding with development. The following sections will elaborate on potentially important issues that needs to be addressed when developing an \acrshort{acr:llm}-based \acrshort{acr:gis} agent.
+
+\subsection{Balancing Accuracy Against Performance and Costs}
+
+The ecosystem of agent frameworks and planning strategies to improve agent performance on complex tasks (discussed in \nameref{cha:related-work}), is a growing one. Different agents frameworks and planning strategies should be compared to see which are most viable for \acrshort{acr:gis} work. Important considerations are the ability to destructure complex problems, the ability to take advantage of external tooling, and computational time. More complex planning strategies typically demand more interactions with \acrshort{acr:llm} \acrshortpl{acr:api}, which can be expensive both in terms of computational time and cost (when using a monetized \acrshort{acr:api} like OpenAI's for \acrshort{acr:gpt}-4 and \acrshort{acr:gpt}-4).
+
+\cite{clearyLatencyBenchmarksComparisons2023} did benchmarking of different \acrshortpl{acr:llm} on different providers. Important takeaways were that \acrshort{acr:gpt}-4 is about 6.3 times slower than \acrshort{acr:gpt}-3.5-Instruct, and that Azure has far lower latency in most cases for inference on \acrshort{acr:gpt} models. Such considerations are important when addressing usability of \acrshort{acr:llm}-based applications, balancing accuracy against speed and costs. Using free open-source alternatives where possible is a good option to reduce costs.
 
 \subsection{Testing regime}
 
@@ -176,11 +184,10 @@ While the inputs should be fairly simple to construct there are several question
 
 These are questions outside the scope of this specialization project. They will, however, be pursued in my master thesis.
 
+\subsection{Memory and Embeddings}
 
-\subsection{Framework for Planning, Acting, and Reasoning}
-\subsection{Embeddings}
-\subsection{Fine-Tuning}
-\todo{To be written}
+Storing information for future use is important when developing \acrshort{acr:llm}-based agents in order for it to produce consistent responses. \cite{wengLLMPoweredAutonomous2023} three different types of memory in human brains: (1) \textit{Sensory Memory}, (2) \textit{Short-Term Memory}, and (3) \textit{Long-Term Memory}. When translated to \acrshort{acr:llm} we can think of \textit{Sensory Memory} as learning embedding representation, \textit{Short-Term Memory} as the memory contained within the limits of the context window of the Transformer, and  \textit{Long-Term Memory} as an external vector store that can be attended to by the agent at query time. Such a vector store/database would store the vector embeddings of the data contained within it, and allows for fast and accurate similarity search and retrieval based on the vector distance or similarity between the vector representations \citep{evchakiVectorDatabase2023}. \cite{wengLLMPoweredAutonomous2023} lists some common approximate nearest neighbours algorithms for fast retrieval speeds, including \gls{acr:lsh} and \gls{acr:faiss}.
 
+Future work should expand on the work of \cite{unluChatmapLargeLanguage2023} (see \autoref{sec:gis-with-llms}) and investigate if vector embeddings can be used for long-term storage of geographical data with textual description, or if a vector database can be used to efficiently retrieve relevant resources like \acrshortpl{acr:api} or other external tools based on their documentation/specification. Additionally, this documentation and the \acrshort{acr:api} specifications can be large is size, and the context length can become a limiting issue. Vector embeddings can help mitigate such issues. By splitting the documents into chunks and indexing them using vector embeddings, one can extract only the relevant parts and pass these to the \acrshort{acr:llm} with the prompt.
 
 \glsaddall

@@ -166,7 +166,9 @@ As can be seen in the example, elements in a table can sometimes benefit from be
     \label{fig:actor-map}
 \end{figure}
 
-\section[Large Language Models]{\acrshortpl{acr:llm}}\label{sec:llms}
+
+
+\section[Large Language Models]{\acrlongpl{acr:llm}}\label{sec:llms}
 
 This section will open with an explanation of the building block of modern \acrlongpl{acr:llm}, namely the Transformer, which employs self-attention. \Autosubsectionref{subsec:gpt} and \autoref{subsec:bert} will then discuss the two most famous families of \acrshortpl{acr:llm}, namely the \acrshort{acr:gpt}'s and the \acrshort{acr:bert}'s, as well as the brand new multimodal Gemini model from Google, and various open-source alternatives. \Autosectionref{sec:benchmarking-and-evaluation} will then enlighten the reader about the different ways in which \acrlongpl{acr:llm} can be benchmarked and how we can measure the quality of a natural language response produced by an \acrshort{acr:llm}.
 
@@ -190,7 +192,6 @@ Attention blocks can be found in three places in the Transformer architecture \c
 \end{enumerate}
 
 The Transformer represented a breakthrough in the field of \gls{acr:nlp}, and is the fundamental building block of \acrshortpl{acr:llm} like \acrshort{acr:bert}.
-
 
 \subsection[The GPT Family]{The \acrshort{acr:gpt} Family}\label{subsec:gpt}
 
@@ -231,6 +232,8 @@ Many flavours of LLaMA have been trained. Most notably is, Code LLaMA \citep{roz
 \subsubsection{Mistral}
 
 Mistral 7B \citep{aiMistral7B2023} is another open-source \acrshort{acr:llm}, claiming to be \enquote{the most powerful language model for its size to date}. Being a 7.3B parameter model, it is quite small compared to other models, such as the 1.76T parameter \acrshort{acr:gpt}-4 model. Mistral 7B outperforms the LLaMA 2 13B on all benchmarks, and approaches CodeLlama 7B performance on code. It uses a sliding window attention mechanism, which yields a linear compute cost of O(sliding\_window.seq\_len).
+
+
 
 \section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{sec:benchmarking-and-evaluation}
 
@@ -311,7 +314,7 @@ The BIG-Bench-Hard is another \acrshort{acr:llm} benchmark created by \cite{suzg
 
 HellaSwag \citep{zellersHellaSwagCanMachine2019} is a benchmark designed to measure an \acrshort{acr:llm}'s ability to \enquote{finish your sentence}. By developing a lengthy and complex dataset to see where the \acrshort{acr:llm} starts producing \enquote{ridiculous} responses, the HellaSwag benchmark provides a way of testing a model's common-sense inference abilities.
 
-
+\acrshort{acr:api}-Bank \citep{liAPIBankComprehensiveBenchmark2023} is a benchmark designed to evaluate an \acrshort{acr:llm}'s ability to use external tools (\acrshortpl{acr:api}). Through interview the author highlights two main requirements for a tool-augmented \acrshort{acr:llm} \citep[2]{liAPIBankComprehensiveBenchmark2023}. (1) \textit{Few vs. Many \acrshortpl{acr:api} in \acrshort{acr:api} Pool}. With one a couple \acrshortpl{acr:api} in the \acrshort{acr:api} pool, one can possibly send the entire \acrshort{acr:api} schema with the prompt, simplifying request parameterization and response parsing. This becomes difficult as the number of \acrshortpl{acr:api} increases, and the token limit becomes a limiting factor. When this is the case, the \acrshort{acr:llm} needs to reason about which \acrshortpl{acr:api} are relevant or not. (2) \textit{Single vs. Several \acrshort{acr:api} calls per Turn}. Based on the user's preferences, one might want the \acrshort{acr:llm} to perform several \acrshort{acr:api} requests at once, or one might want to gradually guide it through several steps.
 
 
 
@@ -329,7 +332,11 @@ There are numerous open-source alternatives to the closed-source OpenAI and Goog
 
 \section{Geospatial Standards}\label{sec:geospatial-standards}
 
+It is important for \acrshort{acr:gis}-centred applications of any kind to support modern geospaial standards. Subsections \ref{subsec:standardization-international} and \ref{subsec:standardization-norway} will provide a brief overview of the standardization work that has been and is being done on the international scene and in Norway, respectively.
+
 \subsection{International Standardization Work}\label{subsec:standardization-international}
+
+International standardization work aims to unify the various geospatial standards found in different countries. The \acrshort{acr:ogc} standards and the \acrshort{acr:stac} \acrshort{acr:api} standard are examples of such work.
 
 \subsubsection[OGC Standards]{\acrshort{acr:ogc} Api Standard}\label{subsubsec:ogc}
 
@@ -345,8 +352,6 @@ As \acrshort{acr:ogc} board member Chris Holmes puts it: "The \acrshort{acr:stac
 
 \subsection{Norwegian Standardization Work}\label{subsec:standardization-norway}
 
-\todo{ChatGPT placeholder text - will rewrite}
-
 Geospatial standardization work has been on the agenda of Norwegian governing powers for decades and have materialized in frameworks/collaborations like \nameref{subsubsec:geovekst} and \nameref{subsubsec:norge-digitalt}, as wells as the \nameref{subsubsec:sosi} file format. \Autosubsectionref{subsec:standardization-norway} will delve into the work that has been done and what is expected for the future. The reasoning for the conclusion of this section is that the constraints of this specialization project is set by the Norwegian borders, and thus it is important to be aware of the standards that apply.
 
 \subsubsection[SOSI]{\acrshort{acr:sosi}}\label{subsubsec:sosi}
@@ -357,15 +362,15 @@ In a \gls{acr:sosi} dataset, terrain points, lines, and polygons are represented
 
 \subsubsection{Geovekst}\label{subsubsec:geovekst}
 
-Geovekst is a collaborative initiative in Norway aimed at collecting, managing, and distributing geospatial information. Established in 1992, it is a partnership between national, regional, and local government bodies, as well as several private companies. Geovekst's primary focus is on creating a comprehensive, standardized geographical database for Norway that is easily accessible and updated regularly. It has played a vital role in various planning and development projects across the country, from urban planning to environmental conservation.
+Geovekst is a Norwegian initiative that aims for collaborative collection, distribution, management, and maintenance of geospatial information. It was established in 1992, and is a partnership between national, regional, and local government bodies, as well as several private companies\footnote{\url{https://www.kartverket.no/geodataarbeid/geovekst}}. The primary goal associated with Geovekst is to \enquote{collaborate to secure updated Geovekst data to help solve parts of the parties' societal missions} \citep[5]{thenorwegianmappingauthorityHandbokGeovekstsamarbeidet2023}. The collaboration is to ensure that geographical data is collected \textit{once}, conforming  to \textit{one} standard, maintained in \textit{one} place and used by \textit{many}. Responsibilities and costs are shared among the parties of the collaboration.
 
-Unlike other geospatial initiatives, Geovekst emphasizes shared responsibilities and costs among its partners. This cooperative model ensures consistent data quality and efficient use of resources. It utilizes a variety of data sources, including aerial photographs, laser scans, and mapping, making it a rich resource for both public and private sectors. Moreover, its open-access policy allows for wider dissemination of geospatial information, thus encouraging innovation and informed decision-making across multiple disciplines.
+The most important contribution of Geovekst is \gls{acr:fkb}, a series of very detailed Norwegian mapping datasets , serving as rich resources for both public and private sectors. The datasets are obtained through a variety of data sources, including aerial photographs, laser scans, and manual mapping. Geovekst also provides airborne surveys in emergency situations, when the speed of surveying is important\footnote{\url{https://www.kartverket.no/geodataarbeid/geovekst/datafangst-i-krise}}.
 
 \subsubsection{Norge digitalt}\label{subsubsec:norge-digitalt}
 
-Established in 2005, Norge Digitalt is a more recent framework compared to Geovekst and is the name of Norway's national spatial data infrastructure. Norge Digitalt primarily involves governmental bodies (national, regional, and municipal), but also educational and research institutions and companies with responsibilities on a nation-wide scale; examples include Telenor and local and regional energy companies \citep[6]{norgedigitaltGenerelleVilkarNorge2023}. Norge Digitalt aims to coordinate and streamline all geospatial activities in Norway, making it easier for users to discover, access, and use spatial data.
+Established in 2005, Norge Digitalt is a more recent framework compared to Geovekst and is often known as the \gls{acr:nsdi}. The \gls{acr:nsdi} involves governmental bodies (national, regional, and municipal), but also educational and research institutions and companies with responsibilities on a nation-wide scale; examples include Telenor and local and regional energy companies \citep[6]{norgedigitaltGenerelleVilkarNorge2023}. The \gls{acr:nsdi} infrastructure is the sum of common standards and rules, geographical data and services related to these, in addition to tools and deals. It aims to coordinate geospatial activities in Norway, making it easier to discover, access, and use spatial data. The framework is coordinated by The Norwegian Mapping Society \citep{norgedigitaltGenerelleVilkarNorge2023}.
 
-One key feature of Norge Digitalt is its focus on international standards and interoperability. While Geovekst is primarily a national initiative, Norge Digitalt aims to integrate Norway's geospatial data with that of other European countries. It supports a wide range of data formats and follows international standards, including those set by the Open Geospatial Consortium (OGC). The framework also provides various tools and services, like metadata catalogues and web services, making it a comprehensive solution for geospatial data management and distribution in Norway.
+
 
 \section{User Groups}\label{sec:user-groups}
 
