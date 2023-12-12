@@ -2185,6 +2185,7 @@ INPUT ./chapters/related_work.tex
 INPUT chapters/related_work.tex
 INPUT ./chapters/related_work.tex
 INPUT chapters/related_work.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT ./chapters/experiments.tex
 INPUT ./chapters/experiments.tex
 INPUT ./chapters/experiments.tex
@@ -2348,6 +2349,7 @@ INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmex10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb

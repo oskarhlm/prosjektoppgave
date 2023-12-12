@@ -39,7 +39,7 @@ The related works are divided into three sections, each being relevant to the pr
 
 A substantial body of work have been done in recent years to assess the geospatial knowledge of \acrshortpl{acr:llm}, and how they can be fine-tuned or embedded into frameworks to serve downstream tasks.
 
-\subsection{Taking the Temperature on GIS with LLMs on Social Media}
+\subsection{Taking the Temperature on GIS with LLMs on Social Media}\label{subsec:social-media}
 
 The search term \enquote{LLM GIS} on Twitter/X shows various ways that people are using \acrshortpl{acr:llm} for \acrshort{acr:gis}-related tasks. One user praises the use of ChatGPT to \enquote{extract and categorize data from unstructured text}, sharing a video from an ESRI conference\footnote{\url{https://twitter.com/mildthing99/status/1658507921234296833}}. Twitter user Zeke Hausfather shares the discovery that \enquote{\acrshort{acr:gpt}4 now supports processing netCDF files and other geospatial data, as well as some pretty amazing visualization}\footnote{\url{https://twitter.com/mildthing99/status/1658507921234296833}}. Arpit Gupta shares a summary of a paper on generative regulatory measurement on Twitter/X, where he explains how they have utilized \acrshortpl{acr:llm} to decode and interpret status updates and administrative documents, including, for instance, mapping zoning and housing regulations for the suburbs of Chicago\footnote{\url{https://twitter.com/arpitrage/status/1723033894801309893}}. Yu Zhao speculate in the effectiveness of smaller \acrshortpl{acr:llm} fine-tuned on domain-specific knowledge for \acrshort{acr:gis} or remote sensing\footnote{\url{https://twitter.com/zhaoyutim/status/1651233975946321920}}, an interest other users share\footnote{\url{https://twitter.com/zhaoyutim/status/1651233975946321920}}\footnote{\url{https://twitter.com/DougButdorf/status/1670938318979121152}}.
 
@@ -51,7 +51,7 @@ Lastly, the \enquote{FME Channel} released a recording of a webinar where they s
 
 
 
-\subsection[]{Geospatial Context in \acrshortpl{acr:llm}}
+\subsection[Geospatial Context in LLMs]{Geospatial Context in \acrshortpl{acr:llm}}
 
 \cite{scherrerHeLjuVarDial20202020} were able to show that \acrshort{acr:bert} can be fine-tuned to accurately predict geolocations from textual input, by winning a shared task on predicting geolocations from Twitter/Jodel messages in a workshop in 2020 \citep{gamanReportVarDialEvaluation2020}. By converting the task into a double regression problem, where they predicted latitude/longitude pairs from the output \texttt{[CLS]} representation of \acrshort{acr:bert} models. For a subtask on a Swiss Jodel dataset, they were able to achieve a median distance of 15.72 km from the ground truth, showing that \acrshortpl{acr:llm} can be trained correlate lingual features and geolocations.
 
@@ -61,7 +61,7 @@ Lastly, the \enquote{FME Channel} released a recording of a webinar where they s
 
 \cite{unluChatmapLargeLanguage2023} discussed importance of enabling \acrshortpl{acr:llm} to recognize and interpret geospatial data, and how \gls{acr:osm} can play an important role in offering \acrshortpl{acr:llm} linguistic access to vast cartographic datasets. He exemplifies this claim through a proof of concept in which he performs small-scale fine-tuning on an \acrshort{acr:llm} with 1B parameters, using an artificial supervised datasets curated by the more capable ChatGPT 3.5-turbo, which functions as a teacher model, generating prompt-answer pairs for given preprompts. The fine-tuned model displays promising ability of answer questions about a location's attributes, allowing the user to inquire about things like tourist appeal and potential profitability of businesses in the vicinity of the given location. \citeauthor{unluChatmapLargeLanguage2023} emphasizes the method's strengths for small datasets and minimal computational settings. The study also investigated the idea of using embeddings of the curated prepromts. Experimenting with average GLOVE embeddings, he showed that the latent structure of verbal descriptions of \gls{acr:osm} data can yield insightful patters. This, he argues, can prove useful when creating \acrfull{acr:rag} applications aimed at allowing users to retrieve geospatial information in a prompt-based manner.
 
-\subsection[]{Autonomous \acrshort{acr:gis}}
+\subsection[Autonomous GIS]{Autonomous \acrshort{acr:gis}}
 
 \cite{liAutonomousGISNextgeneration2023} states that “autonomous \acrshort{acr:gis} will need to achieve five autonomous goals: self-generating, self-organizing, self-verifying, self-executing, and self-growing.”, and provide a “divide-and-conquer”-based method to address some of these goals. Furthermore, they propose a simple trial-and-error approach to addressing the self-verifying goal. They also highlight need of a memory system in a mature \gls{acr:llm}-based \gls{acr:gis} system, referring to the use of vector databases in autonomous agents like AutoGPT \citep{richardAutoGPTHeartOpensource2023}. Even with its shortages, the solution that \citep{liAutonomousGISNextgeneration2023} provide, called \acrshort{acr:llm}-Geo, is able to solve provide good solutions in various case studies by providing executable assemblies in a Python environment when provided with URLs to relevant data sets, along with a user-specified query.
 
@@ -87,6 +87,10 @@ The \textit{Tree of Thoughts} strategy \citep{yaoTreeThoughtsDeliberate2023} is 
 
 \gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those designed to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
 
+\cite{lewisRetrievalAugmentedGenerationKnowledgeIntensive2020} show that \gls{acr:rag} model with access to a non-parametric memory in the form of a dense vector index of Wikipedia, will generate more specific and factual responses compared to state-of-the-art parametric-only sequence-to-sequence models at the time of publishing their paper. Their model architecture is a combination of a pre-trained retriever and a pre-trained sequence-to-sequence generative model, which is fine-tuned end-to-end \citep[2]{lewisRetrievalAugmentedGenerationKnowledgeIntensive2020}. The approach obtained state-of-the-art results on open-domain question answering \citep[5-6]{lewisRetrievalAugmentedGenerationKnowledgeIntensive2020}.
+
+\cite{shiREPLUGRetrievalAugmentedBlackBox2023} shows that a simple \gls{acr:rag} architecture provide significant improvement over state-of-the-art parametric-only \acrshortpl{acr:llm} like \acrshort{acr:gpt}-3. Their \textsc{RePlug} framework works by retrieving documents and prepended these to a \enquote{black-box} \acrshort{acr:llm}. They also propose training scheme to further improve the retrieval model with supervision signals from the black-box \acrshort{acr:llm}. Training is done with an objective that prefers documents that improve the perplexity (see \eqref{eq:ppl}) of the model. This approach shows promising results relative to the original black-box model \citep[5-6]{shiREPLUGRetrievalAugmentedBlackBox2023}.
+
 \subsection{LangChain}\label{subsubsec:langchain}
 
 LangChain \citep{chaseLangChain2022} is an open-source project that provides tooling that can be used to create autonomous \acrshort{acr:ai} agents. It is designed to help with prompt management and optimization, creating chains of calls to \acrshortpl{acr:llm}, data augmented generation, autonomous agent creation, and memory-related tasks.
@@ -104,5 +108,90 @@ LangChain \citep{chaseLangChain2022} is an open-source project that provides too
 AutoGen and the Microsoft Semantic Kernel are both Microsoft aimed at creating autonomous \acrshort{acr:ai}-based agents. AutoGen \cite{wuAutoGenEnablingNextGen2023} is a generic framework that allows for multi-agent applications in which agents can converse with each other. The authors demonstrate the effectiveness of the approach in domains including mathematics, coding, and online decision-making. They highlight improved performance, reduced development code, and decreased manual burden for existing applications as the main benefits. It also allows for limiting of fixed back-and-forth interactions between the \acrshort{acr:ai} agent and the human user by allowing
 
 Microsoft Semantic Kernel\footnote{\url{https://github.com/microsoft/semantic-kernel}} is an \acrshort{acr:sdk} that functions as the brain of an autonomous agent and provides connectors to models and memory, and connects to triggers and actions. \cite{maedaAutoGenAgentsMeet2023} talks about how Semantic Kernel can be used to augment the abilities of AutoGen agents by providing it with hooks into the real world. These \textit{hooks} can be native functions that written by the developer, or existing OpenAI/Semantic Kernel plugins, like the WebPages Plugin which fetches a given URL and returns the text found.
+
+
+
+\section[Benchmarking and Evaluation of LLMs]{Benchmarking and Evaluation of \acrshortpl{acr:llm}}\label{sec:benchmarking-and-evaluation}
+
+Subsection \ref{subsec:evaluation-metrics} will address common evaluation metrics used during model development, while \autoref{subsec:benchmarks} will present some common benchmarks used to compare the performance of different \acrshortpl{acr:llm}.
+
+\subsection{Evaluation Metrics}\label{subsec:evaluation-metrics}
+
+Having objective ways of evaluating the performance of a textual response is as important as it is difficult. Such evaluations often have subjective nature, and it is not immediately obvious how automate evaluation. This section presents common approaches for different objectives, and serves as inspiration for how an evaluation metric can be adapted for \acrshort{acr:gis}-related purposes.
+
+\subsubsection{Human Evaluation}
+
+Human evaluation, though an obvious evaluation metric, can be powerful. Human evaluators can manually score generated text based on a range of criteria, including relevance, fluency, coherence, and overall impression. Human evaluation can be expensive and time-consuming, and researchers have therefore developed mathematical formulas for evaluation.
+
+\subsubsection{Perplexity}
+
+Perplexity is an evaluation metric suitable for autoregressive models, measuring the degree of uncertainty in predicting the next word in a sequence, based on the preceding words. It is essentially a way of evaluating a model's ability to predict uniformly among the tokens available in the corpus it is trained upon. This is done by calculating the negative average log-likelihood
+
+\begin{equation}
+    \text{PPL}(X) = \exp \left\{ -\frac{1}{t} \sum_{i} \log p_\theta(x_i | x_{<i}) \right\}
+    \label{eq:ppl}
+\end{equation}
+
+\noindent where $X = (x_0, x_1, \ldots, x_t)$ is the tokenized input sequence and $p_\theta(x_i | x_{<i})$ is the log-likelihood of token $x_i$ given the preceding tokens $x_(<i)$. A lower score indicates better performance. It is normally calculated using a sliding window strategy, where a fixed number $k$ preceding tokens $(x_{i-k-1},x_{i-k},\ldots,x_{i-1})$ are used to calculate the perplexity for token $x_i$ \citep{huggingfacePerplexityFixedlengthModels}.
+
+\subsubsection[BiLingual Evaluation Understudy]{\acrfull{acr:bleu}}
+
+\gls{acr:bleu} provides a quick, inexpensive, and language-independent method of automatic machine translation, allowing researchers to rapidly home in on effective modelling ideas \citep{papineniBleuMethodAutomatic2002}. \gls{acr:bleu} shows the \gls{acr:bleu} formula, which takes the geometric mean of the corpus' modified precision score and then multiplies it by an exponential brevity penalty factor. \eqref{eq:bleu} shows the result when taking the log of the function, which makes the ranking behaviour more apparent \citep[5]{papineniBleuMethodAutomatic2002}.
+
+\begin{equation}
+    \text{log BLEU} = \min\left(1 - \frac{r}{c}, 0\right) + \sum_{n=1}^{N} w_n \log p_n
+    \label{eq:bleu}
+\end{equation}
+
+\subsubsection[Recall-Oriented Understudy (ROUGE)]{\acrfull{acr:rouge}}
+
+The \gls{acr:rouge} metric, introduced by \cite{linROUGEPackageAutomatic2004}, aims to automatically determine the quality of a summary by comparing it to ground truth summaries produced by humans. \eqref{eq:rouge} shows the $\text{ROUGE-N}$ formula, which is the n-gram recall between a candidate summary and a set of the aforementioned ground truth summaries.
+
+\begin{equation}
+    \text{ROUGE-N} = \frac{
+    \sum_{S \in \{\text{ReferenceSummaries}\}}
+    \sum_{\text{gram}_n \in S}
+    \text{Count}_{\text{match}}(\text{gram}_n)
+    }{
+    \sum_{S \in \{\text{ReferenceSummaries}\}}
+    \sum_{\text{gram}_n \in S}
+    \text{Count}(\text{gram}_n)
+    }
+    \label{eq:rouge}
+\end{equation}
+
+\subsubsection{Diversity}
+
+Diversity metrics aim to measure the variety and uniqueness of generated sequences. \cite{liDiversityPromotingObjectiveFunction2016} proposed an objective function called \gls{acr:mmi}, which seeks to guide sequence-to-sequence models into producing more diverse, interesting, and appropriate responses, as opposed to safe and commonplace ones. The parameters of \gls{acr:mmi} are chosen in order to maximize mutual information between the source sequence $S$ and the target sequence $T$
+
+\begin{equation}
+    \hat{T} = \argmax_{T} \{ (1 - \lambda) \log p(T|S) + \lambda \log p(S|T) \}
+\end{equation}
+
+\noindent where $\lambda$ serves as a weighting parameter. As the paper is from \citeyear{liDiversityPromotingObjectiveFunction2016}, the authors only discuss the $p(Y|X)$ function in relation to the \gls{acr:lstm} algorithm, but it can be applicable to contemporary language models as well.
+
+\cite{stasaskiSemanticDiversityDialogue2022} propose three metrics which leverage the predictions of a \gls{acr:nli} model, that is, a model which seeks to determine if one sentence entails, contradicts, or is neutral toward a second  sentence \citep[1]{stasaskiSemanticDiversityDialogue2022}. The \textit{Baseline \acrshort{acr:nli} Diversity} metric
+
+\begin{equation}
+    \text{Baseline NLI Diversity} = \sum_{u_i,u_j \in u_1,...,u_n} NLI_{score}(NLI_{pred}(NLI(u_i, u_j)))
+\end{equation}
+
+where $NLI_{score}$ is 1, 0, or -1 if the sentence is deemed contradictory, neutral, or entails the other sentence, respectively. The two other metrics, the \textit{Neutral NLI Diversity} and \textit{Confidence NLI Diversity} differ only in how they define the $NLI_{score}$. Results from experiments show that using these can produce more diverse sets of responses, and that they can be used to investigate a model's ability to produce diverse responses \citep[9]{stasaskiSemanticDiversityDialogue2022}.
+
+\subsection{Benchmarks}\label{subsec:benchmarks}
+
+Benchmarks are standardized tests that aim to highlight the strengths and weaknesses of different \acrlongpl{acr:llm}, and serve as a non-biased way of comparing them. Benchmarks have been developed to assess different tasks, such as language understanding, general knowledge, arithmetic, and code generation. This section will introduce some common benchmarks.
+
+HumanEval is a dataset of handwritten problems used to measure functional correctness for synthesizing programs for docstrings \citep[2-4]{chenEvaluatingLargeLanguage2021}. Code generation is one of the most common use cases for \acrshortpl{acr:llm} and HumanEval is therefore arguably one of the more important benchmarks.
+
+First introduced by \cite{hendrycksMeasuringMassiveMultitask2021} \gls{acr:mmlu} is a way of testing an \acrlong{acr:llm}'s multitask accuracy, covering 57 tasks including mathematics, computer science, and others. \gls{acr:mmlu} a commonly used to highlight the general knowledge that is embedded within the model.
+
+The BIG-Bench-Hard is another \acrshort{acr:llm} benchmark created by \cite{suzgunChallengingBIGBenchTasks2022}. It is a suite of 23 problems where prior language models were unable to exceed average human performance. The character of many of the BIG-Bench-Hard tasks, requires the rater to use multi-step reasoning, which has traditionally been hard for language models to apply.
+
+HellaSwag \citep{zellersHellaSwagCanMachine2019} is a benchmark designed to measure an \acrshort{acr:llm}'s ability to \enquote{finish your sentence}. By developing a lengthy and complex dataset to see where the \acrshort{acr:llm} starts producing \enquote{ridiculous} responses, the HellaSwag benchmark provides a way of testing a model's common-sense inference abilities.
+
+\acrshort{acr:api}-Bank \citep{liAPIBankComprehensiveBenchmark2023} is a benchmark designed to evaluate an \acrshort{acr:llm}'s ability to use external tools (\acrshortpl{acr:api}). Through interview the author highlights two main requirements for a tool-augmented \acrshort{acr:llm} \citep[2]{liAPIBankComprehensiveBenchmark2023}. (1) \textit{Few vs. Many \acrshortpl{acr:api} in \acrshort{acr:api} Pool}. With one a couple \acrshortpl{acr:api} in the \acrshort{acr:api} pool, one can possibly send the entire \acrshort{acr:api} schema with the prompt, simplifying request parameterization and response parsing. This becomes difficult as the number of \acrshortpl{acr:api} increases, and the token limit becomes a limiting factor. When this is the case, the \acrshort{acr:llm} needs to reason about which \acrshortpl{acr:api} are relevant or not. (2) \textit{Single vs. Several \acrshort{acr:api} calls per Turn}. Based on the user's preferences, one might want the \acrshort{acr:llm} to perform several \acrshort{acr:api} requests at once, or one might want to gradually guide it through several steps.
+
+
 
 \glsresetall
