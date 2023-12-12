@@ -1699,6 +1699,141 @@
       \verb https://research.ibm.com/blog/retrieval-augmented-generation-RAG
       \endverb
     \endentry
+    \entry{mitraOrcaTeachingSmall2023}{misc}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=c359dc3ce10e2a3193ef50149d68be2a}{%
+           family={Mitra},
+           familyi={M\bibinitperiod},
+           given={Arindam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1796d76359a9fc5027638bfb9431c6e5}{%
+           family={Del\bibnamedelima Corro},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9d8a210ddfb2348fa65516960a62630}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={Shweti},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2275f35842d51f9d6cd349abcf51f4ff}{%
+           family={Codas},
+           familyi={C\bibinitperiod},
+           given={Andres},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42a97fc0c8a4e31a02739c6484a87df8}{%
+           family={Simoes},
+           familyi={S\bibinitperiod},
+           given={Clarisse},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=effe12d7da0a92e6ee81584ec098d02e}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Sahaj},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d510edb04c6fab632b3dfe1b7c4f469e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xuxi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d5a1d6bfb9444913db802755f236c91}{%
+           family={Razdaibiedina},
+           familyi={R\bibinitperiod},
+           given={Anastasia},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f153b8759ba3f6255a4b8b12377385f}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4be4f626fd0945c0305e6a756e9ccd1}{%
+           family={Aggarwal},
+           familyi={A\bibinitperiod},
+           given={Kriti},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1bde9b3f791e635c2554dd79e6c13aa}{%
+           family={Palangi},
+           familyi={P\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8395e95dcc255d09227ed2fe8b94ad6b}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Guoqing},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01857caae566394428dd9e010736577d}{%
+           family={Rosset},
+           familyi={R\bibinitperiod},
+           given={Corby},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1250999708c02f58b52c7d980b4ce48b}{%
+           family={Khanpour},
+           familyi={K\bibinitperiod},
+           given={Hamed},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08293dd46ecb0c5ed1c7e6cf1095512e}{%
+           family={Awadallah},
+           familyi={A\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{0bfbaea31e99b7df39a070c70e5259d3}
+      \strng{fullhash}{0aac3f76385bcbc8551b78705b83da38}
+      \strng{bibnamehash}{0aac3f76385bcbc8551b78705b83da38}
+      \strng{authorbibnamehash}{0aac3f76385bcbc8551b78705b83da38}
+      \strng{authornamehash}{0bfbaea31e99b7df39a070c70e5259d3}
+      \strng{authorfullhash}{0aac3f76385bcbc8551b78705b83da38}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Orca 1 learns from rich signals, such as explanation traces, allowing it to outperform conventional instruction-tuned models on benchmarks like BigBench Hard and AGIEval. In Orca 2, we continue exploring how improved training signals can enhance smaller LMs' reasoning abilities. Research on training small LMs has often relied on imitation learning to replicate the output of more capable models. We contend that excessive emphasis on imitation may restrict the potential of smaller models. We seek to teach small LMs to employ different solution strategies for different tasks, potentially different from the one used by the larger model. For example, while larger models might provide a direct answer to a complex task, smaller models may not have the same capacity. In Orca 2, we teach the model various reasoning techniques (step-by-step, recall then generate, recall-reason-generate, direct answer, etc.). More crucially, we aim to help the model learn to determine the most effective solution strategy for each task. We evaluate Orca 2 using a comprehensive set of 15 diverse benchmarks (corresponding to approximately 100 tasks and over 36,000 unique prompts). Orca 2 significantly surpasses models of similar size and attains performance levels similar or better to those of models 5-10x larger, as assessed on complex tasks that test advanced reasoning abilities in zero-shot settings. make Orca 2 weights publicly available at aka.ms/orca-lm to support research on the development, evaluation, and alignment of smaller LMs}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{11}
+      \field{number}{arXiv:2311.11045}
+      \field{shorttitle}{Orca 2}
+      \field{title}{Orca 2: {{Teaching Small Language Models How}} to {{Reason}}}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2311.11045
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\oskar\\Zotero\\storage\\4ZPN6IZX\\Mitra et al. - 2023 - Orca 2 Teaching Small Language Models How to Reas.pdf;C\:\\Users\\oskar\\Zotero\\storage\\LK9TDD3H\\2311.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2311.11045
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2311.11045
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence}
+    \endentry
     \entry{mooneyUnderstandingGeospatialSkills2023}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=118ce8006d9537341b85fd1eb39fd928}{%

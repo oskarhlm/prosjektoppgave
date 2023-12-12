@@ -17,24 +17,25 @@
 \contentsline {subsection}{\numberline {2.1.5}Open-Source Alternatives}{7}{subsection.2.1.5}%
 \contentsline {subsubsection}{\nonumberline LLaMA 2}{7}{subsubsection*.8}%
 \contentsline {subsubsection}{\nonumberline Mistral}{8}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Orca 2}{8}{subsubsection*.12}%
 \contentsline {section}{\numberline {2.2}Benchmarking and Evaluation of LLMs}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Evaluation Metrics}{8}{subsection.2.2.1}%
-\contentsline {subsubsection}{\nonumberline Human Evaluation}{8}{subsubsection*.12}%
-\contentsline {subsubsection}{\nonumberline Perplexity}{8}{subsubsection*.14}%
-\contentsline {subsubsection}{\nonumberline BiLingual Evaluation Understudy}{9}{subsubsection*.16}%
-\contentsline {subsubsection}{\nonumberline Recall-Oriented Understudy (ROUGE)}{9}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Diversity}{9}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Human Evaluation}{9}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Perplexity}{9}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline BiLingual Evaluation Understudy}{9}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Recall-Oriented Understudy (ROUGE)}{9}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Diversity}{10}{subsubsection*.22}%
 \contentsline {subsection}{\numberline {2.2.2}Benchmarks}{10}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}LLM providers}{11}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Geospatial Standards}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}International Standardization Work}{12}{subsection.2.4.1}%
-\contentsline {subsubsection}{\nonumberline OGC Standards}{12}{subsubsection*.22}%
-\contentsline {subsubsection}{\nonumberline STAC Api Standard}{13}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline OGC Standards}{12}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline STAC Api Standard}{13}{subsubsection*.26}%
 \contentsline {subsection}{\numberline {2.4.2}Norwegian Standardization Work}{13}{subsection.2.4.2}%
-\contentsline {subsubsection}{\nonumberline SOSI}{13}{subsubsection*.26}%
-\contentsline {subsubsection}{\nonumberline Geovekst}{14}{subsubsection*.28}%
-\contentsline {subsubsection}{\nonumberline Norge digitalt}{14}{subsubsection*.30}%
-\contentsline {section}{\numberline {2.5}User Groups}{14}{section.2.5}%
+\contentsline {subsubsection}{\nonumberline SOSI}{14}{subsubsection*.28}%
+\contentsline {subsubsection}{\nonumberline Geovekst}{14}{subsubsection*.30}%
+\contentsline {subsubsection}{\nonumberline Norge digitalt}{14}{subsubsection*.32}%
+\contentsline {section}{\numberline {2.5}User Groups}{15}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Ethical and Privacy Concerns}{16}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Related Work}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}GIS with LLMs}{18}{section.3.1}%
@@ -59,8 +60,8 @@
 \contentsline {subsection}{\numberline {5.3.1}Balancing Accuracy Against Performance and Costs}{32}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Testing regime}{33}{subsection.5.3.2}%
 \contentsline {subsection}{\numberline {5.3.3}Memory and Embeddings}{33}{subsection.5.3.3}%
-\contentsline {chapter}{Bibliography}{35}{section*.36}%
-\contentsline {chapter}{Appendices}{40}{chapter*.38}%
-\contentsline {chapter}{\numberline {A}Task Description from Norkart}{41}{appendix.A}%
-\contentsline {chapter}{Acronyms}{43}{section*.39}%
+\contentsline {chapter}{Bibliography}{35}{section*.38}%
+\contentsline {chapter}{Appendices}{41}{chapter*.40}%
+\contentsline {chapter}{\numberline {A}Task Description from Norkart}{42}{appendix.A}%
+\contentsline {chapter}{Acronyms}{44}{section*.41}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

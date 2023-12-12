@@ -231,7 +231,11 @@ Many flavours of LLaMA have been trained. Most notably is, Code LLaMA \citep{roz
 
 \subsubsection{Mistral}
 
-Mistral 7B \citep{aiMistral7B2023} is another open-source \acrshort{acr:llm}, claiming to be \enquote{the most powerful language model for its size to date}. Being a 7.3B parameter model, it is quite small compared to other models, such as the 1.76T parameter \acrshort{acr:gpt}-4 model. Mistral 7B outperforms the LLaMA 2 13B on all benchmarks, and approaches CodeLlama 7B performance on code. It uses a sliding window attention mechanism, which yields a linear compute cost of O(sliding\_window.seq\_len).
+Mistral 7B \citep{aiMistral7B2023} is another open-source \acrshort{acr:llm}, claiming to be \enquote{the most powerful language model for its size to date}. Being a 7.3B parameter model, it is quite small compared to other models, such as the 1.76T parameter \acrshort{acr:gpt}-4 model. Mistral 7B outperforms the LLaMA 2 13B on all benchmarks, and approaches CodeLlama 7B performance on code.
+
+\subsubsection{Orca 2}
+
+Orca 2, developed at Microsoft, is an open-source \acrshort{acr:llm} with exceptional step-by-step reasoning capabilities. It is based upon LLaMA 2 is fine-tuned on curated training data from a more capable teacher model like \acrshort{acr:gpt}-4. Evaluation results shows that the Orca-2-13B model surpasses models of the same size, and that it is competitive with models 5-10x larger, exceeding the performance of LLaMA-2-Chat70B and performing comparably to ChatGPT on reasoning tasks \citep[11-12]{mitraOrcaTeachingSmall2023}. It does have some limitations, most notably in terms of potential of misuse due to the lack of suitable safeguards like \acrshort{acr:rlhf} training \citep[21]{mitraOrcaTeachingSmall2023}.
 
 
 
