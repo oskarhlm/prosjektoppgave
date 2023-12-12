@@ -38,28 +38,29 @@
 \contentsline {section}{\numberline {2.6}Ethical and Privacy Concerns}{16}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Related Work}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}GIS with LLMs}{18}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Prompt Engineering and Planning Strategies}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Retrieval Augmented Generation}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}LangChain}{22}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}AutoGPT}{22}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}AutoGen and Microsoft Semantic Kernel}{22}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {4}Experiments and Results}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Method: Experimental Plan and Setup}{24}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Experiment 1: Testing ChatGPT's Ability to Perform Geospatial Analysis}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Experiment 2: Comparing File Upload and API Calling in ChatGPT-4}{25}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Experiment 3: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API Features}{25}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Experimental Results}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Results for Experiment 1}{26}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Results for Experiment 2}{27}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{30}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}{30}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Mitigating ChatGPT's Inability to Access Web APIs}{31}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Conclusion and Future Work}{31}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Balancing Accuracy Against Performance and Costs}{31}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Testing regime}{32}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Memory and Embeddings}{32}{subsection.5.3.3}%
-\contentsline {chapter}{Bibliography}{34}{section*.36}%
-\contentsline {chapter}{Appendices}{39}{chapter*.38}%
-\contentsline {chapter}{\numberline {A}Task Description from Norkart}{40}{appendix.A}%
-\contentsline {chapter}{Acronyms}{42}{section*.39}%
+\contentsline {subsection}{\numberline {3.1.1}Taking the Temperature on GIS with LLMs on Social Media}{18}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Prompt Engineering and Planning Strategies}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Retrieval Augmented Generation}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}LangChain}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}AutoGPT}{23}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}AutoGen and Microsoft Semantic Kernel}{24}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Experiments and Results}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Method: Experimental Plan and Setup}{25}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Experiment 1: Testing ChatGPT's Ability to Perform Geospatial Analysis}{25}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Experiment 2: Comparing File Upload and API Calling in ChatGPT-4}{26}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Experiment 3: Testing ChatGPT's Ability to Perform Overlay Analysis using OGC API Features}{26}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Experimental Results}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Results for Experiment 1}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Results for Experiment 2}{28}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Discussion and Conclusion}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Mitigating ChatGPT's Inability to Access Web APIs}{32}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Conclusion and Future Work}{32}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Balancing Accuracy Against Performance and Costs}{32}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Testing regime}{33}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Memory and Embeddings}{33}{subsection.5.3.3}%
+\contentsline {chapter}{Bibliography}{35}{section*.36}%
+\contentsline {chapter}{Appendices}{40}{chapter*.38}%
+\contentsline {chapter}{\numberline {A}Task Description from Norkart}{41}{appendix.A}%
+\contentsline {chapter}{Acronyms}{43}{section*.39}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

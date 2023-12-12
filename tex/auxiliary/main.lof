@@ -5,8 +5,8 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Actor map for stakeholders, providers, and other groups and organizations that could have some relevance to an autonomous LLM-based GIS-agent.\relax }}{4}{figure.caption.6}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The result of ChatGPT when asked to \enquote {Find the area best suited for expansion to accommodate residential buildings}, using provided GeoJSON datasets. Potentially suitable areas for residential expansion are depicted in blue.\relax }}{28}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of the resulting outline of Drammen when using file upload (\subref {subfig:drammen-outline-file-upload}) and providing an URL to an API endpoint (\subref {subfig:drammen-outline-api}) with ChatGPT-4\relax }}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The result of ChatGPT when asked to \enquote {Find the area best suited for expansion to accommodate residential buildings}, using provided GeoJSON datasets. Potentially suitable areas for residential expansion are depicted in blue.\relax }}{29}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of the resulting outline of Drammen when using file upload (\subref {subfig:drammen-outline-file-upload}) and providing an URL to an API endpoint (\subref {subfig:drammen-outline-api}) with ChatGPT-4\relax }}{30}{figure.caption.35}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

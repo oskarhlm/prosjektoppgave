@@ -70,6 +70,15 @@
 \hypersetup{colorlinks=true,citecolor=black, linkcolor=black, urlcolor=darkblue}
 \usepackage[nameinlink]{cleveref}
 
+\let\oldFootnote\footnote
+\newcommand\nextToken\relax
+
+\renewcommand\footnote[1]{%
+    \oldFootnote{#1}\futurelet\nextToken\isFootnote}
+
+\newcommand\isFootnote{%
+    \ifx\footnote\nextToken\textsuperscript{,}\fi}
+
 % Code stuff
 \usepackage{listings}
 
