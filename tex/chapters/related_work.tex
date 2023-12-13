@@ -49,8 +49,6 @@ On YouTube, the search term \enquote{ChatGPT GIS} yield a range of relevant resp
 
 Lastly, the \enquote{FME Channel} released a recording of a webinar where they show how \acrshort{acr:gpt}-3 is being used in FME Data Integration Workflows\footnote{\url{https://www.youtube.com/watch?v=94ZDhgW8yMY&ab_channel=FMEChannel}}. They highlight how the OpenAI \acrshort{acr:api} allows for easy and automated no-code \acrshort{acr:api} to \acrshort{acr:api} workflows. On the FME Community website, an article writes about the \texttt{OpenAICompletionsConnector} and \texttt{OpenAIImageGenerator} transformers in FME\footnote{\url{https://community.safe.com/s/article/Tutorial-Getting-Started-with-OpenAI-in-FME}}. They list use cases such as, running data through the \acrshort{acr:ai} for analysis, generation of reports and summaries, generating scripts or \acrshort{acr:sql} for use in a data integration workflow, and automatic generation of images based on a dynamic input.
 
-
-
 \subsection[Geospatial Context in LLMs]{Geospatial Context in \acrshortpl{acr:llm}}
 
 \cite{scherrerHeLjuVarDial20202020} were able to show that \acrshort{acr:bert} can be fine-tuned to accurately predict geolocations from textual input, by winning a shared task on predicting geolocations from Twitter/Jodel messages in a workshop in 2020 \citep{gamanReportVarDialEvaluation2020}. By converting the task into a double regression problem, where they predicted latitude/longitude pairs from the output \texttt{[CLS]} representation of \acrshort{acr:bert} models. For a subtask on a Swiss Jodel dataset, they were able to achieve a median distance of 15.72 km from the ground truth, showing that \acrshortpl{acr:llm} can be trained correlate lingual features and geolocations.
@@ -83,7 +81,7 @@ The \textit{Tree of Thoughts} strategy \citep{yaoTreeThoughtsDeliberate2023} is 
 
 
 
-\section[Retrieval Augmented Generation]{\acrlong{acr:rag}}\label{sec:retrieval-automented-generation}
+\section[Retrieval Augmented Generation and Frameworks]{\acrlong{acr:rag} and Frameworks}\label{sec:retrieval-automented-generation}
 
 \gls{acr:rag} is tightly interwoven with explainable \acrshort{acr:ai}, being a framework for retrieving facts from an external knowledge base to allow a \acrshort{acr:llm}-based agent access to accurate up-to-date information \citep{martineauWhatRetrievalaugmentedGeneration2023}. A common problem when working with language models, especially those designed to be general-purpose, is hallucination; that is, when the model provides an answer that is completely wrong but in a very convincing manner. While progress is being made with newer models even the better ones, like GPT-4, gives an incorrect answer about 1 out 5 times, and even worse for certain categories of queries (for instance 'code' and 'business') \citep[10]{openaiGPT4TechnicalReport2023}. \acrlong{acr:rag} can help mitigate this problem.
 
@@ -108,6 +106,10 @@ LangChain \citep{chaseLangChain2022} is an open-source project that provides too
 AutoGen and the Microsoft Semantic Kernel are both Microsoft aimed at creating autonomous \acrshort{acr:ai}-based agents. AutoGen \cite{wuAutoGenEnablingNextGen2023} is a generic framework that allows for multi-agent applications in which agents can converse with each other. The authors demonstrate the effectiveness of the approach in domains including mathematics, coding, and online decision-making. They highlight improved performance, reduced development code, and decreased manual burden for existing applications as the main benefits. It also allows for limiting of fixed back-and-forth interactions between the \acrshort{acr:ai} agent and the human user by allowing
 
 Microsoft Semantic Kernel\footnote{\url{https://github.com/microsoft/semantic-kernel}} is an \acrshort{acr:sdk} that functions as the brain of an autonomous agent and provides connectors to models and memory, and connects to triggers and actions. \cite{maedaAutoGenAgentsMeet2023} talks about how Semantic Kernel can be used to augment the abilities of AutoGen agents by providing it with hooks into the real world. These \textit{hooks} can be native functions that written by the developer, or existing OpenAI/Semantic Kernel plugins, like the WebPages Plugin which fetches a given URL and returns the text found.
+
+\subsection[OpenAI Assistants API]{OpenAI Assistants \acrshort{acr:api}}
+
+
 
 
 
