@@ -2215,6 +2215,11 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT auxiliary/../figs/drammen_plot_langchain.png
+INPUT auxiliary/../figs/drammen_plot_langchain.png
+INPUT auxiliary/../figs/drammen_plot_langchain.png
+INPUT auxiliary/../figs/drammen_plot_langchain.png
+INPUT auxiliary/../figs/drammen_plot_langchain.png
 INPUT ./chapters/discussion_and_conclusion.tex
 INPUT ./chapters/discussion_and_conclusion.tex
 INPUT ./chapters/discussion_and_conclusion.tex
