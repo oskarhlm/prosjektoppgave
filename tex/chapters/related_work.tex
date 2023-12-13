@@ -101,15 +101,17 @@ LangChain \citep{chaseLangChain2022} is an open-source project that provides too
 
 \cite{firatWhatIfGPT42023} performed an exploratory study to map different use cases and experiences of AutoGPT users. They found that content creation, such as making a podcast outline, is a common use case for AutoGPT-powered applications. Other applications include data summarization and information organization. The authors highlight limitations token limit and inefficiency. AutoGPT is known to have behave unreliable at times, and a common complaint is that it gets stuck in \enquote{reasoning loops}\footnote{\url{https://github.com/Significant-Gravitas/AutoGPT/discussions/1939}}\footnote{\url{https://github.com/Significant-Gravitas/AutoGPT/issues/1994}}.
 
+\subsection[Function Calling and the Assistants API (OpenAI)]{Function Calling and the Assistants \acrshort{acr:api} (OpenAI)}
+
+Function calling\footnote{\url{https://platform.openai.com/docs/guides/function-calling}} from OpenAI enables the connection of \acrshortpl{acr:llm} to external tools by allowing the developer to provide the \acrshort{acr:llm} with functions descriptions. These function descriptions will be used by the \acrshort{acr:llm} to select appropriate functions and call these with the arguments it finds appropriate. This way we can convert a natural language query such as \enquote{Show me Trondheim in a map} into a function call to \texttt{plot\_map(map, latitude, longitude, zoom\_level)} with fitting arguments.
+
+The Assistants \acrshort{acr:api} allows developers to build \acrshort{acr:ai} assistants supporting three types of tools: Code Interpreter, Retrieval, and Function calling. This enables agent-like behaviour, and it also supports file uploads. It can be thought of as OpenAI's answer to LangChain.
+
 \subsection{AutoGen and Microsoft Semantic Kernel}\label{subsubsec:microsoft-semantic-kernel}
 
 AutoGen and the Microsoft Semantic Kernel are both Microsoft aimed at creating autonomous \acrshort{acr:ai}-based agents. AutoGen \cite{wuAutoGenEnablingNextGen2023} is a generic framework that allows for multi-agent applications in which agents can converse with each other. The authors demonstrate the effectiveness of the approach in domains including mathematics, coding, and online decision-making. They highlight improved performance, reduced development code, and decreased manual burden for existing applications as the main benefits. It also allows for limiting of fixed back-and-forth interactions between the \acrshort{acr:ai} agent and the human user by allowing
 
 Microsoft Semantic Kernel\footnote{\url{https://github.com/microsoft/semantic-kernel}} is an \acrshort{acr:sdk} that functions as the brain of an autonomous agent and provides connectors to models and memory, and connects to triggers and actions. \cite{maedaAutoGenAgentsMeet2023} talks about how Semantic Kernel can be used to augment the abilities of AutoGen agents by providing it with hooks into the real world. These \textit{hooks} can be native functions that written by the developer, or existing OpenAI/Semantic Kernel plugins, like the WebPages Plugin which fetches a given URL and returns the text found.
-
-\subsection[OpenAI Assistants API]{OpenAI Assistants \acrshort{acr:api}}
-
-
 
 
 

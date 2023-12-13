@@ -2060,7 +2060,6 @@ INPUT ./frontmatter/abstract.tex
 INPUT frontmatter/abstract.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr9.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
@@ -2135,6 +2134,7 @@ INPUT chapters/introduction.tex
 INPUT ./chapters/introduction.tex
 INPUT chapters/introduction.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr9.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr9.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi9.tfm

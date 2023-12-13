@@ -1164,6 +1164,41 @@
       \verb https://huggingface.co/docs/transformers/perplexity
       \endverb
     \endentry
+    \entry{killianlucasKillianLucasOpeninterpreter2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52297c5de14cc4b6e142c95e20a98b42}{%
+           family={{KillianLucas}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{52297c5de14cc4b6e142c95e20a98b42}
+      \strng{fullhash}{52297c5de14cc4b6e142c95e20a98b42}
+      \strng{bibnamehash}{52297c5de14cc4b6e142c95e20a98b42}
+      \strng{authorbibnamehash}{52297c5de14cc4b6e142c95e20a98b42}
+      \strng{authornamehash}{52297c5de14cc4b6e142c95e20a98b42}
+      \strng{authorfullhash}{52297c5de14cc4b6e142c95e20a98b42}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{OpenAI's Code Interpreter in your terminal, running locally}
+      \field{month}{12}
+      \field{title}{{{KillianLucas}}/Open-Interpreter}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/KillianLucas/open-interpreter
+      \endverb
+      \verb{url}
+      \verb https://github.com/KillianLucas/open-interpreter
+      \endverb
+      \keyw{chatgpt,gpt-4,interpreter,javascript,nodejs,python,react}
+    \endentry
     \entry{kumarWhatArePeople2023a}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=51d98cb674c9719e186bd9ba5fed0fb0}{%
