@@ -34,8 +34,7 @@ Note that this template uses italics to highlight where Latin wording is inserte
 that we wish to draw your attention to. The italics themselves are not an indication that such sections should use italics.
 \end{comment}
 
-% The field of \acfull{acr:llm}
-The field of \glspl{acr:llm} is an emerging one. \cite[2]{fanLargeLanguageModels2023} found that the proportion of papers about \glspl{acr:llm}\footnote{Including articles whose title or abstract includes "LLM", "Large Language Model", or "GPT".} to arXiv has skyrocketed since 2020, with a six-times increase in percent points from 2022 to 2023. They write that prompt engineering has been extensively used as a way to improve code generation \citep[7]{fanLargeLanguageModels2023}
+The field of \glspl{acr:llm} is an emerging one. \cite[2]{fanLargeLanguageModels2023} found that the proportion of papers about \glspl{acr:llm}\footnote{Including articles whose title or abstract includes \enquote{\acrshort{acr:llm}}, \enquote{\acrlong{acr:llm}}, or \enquote{\acrshort{acr:gpt}}.} to arXiv has skyrocketed since 2020, with a six-times increase in percent points from 2022 to 2023. They write that prompt engineering has been extensively used as a way to improve code generation \citep[7]{fanLargeLanguageModels2023}. \acrshort{acr:llm} technologies provide great opportunities for automation of tasks in a variety of fields, possibly also in the field of \acrshort{acr:gis}. With the abilities of ChatGPT's Code Interpreter to generate, execute, and review its own code, research should be done to see if these abilities can be applied to \acrshort{acr:gis}-related tasks.
 
 \section{Goals and Research Questions}\label{sec:goals-and-research-questions}
 \label{sec:GoalsandResearchQuestions}
@@ -82,25 +81,25 @@ Of course the Specialisation Project can also introduce novel work, but there is
 since the core of the project really is to figure out what is ``old'' before you can introduce something which is new.
 \end{comment}
 
-The overarching goal of this specialization project is to investigate how \acrfull{acr:llm} can be utilized to make \acrshort{acr:gis} analysis simpler, faster, and more accessible. As exemplified in the task description provided by Norkart (see \cref{app:task-description}), such a system should be able to create a meaningful response to a query such as:
+The overarching goal of this specialization project then is to investigate how \acrfull{acr:llm} can be utilized to make \acrshort{acr:gis} analysis simpler, faster, and more accessible. As exemplified in the task description provided by Norkart (see \cref{app:task-description}), such a system should be able to create a meaningful response to a query such as:
 
 \begin{quote}
     "Find all buildings within a 100-meter belt that are above 100 meters above sea level and have docks."
 \end{quote}
 
-The task then is to investigate how modern language models can be used to perform classical \acrshort{acr:gis} analyses using standard \acrshort{acr:gis} technologies like PostGIS and geospatial data catalogues adhering to \acrshort{acr:ogc} or \acrshort{acr:stac} standards. Based on the task description I have constructed three research questions that I will attempt to answer in this specialization project report:
+The task then is to investigate how modern language models can be used to perform classical \acrshort{acr:gis} analyses using standard \acrshort{acr:gis} technologies like PostGIS and geospatial data catalogues adhering to \acrshort{acr:ogc} or \acrshort{acr:stac} standards. Based on the task description there have been constructed three research questions that this specialization project report will attempt to answer:
 
 \begin{enumerate}
-    \item What is the potential of LLM-based GIS analysis? \label{rq:llm-potential}
-    \item How can OGC API Features be used in an overlay analysis using ChatGPT-4? \label{rq:overlay-analysis}
+    \item What is the potential of \acrshort{acr:llm}-based \acrshort{acr:gis} analysis? \label{rq:llm-potential}
+    \item How can \acrshort{acr:ogc} \acrshort{acr:api} - Features be used in an overlay analysis using ChatGPT-4? \label{rq:overlay-analysis}
     \item How can we give ChatGPT-4 access to external tools? \label{rq:external-tools}
 \end{enumerate}
 
-Researching the potential of using \glspl{acr:llm} in GIS could uncover new methodologies for spatial analysis, predictive modeling, and decision-making. The aim with \rqref{rq:llm-potential} would be to assess the capabilities and limitations of integrating machine learning algorithms with \glspl{acr:gis}, and also touch on how a mature \acrshort{acr:llm}-based \acrshort{acr:gis} could impact the daily work of (human) \acrshort{acr:gis} professionals.
+Researching the potential of using \glspl{acr:llm} in GIS could uncover new methodologies for spatial analysis, predictive modelling, and decision-making. The aim with \rqref{rq:llm-potential} would be to assess the capabilities and limitations of integrating \glspl{acr:llm} with \glspl{acr:gis}.
 
-\rqref{rq:overlay-analysis} focuses on the feasibility of using the \acrshort{acr:ogc} \acrshort{acr:api} - Features Standads in a typical overlay analysis within a conversational \acrshort{acr:ai} context like ChatGPT-4, having the users be able to express themselves using natural language queries. An answer to \rqref{rq:overlay-analysis} would describe how \acrshort{acr:ogc} \acrshortpl{acr:api} can be called and manipulated in a flexible manner during a conversation to perform spatial queries or analyses, like intersecting layers or filtering features based on certain criteria.
+\rqref{rq:overlay-analysis} focuses on the feasibility of using the \acrshort{acr:ogc} \acrshort{acr:api} - Features standard in a typical overlay analysis within a conversational \acrshort{acr:ai} context like ChatGPT-4, having the users be able to express themselves using natural language queries. Examples of such analyses could be intersecting of map layers or filtering features based on certain criteria.
 
-\rqref{rq:external-tools} delves into the technical and ethical considerations of expanding ChatGPT-4's capabilities through integration with external tools, such as \acrshort{acr:gis} software or data analytics platforms. It would explore options for secure and efficient data exchange, and assess the implications of such access in terms of data privacy and user consent.
+\rqref{rq:external-tools} delves into the technical and ethical considerations of expanding ChatGPT-4's capabilities through integration with external tools, such as \acrshort{acr:gis} software or data analytics platforms. It would also explore options for efficient data exchange.
 
 \begin{comment}
 
@@ -220,7 +219,7 @@ The thesis is divided into four main sections:
     \item \Autochapterref{cha:theory} introduces the theory, tools, and methods necessary to understand the work.
     \item \Autochapterref{cha:related-work} discusses previous work related to this thesis.
     \item \Autochapterref{cha:experiments} explains the experimental plan and setup, and lists the results of these.
-    \item \Autochapterref{cha:discussion-and-conclusion} discusses some of the finding of the experiments, provide considerations when developing an \acrshort{acr:llm}-based \acrshort{acr:gis} agent, and concludes the project report.
+    \item \Autochapterref{cha:discussion-and-conclusion} discusses finding from the experiments, suggests areas of importance when developing an \acrshort{acr:llm}-based \acrshort{acr:gis} agent, and concludes the project report.
 \end{itemize}
 
 \glsresetall

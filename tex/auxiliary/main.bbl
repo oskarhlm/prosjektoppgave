@@ -39,48 +39,6 @@
       \verb https://agentprotocol.ai/
       \endverb
     \endentry
-    \entry{aiMistral7B2023}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=88c6124836971d87dfd8464b6c01eddc}{%
-           family={AI},
-           familyi={A\bibinitperiod},
-           given={Mistral},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{88c6124836971d87dfd8464b6c01eddc}
-      \strng{fullhash}{88c6124836971d87dfd8464b6c01eddc}
-      \strng{bibnamehash}{88c6124836971d87dfd8464b6c01eddc}
-      \strng{authorbibnamehash}{88c6124836971d87dfd8464b6c01eddc}
-      \strng{authornamehash}{88c6124836971d87dfd8464b6c01eddc}
-      \strng{authorfullhash}{88c6124836971d87dfd8464b6c01eddc}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The best 7B model to date, Apache 2.0}
-      \field{chapter}{news}
-      \field{langid}{american}
-      \field{month}{9}
-      \field{title}{Mistral {{7B}}}
-      \field{urlday}{7}
-      \field{urlmonth}{12}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb C:\Users\oskar\Zotero\storage\4VXGY5JH\announcing-mistral-7b.html
-      \endverb
-      \verb{urlraw}
-      \verb https://mistral.ai/news/announcing-mistral-7b/
-      \endverb
-      \verb{url}
-      \verb https://mistral.ai/news/announcing-mistral-7b/
-      \endverb
-    \endentry
     \entry{chaseLangChain2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c6b41fd745709d65ec7ab70864b8b466}{%
@@ -1846,6 +1804,45 @@
       \verb https://research.ibm.com/blog/retrieval-augmented-generation-RAG
       \endverb
     \endentry
+    \entry{mistralaiMistral7B2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5f46782611de55f109003b4dac1b83e0}{%
+           family={{Mistral AI}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{fullhash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{bibnamehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{authorbibnamehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{authornamehash}{5f46782611de55f109003b4dac1b83e0}
+      \strng{authorfullhash}{5f46782611de55f109003b4dac1b83e0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The best 7B model to date, Apache 2.0}
+      \field{chapter}{news}
+      \field{langid}{american}
+      \field{month}{9}
+      \field{title}{Mistral {{7B}}}
+      \field{urlday}{7}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\4VXGY5JH\announcing-mistral-7b.html
+      \endverb
+      \verb{urlraw}
+      \verb https://mistral.ai/news/announcing-mistral-7b/
+      \endverb
+      \verb{url}
+      \verb https://mistral.ai/news/announcing-mistral-7b/
+      \endverb
+    \endentry
     \entry{mitraOrcaTeachingSmall2023}{misc}{}
       \name{author}{15}{}{%
         {{un=0,uniquepart=base,hash=c359dc3ce10e2a3193ef50149d68be2a}{%
@@ -2033,7 +2030,7 @@
       \verb C:\Users\oskar\Zotero\storage\2N5LZDKP\Mooney et al. - 2023 - Towards Understanding the Geospatial Skills of Cha.pdf
       \endverb
     \endentry
-    \entry{nascimentoFamilyNaturalLanguage}{article}{}
+    \entry{nascimentoFamilyNaturalLanguage2023}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=0c0f5e65c4674113a79563efba554cca}{%
            family={Nascimento},
@@ -2092,13 +2089,15 @@
       \strng{authorfullhash}{54b805c434340e7241a24f6127b07626}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This poster paper proposes a family of Natural Language (NL) interfaces for databases (NLIDBs) that use ChatGPT and LangChain features to compile NL sentences expressing database questions into SQL queries or to extract keywords from NL sentences, which are passed to a database keyword search tool. The use of ChatGPT reduces dealing with NL questions to a few-shot learning process for the benefit of developers interested in creating NLIDBs. The paper concludes by comparing the NLIDBs in the family.}
       \field{langid}{english}
       \field{title}{A {{Family}} of {{Natural Language Interfaces}} for {{Databases}} Based on {{ChatGPT}} and {{LangChain}}}
+      \field{year}{2023}
       \verb{file}
       \verb C:\Users\oskar\Zotero\storage\J7R85NP7\Nascimento et al. - A Family of Natural Language Interfaces for Databa.pdf
       \endverb
