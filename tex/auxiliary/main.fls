@@ -2167,12 +2167,12 @@ INPUT ./figs//actor_map.png
 INPUT ./figs//actor_map.png
 INPUT ./figs//actor_map.png
 INPUT ./figs//actor_map.png
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx8.tfm
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt8.tfm
 INPUT ./chapters/related_work.tex
@@ -2201,6 +2201,11 @@ INPUT auxiliary/../figs/residential_expansion_areas_map.png
 INPUT auxiliary/../figs/residential_expansion_areas_map.png
 INPUT auxiliary/../figs/residential_expansion_areas_map.png
 INPUT auxiliary/../figs/residential_expansion_areas_map.png
+INPUT auxiliary/../figs/shape_plot.png
+INPUT auxiliary/../figs/shape_plot.png
+INPUT auxiliary/../figs/shape_plot.png
+INPUT auxiliary/../figs/shape_plot.png
+INPUT auxiliary/../figs/shape_plot.png
 INPUT auxiliary/../figs/drammen_outline_file_upload.png
 INPUT auxiliary/../figs/drammen_outline_file_upload.png
 INPUT auxiliary/../figs/drammen_outline_file_upload.png

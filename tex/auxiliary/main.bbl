@@ -39,6 +39,48 @@
       \verb https://agentprotocol.ai/
       \endverb
     \endentry
+    \entry{ceylanLargeLanguageModel2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec48bec9dba3a682ac06188a136f8ff7}{%
+           family={Ceylan},
+           familyi={C\bibinitperiod},
+           given={Burak},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ec48bec9dba3a682ac06188a136f8ff7}
+      \strng{fullhash}{ec48bec9dba3a682ac06188a136f8ff7}
+      \strng{bibnamehash}{ec48bec9dba3a682ac06188a136f8ff7}
+      \strng{authorbibnamehash}{ec48bec9dba3a682ac06188a136f8ff7}
+      \strng{authornamehash}{ec48bec9dba3a682ac06188a136f8ff7}
+      \strng{authorfullhash}{ec48bec9dba3a682ac06188a136f8ff7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large Language Models (LLMs) have expanded rapidly and may lead the AI transformation. This makes LLM evaluation important more than ever.}
+      \field{langid}{american}
+      \field{month}{12}
+      \field{shorttitle}{Large {{Language Model Evaluation}} in 2023}
+      \field{title}{Large {{Language Model Evaluation}} in 2023: 5 {{Methods}}}
+      \field{urlday}{16}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\oskar\Zotero\storage\W6TKFU9N\large-language-model-evaluation.html
+      \endverb
+      \verb{urlraw}
+      \verb https://research.aimultiple.com/large-language-model-evaluation/
+      \endverb
+      \verb{url}
+      \verb https://research.aimultiple.com/large-language-model-evaluation/
+      \endverb
+    \endentry
     \entry{chaseLangChain2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c6b41fd745709d65ec7ab70864b8b466}{%
