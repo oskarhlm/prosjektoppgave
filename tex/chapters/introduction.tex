@@ -34,7 +34,7 @@ Note that this template uses italics to highlight where Latin wording is inserte
 that we wish to draw your attention to. The italics themselves are not an indication that such sections should use italics.
 \end{comment}
 
-The field of \glspl{acr:llm} is an emerging one. \cite[2]{fanLargeLanguageModels2023} found that the proportion of papers about \glspl{acr:llm}\footnote{Including articles whose title or abstract includes \enquote{\acrshort{acr:llm}}, \enquote{\acrlong{acr:llm}}, or \enquote{\acrshort{acr:gpt}}.} to arXiv has skyrocketed since 2020, with a six-times increase in percent points from 2022 to 2023. Furthermore, they write that prompt engineering has been extensively used as a way to improve code generation \citep[7]{fanLargeLanguageModels2023}. \gls{acr:llm} technologies provide great opportunities for automation of tasks in a variety of fields, possibly also in the field of \gls{acr:gis}. With the capabilities of ChatGPT's Code Interpreter to generate, execute, and review its own code, research should be done to see if these abilities can be applied to \gls{acr:gis}-related tasks.
+The field of \glspl{acr:llm} is an emerging one. \cite[2]{fanLargeLanguageModels2023} found that the proportion of papers about \glspl{acr:llm}\footnote{Including articles whose title or abstract includes \enquote{\acrshort{acr:llm}}, \enquote{\acrlong{acr:llm}}, or \enquote{\acrshort{acr:gpt}}.} to arXiv has skyrocketed since 2020, with a six-times increase in percent points from 2022 to 2023. Furthermore, they write that prompt engineering has been extensively used as a way to improve code generation \citep[7]{fanLargeLanguageModels2023}. \gls{acr:llm} technologies provide great opportunities for automation of tasks in a variety of fields, possibly also in the field of \gls{acr:gis} Data Analysis. With the capabilities of ChatGPT's Code Interpreter to generate, execute, and review its own code, research should be done to see if these capabilities can be applied to \gls{acr:gis}-related tasks.
 
 \section{Goals and Research Questions}\label{sec:goals-and-research-questions}
 \label{sec:GoalsandResearchQuestions}
@@ -81,13 +81,15 @@ Of course the Specialisation Project can also introduce novel work, but there is
 since the core of the project really is to figure out what is ``old'' before you can introduce something which is new.
 \end{comment}
 
-The overarching goal of this specialization project is to investigate how \acrlong{acr:llm} can be utilized to make \gls{acr:gis} analysis simpler, faster, and more accessible. As exemplified in the task description provided by Norkart (see \cref{app:task-description}), such a system should be able to create a meaningful response to user queries such as:
+The overarching goal of this specialization project is to investigate how \acrlongpl{acr:llm} can be utilized to make \gls{acr:gis} analysis simpler, faster, and more accessible. As exemplified in the task description provided by Norkart (see \cref{app:task-description}), such a system should be able to create a meaningful response to user queries such as:
 
 \begin{quote}
     "Find all buildings within a 100-meter belt that are more than 100 meters above sea level and have docks."
 \end{quote}
 
-The task is then to investigate how \acrlongpl{acr:llm} can be used to perform classical \acrshort{acr:gis} analyses using standard \acrshort{acr:gis} technologies like PostGIS and geospatial data catalogues adhering to \acrshort{acr:ogc} or \acrshort{acr:stac} standards, in order to answer such a query. Based on the task description, three research questions have been constructed that this specialization project report will attempt to answer:
+\noindent The task is then to investigate how \acrlongpl{acr:llm} can be utilized to perform classical \acrshort{acr:gis} analyses using standard \acrshort{acr:gis} technologies like PostGIS and geospatial data catalogues adhering to \acrshort{acr:ogc} or \acrshort{acr:stac} standards, in order to answer such a query.
+
+Based on the task description, three research questions (RQs) have been constructed that this specialization project report will attempt to answer:
 
 \begin{enumerate}
     \item What is the potential of \acrshort{acr:llm}-based \acrshort{acr:gis} analysis? \label{rq:llm-potential}
@@ -97,7 +99,7 @@ The task is then to investigate how \acrlongpl{acr:llm} can be used to perform c
 
 \rqref{rq:llm-potential} aims to assess the capabilities and limitations of integrating \glspl{acr:llm} with \glspl{acr:gis}. Researching the potential of using \glspl{acr:llm} in \gls{acr:gis} could uncover new methodologies for spatial analysis, predictive modelling, and decision-making.
 
-\rqref{rq:overlay-analysis} focuses on the feasibility of using the \acrshort{acr:ogc} \acrshort{acr:api} - Features standard in a typical overlay analysis within a conversational \acrshort{acr:ai} context like ChatGPT-4, having the users be able to express themselves using natural language queries. Examples of such analyses could be intersecting of map layers or filtering features based on certain criteria.
+\rqref{rq:overlay-analysis} focuses on the feasibility of using the \acrshort{acr:ogc} \acrshort{acr:api} - Features standard in a typical overlay analysis within a conversational \acrshort{acr:ai} context like ChatGPT-4, enabling users to express themselves using natural language queries. Examples of such analyses could be intersecting of map layers or filtering features based on certain criteria.
 
 \rqref{rq:external-tools} delves into the technical considerations of expanding ChatGPT-4's capabilities through integration with external tools, such as \acrshort{acr:gis} software or data analytics platforms. It would also evaluate options for efficient data exchange, such as web \acrshortpl{acr:api}.
 

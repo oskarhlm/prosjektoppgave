@@ -103,7 +103,6 @@
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{3}
-\glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{NLU?\glossentry{acr:nlu}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{NLG?\glossentry{acr:nlg}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{NLP?\glossentry{acr:nlp}|setentrycounter[]{page}"\glsnumberformat}{3}
@@ -114,7 +113,6 @@
 \glossaryentry{NLU?\glossentry{acr:nlu}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{GPT?\glossentry{acr:gpt}|setentrycounter[]{page}"\glsnumberformat}{3}
-\glossaryentry{GIS?\glossentry{acr:gis}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{GIS?\glossentry{acr:gis}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{3}
@@ -184,7 +182,7 @@
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{LLaMA?\glossentry{acr:llama}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{GPT?\glossentry{acr:gpt}|setentrycounter[]{page}"\glsnumberformat}{8}
-\glossaryentry{LLaMA?\glossentry{acr:llama}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{LLaMA?\glossentry{acr:llama}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{RLHF?\glossentry{acr:rlhf}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{AI?\glossentry{acr:ai}|setentrycounter[]{page}"\glsnumberformat}{9}
@@ -246,11 +244,11 @@
 \glossaryentry{STAC?\glossentry{acr:stac}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{JSON?\glossentry{acr:json}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{STAC?\glossentry{acr:stac}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{OGC?\glossentry{acr:ogc}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{OGC?\glossentry{acr:ogc}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{STAC?\glossentry{acr:stac}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{STAC?\glossentry{acr:stac}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{OGC?\glossentry{acr:ogc}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{OGC?\glossentry{acr:ogc}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{STAC?\glossentry{acr:stac}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{OGC?\glossentry{acr:ogc}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{STAC?\glossentry{acr:stac}|setentrycounter[]{page}"\glsnumberformat}{11}
@@ -455,7 +453,6 @@
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{26}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{27}
 \glossaryentry{GIS?\glossentry{acr:gis}|setentrycounter[]{page}"\glsnumberformat}{27}
-\glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{27}
 \glossaryentry{GML?\glossentry{acr:gml}|setentrycounter[]{page}"\glsnumberformat}{27}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{27}
 \glossaryentry{GPT?\glossentry{acr:gpt}|setentrycounter[]{page}"\glsnumberformat}{27}
@@ -476,10 +473,10 @@
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{28}
 \glossaryentry{OGC?\glossentry{acr:ogc}|setentrycounter[]{page}"\glsnumberformat}{28}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{28}
 \glossaryentry{SOSI?\glossentry{acr:sosi}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{29}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{29}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{29}
 \glossaryentry{LLM?\glossentry{acr:llm}|setentrycounter[]{page}"\glsnumberformat}{29}
@@ -490,7 +487,7 @@
 \glossaryentry{GDAL?\glossentry{acr:gdal}|setentrycounter[]{page}"\glsnumberformat}{29}
 \glossaryentry{SOSI?\glossentry{acr:sosi}|setentrycounter[]{page}"\glsnumberformat}{29}
 \glossaryentry{GML?\glossentry{acr:gml}|setentrycounter[]{page}"\glsnumberformat}{29}
-\glossaryentry{GML?\glossentry{acr:gml}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{GML?\glossentry{acr:gml}|setentrycounter[]{page}"\glsnumberformat}{30}
 \glossaryentry{GML?\glossentry{acr:gml}|setentrycounter[]{page}"\glsnumberformat}{30}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{30}
 \glossaryentry{API?\glossentry{acr:api}|setentrycounter[]{page}"\glsnumberformat}{30}
