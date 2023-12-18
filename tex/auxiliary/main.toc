@@ -43,26 +43,26 @@
 \contentsline {section}{\numberline {3.4}Evaluation and Benchmarking of LLMs}{23}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Evaluation Metrics}{23}{subsection.3.4.1}%
 \contentsline {subsubsection}{\nonumberline Human Evaluation}{23}{subsubsection*.25}%
-\contentsline {subsubsection}{\nonumberline Perplexity}{23}{subsubsection*.27}%
-\contentsline {subsubsection}{\nonumberline BiLingual Evaluation Understudy}{24}{subsubsection*.29}%
-\contentsline {subsubsection}{\nonumberline Recall-Oriented Understudy (ROUGE)}{24}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline Perplexity}{24}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline BiLingual Evaluation Understudy (BLEU)}{24}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Recall-Oriented Understudy for Gisting Evaluation (ROUGE)}{24}{subsubsection*.31}%
 \contentsline {subsubsection}{\nonumberline Diversity}{24}{subsubsection*.33}%
-\contentsline {subsection}{\numberline {3.4.2}Benchmarks}{25}{subsection.3.4.2}%
-\contentsline {chapter}{\numberline {4}Experiments and Results}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Method: Experimental Plan and Setup}{27}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Experiment 1: Testing ChatGPT's Ability to Perform Geospatial Data Analysis}{27}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Experiment 2: Comparing File Upload and API Calling in ChatGPT-4}{28}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Experiment 3: Using ChatGPT's and LangChain to perform API Call}{29}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Experimental Results}{29}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Results for Experiment 1}{29}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Results for Experiment 2}{30}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Results for Experiment 3}{34}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {3.4.2}Benchmarks for LLMs}{25}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Testing and Results}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Method: Test Planning and Setup}{27}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Test 1: Testing ChatGPT's Ability to Perform Geospatial Data Analysis}{27}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Test 2: Comparing File Upload and API Calling in ChatGPT-4}{28}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Test 3: Using ChatGPT and LangChain to Make API Calls}{28}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Results from Tests}{29}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Results from Test 1}{29}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Results from Test 2}{30}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Results from Test 3}{34}{subsection.4.2.3}%
 \contentsline {chapter}{\numberline {5}Discussion and Conclusion}{36}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Using the In-Built ChatGPT Code Interpreter for Geospatial Analysis}{36}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Using ChatGPT's Code Interpreter for Geospatial Analysis}{36}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Mitigating ChatGPT's Inability to Access Web APIs}{37}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Conclusion and Future Work}{37}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Testing regime}{38}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Memory and Embeddings}{39}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.1}Memory and Embeddings}{38}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Testing Regime}{38}{subsection.5.3.2}%
 \contentsline {chapter}{Bibliography}{40}{section*.39}%
 \contentsline {chapter}{Appendices}{46}{chapter*.41}%
 \contentsline {chapter}{\numberline {A}Task Description from Norkart}{47}{appendix.A}%
